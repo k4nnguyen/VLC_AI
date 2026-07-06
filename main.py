@@ -2,16 +2,54 @@ from pathlib import Path
 from src.loaders.docx_loader import DocxLoader
 from src.cleaners.text_cleaner import TextCleaner
 from src.parsing.structure_parser import StructureParser
-from src.parsing.article_parser import ArticleParser
+from src.parsing.hierarchy_parser import HierarchyParser
+from src.chunking.legal_chunker import LegalChunker
+from src.embeddings.embedding_model import EmbeddingModel
 
-loader = DocxLoader()
-cleaner = TextCleaner()
-parser = StructureParser()
-article_parser = ArticleParser()
+def main():
+    # Load
+    loader = DocxLoader()
+    raw_doc = loader.load(Path("data/raw/lao_dong.docx"))
 
-raw_doc = loader.load(Path("data/raw/lao_dong.docx"))
-clean_doc = cleaner.clean(raw_doc)
-legal_doc = parser.parse(clean_doc)
-legal_doc = article_parser.parse(legal_doc)
+    # Clean
+    cleaner = TextCleaner()
+    clean_doc = cleaner.clean(raw_doc)
 
-print(legal_doc.chapters[0])
+    # Parse structure
+    structure_parser = StructureParser()
+    legal_doc = structure_parser.parse(clean_doc)
+
+    # Parse hierarchy
+    hierarchy_parser = HierarchyParser()
+    legal_doc = hierarchy_parser.parse(legal_doc)
+
+    # Chunk
+    chunker = LegalChunker()
+    chunks = chunker.chunk(legal_doc)
+
+    print("=" * 80)
+    print(f"Total chunks: {len(chunks)}")
+    print("=" * 80)
+
+    # In thử 5 chunk đầu
+    for chunk in chunks[:5]:
+        print(chunk.model_dump())
+        print("-" * 80)
+
+    print(f"Total Chapters : {len(legal_doc.chapters)}")
+    print(f"Total Chunks   : {len(chunks)}")
+    print()
+    first_chunk = chunks[0]
+    print(first_chunk.chunk_id)
+    print(first_chunk.metadata)
+    print(first_chunk.text)
+    
+    embedding_model = EmbeddingModel()
+    embedding = embedding_model.embed_query(
+        "Người lao động được nghỉ phép bao nhiêu ngày?"
+    )
+    print(len(embedding))
+    print(embedding)
+    
+if __name__ == "__main__":
+    main()
