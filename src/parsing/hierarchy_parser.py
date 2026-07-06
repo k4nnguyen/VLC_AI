@@ -3,7 +3,7 @@ from src.core.models.legal_document import LegalDocument
 from src.core.models.article import Article
 from src.core.models.clause import Clause
 from src.core.models.point import Point
-
+SKIP_ARTICLES = {219}
 class HierarchyParser:
     CLAUSE_PATTERN = re.compile(r"^(\d+)\.\s*(.*)$")
     POINT_PATTERN = re.compile(r"^([a-z])\)\s*(.*)$")
@@ -20,6 +20,9 @@ class HierarchyParser:
         return document
 
     def _parse_article(self, article: Article):
+        if article.number in SKIP_ARTICLES:
+            return
+        article.clauses.clear()
         current_clause = None
         for line in article.raw_content.splitlines():
             line = line.strip()

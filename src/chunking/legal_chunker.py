@@ -42,7 +42,7 @@ class LegalChunker(BaseChunker):
                 metadata={
                     "law": "BLLD2019",
                     "chapter": chapter_number,
-                    "section": section_number,
+                    "section": section_number or "",
                     "article": article.number,
                     "clause": clause.number,
                     "title": article.title,

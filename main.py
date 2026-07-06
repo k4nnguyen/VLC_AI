@@ -5,7 +5,7 @@ from src.parsing.structure_parser import StructureParser
 from src.parsing.hierarchy_parser import HierarchyParser
 from src.chunking.legal_chunker import LegalChunker
 from src.embeddings.embedding_model import EmbeddingModel
-
+from src.vectordb.chroma_store import ChromaStore
 def main():
     # Load
     loader = DocxLoader()
@@ -45,11 +45,14 @@ def main():
     print(first_chunk.text)
     
     embedding_model = EmbeddingModel()
-    embedding = embedding_model.embed_query(
-        "Người lao động được nghỉ phép bao nhiêu ngày?"
+    store = ChromaStore(embedding_model)
+    store.reset()
+    store.add(chunks)
+    results = store.search(
+    "Người lao động được nghỉ phép bao nhiêu ngày?",
+    k=5
     )
-    print(len(embedding))
-    print(embedding)
+    print(results)
     
 if __name__ == "__main__":
     main()
