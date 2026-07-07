@@ -25,6 +25,8 @@ class RetrieverEvaluator:
         hits = []
         details = []
         for sample in EVAL_DATASET:
+            sample_index = len(details)
+            category = sample.get("category", "unknown")
             question = sample["question"]
             expected = self._expected_articles(sample)
             results = self.retriever.retrieve(question, k)
@@ -47,6 +49,8 @@ class RetrieverEvaluator:
 
             ranks.append(rank)
             details.append({
+                "index": sample_index,
+                "category": category,
                 "question": question,
                 "expected": list(expected),
                 "retrieved": retrieved,

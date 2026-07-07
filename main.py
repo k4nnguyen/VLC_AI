@@ -13,6 +13,7 @@ from src.llm.openai_llm import OpenAILLM
 from src.rag.legal_rag import LegalRAG
 from src.evaluation.evaluator import RetrieverEvaluator
 from src.retrieval.bm25_retriever import BM25Retriever
+from src.retrieval.hybrid_rrf_retriever import HybridRRFRetriever
 from src.evaluation.report_writer import ReportWriter
 
 def build_database():
@@ -71,8 +72,8 @@ def main():
     #     print("Expected :", item["expected"])
     #     print("Retrieved:", item["retrieved"])
     #     print("-" * 50)
-    retriever = Retriever(store)
-    evaluator = RetrieverEvaluator(retriever)
+    vector_retriever = Retriever(store)
+    evaluator = RetrieverEvaluator(vector_retriever)
     report = evaluator.evaluate(k=5)
     writer = ReportWriter()
 
@@ -81,12 +82,26 @@ def main():
         method="embedding"
     )
     
-    bm25 = BM25Retriever(chunks)
-    evaluator = RetrieverEvaluator(bm25)
+    bm25_retriever = BM25Retriever(chunks)
+    evaluator = RetrieverEvaluator(bm25_retriever)
     report = evaluator.evaluate(k=5)
     writer.save(
         report,
         method="bm25"
+    )
+
+    hybrid_retriever = HybridRRFRetriever(
+        vector_retriever=vector_retriever,
+        bm25_retriever=bm25_retriever,
+        vector_k=5,
+        bm25_k=5,
+        final_k=5,
+    )
+    evaluator = RetrieverEvaluator(hybrid_retriever)
+    report = evaluator.evaluate(k=5)
+    writer.save(
+        report,
+        method="hybrid_rrf"
     )
 
 if __name__ == "__main__":

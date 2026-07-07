@@ -15,6 +15,10 @@ class ReportWriter:
         self._save_json(report, method)
         self._save_csv(report, method)
 
+    def save_comparison(self, comparison: dict, method: str = "comparison"):
+        self._save_comparison_json(comparison, method)
+        self._save_comparison_csv(comparison, method)
+
     def _save_json(self, report, method):
         path = self.output_dir / f"{method}.json"
         with open(
@@ -57,3 +61,47 @@ class ReportWriter:
                     item["recall"],
                     item["precision"]
                 ])
+
+    def _save_comparison_json(self, comparison, method):
+        path = self.output_dir / f"{method}.json"
+        with open(
+            path,
+            "w",
+            encoding="utf-8"
+        ) as f:
+            json.dump(
+                comparison,
+                f,
+                ensure_ascii=False,
+                indent=4
+            )
+
+    def _save_comparison_csv(self, comparison, method):
+        path = self.output_dir / f"{method}.csv"
+        with open(
+            path,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                "group",
+                "index",
+                "category",
+                "question",
+                "embedding_hit",
+                "bm25_hit",
+                "expected"
+            ])
+            for group_name, items in comparison["groups"].items():
+                for item in items:
+                    writer.writerow([
+                        group_name,
+                        item["index"],
+                        item.get("category", ""),
+                        item["question"],
+                        item["embedding_hit"],
+                        item["bm25_hit"],
+                        ",".join(map(str, item["expected"]))
+                    ])
