@@ -13,6 +13,7 @@ from src.llm.openai_llm import OpenAILLM
 from src.rag.legal_rag import LegalRAG
 from src.evaluation.evaluator import RetrieverEvaluator
 from src.retrieval.bm25_retriever import BM25Retriever
+from src.evaluation.report_writer import ReportWriter
 
 def build_database():
     loader = DocxLoader()
@@ -70,17 +71,23 @@ def main():
     #     print("Expected :", item["expected"])
     #     print("Retrieved:", item["retrieved"])
     #     print("-" * 50)
-    bm25 = BM25Retriever(chunks)
+    retriever = Retriever(store)
+    evaluator = RetrieverEvaluator(retriever)
+    report = evaluator.evaluate(k=5)
+    writer = ReportWriter()
 
-    results = bm25.retrieve(
-        "Người lao động được nghỉ phép bao nhiêu ngày?"
+    writer.save(
+        report,
+        method="embedding"
     )
-
-    for meta, score in zip(
-        results["metadatas"][0],
-        results["scores"][0]
-    ):
-        print(meta["citation"], score)
+    
+    bm25 = BM25Retriever(chunks)
+    evaluator = RetrieverEvaluator(bm25)
+    report = evaluator.evaluate(k=5)
+    writer.save(
+        report,
+        method="bm25"
+    )
 
 if __name__ == "__main__":
     main()

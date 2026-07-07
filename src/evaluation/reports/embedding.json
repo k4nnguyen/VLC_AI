@@ -1,0 +1,1850 @@
+{
+    "overall": {
+        "questions": 120,
+        "Recall@5": 0.775,
+        "Precision@5": 0.15499999999999972,
+        "MRR": 0.7183333333333334,
+        "HitRate": 0.775,
+        "Success": 93,
+        "Failed": 27,
+        "AvgRank": 1.194
+    },
+    "details": [
+        {
+            "question": "Người lao động là gì?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                148,
+                161
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người sử dụng lao động là gì?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                163
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Tổ chức đại diện người lao động là gì?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                178,
+                170
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Quan hệ lao động là gì?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                7,
+                2
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Phân biệt người lao động và người sử dụng lao động.",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                163
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Các nguyên tắc của pháp luật lao động là gì?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                15,
+                4,
+                180,
+                122
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Quyền của người lao động gồm những gì?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                5,
+                6,
+                10
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nghĩa vụ của người lao động gồm những gì?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                164,
+                163
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Những hành vi nào bị nghiêm cấm trong lao động?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                127
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Phân biệt đối xử trong lao động có bị cấm không?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                3,
+                175,
+                57
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Đối tượng áp dụng của Bộ luật Lao động là ai?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                173,
+                3
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                151,
+                154,
+                152,
+                153
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Người sử dụng lao động có thuộc đối tượng áp dụng không?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                3,
+                159
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Các cơ quan tổ chức có liên quan có thuộc đối tượng áp dụng không?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                181,
+                70
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Bộ luật Lao động áp dụng cho những đối tượng nào?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                4
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Hợp đồng lao động là gì?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                162,
+                22
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Hợp đồng lao động có bắt buộc bằng văn bản không?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                14,
+                162,
+                13,
+                55
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được giao kết hợp đồng bằng lời nói không?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                14,
+                15,
+                19,
+                16
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nguyên tắc giao kết hợp đồng lao động là gì?",
+            "expected": [
+                15
+            ],
+            "retrieved": [
+                15,
+                14,
+                19,
+                16
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nội dung chủ yếu của hợp đồng lao động gồm gì?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                13,
+                162,
+                55
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Phụ lục hợp đồng lao động dùng để làm gì?",
+            "expected": [
+                22
+            ],
+            "retrieved": [
+                22,
+                33,
+                162,
+                13
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào hợp đồng lao động có hiệu lực?",
+            "expected": [
+                23
+            ],
+            "retrieved": [
+                22,
+                220,
+                18,
+                33
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Có được giao kết nhiều hợp đồng lao động không?",
+            "expected": [
+                19
+            ],
+            "retrieved": [
+                19,
+                20,
+                14
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có mấy loại hợp đồng lao động?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                13,
+                20,
+                162,
+                22,
+                19
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào được tạm hoãn thực hiện hợp đồng lao động?",
+            "expected": [
+                30
+            ],
+            "retrieved": [
+                30,
+                138,
+                29
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được sửa đổi hợp đồng lao động không?",
+            "expected": [
+                33
+            ],
+            "retrieved": [
+                33,
+                22,
+                82
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào hợp đồng lao động chấm dứt?",
+            "expected": [
+                34
+            ],
+            "retrieved": [
+                45,
+                36,
+                34,
+                35
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có bắt buộc phải thử việc không?",
+            "expected": [
+                24
+            ],
+            "retrieved": [
+                24,
+                25
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thử việc tối đa bao nhiêu ngày?",
+            "expected": [
+                25
+            ],
+            "retrieved": [
+                25,
+                105
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Tiền lương thử việc tối thiểu là bao nhiêu?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                91,
+                24,
+                90,
+                25
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Kết thúc thời gian thử việc phải làm gì?",
+            "expected": [
+                27
+            ],
+            "retrieved": [
+                27,
+                24,
+                25
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được hủy bỏ thỏa thuận thử việc không?",
+            "expected": [
+                27
+            ],
+            "retrieved": [
+                27,
+                34,
+                24
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Tiền lương là gì?",
+            "expected": [
+                90
+            ],
+            "retrieved": [
+                90,
+                92,
+                96,
+                95,
+                101
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Mức lương tối thiểu được quy định như thế nào?",
+            "expected": [
+                91
+            ],
+            "retrieved": [
+                91,
+                90
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nguyên tắc trả lương là gì?",
+            "expected": [
+                94
+            ],
+            "retrieved": [
+                94,
+                96,
+                90
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động được trả lương bằng những hình thức nào?",
+            "expected": [
+                96
+            ],
+            "retrieved": [
+                96,
+                95,
+                90
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Kỳ hạn trả lương được quy định như thế nào?",
+            "expected": [
+                97
+            ],
+            "retrieved": [
+                97,
+                113
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Làm thêm giờ được trả lương như thế nào?",
+            "expected": [
+                98
+            ],
+            "retrieved": [
+                98,
+                107,
+                108
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được khấu trừ tiền lương của người lao động không?",
+            "expected": [
+                102
+            ],
+            "retrieved": [
+                102,
+                41,
+                99
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thưởng là gì?",
+            "expected": [
+                104
+            ],
+            "retrieved": [
+                104,
+                8,
+                125
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thời giờ làm việc bình thường là bao nhiêu giờ?",
+            "expected": [
+                105
+            ],
+            "retrieved": [
+                105,
+                107,
+                146
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Một tuần được làm việc tối đa bao nhiêu giờ?",
+            "expected": [
+                105
+            ],
+            "retrieved": [
+                105,
+                146,
+                111
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Làm việc ban đêm được tính từ mấy giờ?",
+            "expected": [
+                106
+            ],
+            "retrieved": [
+                146,
+                98,
+                109,
+                57
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Làm thêm giờ được quy định như thế nào?",
+            "expected": [
+                107
+            ],
+            "retrieved": [
+                107,
+                108
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Một tháng được làm thêm tối đa bao nhiêu giờ?",
+            "expected": [
+                107
+            ],
+            "retrieved": [
+                107,
+                146,
+                98
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Một năm được làm thêm tối đa bao nhiêu giờ?",
+            "expected": [
+                107
+            ],
+            "retrieved": [
+                107,
+                146,
+                98
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động được nghỉ giữa giờ như thế nào?",
+            "expected": [
+                109
+            ],
+            "retrieved": [
+                109,
+                111,
+                115,
+                112
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được nghỉ giải lao trong giờ làm việc không?",
+            "expected": [
+                109
+            ],
+            "retrieved": [
+                109,
+                188,
+                194,
+                190
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Mỗi tuần người lao động được nghỉ bao nhiêu ngày?",
+            "expected": [
+                111
+            ],
+            "retrieved": [
+                111,
+                115,
+                113
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nếu không nghỉ hằng tuần thì xử lý thế nào?",
+            "expected": [
+                111
+            ],
+            "retrieved": [
+                111,
+                125,
+                113
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động được nghỉ lễ bao nhiêu ngày?",
+            "expected": [
+                112
+            ],
+            "retrieved": [
+                112,
+                111,
+                115
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Những ngày nghỉ lễ được hưởng nguyên lương gồm những ngày nào?",
+            "expected": [
+                112
+            ],
+            "retrieved": [
+                112,
+                111,
+                115,
+                113
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Làm đủ 12 tháng được nghỉ phép bao nhiêu ngày?",
+            "expected": [
+                113
+            ],
+            "retrieved": [
+                113,
+                137,
+                123,
+                111
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Làm chưa đủ 12 tháng thì nghỉ phép được tính thế nào?",
+            "expected": [
+                113
+            ],
+            "retrieved": [
+                113,
+                143,
+                34,
+                41
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được gộp ngày nghỉ phép nhiều năm không?",
+            "expected": [
+                113
+            ],
+            "retrieved": [
+                113,
+                97,
+                111
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Bao lâu thì được tăng thêm ngày nghỉ hằng năm?",
+            "expected": [
+                114
+            ],
+            "retrieved": [
+                113,
+                111,
+                169
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Người lao động được nghỉ việc riêng khi nào?",
+            "expected": [
+                115
+            ],
+            "retrieved": [
+                115,
+                37,
+                112
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Ông bà mất có được nghỉ làm không?",
+            "expected": [
+                115
+            ],
+            "retrieved": [
+                115,
+                41,
+                37,
+                137,
+                139
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được nghỉ không hưởng lương không?",
+            "expected": [
+                115
+            ],
+            "retrieved": [
+                115,
+                113
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nghỉ phép năm có được hưởng nguyên lương không?",
+            "expected": [
+                113
+            ],
+            "retrieved": [
+                113,
+                112,
+                115
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Các trường hợp chấm dứt hợp đồng lao động là gì?",
+            "expected": [
+                34
+            ],
+            "retrieved": [
+                34,
+                45,
+                36
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng không?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                35,
+                36
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động phải báo trước bao lâu khi nghỉ việc?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                29,
+                139,
+                115,
+                125
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Khi nào người lao động được nghỉ việc không cần báo trước?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                139,
+                115,
+                41,
+                125
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?",
+            "expected": [
+                36
+            ],
+            "retrieved": [
+                36,
+                35,
+                34,
+                37
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?",
+            "expected": [
+                37
+            ],
+            "retrieved": [
+                36,
+                37,
+                35
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Đang nghỉ phép thì có bị cho thôi việc không?",
+            "expected": [
+                37
+            ],
+            "retrieved": [
+                113,
+                156,
+                115,
+                40,
+                37
+            ],
+            "hit": true,
+            "rank": 5,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động được trợ cấp thôi việc khi nào?",
+            "expected": [
+                46
+            ],
+            "retrieved": [
+                46,
+                40,
+                41
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Trợ cấp mất việc làm được quy định như thế nào?",
+            "expected": [
+                47
+            ],
+            "retrieved": [
+                47,
+                43
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?",
+            "expected": [
+                48
+            ],
+            "retrieved": [
+                48,
+                113,
+                41,
+                53,
+                128
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Kỷ luật lao động là gì?",
+            "expected": [
+                117
+            ],
+            "retrieved": [
+                123,
+                122,
+                127,
+                124
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Nội quy lao động phải có những nội dung gì?",
+            "expected": [
+                118
+            ],
+            "retrieved": [
+                118,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nguyên tắc xử lý kỷ luật lao động là gì?",
+            "expected": [
+                122
+            ],
+            "retrieved": [
+                122
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thời hiệu xử lý kỷ luật lao động là bao lâu?",
+            "expected": [
+                123
+            ],
+            "retrieved": [
+                123,
+                126,
+                124
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có những hình thức kỷ luật lao động nào?",
+            "expected": [
+                124
+            ],
+            "retrieved": [
+                122,
+                123,
+                125,
+                126
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Khi nào người lao động bị sa thải?",
+            "expected": [
+                125
+            ],
+            "retrieved": [
+                34,
+                125,
+                137,
+                177
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được xử lý kỷ luật lao động đối với người đang nghỉ ốm không?",
+            "expected": [
+                122
+            ],
+            "retrieved": [
+                122,
+                126,
+                34,
+                125
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Sa thải là một hình thức kỷ luật lao động đúng không?",
+            "expected": [
+                124
+            ],
+            "retrieved": [
+                34,
+                125,
+                124
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động có quyền tự bào chữa khi bị xử lý kỷ luật không?",
+            "expected": [
+                122
+            ],
+            "retrieved": [
+                122,
+                125
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có được xử lý nhiều hình thức kỷ luật cùng lúc không?",
+            "expected": [
+                122
+            ],
+            "retrieved": [
+                122,
+                125,
+                127
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động nước ngoài làm việc tại Việt Nam phải đáp ứng điều kiện gì?",
+            "expected": [
+                151
+            ],
+            "retrieved": [
+                151,
+                152
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào người nước ngoài được tuyển dụng vào Việt Nam?",
+            "expected": [
+                152
+            ],
+            "retrieved": [
+                152,
+                150,
+                154
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Giấy phép lao động có thời hạn bao lâu?",
+            "expected": [
+                155
+            ],
+            "retrieved": [
+                156,
+                162,
+                151,
+                190
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Trường hợp nào không cần giấy phép lao động?",
+            "expected": [
+                154
+            ],
+            "retrieved": [
+                156,
+                154
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào giấy phép lao động bị thu hồi?",
+            "expected": [
+                156
+            ],
+            "retrieved": [
+                156,
+                172,
+                41
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Đối thoại tại nơi làm việc là gì?",
+            "expected": [
+                63
+            ],
+            "retrieved": [
+                63,
+                64
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Bao lâu phải tổ chức đối thoại tại nơi làm việc?",
+            "expected": [
+                63
+            ],
+            "retrieved": [
+                63,
+                64
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thương lượng tập thể là gì?",
+            "expected": [
+                65
+            ],
+            "retrieved": [
+                71,
+                73,
+                68
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Nguyên tắc thương lượng tập thể gồm những gì?",
+            "expected": [
+                66
+            ],
+            "retrieved": [
+                72,
+                73,
+                70,
+                67
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Ai có quyền yêu cầu thương lượng tập thể?",
+            "expected": [
+                68
+            ],
+            "retrieved": [
+                68,
+                69,
+                70,
+                73
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thỏa ước lao động tập thể là gì?",
+            "expected": [
+                75
+            ],
+            "retrieved": [
+                75,
+                86,
+                78,
+                82,
+                76
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thỏa ước lao động tập thể có hiệu lực khi nào?",
+            "expected": [
+                78
+            ],
+            "retrieved": [
+                78,
+                75,
+                79
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Thời hạn của thỏa ước lao động tập thể là bao lâu?",
+            "expected": [
+                83
+            ],
+            "retrieved": [
+                78,
+                70,
+                197
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Có được sửa đổi thỏa ước lao động tập thể không?",
+            "expected": [
+                84
+            ],
+            "retrieved": [
+                82,
+                79,
+                75,
+                80
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Khi nào thỏa ước lao động tập thể hết hiệu lực?",
+            "expected": [
+                86
+            ],
+            "retrieved": [
+                78,
+                79,
+                80
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Tranh chấp lao động là gì?",
+            "expected": [
+                179
+            ],
+            "retrieved": [
+                179,
+                180
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Tranh chấp lao động cá nhân là gì?",
+            "expected": [
+                179
+            ],
+            "retrieved": [
+                179,
+                188,
+                180,
+                190
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Tranh chấp lao động tập thể là gì?",
+            "expected": [
+                179
+            ],
+            "retrieved": [
+                179,
+                191,
+                192
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Ai có thẩm quyền hòa giải tranh chấp lao động?",
+            "expected": [
+                185
+            ],
+            "retrieved": [
+                187,
+                191,
+                180,
+                188
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Khi nào được yêu cầu Tòa án giải quyết tranh chấp lao động?",
+            "expected": [
+                188
+            ],
+            "retrieved": [
+                190,
+                194,
+                189
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Đình công là gì?",
+            "expected": [
+                198
+            ],
+            "retrieved": [
+                200,
+                203,
+                217,
+                204,
+                201
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Ai có quyền tổ chức đình công?",
+            "expected": [
+                200
+            ],
+            "retrieved": [
+                203,
+                201,
+                204,
+                202,
+                178
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Trường hợp nào đình công là bất hợp pháp?",
+            "expected": [
+                204
+            ],
+            "retrieved": [
+                204,
+                217
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Khi nào được hoãn đình công?",
+            "expected": [
+                210
+            ],
+            "retrieved": [
+                210,
+                204,
+                202,
+                200
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động tham gia đình công có bị xử lý không?",
+            "expected": [
+                207
+            ],
+            "retrieved": [
+                207,
+                217,
+                201
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Người lao động có quyền từ chối làm việc khi nào?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                143,
+                10,
+                177,
+                29,
+                148
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                134,
+                159,
+                9,
+                105
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Người lao động phải tuân thủ quy định an toàn như thế nào?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                134,
+                215,
+                118
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Có được ép người lao động làm việc khi mất an toàn không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                134,
+                41,
+                2,
+                29
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                29,
+                34,
+                206,
+                209,
+                10
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Làm chưa đủ một năm thì nghỉ phép tính sao?",
+            "expected": [
+                113
+            ],
+            "retrieved": [
+                143,
+                113,
+                156
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Đi làm ngày lễ thì tiền lương tính thế nào?",
+            "expected": [
+                98
+            ],
+            "retrieved": [
+                112,
+                98,
+                41
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Công ty bắt thử việc ba tháng có đúng luật không?",
+            "expected": [
+                25
+            ],
+            "retrieved": [
+                25,
+                24
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Muốn nghỉ ngang thì có phải báo trước không?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                139,
+                125,
+                112,
+                115,
+                113
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "question": "Sếp giữ bằng đại học của nhân viên có hợp pháp không?",
+            "expected": [
+                17
+            ],
+            "retrieved": [
+                137,
+                17,
+                18,
+                177
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Nếu nghỉ việc thì công ty phải thanh toán tiền trong bao lâu?",
+            "expected": [
+                48
+            ],
+            "retrieved": [
+                113,
+                48,
+                41,
+                128,
+                101
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Mình có được ký nhiều hợp đồng lao động cùng lúc không?",
+            "expected": [
+                19
+            ],
+            "retrieved": [
+                19,
+                55,
+                14,
+                22
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Có thể nghỉ không lương vài ngày được không?",
+            "expected": [
+                115
+            ],
+            "retrieved": [
+                115,
+                113,
+                111
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Doanh nghiệp được sa thải nhân viên trong trường hợp nào?",
+            "expected": [
+                125
+            ],
+            "retrieved": [
+                34,
+                137,
+                125
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "question": "Bao nhiêu tuổi mới được phép đi làm hợp pháp?",
+            "expected": [
+                143
+            ],
+            "retrieved": [
+                143,
+                147,
+                145,
+                18
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        }
+    ]
+}
