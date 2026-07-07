@@ -35,6 +35,15 @@ def build_database():
     return store, chunks
 
 
+def print_overall_report(method: str, report: dict):
+    print("=" * 60)
+    print(method.upper())
+    print("=" * 60)
+
+    for key, value in report["overall"].items():
+        print(f"{key:<15}: {value}")
+
+
 def main():
     load_dotenv()
     store, chunks = build_database()
@@ -42,13 +51,8 @@ def main():
     retriever = Retriever(store)
     evaluator = RetrieverEvaluator(retriever)
     report = evaluator.evaluate(k=5)
-    print("=" * 60)
-    print("Overall")
-    print("=" * 60)
+    print_overall_report("embedding", report)
 
-    for key, value in report["overall"].items():
-        print(f"{key:<15}: {value}")
-        
     writer = ReportWriter()
     writer.save(
         report,
@@ -58,6 +62,8 @@ def main():
     bm25 = BM25Retriever(chunks)
     evaluator = RetrieverEvaluator(bm25)
     report = evaluator.evaluate(k=5)
+    print_overall_report("bm25", report)
+
     writer.save(
         report,
         method="bm25"
