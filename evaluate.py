@@ -1,13 +1,7 @@
 from pathlib import Path
 import os
 from dotenv import load_dotenv
-from src.loaders.docx_loader import DocxLoader
-from src.cleaners.text_cleaner import TextCleaner
-from src.parsing.structure_parser import StructureParser
-from src.parsing.hierarchy_parser import HierarchyParser
-from src.chunking.legal_chunker import LegalChunker
-from src.embeddings.embedding_model import EmbeddingModel
-from src.vectordb.chroma_store import ChromaStore
+from db_init import init_database
 from src.retrieval.retriever import Retriever
 from src.llm.openai_llm import OpenAILLM
 from src.rag.legal_rag import LegalRAG
@@ -17,23 +11,7 @@ from src.retrieval.hybrid_rrf_retriever import HybridRRFRetriever
 from src.evaluation.report_writer import ReportWriter
 
 def build_database():
-    loader = DocxLoader()
-    raw_doc = loader.load(
-        Path("data/raw/lao_dong.docx")
-    )
-    cleaner = TextCleaner()
-    clean_doc = cleaner.clean(raw_doc)
-    structure_parser = StructureParser()
-    legal_doc = structure_parser.parse(clean_doc)
-    hierarchy_parser = HierarchyParser()
-    legal_doc = hierarchy_parser.parse(legal_doc)
-    chunker = LegalChunker()
-    chunks = chunker.chunk(legal_doc)
-    embedding_model = EmbeddingModel()
-    store = ChromaStore(embedding_model)
-    store.reset()
-    store.add(chunks)
-    return store, chunks
+    return init_database()
 
 
 def print_overall_report(method: str, report: dict):

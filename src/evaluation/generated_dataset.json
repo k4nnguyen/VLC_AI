@@ -1,0 +1,542 @@
+[
+  {
+    "category": "definition",
+    "question": "Ai là đối tượng áp dụng của Bộ luật Lao động theo Điều 2 Khoản 1?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 1"
+  },
+  {
+    "category": "interpretation",
+    "question": "Bộ luật Lao động áp dụng cho những ai ngoài người lao động có hợp đồng lao động?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người học nghề có thuộc đối tượng áp dụng của Bộ luật Lao động không?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 2"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Ai được xem là bên thuê mướn lao động trong Bộ luật Lao động?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người sử dụng lao động có phải là đối tượng áp dụng của Bộ luật Lao động không?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 2"
+  },
+  {
+    "category": "definition",
+    "question": "Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động không?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 3"
+  },
+  {
+    "category": "interpretation",
+    "question": "Ai là người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 3"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người lao động nước ngoài làm việc tại Việt Nam có thuộc phạm vi điều chỉnh của Bộ luật Lao động không?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 3"
+  },
+  {
+    "category": "definition",
+    "question": "Đối tượng áp dụng trong Khoản 4 Điều 2 bao gồm những ai?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 4"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Ai được xem là các cá nhân, tổ chức liên quan trực tiếp đến quan hệ lao động theo quy định?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 4"
+  },
+  {
+    "category": "yes-no",
+    "question": "Cơ quan không liên quan trực tiếp đến quan hệ lao động có thuộc đối tượng áp dụng không?",
+    "expected_articles": [2],
+    "citation": "Điều 2 Khoản 4"
+  },
+  {
+    "category": "definition",
+    "question": "Người lao động được hiểu như thế nào theo Bộ luật Lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 1"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Ai được gọi là người làm việc cho người sử dụng lao động và nhận lương theo thỏa thuận?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người lao động phải đủ 15 tuổi trở lên mới được làm việc, đúng không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 2"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Theo luật, cá nhân thuê người làm việc phải có điều kiện gì về năng lực pháp lý?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người sử dụng lao động chỉ có thể là doanh nghiệp hoặc tổ chức đúng hay sai?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 2"
+  },
+  {
+    "category": "definition",
+    "question": "Tổ chức đại diện người lao động tại cơ sở là gì theo Bộ luật Lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 3"
+  },
+  {
+    "category": "interpretation",
+    "question": "Tổ chức đại diện người lao động tại cơ sở được thành lập dựa trên nguyên tắc nào và nhằm mục đích gì?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 3"
+  },
+  {
+    "category": "yes-no",
+    "question": "Công đoàn cơ sở có phải là một loại tổ chức đại diện người lao động tại cơ sở không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 3"
+  },
+  {
+    "category": "definition",
+    "question": "Tổ chức đại diện người sử dụng lao động là gì theo luật lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 4"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Tổ chức đại diện người sử dụng lao động có nhiệm vụ gì trong quan hệ lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 4"
+  },
+  {
+    "category": "yes-no",
+    "question": "Tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp đúng không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 4"
+  },
+  {
+    "category": "definition",
+    "question": "Quan hệ lao động được hiểu là gì theo Bộ luật Lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 5"
+  },
+  {
+    "category": "interpretation",
+    "question": "Quan hệ lao động bao gồm những mối quan hệ nào giữa người lao động và người sử dụng lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 5"
+  },
+  {
+    "category": "yes-no",
+    "question": "Quan hệ lao động chỉ bao gồm quan hệ cá nhân mà không có quan hệ tập thể đúng không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 5"
+  },
+  {
+    "category": "definition",
+    "question": "Người làm việc không có quan hệ lao động được hiểu là ai theo Bộ luật Lao động?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 6"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Làm việc mà không ký hợp đồng lao động thì được gọi là người làm việc không có quan hệ lao động đúng không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 6"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người làm việc không có hợp đồng lao động có phải là người làm việc không có quan hệ lao động không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 6"
+  },
+  {
+    "category": "definition",
+    "question": "Cưỡng bức lao động được hiểu như thế nào theo luật?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 7"
+  },
+  {
+    "category": "interpretation",
+    "question": "Việc bắt buộc người lao động làm việc bằng cách dùng vũ lực hoặc đe dọa có phải là cưỡng bức lao động không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 7"
+  },
+  {
+    "category": "yes-no",
+    "question": "Cưỡng bức lao động là khi người lao động bị ép làm việc trái ý muốn đúng không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 7"
+  },
+  {
+    "category": "definition",
+    "question": "Phân biệt đối xử trong lao động được hiểu như thế nào theo luật?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 8"
+  },
+  {
+    "category": "interpretation",
+    "question": "Hành vi ưu tiên hoặc loại trừ dựa trên đặc điểm cá nhân có phải là phân biệt đối xử trong lao động không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 8"
+  },
+  {
+    "category": "yes-no",
+    "question": "Việc ưu tiên người lao động do yêu cầu đặc thù của công việc có bị coi là phân biệt đối xử không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 8"
+  },
+  {
+    "category": "definition",
+    "question": "Quấy rối tình dục tại nơi làm việc được hiểu như thế nào theo luật?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 9"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Hành vi có tính chất tình dục không được đồng ý tại chỗ làm việc có được gọi là quấy rối tình dục không?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 9"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nơi làm việc chỉ bao gồm văn phòng chính của công ty đúng hay sai?",
+    "expected_articles": [3],
+    "citation": "Điều 3 Khoản 9"
+  },
+  {
+    "category": "definition",
+    "question": "Quyền và lợi ích hợp pháp của người lao động được Nhà nước bảo đảm như thế nào?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 1"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Nhà nước khuyến khích các thỏa thuận nào để người lao động có lợi hơn so với luật lao động?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước chỉ bảo vệ quyền lợi của người lao động có hợp đồng lao động đúng không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Quyền và lợi ích hợp pháp của người sử dụng lao động được Nhà nước bảo đảm như thế nào?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 2"
+  },
+  {
+    "category": "interpretation",
+    "question": "Nhà nước quản lý lao động theo nguyên tắc nào để đảm bảo công bằng và trách nhiệm xã hội?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước có trách nhiệm bảo vệ quyền lợi hợp pháp của người sử dụng lao động không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 2"
+  },
+  {
+    "category": "definition",
+    "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến việc làm và dạy nghề?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 3"
+  },
+  {
+    "category": "interpretation",
+    "question": "Nhà nước hỗ trợ như thế nào để giúp người lao động có cơ hội việc làm và học nghề?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 3"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước có áp dụng một số quy định của Bộ luật Lao động cho người không có hợp đồng lao động không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 3"
+  },
+  {
+    "category": "definition",
+    "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến người lao động?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 4"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Nhà nước có những biện pháp nào để giúp người lao động nâng cao kỹ năng và duy trì việc làm?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 4"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước có chính sách ưu đãi cho người lao động có trình độ kỹ thuật cao không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 4"
+  },
+  {
+    "category": "definition",
+    "question": "Chính sách của Nhà nước về phát triển thị trường lao động là gì?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 5"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Nhà nước có biện pháp nào để kết nối người lao động với nhu cầu tuyển dụng?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 5"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước có chính sách đa dạng hóa các hình thức kết nối cung cầu lao động không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 5"
+  },
+  {
+    "category": "definition",
+    "question": "Chính sách của Nhà nước về lao động trong việc thúc đẩy quan hệ lao động là gì?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 6"
+  },
+  {
+    "category": "interpretation",
+    "question": "Nhà nước khuyến khích người lao động và người sử dụng lao động làm gì để xây dựng mối quan hệ lao động ổn định?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 6"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước có khuyến khích thương lượng tập thể giữa người lao động và người sử dụng lao động không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 6"
+  },
+  {
+    "category": "definition",
+    "question": "Chính sách của Nhà nước về lao động có bao gồm việc bảo vệ những nhóm lao động nào đặc biệt không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 7"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Nhà nước có quy định gì để đảm bảo công bằng giới và hỗ trợ lao động nữ, người khuyết tật, người cao tuổi và lao động trẻ chưa đủ tuổi lao động?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 7"
+  },
+  {
+    "category": "yes-no",
+    "question": "Nhà nước có chính sách bảo vệ lao động nữ và người lao động cao tuổi không?",
+    "expected_articles": [4],
+    "citation": "Điều 4 Khoản 7"
+  },
+  {
+    "category": "definition",
+    "question": "Người lao động được quy định có những quyền gì theo Điều 5 Khoản 1?",
+    "expected_articles": [5],
+    "citation": "Điều 5 Khoản 1"
+  },
+  {
+    "category": "interpretation",
+    "question": "Theo Điều 5 Khoản 1, người lao động được hưởng những quyền lợi nào?",
+    "expected_articles": [5],
+    "citation": "Điều 5 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người lao động có quyền theo quy định tại Điều 5 Khoản 1 đúng không?",
+    "expected_articles": [5],
+    "citation": "Điều 5 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Người lao động có những nghĩa vụ gì theo quy định của pháp luật?",
+    "expected_articles": [5],
+    "citation": "Điều 5 Khoản 2"
+  },
+  {
+    "category": "interpretation",
+    "question": "Bạn có thể giải thích nghĩa vụ của người lao động theo Điều 5 Khoản 2 không?",
+    "expected_articles": [5],
+    "citation": "Điều 5 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người lao động không có nghĩa vụ gì theo Điều 5 Khoản 2 đúng không?",
+    "expected_articles": [5],
+    "citation": "Điều 5 Khoản 2"
+  },
+  {
+    "category": "definition",
+    "question": "Quyền của người sử dụng lao động được quy định như thế nào trong Bộ luật Lao động?",
+    "expected_articles": [6],
+    "citation": "Điều 6 Khoản 1"
+  },
+  {
+    "category": "interpretation",
+    "question": "Người sử dụng lao động được phép làm gì theo quy định tại Điều 6 Khoản 1?",
+    "expected_articles": [6],
+    "citation": "Điều 6 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người sử dụng lao động có quyền theo quy định tại Điều 6 Khoản 1 phải không?",
+    "expected_articles": [6],
+    "citation": "Điều 6 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Người sử dụng lao động có những nghĩa vụ gì theo luật?",
+    "expected_articles": [6],
+    "citation": "Điều 6 Khoản 2"
+  },
+  {
+    "category": "interpretation",
+    "question": "Bạn có thể giải thích nghĩa vụ của người sử dụng lao động theo Điều 6 Khoản 2 không?",
+    "expected_articles": [6],
+    "citation": "Điều 6 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người sử dụng lao động có nghĩa vụ theo luật không?",
+    "expected_articles": [6],
+    "citation": "Điều 6 Khoản 2"
+  },
+  {
+    "category": "definition",
+    "question": "Quan hệ lao động được hình thành như thế nào theo quy định?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 1"
+  },
+  {
+    "category": "interpretation",
+    "question": "Việc thiết lập quan hệ lao động cần dựa trên những nguyên tắc nào?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Quan hệ lao động có thể được xác lập mà không cần sự đồng thuận của các bên đúng không?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Quan hệ lao động tiến bộ, hài hòa và ổn định được xây dựng bởi những ai?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 2"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Ai hỗ trợ để người lao động và người sử dụng lao động duy trì mối quan hệ lao động ổn định?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Người sử dụng lao động có trách nhiệm xây dựng quan hệ lao động hài hòa không?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 2"
+  },
+  {
+    "category": "definition",
+    "question": "Công đoàn có vai trò gì trong việc xây dựng quan hệ lao động?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 3"
+  },
+  {
+    "category": "paraphrase",
+    "question": "Công đoàn cùng cơ quan nhà nước giúp đảm bảo mối quan hệ lao động ổn định và bảo vệ quyền lợi người lao động như thế nào?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 3"
+  },
+  {
+    "category": "yes-no",
+    "question": "Công đoàn chỉ giám sát việc thi hành pháp luật lao động mà không tham gia xây dựng quan hệ lao động, đúng hay sai?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 3"
+  },
+  {
+    "category": "definition",
+    "question": "Phòng Thương mại và Công nghiệp Việt Nam có vai trò gì trong quan hệ lao động?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 4"
+  },
+  {
+    "category": "interpretation",
+    "question": "Các tổ chức đại diện người sử dụng lao động giúp bảo vệ quyền lợi của họ và góp phần tạo mối quan hệ lao động ổn định đúng không?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 4"
+  },
+  {
+    "category": "yes-no",
+    "question": "Liên minh Hợp tác xã Việt Nam có thể đại diện cho người sử dụng lao động theo pháp luật không?",
+    "expected_articles": [7],
+    "citation": "Điều 7 Khoản 4"
+  },
+  {
+    "category": "definition",
+    "question": "Phân biệt đối xử trong lao động là gì theo quy định của pháp luật?",
+    "expected_articles": [8],
+    "citation": "Điều 8 Khoản 1"
+  },
+  {
+    "category": "interpretation",
+    "question": "Hành vi không đối xử công bằng với người lao động được xem là vi phạm điều nào trong luật lao động?",
+    "expected_articles": [8],
+    "citation": "Điều 8 Khoản 1"
+  },
+  {
+    "category": "yes-no",
+    "question": "Phân biệt đối xử trong lao động có bị cấm theo luật không?",
+    "expected_articles": [8],
+    "citation": "Điều 8 Khoản 1"
+  },
+  {
+    "category": "definition",
+    "question": "Hành vi nào bị cấm liên quan đến đối xử với người lao động theo Điều 8 Khoản 2?",
+    "expected_articles": [8],
+    "citation": "Điều 8 Khoản 2"
+  },
+  {
+    "category": "rephrasing",
+    "question": "Việc bắt ép người lao động làm việc trái ý muốn có bị pháp luật nghiêm cấm không?",
+    "expected_articles": [8],
+    "citation": "Điều 8 Khoản 2"
+  },
+  {
+    "category": "yes-no",
+    "question": "Ngược đãi người lao động có phải là hành vi bị cấm không?",
+    "expected_articles": [8],
+    "citation": "Điều 8 Khoản 2"
+  }
+]
