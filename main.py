@@ -1,4 +1,6 @@
 from pathlib import Path
+import os
+from dotenv import load_dotenv
 from src.loaders.docx_loader import DocxLoader
 from src.cleaners.text_cleaner import TextCleaner
 from src.parsing.structure_parser import StructureParser
@@ -6,53 +8,79 @@ from src.parsing.hierarchy_parser import HierarchyParser
 from src.chunking.legal_chunker import LegalChunker
 from src.embeddings.embedding_model import EmbeddingModel
 from src.vectordb.chroma_store import ChromaStore
-def main():
-    # Load
-    loader = DocxLoader()
-    raw_doc = loader.load(Path("data/raw/lao_dong.docx"))
+from src.retrieval.retriever import Retriever
+from src.llm.openai_llm import OpenAILLM
+from src.rag.legal_rag import LegalRAG
+from src.evaluation.evaluator import RetrieverEvaluator
+from src.retrieval.bm25_retriever import BM25Retriever
 
-    # Clean
+def build_database():
+    loader = DocxLoader()
+    raw_doc = loader.load(
+        Path("data/raw/lao_dong.docx")
+    )
     cleaner = TextCleaner()
     clean_doc = cleaner.clean(raw_doc)
-
-    # Parse structure
     structure_parser = StructureParser()
     legal_doc = structure_parser.parse(clean_doc)
-
-    # Parse hierarchy
     hierarchy_parser = HierarchyParser()
     legal_doc = hierarchy_parser.parse(legal_doc)
-
-    # Chunk
     chunker = LegalChunker()
     chunks = chunker.chunk(legal_doc)
-
-    print("=" * 80)
-    print(f"Total chunks: {len(chunks)}")
-    print("=" * 80)
-
-    # In thử 5 chunk đầu
-    for chunk in chunks[:5]:
-        print(chunk.model_dump())
-        print("-" * 80)
-
-    print(f"Total Chapters : {len(legal_doc.chapters)}")
-    print(f"Total Chunks   : {len(chunks)}")
-    print()
-    first_chunk = chunks[0]
-    print(first_chunk.chunk_id)
-    print(first_chunk.metadata)
-    print(first_chunk.text)
-    
     embedding_model = EmbeddingModel()
     store = ChromaStore(embedding_model)
     store.reset()
     store.add(chunks)
-    results = store.search(
-    "Người lao động được nghỉ phép bao nhiêu ngày?",
-    k=5
-    )
-    print(results)
+    return store, chunks
+
+
+def main():
+    load_dotenv()
+    store, chunks = build_database()
+    # retriever = Retriever(store)
+    # llm = OpenAILLM(
+    #     api_key=os.getenv("OPENAI_API_KEY"),
+    #     base_url=os.getenv("OPENAI_BASE_URL"),
+    #     model=os.getenv("OPENAI_MODEL")
+    # )
     
+    # rag = LegalRAG(retriever,llm)
+    # evaluator = RetrieverEvaluator(retriever)
+    # report = evaluator.evaluate(k=5)
+    # print("=" * 60)
+    # print("Overall")
+    # print("=" * 60)
+    # print(f"Recall@5   : {report['Recall@K']:.3f}")
+    # print(f"Precision  : {report['Precision@K']:.3f}")
+    # print(f"MRR        : {report['MRR']:.3f}")
+    # print(f"Hit Rate   : {report['HitRate']:.3f}")
+
+    # print()
+
+    # print("=" * 60)
+    # print("Failed Cases")
+    # print("=" * 60)
+
+    # for item in report["details"]:
+
+    #     if item["hit"]:
+    #         continue
+
+    #     print(item["question"])
+    #     print("Expected :", item["expected"])
+    #     print("Retrieved:", item["retrieved"])
+    #     print("-" * 50)
+    bm25 = BM25Retriever(chunks)
+
+    results = bm25.retrieve(
+        "Người lao động được nghỉ phép bao nhiêu ngày?"
+    )
+
+    for meta, score in zip(
+        results["metadatas"][0],
+        results["scores"][0]
+    ):
+        print(meta["citation"], score)
+
 if __name__ == "__main__":
     main()

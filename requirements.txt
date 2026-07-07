@@ -1,3 +1,5 @@
 python-docx
 sentence-transformers
 chromadb
+openai
+BM25
