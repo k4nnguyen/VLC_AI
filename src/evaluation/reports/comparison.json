@@ -1,10 +1,10 @@
 {
     "summary": {
         "total": 120,
-        "miss_both": 23,
-        "miss_embedding_only": 4,
-        "miss_bm25_only": 9,
-        "hit_both": 84
+        "miss_both": 20,
+        "miss_embedding_only": 2,
+        "miss_bm25_only": 16,
+        "hit_both": 82
     },
     "groups": {
         "miss_both": [
@@ -64,16 +64,6 @@
                 "question": "Bao lâu thì được tăng thêm ngày nghỉ hằng năm?",
                 "expected": [
                     114
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 62,
-                "category": "termination",
-                "question": "Người lao động phải báo trước bao lâu khi nghỉ việc?",
-                "expected": [
-                    35
                 ],
                 "embedding_hit": false,
                 "bm25_hit": false
@@ -189,16 +179,6 @@
                 "bm25_hit": false
             },
             {
-                "index": 106,
-                "category": "unknown",
-                "question": "Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?",
-                "expected": [
-                    6
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
                 "index": 107,
                 "category": "unknown",
                 "question": "Người lao động phải tuân thủ quy định an toàn như thế nào?",
@@ -227,39 +207,9 @@
                 ],
                 "embedding_hit": false,
                 "bm25_hit": false
-            },
-            {
-                "index": 113,
-                "category": "unknown",
-                "question": "Muốn nghỉ ngang thì có phải báo trước không?",
-                "expected": [
-                    35
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
             }
         ],
         "miss_embedding_only": [
-            {
-                "index": 7,
-                "category": "definition",
-                "question": "Nghĩa vụ của người lao động gồm những gì?",
-                "expected": [
-                    5
-                ],
-                "embedding_hit": false,
-                "bm25_hit": true
-            },
-            {
-                "index": 63,
-                "category": "termination",
-                "question": "Khi nào người lao động được nghỉ việc không cần báo trước?",
-                "expected": [
-                    35
-                ],
-                "embedding_hit": false,
-                "bm25_hit": true
-            },
             {
                 "index": 74,
                 "category": "discipline",
@@ -303,6 +253,16 @@
                 "bm25_hit": false
             },
             {
+                "index": 7,
+                "category": "definition",
+                "question": "Nghĩa vụ của người lao động gồm những gì?",
+                "expected": [
+                    5
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
                 "index": 15,
                 "category": "contract",
                 "question": "Hợp đồng lao động là gì?",
@@ -313,9 +273,39 @@
                 "bm25_hit": false
             },
             {
-                "index": 65,
+                "index": 61,
                 "category": "termination",
-                "question": "Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?",
+                "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng không?",
+                "expected": [
+                    35
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 62,
+                "category": "termination",
+                "question": "Người lao động phải báo trước bao lâu khi nghỉ việc?",
+                "expected": [
+                    35
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 63,
+                "category": "termination",
+                "question": "Khi nào người lao động được nghỉ việc không cần báo trước?",
+                "expected": [
+                    35
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 66,
+                "category": "termination",
+                "question": "Đang nghỉ phép thì có bị cho thôi việc không?",
                 "expected": [
                     37
                 ],
@@ -328,6 +318,16 @@
                 "question": "Trường hợp nào không cần giấy phép lao động?",
                 "expected": [
                     154
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 95,
+                "category": "unknown",
+                "question": "Tranh chấp lao động là gì?",
+                "expected": [
+                    179
                 ],
                 "embedding_hit": true,
                 "bm25_hit": false
@@ -348,6 +348,26 @@
                 "question": "Người lao động tham gia đình công có bị xử lý không?",
                 "expected": [
                     207
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 106,
+                "category": "unknown",
+                "question": "Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?",
+                "expected": [
+                    6
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 113,
+                "category": "unknown",
+                "question": "Muốn nghỉ ngang thì có phải báo trước không?",
+                "expected": [
+                    35
                 ],
                 "embedding_hit": true,
                 "bm25_hit": false
@@ -885,16 +905,6 @@
                 "bm25_hit": true
             },
             {
-                "index": 61,
-                "category": "termination",
-                "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng không?",
-                "expected": [
-                    35
-                ],
-                "embedding_hit": true,
-                "bm25_hit": true
-            },
-            {
                 "index": 64,
                 "category": "termination",
                 "question": "Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?",
@@ -905,9 +915,9 @@
                 "bm25_hit": true
             },
             {
-                "index": 66,
+                "index": 65,
                 "category": "termination",
-                "question": "Đang nghỉ phép thì có bị cho thôi việc không?",
+                "question": "Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?",
                 "expected": [
                     37
                 ],
@@ -1100,16 +1110,6 @@
                 "question": "Thỏa ước lao động tập thể có hiệu lực khi nào?",
                 "expected": [
                     78
-                ],
-                "embedding_hit": true,
-                "bm25_hit": true
-            },
-            {
-                "index": 95,
-                "category": "unknown",
-                "question": "Tranh chấp lao động là gì?",
-                "expected": [
-                    179
                 ],
                 "embedding_hit": true,
                 "bm25_hit": true

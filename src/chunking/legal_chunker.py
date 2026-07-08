@@ -36,6 +36,15 @@ class LegalChunker(BaseChunker):
                 f"Khoản {clause.number}\n"
                 f"{clause.content}"
             )
+            if hasattr(clause, "points") and clause.points:
+                points_text = "\n".join([f"{p.label}) {p.content}" for p in clause.points])
+                text += "\n" + points_text
+                
+            citation = f"Điều {article.number} Khoản {clause.number}"
+            if hasattr(clause, "points") and clause.points:
+                point_labels = ", ".join([p.label for p in clause.points])
+                citation += f" Điểm {point_labels}"
+                
             chunk = Chunk(
                 chunk_id=f"BLLD2019_{article.number}_{clause.number}",
                 text=text,
@@ -46,7 +55,7 @@ class LegalChunker(BaseChunker):
                     "article": article.number,
                     "clause": clause.number,
                     "title": article.title,
-                    "citation": f"Điều {article.number} Khoản {clause.number}"
+                    "citation": citation
                 }
             )
             chunks.append(chunk)

@@ -5,7 +5,6 @@ miss_both,21,contract,Khi nào hợp đồng lao động có hiệu lực?,False
 miss_both,29,probation,Tiền lương thử việc tối thiểu là bao nhiêu?,False,False,26
 miss_both,42,working_time,Làm việc ban đêm được tính từ mấy giờ?,False,False,106
 miss_both,55,leave,Bao lâu thì được tăng thêm ngày nghỉ hằng năm?,False,False,114
-miss_both,62,termination,Người lao động phải báo trước bao lâu khi nghỉ việc?,False,False,35
 miss_both,70,discipline,Kỷ luật lao động là gì?,False,False,117
 miss_both,82,unknown,Giấy phép lao động có thời hạn bao lâu?,False,False,155
 miss_both,87,unknown,Thương lượng tập thể là gì?,False,False,65
@@ -17,22 +16,25 @@ miss_both,99,unknown,Khi nào được yêu cầu Tòa án giải quyết tranh 
 miss_both,100,unknown,Đình công là gì?,False,False,198
 miss_both,101,unknown,Ai có quyền tổ chức đình công?,False,False,200
 miss_both,105,unknown,Người lao động có quyền từ chối làm việc khi nào?,False,False,6
-miss_both,106,unknown,Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?,False,False,6
 miss_both,107,unknown,Người lao động phải tuân thủ quy định an toàn như thế nào?,False,False,6
 miss_both,108,unknown,Có được ép người lao động làm việc khi mất an toàn không?,False,False,6
 miss_both,109,unknown,Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?,False,False,6
-miss_both,113,unknown,Muốn nghỉ ngang thì có phải báo trước không?,False,False,35
-miss_embedding_only,7,definition,Nghĩa vụ của người lao động gồm những gì?,False,True,5
-miss_embedding_only,63,termination,Khi nào người lao động được nghỉ việc không cần báo trước?,False,True,35
 miss_embedding_only,74,discipline,Có những hình thức kỷ luật lao động nào?,False,True,124
 miss_embedding_only,94,unknown,Khi nào thỏa ước lao động tập thể hết hiệu lực?,False,True,86
 miss_bm25_only,0,definition,Người lao động là gì?,True,False,3
 miss_bm25_only,6,definition,Quyền của người lao động gồm những gì?,True,False,5
+miss_bm25_only,7,definition,Nghĩa vụ của người lao động gồm những gì?,True,False,5
 miss_bm25_only,15,contract,Hợp đồng lao động là gì?,True,False,13
-miss_bm25_only,65,termination,Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?,True,False,37
+miss_bm25_only,61,termination,Người lao động có quyền đơn phương chấm dứt hợp đồng không?,True,False,35
+miss_bm25_only,62,termination,Người lao động phải báo trước bao lâu khi nghỉ việc?,True,False,35
+miss_bm25_only,63,termination,Khi nào người lao động được nghỉ việc không cần báo trước?,True,False,35
+miss_bm25_only,66,termination,Đang nghỉ phép thì có bị cho thôi việc không?,True,False,37
 miss_bm25_only,83,unknown,Trường hợp nào không cần giấy phép lao động?,True,False,154
+miss_bm25_only,95,unknown,Tranh chấp lao động là gì?,True,False,179
 miss_bm25_only,96,unknown,Tranh chấp lao động cá nhân là gì?,True,False,179
 miss_bm25_only,104,unknown,Người lao động tham gia đình công có bị xử lý không?,True,False,207
+miss_bm25_only,106,unknown,Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?,True,False,6
+miss_bm25_only,113,unknown,Muốn nghỉ ngang thì có phải báo trước không?,True,False,35
 miss_bm25_only,116,unknown,Mình có được ký nhiều hợp đồng lao động cùng lúc không?,True,False,19
 miss_bm25_only,119,unknown,Bao nhiêu tuổi mới được phép đi làm hợp pháp?,True,False,143
 hit_both,1,definition,Người sử dụng lao động là gì?,True,True,3
@@ -86,9 +88,8 @@ hit_both,57,leave,Ông bà mất có được nghỉ làm không?,True,True,115
 hit_both,58,leave,Có được nghỉ không hưởng lương không?,True,True,115
 hit_both,59,leave,Nghỉ phép năm có được hưởng nguyên lương không?,True,True,113
 hit_both,60,termination,Các trường hợp chấm dứt hợp đồng lao động là gì?,True,True,34
-hit_both,61,termination,Người lao động có quyền đơn phương chấm dứt hợp đồng không?,True,True,35
 hit_both,64,termination,Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?,True,True,36
-hit_both,66,termination,Đang nghỉ phép thì có bị cho thôi việc không?,True,True,37
+hit_both,65,termination,Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?,True,True,37
 hit_both,67,termination,Người lao động được trợ cấp thôi việc khi nào?,True,True,46
 hit_both,68,termination,Trợ cấp mất việc làm được quy định như thế nào?,True,True,47
 hit_both,69,termination,Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?,True,True,48
@@ -108,7 +109,6 @@ hit_both,86,unknown,Bao lâu phải tổ chức đối thoại tại nơi làm v
 hit_both,89,unknown,Ai có quyền yêu cầu thương lượng tập thể?,True,True,68
 hit_both,90,unknown,Thỏa ước lao động tập thể là gì?,True,True,75
 hit_both,91,unknown,Thỏa ước lao động tập thể có hiệu lực khi nào?,True,True,78
-hit_both,95,unknown,Tranh chấp lao động là gì?,True,True,179
 hit_both,97,unknown,Tranh chấp lao động tập thể là gì?,True,True,179
 hit_both,102,unknown,Trường hợp nào đình công là bất hợp pháp?,True,True,204
 hit_both,103,unknown,Khi nào được hoãn đình công?,True,True,210

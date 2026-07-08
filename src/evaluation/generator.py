@@ -20,6 +20,7 @@ Chỉ trả về JSON hợp lệ, không có markdown, không có giải thích.
 Mỗi phần tử trong mảng JSON phải có các khóa:
 - category: tên nhóm câu hỏi, ví dụ definition, contract, salary
 - question: câu hỏi tiếng Việt
+- reference_answer: câu trả lời mẫu ngắn, đúng luật, bám sát nội dung trích dẫn
 - expected_articles: mảng số điều luật, ví dụ [3]
 - citation: chuỗi trích dẫn ngắn, ví dụ "Điều 3 Khoản 1"
 
@@ -27,6 +28,7 @@ Yêu cầu:
 - question phải đủ ngắn để dùng làm câu đánh giá.
 - Không tạo nhiều câu có cùng một cách diễn đạt; mỗi câu trong cùng một chunk phải khác kiểu hỏi.
 - expected_articles phải khớp với nội dung luật trong chunk.
+- reference_answer phải bám sát đúng nội dung luật trong chunk, không suy diễn thêm.
 - Nếu không chắc, vẫn ưu tiên trích đúng từ metadata của chunk.
 """
 
@@ -73,9 +75,6 @@ Mỗi câu phải theo một kiểu hỏi khác nhau theo danh sách sau:
 {styles_text}
 
 Ràng buộc:
-- Không dùng lại cùng cấu trúc câu hỏi giữa các phần tử.
-- Không copy nguyên văn nội dung luật.
-- Ưu tiên câu hỏi tự nhiên như người thật hỏi.
 
 Trả về một mảng JSON gồm {questions_per_chunk} phần tử.
 """
@@ -122,11 +121,16 @@ Trả về một mảng JSON gồm {questions_per_chunk} phần tử.
                 if not question:
                     continue
 
+                reference_answer = item.get("reference_answer", "").strip()
+                if not reference_answer:
+                    raise ValueError("Generated item is missing reference_answer.")
+
                 self.citation_verifier.verify_generated_item(item, metadata)
 
                 samples.append({
                     "category": item.get("category", metadata.get("category", "generated")),
                     "question": question,
+                    "reference_answer": reference_answer,
                     "expected_articles": item.get(
                         "expected_articles",
                         [metadata.get("article")],

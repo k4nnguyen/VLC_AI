@@ -1,0 +1,22 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Connect and Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /root/VLC_AI
+            git pull origin main
+            source venv/bin/activate
+            pip install --no-cache-dir -r requirements.txt
+            pm2 restart all

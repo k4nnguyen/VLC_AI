@@ -1,0 +1,475 @@
+question,reference_answer,answer,verified_citations
+Ai là đối tượng áp dụng theo Điều 2 Khoản 1 Bộ luật Lao động?,"Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động.",Không tìm thấy thông tin trong dữ liệu luật hiện có.,
+Những ai được Bộ luật Lao động điều chỉnh theo Khoản 1 Điều 2?,"Là những người đang làm việc hoặc học nghề, tập nghề, kể cả những người không có quan hệ lao động.","Theo Khoản 1 Điều 2 Bộ luật Lao động, những người được điều chỉnh là người lao động, tức là người làm việc cho người sử dụng lao động theo thỏa thuận, được trả lương và chịu sự quản lý, điều hành, giám sát của người sử dụng lao động, có độ tuổi lao động tối thiểu là đủ 15 tuổi.
+
+Nguồn:
+- Điều 2 Khoản 1 (mặc dù không được trích dẫn đầy đủ trong CONTEXT, nhưng dựa trên cấu trúc và thông tin liên quan)
+- Điều 3 Khoản 1",Điều 3 Khoản 1
+Người làm việc không có quan hệ lao động có thuộc đối tượng áp dụng không?,Có.,"Người làm việc không có quan hệ lao động thuộc đối tượng áp dụng của Bộ luật Lao động Việt Nam.
+
+Nguồn:
+- Điều 2 Khoản 1
+- Điều 3 Khoản 6
+- Điều 4 Khoản 3
+- Điều 220 Khoản 3",Điều 2 Khoản 1;Điều 220 Khoản 3;Điều 3 Khoản 6;Điều 4 Khoản 3
+Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?,Người sử dụng lao động là đối tượng áp dụng của Bộ luật Lao động.,"Người sử dụng lao động theo Bộ luật Lao động là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc cho mình theo thỏa thuận; trường hợp người sử dụng lao động là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.
+
+Nguồn:
+- Điều 3 Khoản 2",Điều 3 Khoản 2
+Ai được xem là người sử dụng lao động trong Bộ luật Lao động?,Người sử dụng lao động là cá nhân hoặc tổ chức thuê mướn lao động và chịu trách nhiệm theo quy định của Bộ luật Lao động.,"Người sử dụng lao động là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc cho mình theo thỏa thuận; trường hợp người sử dụng lao động là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.
+
+Nguồn:
+- Điều 3 Khoản 2",Điều 3 Khoản 2
+Người sử dụng lao động có phải là đối tượng áp dụng của Bộ luật Lao động không?,Có.,"Người sử dụng lao động là đối tượng áp dụng của Bộ luật Lao động Việt Nam.
+
+Nguồn:
+- Điều 2 Khoản 2
+- Điều 3 Khoản 2",Điều 2 Khoản 2;Điều 3 Khoản 2
+Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động không?,"Có, người lao động nước ngoài làm việc tại Việt Nam là đối tượng áp dụng của Bộ luật Lao động.","Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động Việt Nam theo Điều 2 Khoản 3. 
+
+Nguồn:
+- Điều 2 Khoản 3",Điều 2 Khoản 3
+Ai là người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam?,Là những người lao động không mang quốc tịch Việt Nam làm việc tại Việt Nam.,"Người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam là người có quốc tịch nước ngoài và phải đáp ứng các điều kiện sau: đủ 18 tuổi trở lên và có năng lực hành vi dân sự đầy đủ; có trình độ chuyên môn, kỹ thuật, tay nghề, kinh nghiệm làm việc; có đủ sức khỏe theo quy định; không đang trong thời gian chấp hành hình phạt hoặc bị truy cứu trách nhiệm hình sự; có giấy phép lao động do cơ quan nhà nước có thẩm quyền cấp, trừ trường hợp là Chủ tịch hoặc thành viên Hội đồng quản trị của công ty cổ phần có giá trị góp vốn theo quy định.
+
+Nguồn:
+- Điều 151 Khoản 1
+- Điều 154 Khoản 2","Điều 151 Khoản 1 Điểm a, b, c, d;Điều 154 Khoản 2"
+Người lao động nước ngoài làm việc tại Việt Nam có thuộc đối tượng áp dụng của Bộ luật Lao động không?,Có.,"Người lao động nước ngoài làm việc tại Việt Nam thuộc đối tượng áp dụng của Bộ luật Lao động Việt Nam.
+
+Nguồn:
+- Điều 2 Khoản 3",Điều 2 Khoản 3
+Đối tượng áp dụng trong Khoản 4 Điều 2 gồm những ai?,"Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.","Đối tượng áp dụng trong Khoản 4 Điều 2 là cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.
+
+Nguồn:
+- Điều 2 Khoản 4",Điều 2 Khoản 4
+Ai được xem là đối tượng áp dụng theo Khoản 4 Điều 2 Bộ luật Lao động?,"Là các cơ quan, tổ chức hoặc cá nhân có mối quan hệ trực tiếp với quan hệ lao động.","Đối tượng áp dụng theo Khoản 4 Điều 2 Bộ luật Lao động là cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.
+
+Nguồn:
+- Điều 2 Khoản 4",Điều 2 Khoản 4
+Cơ quan không liên quan trực tiếp đến quan hệ lao động có phải là đối tượng áp dụng theo Khoản 4 Điều 2 không?,Không.,"Theo Khoản 4 Điều 2, đối tượng áp dụng bao gồm ""Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động."" Như vậy, cơ quan không liên quan trực tiếp đến quan hệ lao động không thuộc đối tượng áp dụng theo Khoản 4 Điều 2.
+
+Nguồn:
+- Điều 2 Khoản 4",Điều 2 Khoản 4
+Người lao động được định nghĩa như thế nào theo Bộ luật Lao động?,"Người lao động là người làm việc cho người sử dụng lao động theo thỏa thuận, được trả lương và chịu sự quản lý, điều hành, giám sát của người sử dụng lao động.","Người lao động được định nghĩa là người làm việc cho người sử dụng lao động theo thỏa thuận, được trả lương và chịu sự quản lý, điều hành, giám sát của người sử dụng lao động. Độ tuổi lao động tối thiểu là đủ 15 tuổi, trừ trường hợp quy định khác.
+
+Nguồn:
+- Điều 3 Khoản 1",Điều 3 Khoản 1
+Hãy giải thích lại khái niệm người lao động bằng cách khác.,"Người lao động là cá nhân làm việc cho chủ sử dụng lao động theo hợp đồng, nhận lương và phải tuân theo sự quản lý, giám sát của chủ sử dụng lao động.","Người lao động là cá nhân tham gia vào quan hệ lao động, tức là quan hệ xã hội phát sinh trong việc thuê mướn, sử dụng lao động và trả lương giữa người lao động với người sử dụng lao động hoặc các tổ chức đại diện của các bên. Người lao động có quyền làm việc, tự do lựa chọn việc làm, hưởng lương phù hợp, được bảo hộ lao động, tham gia tổ chức đại diện và các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 3 Khoản 5
+- Điều 5 Khoản 1","Điều 3 Khoản 5;Điều 5 Khoản 1 Điểm a, b, c, d, e, g"
+Người lao động phải đủ 15 tuổi trở lên theo quy định của Bộ luật Lao động?,"Có, độ tuổi lao động tối thiểu là đủ 15 tuổi, trừ trường hợp quy định khác.","Người lao động phải đủ 15 tuổi trở lên để được giao kết hợp đồng lao động, trừ trường hợp người chưa đủ 15 tuổi học nghề, tập nghề phải đủ 14 tuổi trở lên và có sức khỏe phù hợp. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi khi giao kết hợp đồng lao động phải có sự đồng ý bằng văn bản của người đại diện theo pháp luật. Ngoài ra, người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được làm công việc hoặc làm việc ở nơi làm việc quy định tại Điều 147 của Bộ luật Lao động.
+
+Nguồn:
+- Điều 18 Khoản 4
+- Điều 143 Khoản 2
+- Điều 61 Khoản 4","Điều 143 Khoản 2;Điều 18 Khoản 4 Điểm a, b, c, d;Điều 61 Khoản 4"
+Người sử dụng lao động được định nghĩa như thế nào theo Điều 3 Khoản 2?,"Là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc theo thỏa thuận; nếu là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.","Người sử dụng lao động theo Điều 3 Khoản 2 là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc cho mình theo thỏa thuận; trường hợp người sử dụng lao động là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.
+
+Nguồn:
+- Điều 3 Khoản 2",Điều 3 Khoản 2
+"Theo Điều 3 Khoản 2, người sử dụng lao động là ai?",Là các tổ chức hoặc cá nhân thuê người làm việc cho mình theo hợp đồng; cá nhân phải có đầy đủ năng lực pháp lý.,"Theo Điều 3 Khoản 2, người sử dụng lao động là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc cho mình theo thỏa thuận; trường hợp người sử dụng lao động là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.
+
+Nguồn:
+- Điều 3 Khoản 2",Điều 3 Khoản 2
+Người sử dụng lao động là cá nhân không cần có năng lực hành vi dân sự đầy đủ đúng hay sai?,"Sai, cá nhân phải có năng lực hành vi dân sự đầy đủ.","Theo Điều 3 Khoản 2, người sử dụng lao động là cá nhân phải có năng lực hành vi dân sự đầy đủ.
+
+Vậy, phát biểu ""Người sử dụng lao động là cá nhân không cần có năng lực hành vi dân sự đầy đủ"" là sai.
+
+Nguồn:
+- Điều 3 Khoản 2",Điều 3 Khoản 2
+Tổ chức đại diện người lao động tại cơ sở là gì?,Là tổ chức được thành lập trên cơ sở tự nguyện của người lao động tại một đơn vị sử dụng lao động nhằm bảo vệ quyền và lợi ích hợp pháp của người lao động trong quan hệ lao động.,"Tổ chức đại diện người lao động tại cơ sở là tổ chức được thành lập trên cơ sở tự nguyện của người lao động tại một đơn vị sử dụng lao động nhằm mục đích bảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động trong quan hệ lao động thông qua thương lượng tập thể hoặc các hình thức khác theo quy định của pháp luật về lao động. Tổ chức này bao gồm công đoàn cơ sở và tổ chức của người lao động tại doanh nghiệp.
+
+Nguồn:
+- Điều 3 Khoản 3",Điều 3 Khoản 3
+Tổ chức đại diện người lao động tại cơ sở có thể là những tổ chức nào?,Bao gồm công đoàn cơ sở và tổ chức của người lao động tại doanh nghiệp.,"Tổ chức đại diện người lao động tại cơ sở bao gồm công đoàn cơ sở và tổ chức của người lao động tại doanh nghiệp, được thành lập trên cơ sở tự nguyện của người lao động nhằm bảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động trong quan hệ lao động.
+
+Nguồn:
+- Điều 3 Khoản 3",Điều 3 Khoản 3
+Tổ chức đại diện người lao động tại cơ sở được thành lập bắt buộc hay tự nguyện?,Tự nguyện.,"Tổ chức đại diện người lao động tại cơ sở được thành lập trên cơ sở tự nguyện của người lao động tại một đơn vị sử dụng lao động.
+
+Nguồn:
+- Điều 3 Khoản 3",Điều 3 Khoản 3
+Tổ chức đại diện người sử dụng lao động là gì theo Bộ luật Lao động?,"Là tổ chức được thành lập hợp pháp, đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động.","Tổ chức đại diện người sử dụng lao động là tổ chức được thành lập hợp pháp, đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động.
+
+Nguồn:
+- Điều 3 Khoản 4",Điều 3 Khoản 4
+Tổ chức đại diện người sử dụng lao động có vai trò gì trong quan hệ lao động?,"Đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động.","Tổ chức đại diện người sử dụng lao động là tổ chức được thành lập hợp pháp, đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động. Các tổ chức này, như Phòng Thương mại và Công nghiệp Việt Nam, Liên minh Hợp tác xã Việt Nam và các tổ chức đại diện khác được thành lập theo quy định của pháp luật, có vai trò đại diện, bảo vệ quyền và lợi ích hợp pháp của người sử dụng lao động, đồng thời tham gia xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 3 Khoản 4
+- Điều 7 Khoản 4",Điều 3 Khoản 4;Điều 7 Khoản 4
+Tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp đúng không?,Đúng.,"Theo Điều 3 Khoản 4, tổ chức đại diện người sử dụng lao động là tổ chức được thành lập hợp pháp, đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động. 
+
+Như vậy, tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp.
+
+Nguồn:
+- Điều 3 Khoản 4",Điều 3 Khoản 4
+Quan hệ lao động là gì theo Bộ luật Lao động?,"Quan hệ lao động là quan hệ xã hội phát sinh trong việc thuê mướn, sử dụng lao động, trả lương giữa người lao động, người sử dụng lao động, các tổ chức đại diện của các bên, cơ quan nhà nước có thẩm quyền.","Quan hệ lao động theo Bộ luật Lao động là quan hệ xã hội phát sinh trong việc thuê mướn, sử dụng lao động, trả lương giữa người lao động, người sử dụng lao động, các tổ chức đại diện của các bên, cơ quan nhà nước có thẩm quyền. Quan hệ lao động bao gồm quan hệ lao động cá nhân và quan hệ lao động tập thể.
+
+Nguồn:
+- Điều 3 Khoản 5",Điều 3 Khoản 5
+Quan hệ lao động bao gồm những mối quan hệ nào?,Quan hệ lao động bao gồm quan hệ lao động cá nhân và quan hệ lao động tập thể.,"Quan hệ lao động bao gồm quan hệ lao động cá nhân và quan hệ lao động tập thể.
+
+Nguồn:
+- Điều 3 Khoản 5",Điều 3 Khoản 5
+Quan hệ lao động chỉ xảy ra giữa người lao động và người sử dụng lao động đúng không?,"Không, quan hệ lao động còn bao gồm các tổ chức đại diện của các bên và cơ quan nhà nước có thẩm quyền.","Quan hệ lao động không chỉ xảy ra giữa người lao động và người sử dụng lao động mà còn bao gồm các tổ chức đại diện của các bên và cơ quan nhà nước có thẩm quyền. Quan hệ lao động bao gồm quan hệ lao động cá nhân và quan hệ lao động tập thể.
+
+Nguồn:
+- Điều 3 Khoản 5",Điều 3 Khoản 5
+Người làm việc không có quan hệ lao động được định nghĩa như thế nào theo Bộ luật Lao động?,Là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động.,"Người làm việc không có quan hệ lao động được định nghĩa là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động.
+
+Nguồn:
+- Điều 3 Khoản 6",Điều 3 Khoản 6
+Người làm việc không có quan hệ lao động là người làm việc mà không ký hợp đồng lao động đúng không?,"Đúng, người làm việc không có quan hệ lao động là người không làm việc trên cơ sở hợp đồng lao động.","Người làm việc không có quan hệ lao động là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động.
+
+Nguồn:
+- Điều 3 Khoản 6",Điều 3 Khoản 6
+Người làm việc không có quan hệ lao động có phải là người làm việc theo hợp đồng lao động không?,Không phải.,"Người làm việc không có quan hệ lao động là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động.
+
+Nguồn:
+- Điều 3 Khoản 6
+- Điều 2 Khoản 1",Điều 2 Khoản 1;Điều 3 Khoản 6
+Cưỡng bức lao động được hiểu là gì theo Bộ luật Lao động?,"Là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.","Cưỡng bức lao động theo Bộ luật Lao động được hiểu là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.
+
+Nguồn:
+- Điều 3 Khoản 7",Điều 3 Khoản 7
+Cưỡng bức lao động có thể được mô tả như việc nào?,Dùng sức mạnh hoặc đe dọa để bắt người lao động làm việc không theo ý họ.,"Cưỡng bức lao động được mô tả là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.
+
+Nguồn:
+- Điều 3 Khoản 7
+- Điều 8 Khoản 2
+- Điều 35 Khoản 2 Điểm c
+- Điều 165 Khoản 1","Điều 165 Khoản 1;Điều 3 Khoản 7;Điều 35 Khoản 2 Điểm a, b, c, d, e, g;Điều 8 Khoản 2"
+Cưỡng bức lao động là hành vi ép buộc người lao động làm việc trái ý muốn của họ đúng không?,Đúng.,"Cưỡng bức lao động là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.
+
+Nguồn:
+- Điều 3 Khoản 7",Điều 3 Khoản 7
+Phân biệt đối xử trong lao động được hiểu như thế nào theo luật?,"Là hành vi phân biệt, loại trừ hoặc ưu tiên dựa trên các đặc điểm như chủng tộc, giới tính, độ tuổi, tình trạng thai sản, tôn giáo, khuyết tật, hoặc vì lý do công đoàn, ảnh hưởng đến bình đẳng cơ hội việc làm.","Phân biệt đối xử trong lao động là hành vi phân biệt, loại trừ hoặc ưu tiên dựa trên chủng tộc, màu da, nguồn gốc quốc gia hoặc nguồn gốc xã hội, dân tộc, giới tính, độ tuổi, tình trạng thai sản, tình trạng hôn nhân, tôn giáo, tín ngưỡng, chính kiến, khuyết tật, trách nhiệm gia đình hoặc trên cơ sở tình trạng nhiễm HIV hoặc vì lý do thành lập, gia nhập và hoạt động công đoàn, tổ chức của người lao động tại doanh nghiệp có tác động làm ảnh hưởng đến bình đẳng về cơ hội việc làm hoặc nghề nghiệp. Tuy nhiên, việc phân biệt, loại trừ hoặc ưu tiên xuất phát từ yêu cầu đặc thù của công việc và các hành vi duy trì, bảo vệ việc làm cho người lao động dễ bị tổn thương thì không bị xem là phân biệt đối xử.
+
+Nguồn:
+- Điều 3 Khoản 8
+- Điều 8 Khoản 1",Điều 3 Khoản 8;Điều 8 Khoản 1
+Hành vi ưu tiên hoặc loại trừ người lao động dựa trên đặc điểm cá nhân nào được coi là phân biệt đối xử trong lao động?,"Ưu tiên hoặc loại trừ dựa trên chủng tộc, màu da, nguồn gốc, giới tính, tuổi tác, tình trạng thai sản, hôn nhân, tôn giáo, tín ngưỡng, chính kiến, khuyết tật, trách nhiệm gia đình, tình trạng nhiễm HIV hoặc hoạt động công đoàn.","Hành vi ưu tiên hoặc loại trừ người lao động dựa trên các đặc điểm cá nhân sau được coi là phân biệt đối xử trong lao động: chủng tộc, màu da, nguồn gốc quốc gia hoặc nguồn gốc xã hội, dân tộc, giới tính, độ tuổi, tình trạng thai sản, tình trạng hôn nhân, tôn giáo, tín ngưỡng, chính kiến, khuyết tật, trách nhiệm gia đình, tình trạng nhiễm HIV hoặc vì lý do thành lập, gia nhập và hoạt động công đoàn, tổ chức của người lao động tại doanh nghiệp, nếu những hành vi này làm ảnh hưởng đến bình đẳng về cơ hội việc làm hoặc nghề nghiệp.
+
+Nguồn:
+- Điều 3 Khoản 8
+- Điều 8 Khoản 1
+- Điều 175 Khoản 1","Điều 175 Khoản 1 Điểm a, b, c, d;Điều 3 Khoản 8;Điều 8 Khoản 1"
+Việc phân biệt đối xử trong lao động vì yêu cầu đặc thù của công việc có bị coi là vi phạm pháp luật không?,Không.,"Việc phân biệt đối xử trong lao động vì yêu cầu đặc thù của công việc không bị coi là vi phạm pháp luật. Cụ thể, theo Điều 3 Khoản 8, hành vi phân biệt, loại trừ hoặc ưu tiên xuất phát từ yêu cầu đặc thù của công việc và các hành vi duy trì, bảo vệ việc làm cho người lao động dễ bị tổn thương thì không bị xem là phân biệt đối xử.
+
+Nguồn:
+- Điều 3 Khoản 8",Điều 3 Khoản 8
+Quấy rối tình dục tại nơi làm việc được định nghĩa như thế nào theo Bộ luật Lao động?,Là hành vi có tính chất tình dục của bất kỳ người nào đối với người khác tại nơi làm việc mà không được người đó mong muốn hoặc chấp nhận.,"Quấy rối tình dục tại nơi làm việc được định nghĩa là hành vi có tính chất tình dục của bất kỳ người nào đối với người khác tại nơi làm việc mà không được người đó mong muốn hoặc chấp nhận. Nơi làm việc là bất kỳ nơi nào mà người lao động thực tế làm việc theo thỏa thuận hoặc phân công của người sử dụng lao động.
+
+Nguồn:
+- Điều 3 Khoản 9",Điều 3 Khoản 9
+Hành vi quấy rối tình dục tại nơi làm việc là gì nếu nói bằng cách khác?,Là hành vi mang tính chất tình dục không được người nhận đồng ý xảy ra tại nơi người lao động làm việc theo thỏa thuận hoặc phân công.,"Hành vi quấy rối tình dục tại nơi làm việc là hành vi có tính chất tình dục của bất kỳ người nào đối với người khác tại nơi làm việc mà không được người đó mong muốn hoặc chấp nhận.
+
+Nguồn:
+- Điều 3 Khoản 9",Điều 3 Khoản 9
+"Quấy rối tình dục tại nơi làm việc chỉ xảy ra khi có sự đồng ý của người bị quấy rối, đúng hay sai?","Sai, quấy rối tình dục là hành vi không được người đó mong muốn hoặc chấp nhận.","Quấy rối tình dục tại nơi làm việc là hành vi có tính chất tình dục của bất kỳ người nào đối với người khác tại nơi làm việc mà không được người đó mong muốn hoặc chấp nhận. Như vậy, quấy rối tình dục xảy ra khi không có sự đồng ý của người bị quấy rối.
+
+Nguồn:
+- Điều 3 Khoản 9
+- Điều 8 Khoản 3
+- Điều 35 Khoản 2 Điểm d","Điều 3 Khoản 9;Điều 35 Khoản 2 Điểm a, b, c, d, e, g;Điều 8 Khoản 3"
+Chính sách của Nhà nước về lao động bảo đảm điều gì cho người lao động?,"Bảo đảm quyền và lợi ích hợp pháp, chính đáng của người lao động và người làm việc không có quan hệ lao động.","Chính sách của Nhà nước về lao động bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quản lý lao động đúng pháp luật, dân chủ, công bằng, văn minh và nâng cao trách nhiệm xã hội; đồng thời bảo đảm quyền bình đẳng của lao động nữ, lao động nam, thực hiện các biện pháp bảo đảm bình đẳng giới và phòng, chống quấy rối tình dục tại nơi làm việc.
+
+Nguồn:
+- Điều 4 Khoản 2
+- Điều 135 Khoản 1",Điều 135 Khoản 1;Điều 4 Khoản 2
+Nhà nước khuyến khích điều gì liên quan đến thỏa thuận lao động?,Khuyến khích những thỏa thuận bảo đảm cho người lao động có điều kiện thuận lợi hơn so với quy định pháp luật lao động.,"Nhà nước khuyến khích những thỏa thuận bảo đảm cho người lao động có điều kiện thuận lợi hơn so với quy định của pháp luật về lao động và khuyến khích doanh nghiệp chưa tham gia thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp thực hiện nội dung có lợi hơn cho người lao động của thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp.
+
+Nguồn:
+- Điều 4 Khoản 1
+- Điều 81 Khoản 3",Điều 4 Khoản 1;Điều 81 Khoản 3
+Nhà nước chỉ bảo vệ quyền lợi của người lao động có hợp đồng lao động đúng không?,"Không, Nhà nước bảo đảm quyền lợi cho cả người lao động và người làm việc không có quan hệ lao động.","Nhà nước bảo đảm quyền và lợi ích hợp pháp, chính đáng của cả người lao động có hợp đồng lao động và người làm việc không có quan hệ lao động (Điều 4 Khoản 1). Do đó, quyền lợi của người lao động không chỉ được bảo vệ khi có hợp đồng lao động mà còn cả những người làm việc không có quan hệ lao động.
+
+Nguồn:
+- Điều 4 Khoản 1",Điều 4 Khoản 1
+Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến người sử dụng lao động?,"Bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quản lý lao động đúng pháp luật, dân chủ, công bằng, văn minh và nâng cao trách nhiệm xã hội.","Chính sách của Nhà nước về lao động liên quan đến người sử dụng lao động bao gồm:
+
+- Bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quản lý lao động đúng pháp luật, dân chủ, công bằng, văn minh và nâng cao trách nhiệm xã hội (Điều 4 Khoản 2).
+- Áp dụng chính sách giảm thuế đối với người sử dụng lao động có sử dụng nhiều lao động nữ theo quy định của pháp luật về thuế (Điều 135 Khoản 4).
+- Phương án sử dụng lao động phải quy định rõ quyền và nghĩa vụ của người sử dụng lao động trong việc thực hiện phương án sử dụng lao động (Điều 44 Khoản 1 Điểm d).
+
+Nguồn:  
+- Điều 4 Khoản 2  
+- Điều 44 Khoản 1 Điểm d  
+- Điều 135 Khoản 4","Điều 135 Khoản 4;Điều 4 Khoản 2;Điều 44 Khoản 1 Điểm a, b, c, d"
+Nhà nước có chính sách gì để bảo vệ người sử dụng lao động và quản lý lao động?,"Nhà nước bảo vệ quyền lợi hợp pháp của người sử dụng lao động, quản lý lao động theo pháp luật, đảm bảo dân chủ, công bằng, văn minh và tăng cường trách nhiệm xã hội.","Nhà nước có chính sách bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quản lý lao động đúng pháp luật, dân chủ, công bằng, văn minh và nâng cao trách nhiệm xã hội.
+
+Nguồn:
+- Điều 4 Khoản 2",Điều 4 Khoản 2
+Nhà nước có chính sách nâng cao trách nhiệm xã hội trong quản lý lao động không?,Có.,"Nhà nước có chính sách nâng cao trách nhiệm xã hội trong quản lý lao động, cụ thể là bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quản lý lao động đúng pháp luật, dân chủ, công bằng, văn minh và nâng cao trách nhiệm xã hội.
+
+Nguồn:
+- Điều 4 Khoản 2",Điều 4 Khoản 2
+Chính sách của Nhà nước về lao động trong khoản 3 Điều 4 bao gồm những nội dung gì?,"Tạo điều kiện thuận lợi cho tạo việc làm, tự tạo việc làm, dạy nghề, học nghề, hoạt động sản xuất kinh doanh thu hút nhiều lao động và áp dụng một số quy định Bộ luật cho người không có quan hệ lao động.",Không tìm thấy thông tin trong dữ liệu luật hiện có.,
+Khoản 3 Điều 4 quy định Nhà nước hỗ trợ gì cho người lao động và hoạt động kinh doanh?,"Nhà nước hỗ trợ việc tạo và tự tạo việc làm, đào tạo nghề, phát triển sản xuất kinh doanh thu hút lao động và áp dụng quy định Bộ luật cho người không có hợp đồng lao động.","Khoản 3 Điều 4 quy định Nhà nước tạo điều kiện thuận lợi đối với hoạt động tạo việc làm, tự tạo việc làm, dạy nghề và học nghề để có việc làm; hỗ trợ hoạt động sản xuất, kinh doanh thu hút nhiều lao động; đồng thời áp dụng một số quy định của Bộ luật Lao động đối với người làm việc không có quan hệ lao động.
+
+Nguồn:
+- Điều 4 Khoản 3",Điều 4 Khoản 3
+Khoản 3 Điều 4 có đề cập đến việc áp dụng Bộ luật Lao động cho người không có quan hệ lao động không?,Có.,"Khoản 3 Điều 4 có đề cập đến việc áp dụng một số quy định của Bộ luật Lao động đối với người làm việc không có quan hệ lao động.
+
+Nguồn:
+- Điều 4 Khoản 3",Điều 4 Khoản 3
+Chính sách của Nhà nước về lao động bao gồm những nội dung gì?,"Phát triển, phân bố nguồn nhân lực; nâng cao năng suất lao động; đào tạo, bồi dưỡng và nâng cao trình độ, kỹ năng nghề cho người lao động; hỗ trợ duy trì, chuyển đổi nghề nghiệp, việc làm; ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao.","Chính sách của Nhà nước về lao động bao gồm các nội dung sau:
+- Phát triển, phân bố nguồn nhân lực; nâng cao năng suất lao động; đào tạo, bồi dưỡng và nâng cao trình độ, kỹ năng nghề cho người lao động; hỗ trợ duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động; ưu đãi đối với người lao động có trình độ chuyên môn, kỹ thuật cao đáp ứng yêu cầu của cách mạng công nghiệp và sự nghiệp công nghiệp hóa, hiện đại hóa đất nước.
+- Giảm thuế đối với người sử dụng lao động có sử dụng nhiều lao động nữ theo quy định của pháp luật về thuế.
+- Quản lý nhà nước về lao động bao gồm tổ chức nghiên cứu khoa học về lao động; thống kê, thông tin về lao động và thị trường lao động, mức sống, tiền lương và thu nhập của người lao động; quản lý lao động về số lượng, chất lượng và biến động lao động.
+
+Nguồn:
+- Điều 4 Khoản 4
+- Điều 135 Khoản 4
+- Điều 212 Khoản 3",Điều 135 Khoản 4;Điều 212 Khoản 3;Điều 4 Khoản 4
+Nhà nước có chính sách gì để giúp người lao động nâng cao kỹ năng và duy trì việc làm?,"Nhà nước có chính sách đào tạo, bồi dưỡng, nâng cao trình độ, kỹ năng nghề và hỗ trợ duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động.","Nhà nước có chính sách phát triển, phân bố nguồn nhân lực; nâng cao năng suất lao động; đào tạo, bồi dưỡng và nâng cao trình độ, kỹ năng nghề cho người lao động; hỗ trợ duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động; ưu đãi đối với người lao động có trình độ chuyên môn, kỹ thuật cao (Điều 4 Khoản 4). Đồng thời, Nhà nước khuyến khích người sử dụng lao động đào tạo nghề nghiệp và phát triển kỹ năng nghề cho người lao động thông qua việc thành lập cơ sở giáo dục nghề nghiệp, mở lớp đào tạo tại nơi làm việc, tổ chức thi kỹ năng nghề, đánh giá và công nhận kỹ năng nghề (Điều 59 Khoản 2). Ngoài ra, Nhà nước có biện pháp tạo việc làm, cải thiện điều kiện lao động, nâng cao trình độ nghề nghiệp và tăng cường phúc lợi cho lao động nữ nhằm giúp họ phát huy năng lực nghề nghiệp và cân bằng cuộc sống (Điều 135 Khoản 3).
+
+Nguồn:
+- Điều 4 Khoản 4
+- Điều 59 Khoản 2
+- Điều 135 Khoản 3","Điều 135 Khoản 3;Điều 4 Khoản 4;Điều 59 Khoản 2 Điểm a, b"
+"Nhà nước ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao đúng không?",Đúng.,"Nhà nước có chính sách ưu đãi đối với người lao động có trình độ chuyên môn, kỹ thuật cao nhằm đáp ứng yêu cầu của cách mạng công nghiệp, sự nghiệp công nghiệp hóa, hiện đại hóa đất nước.
+
+Nguồn:
+- Điều 4 Khoản 4",Điều 4 Khoản 4
+Chính sách của Nhà nước về thị trường lao động là gì?,"Có chính sách phát triển thị trường lao động, đa dạng các hình thức kết nối cung, cầu lao động.","Chính sách của Nhà nước về thị trường lao động là phát triển thị trường lao động, đa dạng các hình thức kết nối cung, cầu lao động.
+
+Nguồn:
+- Điều 4 Khoản 5",Điều 4 Khoản 5
+Nhà nước có chính sách gì để thúc đẩy sự kết nối giữa người lao động và người sử dụng lao động?,Nhà nước phát triển thị trường lao động và đa dạng hóa các cách thức kết nối cung và cầu lao động.,"Nhà nước thúc đẩy người lao động và người sử dụng lao động đối thoại, thương lượng tập thể, xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 4 Khoản 6",Điều 4 Khoản 6
+Nhà nước có chính sách đa dạng hình thức kết nối cung cầu lao động không?,Có.,"Nhà nước có chính sách phát triển thị trường lao động, đa dạng các hình thức kết nối cung, cầu lao động.
+
+Nguồn:
+- Điều 4 Khoản 5",Điều 4 Khoản 5
+Chính sách của Nhà nước về lao động trong Khoản 6 Điều 4 là gì?,"Thúc đẩy người lao động và người sử dụng lao động đối thoại, thương lượng tập thể, xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.",Không tìm thấy thông tin trong dữ liệu luật hiện có.,
+Nhà nước khuyến khích điều gì giữa người lao động và người sử dụng lao động theo Khoản 6 Điều 4?,"Khuyến khích họ trao đổi, thương lượng chung để tạo dựng mối quan hệ lao động tốt đẹp, cân bằng và bền vững.","Nhà nước khuyến khích thúc đẩy người lao động và người sử dụng lao động đối thoại, thương lượng tập thể, xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định theo Khoản 6 Điều 4.
+
+Nguồn:
+- Điều 4 Khoản 6",Điều 4 Khoản 6
+Nhà nước không khuyến khích đối thoại giữa người lao động và người sử dụng lao động đúng hay sai?,"Sai, Nhà nước khuyến khích đối thoại và thương lượng tập thể.","Nhà nước khuyến khích người sử dụng lao động và người lao động hoặc tổ chức đại diện người lao động tiến hành đối thoại tại nơi làm việc, kể cả ngoài những trường hợp quy định bắt buộc.
+
+Nguồn:
+- Điều 63 Khoản 3",Điều 63 Khoản 3
+Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến lao động nữ và người lao động đặc biệt?,"Bảo đảm bình đẳng giới; quy định chế độ lao động và chính sách xã hội nhằm bảo vệ lao động nữ, lao động là người khuyết tật, người lao động cao tuổi, lao động chưa thành niên.","Chính sách của Nhà nước về lao động liên quan đến lao động nữ và người lao động đặc biệt bao gồm:
+
+- Bảo đảm bình đẳng giới; quy định chế độ lao động và chính sách xã hội nhằm bảo vệ lao động nữ, lao động là người khuyết tật, người lao động cao tuổi, lao động chưa thành niên (Điều 4 Khoản 7).
+- Có biện pháp tạo việc làm, cải thiện điều kiện lao động, nâng cao trình độ nghề nghiệp, chăm sóc sức khỏe, tăng cường phúc lợi vật chất và tinh thần cho lao động nữ, giúp họ phát huy năng lực nghề nghiệp và kết hợp hài hòa giữa cuộc sống lao động và gia đình (Điều 135 Khoản 3).
+- Người sử dụng lao động phải tham khảo ý kiến của lao động nữ hoặc đại diện của họ khi quyết định các vấn đề liên quan đến quyền và lợi ích của phụ nữ (Điều 136 Khoản 2).
+
+Nguồn:
+- Điều 4 Khoản 7
+- Điều 135 Khoản 3
+- Điều 136 Khoản 2",Điều 135 Khoản 3;Điều 136 Khoản 2;Điều 4 Khoản 7
+Nhà nước có chính sách gì để hỗ trợ các nhóm lao động như người khuyết tật và lao động chưa thành niên?,"Nhà nước quy định chế độ lao động và chính sách xã hội nhằm bảo vệ các nhóm lao động như người khuyết tật, lao động chưa thành niên, đồng thời bảo đảm bình đẳng giới.","Nhà nước có chính sách bảo vệ và hỗ trợ các nhóm lao động như sau:
+
+- Đảm bảo bình đẳng giới và quy định chế độ lao động, chính sách xã hội nhằm bảo vệ lao động nữ, người khuyết tật, lao động cao tuổi và lao động chưa thành niên (Điều 4 Khoản 7).
+- Cấm sử dụng người lao động là người khuyết tật nhẹ suy giảm khả năng lao động từ 51% trở lên, khuyết tật nặng hoặc đặc biệt nặng làm thêm giờ, làm việc ban đêm nếu không có sự đồng ý của họ (Điều 160 Khoản 1).
+- Khi sử dụng lao động chưa thành niên, phải có sự đồng ý của cha, mẹ hoặc người giám hộ; lập sổ theo dõi riêng ghi đầy đủ thông tin và kết quả kiểm tra sức khỏe định kỳ (Điều 144 Khoản 3).
+
+Nguồn:  
+- Điều 4 Khoản 7  
+- Điều 160 Khoản 1  
+- Điều 144 Khoản 3",Điều 144 Khoản 3;Điều 160 Khoản 1;Điều 4 Khoản 7
+Chính sách lao động của Nhà nước có bao gồm bảo vệ lao động nữ không?,Có.,"Chính sách lao động của Nhà nước có bao gồm bảo vệ lao động nữ. Cụ thể, Nhà nước bảo đảm bình đẳng giới, quy định chế độ lao động và chính sách xã hội nhằm bảo vệ lao động nữ (Điều 4 Khoản 7). Đồng thời, bảo đảm quyền bình đẳng của lao động nữ và thực hiện các biện pháp bảo đảm bình đẳng giới, phòng chống quấy rối tình dục tại nơi làm việc (Điều 135 Khoản 1).
+
+Nguồn:
+- Điều 4 Khoản 7
+- Điều 135 Khoản 1",Điều 135 Khoản 1;Điều 4 Khoản 7
+Người lao động có những quyền gì theo Điều 5 Khoản 1?,Người lao động có các quyền được quy định tại Điều 5 Khoản 1.,"Người lao động theo Điều 5 Khoản 1 có các quyền sau:
+a) Làm việc; tự do lựa chọn việc làm, nơi làm việc, nghề nghiệp, học nghề, nâng cao trình độ nghề nghiệp; không bị phân biệt đối xử, cưỡng bức lao động, quấy rối tình dục tại nơi làm việc;
+b) Hưởng lương phù hợp với trình độ, kỹ năng nghề trên cơ sở thỏa thuận với người sử dụng lao động; được bảo hộ lao động, làm việc trong điều kiện bảo đảm về an toàn, vệ sinh lao động; nghỉ theo chế độ, nghỉ hằng năm có hưởng lương và được hưởng phúc lợi tập thể;
+c) Thành lập, gia nhập, hoạt động trong tổ chức đại diện người lao động, tổ chức nghề nghiệp và tổ chức khác theo quy định của pháp luật; yêu cầu và tham gia đối thoại, thực hiện quy chế dân chủ, thương lượng tập thể với người sử dụng lao động và được tham vấn tại nơi làm việc để bảo vệ quyền và lợi ích hợp pháp, chính đáng của mình; tham gia quản lý theo nội quy của người sử dụng lao động;
+d) Từ chối làm việc nếu có nguy cơ rõ ràng đe dọa trực tiếp đến tính mạng, sức khỏe trong quá trình thực hiện công việc;
+đ) Đơn phương chấm dứt hợp đồng lao động;
+e) Đình công;
+g) Các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 5 Khoản 1","Điều 5 Khoản 1 Điểm a, b, c, d, e, g"
+Điều 5 Khoản 1 nói gì về quyền của người lao động?,Điều 5 Khoản 1 quy định các quyền mà người lao động được hưởng.,"Điều 5 Khoản 1 quy định các quyền của người lao động gồm:
+a) Làm việc; tự do lựa chọn việc làm, nơi làm việc, nghề nghiệp, học nghề, nâng cao trình độ nghề nghiệp; không bị phân biệt đối xử, cưỡng bức lao động, quấy rối tình dục tại nơi làm việc;
+b) Hưởng lương phù hợp với trình độ, kỹ năng nghề trên cơ sở thỏa thuận với người sử dụng lao động; được bảo hộ lao động, làm việc trong điều kiện bảo đảm an toàn, vệ sinh lao động; nghỉ theo chế độ, nghỉ hằng năm có hưởng lương và được hưởng phúc lợi tập thể;
+c) Thành lập, gia nhập, hoạt động trong tổ chức đại diện người lao động, tổ chức nghề nghiệp và tổ chức khác theo quy định của pháp luật; yêu cầu và tham gia đối thoại, thực hiện quy chế dân chủ, thương lượng tập thể với người sử dụng lao động và được tham vấn tại nơi làm việc để bảo vệ quyền và lợi ích hợp pháp, chính đáng của mình; tham gia quản lý theo nội quy của người sử dụng lao động;
+d) Từ chối làm việc nếu có nguy cơ rõ ràng đe dọa trực tiếp đến tính mạng, sức khỏe trong quá trình thực hiện công việc;
+đ) Đơn phương chấm dứt hợp đồng lao động;
+e) Đình công;
+g) Các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 5 Khoản 1","Điều 5 Khoản 1 Điểm a, b, c, d, e, g"
+Người lao động có quyền theo Điều 5 Khoản 1 không?,"Có, người lao động có các quyền theo Điều 5 Khoản 1.","Người lao động có các quyền theo Điều 5 Khoản 1 bao gồm: quyền làm việc, tự do lựa chọn việc làm, nơi làm việc, nghề nghiệp, học nghề, nâng cao trình độ nghề nghiệp; không bị phân biệt đối xử, cưỡng bức lao động, quấy rối tình dục tại nơi làm việc; hưởng lương phù hợp với trình độ, kỹ năng nghề; được bảo hộ lao động, làm việc trong điều kiện an toàn, vệ sinh lao động; nghỉ theo chế độ, nghỉ hằng năm có hưởng lương và hưởng phúc lợi tập thể; thành lập, gia nhập, hoạt động trong tổ chức đại diện người lao động và các tổ chức nghề nghiệp; yêu cầu và tham gia đối thoại, thực hiện quy chế dân chủ, thương lượng tập thể; từ chối làm việc khi có nguy cơ đe dọa tính mạng, sức khỏe; đơn phương chấm dứt hợp đồng lao động; đình công; và các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 5 Khoản 1 Điểm a, b, c, d, đ, e, g","Điều 5 Khoản 1 Điểm a, b, c, d, e, g"
+Người lao động có những nghĩa vụ gì theo Điều 5 Khoản 2?,Người lao động có các nghĩa vụ được quy định tại Điều 5 Khoản 2.,"Người lao động theo Điều 5 Khoản 2 có các nghĩa vụ sau:
+a) Thực hiện hợp đồng lao động, thỏa ước lao động tập thể và thỏa thuận hợp pháp khác;
+b) Chấp hành kỷ luật lao động, nội quy lao động; tuân theo sự quản lý, điều hành, giám sát của người sử dụng lao động;
+c) Thực hiện quy định của pháp luật về lao động, việc làm, giáo dục nghề nghiệp, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và an toàn, vệ sinh lao động.
+
+Nguồn:
+- Điều 5 Khoản 2 Điểm a, b, c","Điều 5 Khoản 2 Điểm a, b, c"
+"Theo Điều 5 Khoản 2, người lao động phải thực hiện những trách nhiệm nào?",Người lao động phải thực hiện các nghĩa vụ được nêu trong Điều 5 Khoản 2.,"Theo Điều 5 Khoản 2, người lao động có các nghĩa vụ sau đây:
+a) Thực hiện hợp đồng lao động, thỏa ước lao động tập thể và thỏa thuận hợp pháp khác;
+b) Chấp hành kỷ luật lao động, nội quy lao động; tuân theo sự quản lý, điều hành, giám sát của người sử dụng lao động;
+c) Thực hiện quy định của pháp luật về lao động, việc làm, giáo dục nghề nghiệp, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và an toàn, vệ sinh lao động.
+
+Nguồn:
+- Điều 5 Khoản 2","Điều 5 Khoản 2 Điểm a, b, c"
+Người lao động có nghĩa vụ theo quy định tại Điều 5 Khoản 2 phải không?,"Có, người lao động có nghĩa vụ theo Điều 5 Khoản 2.","Người lao động có nghĩa vụ theo quy định tại Điều 5 Khoản 2, bao gồm: thực hiện hợp đồng lao động, thỏa ước lao động tập thể và thỏa thuận hợp pháp khác; chấp hành kỷ luật lao động, nội quy lao động; tuân theo sự quản lý, điều hành, giám sát của người sử dụng lao động; thực hiện quy định của pháp luật về lao động, việc làm, giáo dục nghề nghiệp, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và an toàn, vệ sinh lao động.
+
+Nguồn:
+- Điều 5 Khoản 2","Điều 5 Khoản 2 Điểm a, b, c"
+Người sử dụng lao động có những quyền gì theo Điều 6 Khoản 1?,Người sử dụng lao động có các quyền được quy định tại Điều 6 Khoản 1.,"Người sử dụng lao động theo Điều 6 Khoản 1 có các quyền sau:
+a) Tuyển dụng, bố trí, quản lý, điều hành, giám sát lao động; khen thưởng và xử lý vi phạm kỷ luật lao động;
+b) Thành lập, gia nhập, hoạt động trong tổ chức đại diện người sử dụng lao động, tổ chức nghề nghiệp và tổ chức khác theo quy định của pháp luật;
+c) Yêu cầu tổ chức đại diện người lao động thương lượng với mục đích ký kết thỏa ước lao động tập thể; tham gia giải quyết tranh chấp lao động, đình công; đối thoại, trao đổi với tổ chức đại diện người lao động về các vấn đề trong quan hệ lao động, cải thiện đời sống vật chất và tinh thần của người lao động;
+d) Đóng cửa tạm thời nơi làm việc;
+đ) Các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 6 Khoản 1 Điểm a, b, c, d, đ","Điều 6 Khoản 1 Điểm a, b, c, d"
+Điều 6 Khoản 1 nói gì về quyền của người sử dụng lao động?,Điều 6 Khoản 1 quy định các quyền mà người sử dụng lao động được hưởng.,"Điều 6 Khoản 1 quy định quyền của người sử dụng lao động gồm:
+a) Tuyển dụng, bố trí, quản lý, điều hành, giám sát lao động; khen thưởng và xử lý vi phạm kỷ luật lao động;
+b) Thành lập, gia nhập, hoạt động trong tổ chức đại diện người sử dụng lao động, tổ chức nghề nghiệp và tổ chức khác theo quy định của pháp luật;
+c) Yêu cầu tổ chức đại diện người lao động thương lượng để ký kết thỏa ước lao động tập thể; tham gia giải quyết tranh chấp lao động, đình công; đối thoại, trao đổi với tổ chức đại diện người lao động về các vấn đề trong quan hệ lao động, cải thiện đời sống người lao động;
+d) Đóng cửa tạm thời nơi làm việc;
+đ) Các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 6 Khoản 1 Điểm a, b, c, d, đ","Điều 6 Khoản 1 Điểm a, b, c, d"
+Người sử dụng lao động có quyền theo Điều 6 Khoản 1 không?,"Có, người sử dụng lao động có các quyền theo Điều 6 Khoản 1.","Người sử dụng lao động có các quyền theo Điều 6 Khoản 1 gồm:
+a) Tuyển dụng, bố trí, quản lý, điều hành, giám sát lao động; khen thưởng và xử lý vi phạm kỷ luật lao động;
+b) Thành lập, gia nhập, hoạt động trong tổ chức đại diện người sử dụng lao động, tổ chức nghề nghiệp và tổ chức khác theo quy định của pháp luật;
+c) Yêu cầu tổ chức đại diện người lao động thương lượng ký kết thỏa ước lao động tập thể; tham gia giải quyết tranh chấp lao động, đình công; đối thoại, trao đổi với tổ chức đại diện người lao động về các vấn đề trong quan hệ lao động, cải thiện đời sống người lao động;
+d) Đóng cửa tạm thời nơi làm việc;
+đ) Các quyền khác theo quy định của pháp luật.
+
+Nguồn:
+- Điều 6 Khoản 1 Điểm a, b, c, d, đ","Điều 6 Khoản 1 Điểm a, b, c, d"
+Người sử dụng lao động có những nghĩa vụ gì theo Điều 6 Khoản 2?,Người sử dụng lao động có các nghĩa vụ được quy định tại Khoản 2 Điều 6.,"Người sử dụng lao động theo Điều 6 Khoản 2 có các nghĩa vụ sau:
+a) Thực hiện hợp đồng lao động, thỏa ước lao động tập thể và thỏa thuận hợp pháp khác; tôn trọng danh dự, nhân phẩm của người lao động;
+b) Thiết lập cơ chế và thực hiện đối thoại, trao đổi với người lao động và tổ chức đại diện người lao động; thực hiện quy chế dân chủ ở cơ sở tại nơi làm việc;
+c) Đào tạo, đào tạo lại, bồi dưỡng nâng cao trình độ, kỹ năng nghề nhằm duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động;
+d) Thực hiện quy định của pháp luật về lao động, việc làm, giáo dục nghề nghiệp, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và an toàn, vệ sinh lao động; xây dựng và thực hiện các giải pháp phòng, chống quấy rối tình dục tại nơi làm việc;
+đ) Tham gia phát triển tiêu chuẩn kỹ năng nghề quốc gia, đánh giá, công nhận kỹ năng nghề cho người lao động.
+
+Nguồn:
+- Điều 6 Khoản 2 Điểm a, b, c, d, đ","Điều 6 Khoản 2 Điểm a, b, c, d"
+"Theo Điều 6 Khoản 2, người sử dụng lao động phải thực hiện những trách nhiệm nào?",Người sử dụng lao động phải thực hiện các nghĩa vụ được nêu trong Khoản 2 Điều 6.,"Theo Điều 6 Khoản 2, người sử dụng lao động có các nghĩa vụ sau:
+a) Thực hiện hợp đồng lao động, thỏa ước lao động tập thể và thỏa thuận hợp pháp khác; tôn trọng danh dự, nhân phẩm của người lao động;
+b) Thiết lập cơ chế và thực hiện đối thoại, trao đổi với người lao động và tổ chức đại diện người lao động; thực hiện quy chế dân chủ ở cơ sở tại nơi làm việc;
+c) Đào tạo, đào tạo lại, bồi dưỡng nâng cao trình độ, kỹ năng nghề nhằm duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động;
+d) Thực hiện quy định của pháp luật về lao động, việc làm, giáo dục nghề nghiệp, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và an toàn, vệ sinh lao động; xây dựng và thực hiện các giải pháp phòng, chống quấy rối tình dục tại nơi làm việc;
+đ) Tham gia phát triển tiêu chuẩn kỹ năng nghề quốc gia, đánh giá, công nhận kỹ năng nghề cho người lao động.
+
+Nguồn:
+- Điều 6 Khoản 2 Điểm a, b, c, d, đ","Điều 6 Khoản 2 Điểm a, b, c, d"
+Người sử dụng lao động không có nghĩa vụ nào theo Điều 6 Khoản 2 đúng hay sai?,"Sai, người sử dụng lao động có các nghĩa vụ theo Điều 6 Khoản 2.","Theo Điều 6 Khoản 2, người sử dụng lao động có các nghĩa vụ sau:
+a) Thực hiện hợp đồng lao động, thỏa ước lao động tập thể và thỏa thuận hợp pháp khác; tôn trọng danh dự, nhân phẩm của người lao động;
+b) Thiết lập cơ chế và thực hiện đối thoại, trao đổi với người lao động và tổ chức đại diện người lao động; thực hiện quy chế dân chủ ở cơ sở tại nơi làm việc;
+c) Đào tạo, đào tạo lại, bồi dưỡng nâng cao trình độ, kỹ năng nghề nhằm duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động;
+d) Thực hiện quy định của pháp luật về lao động, việc làm, giáo dục nghề nghiệp, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp và an toàn, vệ sinh lao động; xây dựng và thực hiện các giải pháp phòng, chống quấy rối tình dục tại nơi làm việc;
+đ) Tham gia phát triển tiêu chuẩn kỹ năng nghề quốc gia, đánh giá, công nhận kỹ năng nghề cho người lao động.
+
+Do đó, người sử dụng lao động có nghĩa vụ rõ ràng theo Điều 6 Khoản 2, nên khẳng định ""Người sử dụng lao động không có nghĩa vụ nào theo Điều 6 Khoản 2"" là sai.
+
+Nguồn:
+- Điều 6 Khoản 2 Điểm a, b, c, d, đ","Điều 6 Khoản 2 Điểm a, b, c, d"
+Quan hệ lao động được xác lập như thế nào theo Điều 7 Khoản 1?,"Qua đối thoại, thương lượng, thỏa thuận theo nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác, tôn trọng quyền và lợi ích hợp pháp của nhau.","Quan hệ lao động được xác lập qua đối thoại, thương lượng, thỏa thuận theo nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác, tôn trọng quyền và lợi ích hợp pháp của nhau.
+
+Nguồn:
+- Điều 7 Khoản 1",Điều 7 Khoản 1
+Việc thiết lập quan hệ lao động phải dựa trên những nguyên tắc nào?,"Dựa trên nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác và tôn trọng quyền lợi hợp pháp của các bên.","Việc thiết lập quan hệ lao động phải dựa trên các nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác, tôn trọng quyền và lợi ích hợp pháp của nhau.
+
+Nguồn:
+- Điều 7 Khoản 1",Điều 7 Khoản 1
+Quan hệ lao động có thể được xác lập mà không cần sự thỏa thuận giữa các bên không?,Không.,"Quan hệ lao động được xác lập qua đối thoại, thương lượng, thỏa thuận theo nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác, tôn trọng quyền và lợi ích hợp pháp của nhau. Như vậy, quan hệ lao động phải có sự thỏa thuận giữa các bên.
+
+Nguồn:
+- Điều 7 Khoản 1
+- Điều 13 Khoản 1
+- Điều 3 Khoản 5",Điều 13 Khoản 1;Điều 3 Khoản 5;Điều 7 Khoản 1
+Ai là những chủ thể tham gia xây dựng quan hệ lao động theo Điều 7 Khoản 2?,"Người sử dụng lao động, tổ chức đại diện người sử dụng lao động, người lao động và tổ chức đại diện người lao động.","Theo Điều 7 Khoản 2, những chủ thể tham gia xây dựng quan hệ lao động gồm: người sử dụng lao động, tổ chức đại diện người sử dụng lao động, người lao động và tổ chức đại diện người lao động, với sự hỗ trợ của cơ quan nhà nước có thẩm quyền.
+
+Nguồn:
+- Điều 7 Khoản 2",Điều 7 Khoản 2
+"Theo Điều 7 Khoản 2, quan hệ lao động cần được xây dựng như thế nào với sự hỗ trợ của cơ quan nhà nước?","Quan hệ lao động phải tiến bộ, hài hòa và ổn định.","Theo Điều 7 Khoản 2, quan hệ lao động cần được xây dựng tiến bộ, hài hòa và ổn định với sự hỗ trợ của cơ quan nhà nước có thẩm quyền.
+
+Nguồn:
+- Điều 7 Khoản 2",Điều 7 Khoản 2
+Có phải cơ quan nhà nước có thẩm quyền không hỗ trợ trong việc xây dựng quan hệ lao động không?,"Không, cơ quan nhà nước có thẩm quyền hỗ trợ xây dựng quan hệ lao động.","Cơ quan nhà nước có thẩm quyền có hỗ trợ trong việc xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định. Cụ thể, theo Điều 7 Khoản 2, cơ quan nhà nước có thẩm quyền hỗ trợ người sử dụng lao động, người lao động và các tổ chức đại diện xây dựng quan hệ lao động. Ngoài ra, Điều 212 Khoản 4 cũng quy định xây dựng các cơ chế, thiết chế hỗ trợ phát triển quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 7 Khoản 2
+- Điều 212 Khoản 4",Điều 212 Khoản 4;Điều 7 Khoản 2
+Công đoàn có vai trò gì trong xây dựng quan hệ lao động theo Điều 7 Khoản 3?,"Công đoàn tham gia cùng cơ quan nhà nước hỗ trợ xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định; giám sát thi hành pháp luật lao động; bảo vệ quyền lợi người lao động.","Công đoàn tham gia cùng với cơ quan nhà nước có thẩm quyền hỗ trợ xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định; giám sát việc thi hành quy định của pháp luật về lao động; bảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động.
+
+Nguồn:
+- Điều 7 Khoản 3",Điều 7 Khoản 3
+Nêu cách công đoàn góp phần bảo vệ người lao động theo quy định tại Điều 7 Khoản 3.,Công đoàn phối hợp với cơ quan nhà nước giám sát việc thực hiện pháp luật lao động và bảo vệ quyền lợi hợp pháp của người lao động.,"Công đoàn góp phần bảo vệ người lao động bằng cách tham gia cùng với cơ quan nhà nước có thẩm quyền hỗ trợ xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định; giám sát việc thi hành quy định của pháp luật về lao động; bảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động.
+
+Nguồn:
+- Điều 7 Khoản 3",Điều 7 Khoản 3
+Công đoàn chỉ giám sát việc thi hành pháp luật lao động mà không tham gia xây dựng quan hệ lao động đúng không?,"Không đúng, công đoàn vừa tham gia xây dựng quan hệ lao động vừa giám sát thi hành pháp luật lao động.","Công đoàn không chỉ giám sát việc thi hành pháp luật lao động mà còn tham gia cùng với cơ quan nhà nước có thẩm quyền hỗ trợ xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 7 Khoản 3",Điều 7 Khoản 3
+Phòng Thương mại và Công nghiệp Việt Nam có vai trò gì trong quan hệ lao động?,"Có vai trò đại diện, bảo vệ quyền và lợi ích hợp pháp của người sử dụng lao động, tham gia xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.","Phòng Thương mại và Công nghiệp Việt Nam có vai trò đại diện, bảo vệ quyền và lợi ích hợp pháp của người sử dụng lao động, tham gia xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 7 Khoản 4",Điều 7 Khoản 4
+Các tổ chức đại diện người sử dụng lao động được thành lập theo pháp luật có nhiệm vụ gì trong quan hệ lao động?,"Đại diện và bảo vệ quyền lợi hợp pháp của người sử dụng lao động, đồng thời góp phần xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.","Các tổ chức đại diện người sử dụng lao động được thành lập theo pháp luật có nhiệm vụ đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động, đồng thời tham gia xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 3 Khoản 4
+- Điều 7 Khoản 4",Điều 3 Khoản 4;Điều 7 Khoản 4
+Liên minh Hợp tác xã Việt Nam có thể tham gia xây dựng quan hệ lao động ổn định không?,Có.,"Liên minh Hợp tác xã Việt Nam có vai trò đại diện, bảo vệ quyền và lợi ích hợp pháp của người sử dụng lao động, đồng thời được tham gia xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.
+
+Nguồn:
+- Điều 7 Khoản 4
+- Điều 4 Khoản 6",Điều 4 Khoản 6;Điều 7 Khoản 4
+Phân biệt đối xử trong lao động là gì theo Điều 8 Khoản 1?,Phân biệt đối xử trong lao động là hành vi bị nghiêm cấm trong lĩnh vực lao động.,"Phân biệt đối xử trong lao động theo Điều 8 Khoản 1 là hành vi bị nghiêm cấm trong lĩnh vực lao động. Cụ thể, theo Điều 3 Khoản 8, phân biệt đối xử trong lao động là hành vi phân biệt, loại trừ hoặc ưu tiên dựa trên các yếu tố như chủng tộc, màu da, nguồn gốc quốc gia hoặc xã hội, dân tộc, giới tính, độ tuổi, tình trạng thai sản, tình trạng hôn nhân, tôn giáo, tín ngưỡng, chính kiến, khuyết tật, trách nhiệm gia đình, tình trạng nhiễm HIV hoặc vì lý do thành lập, gia nhập và hoạt động công đoàn, tổ chức của người lao động tại doanh nghiệp, làm ảnh hưởng đến bình đẳng về cơ hội việc làm hoặc nghề nghiệp. Tuy nhiên, việc phân biệt xuất phát từ yêu cầu đặc thù của công việc hoặc nhằm bảo vệ người lao động dễ bị tổn thương thì không bị xem là phân biệt đối xử.
+
+Nguồn:
+- Điều 3 Khoản 8
+- Điều 8 Khoản 1",Điều 3 Khoản 8;Điều 8 Khoản 1
+"Theo Điều 8 Khoản 1, việc đối xử không công bằng với người lao động có bị cấm không?","Có, việc phân biệt đối xử trong lao động bị nghiêm cấm.","Theo Điều 8 Khoản 1, phân biệt đối xử trong lao động là hành vi bị nghiêm cấm. Việc đối xử không công bằng với người lao động thuộc hành vi phân biệt đối xử và do đó bị cấm.
+
+Nguồn:
+- Điều 8 Khoản 1
+- Điều 3 Khoản 8",Điều 3 Khoản 8;Điều 8 Khoản 1
+Điều 8 Khoản 1 có cấm phân biệt đối xử trong lao động không?,Có.,"Điều 8 Khoản 1 quy định nghiêm cấm hành vi phân biệt đối xử trong lao động.
+
+Nguồn:
+- Điều 8 Khoản 1
+- Điều 3 Khoản 8
+- Điều 175 Khoản 1
+- Điều 57 Khoản 2
+- Điều 32 Khoản 3","Điều 175 Khoản 1 Điểm a, b, c, d;Điều 3 Khoản 8;Điều 32 Khoản 3;Điều 57 Khoản 2;Điều 8 Khoản 1"
+Hành vi nào bị nghiêm cấm liên quan đến người lao động theo Điều 8 Khoản 2?,Ngược đãi người lao động và cưỡng bức lao động.,"Hành vi bị nghiêm cấm liên quan đến người lao động theo Điều 8 Khoản 2 là ngược đãi người lao động và cưỡng bức lao động.
+
+Nguồn:
+- Điều 8 Khoản 2",Điều 8 Khoản 2
+"Theo luật, việc bắt buộc người lao động làm việc trái ý muốn có bị cấm không?","Có, cưỡng bức lao động là hành vi bị nghiêm cấm.","Theo Bộ luật Lao động Việt Nam trong CONTEXT, việc bắt buộc người lao động làm việc trái ý muốn của họ được coi là cưỡng bức lao động và bị nghiêm cấm. Cụ thể:
+
+- Điều 3 Khoản 7 định nghĩa cưỡng bức lao động là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.
+- Điều 8 Khoản 4 nghiêm cấm lợi dụng danh nghĩa dạy nghề, tập nghề để trục lợi, bóc lột sức lao động hoặc lôi kéo, dụ dỗ, ép buộc người học nghề, người tập nghề vào hoạt động trái pháp luật.
+- Ngoài ra, Điều 35 Khoản 2 Điểm c cũng cho phép người lao động đơn phương chấm dứt hợp đồng lao động không cần báo trước nếu bị cưỡng bức lao động.
+
+Như vậy, việc bắt buộc người lao động làm việc trái ý muốn là hành vi bị cấm theo quy định của Bộ luật Lao động.
+
+Nguồn:
+- Điều 3 Khoản 7
+- Điều 8 Khoản 4
+- Điều 35 Khoản 2 Điểm c","Điều 3 Khoản 7;Điều 35 Khoản 2 Điểm a, b, c, d, e, g;Điều 8 Khoản 4"
+Ngược đãi người lao động có bị pháp luật nghiêm cấm không?,Có.,"Ngược đãi người lao động bị pháp luật nghiêm cấm. Cụ thể, Điều 8 Khoản 2 quy định ngược đãi người lao động là hành vi bị nghiêm cấm trong lĩnh vực lao động. Ngoài ra, Điều 165 Khoản 1 cũng nghiêm cấm ngược đãi đối với người lao động là người giúp việc gia đình.
+
+Nguồn:
+- Điều 8 Khoản 2
+- Điều 165 Khoản 1",Điều 165 Khoản 1;Điều 8 Khoản 2

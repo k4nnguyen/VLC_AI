@@ -19,6 +19,10 @@ class ReportWriter:
         self._save_comparison_json(comparison, method)
         self._save_comparison_csv(comparison, method)
 
+    def save_generation(self, report: dict, method: str = "generation"):
+        self._save_json(report, method)
+        self._save_generation_csv(report, method)
+
     def _save_json(self, report, method):
         path = self.output_dir / f"{method}.json"
         with open(
@@ -85,23 +89,70 @@ class ReportWriter:
             encoding="utf-8"
         ) as f:
             writer = csv.writer(f)
+            if method == "query_rewrite_comparison":
+                writer.writerow([
+                    "group",
+                    "index",
+                    "category",
+                    "question",
+                    "rewritten_question",
+                    "baseline_hit",
+                    "rewritten_hit",
+                    "expected"
+                ])
+                for group_name, items in comparison["groups"].items():
+                    for item in items:
+                        writer.writerow([
+                            group_name,
+                            item["index"],
+                            item.get("category", ""),
+                            item["question"],
+                            item.get("rewritten_question", ""),
+                            item.get("baseline_hit", ""),
+                            item.get("hit", ""),
+                            ",".join(map(str, item["expected"]))
+                        ])
+            else:
+                writer.writerow([
+                    "group",
+                    "index",
+                    "category",
+                    "question",
+                    "embedding_hit",
+                    "bm25_hit",
+                    "expected"
+                ])
+                for group_name, items in comparison["groups"].items():
+                    for item in items:
+                        writer.writerow([
+                            group_name,
+                            item["index"],
+                            item.get("category", ""),
+                            item["question"],
+                            item.get("embedding_hit", ""),
+                            item.get("bm25_hit", ""),
+                            ",".join(map(str, item["expected"]))
+                        ])
+
+    def _save_generation_csv(self, report, method):
+        path = self.output_dir / f"{method}.csv"
+        with open(
+            path,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+            writer = csv.writer(f)
             writer.writerow([
-                "group",
-                "index",
-                "category",
                 "question",
-                "embedding_hit",
-                "bm25_hit",
-                "expected"
+                "reference_answer",
+                "answer",
+                "verified_citations",
             ])
-            for group_name, items in comparison["groups"].items():
-                for item in items:
-                    writer.writerow([
-                        group_name,
-                        item["index"],
-                        item.get("category", ""),
-                        item["question"],
-                        item["embedding_hit"],
-                        item["bm25_hit"],
-                        ",".join(map(str, item["expected"]))
-                    ])
+            for item in report["details"]:
+                writer.writerow([
+                    item["question"],
+                    item.get("reference_answer", ""),
+                    item.get("answer", ""),
+                    ";".join(item.get("verified_citations", [])),
+                ])

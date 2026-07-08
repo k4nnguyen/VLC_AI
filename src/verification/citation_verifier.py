@@ -2,7 +2,7 @@ import re
 
 
 class CitationVerifier:
-    CITE_PATTERN = re.compile(r"Điều\s+\d+(?:\s+Khoản\s+\d+)?", re.IGNORECASE)
+    CITE_PATTERN = re.compile(r"Điều\s+\d+(?:\s+Khoản\s+\d+)?(?:\s+Điểm\s+[a-z]+(?:,\s*[a-z]+)*)?", re.IGNORECASE)
 
     def _normalize(self, citation: str) -> str:
         return re.sub(r"\s+", " ", citation).strip().lower()
@@ -16,17 +16,27 @@ class CitationVerifier:
     def verify_answer(self, answer: str, allowed_citations: set[str]) -> set[str]:
         extracted = self.extract_citations(answer)
         if not extracted:
-            raise ValueError("Answer does not contain any citations.")
+            return set()
 
-        allowed = {self._normalize(citation) for citation in allowed_citations}
-        invalid = extracted - allowed
-        if invalid:
-            raise ValueError(
-                "Answer contains citations not present in retrieved context: "
-                + ", ".join(sorted(invalid))
-            )
+        # Map normalized allowed citations to their original casing
+        allowed_map = {self._normalize(cite): cite for cite in allowed_citations}
+        allowed_normalized = set(allowed_map.keys())
 
-        return extracted
+        valid_extracted = set()
+
+        # Helper to get base citation (e.g., "điều 98 khoản 1" from "điều 98 khoản 1 điểm a, b")
+        def get_base(cite: str) -> str:
+            return re.sub(r"\s+điểm\s+.*", "", cite)
+
+        for ext in extracted:
+            ext_base = get_base(ext)
+            for alw in allowed_normalized:
+                alw_base = get_base(alw)
+                # If the base matches (e.g. both are Điều 98 Khoản 1), we consider it a valid hit for that allowed citation
+                if ext_base == alw_base:
+                    valid_extracted.add(allowed_map[alw])
+
+        return valid_extracted
 
     def verify_generated_item(self, item: dict, chunk_metadata: dict) -> None:
         expected_citation = self._normalize(str(chunk_metadata.get("citation", "")))

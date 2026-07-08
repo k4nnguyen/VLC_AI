@@ -1,5 +1,4 @@
 from src.rag.context_builder import ContextBuilder
-from src.rag.query_rewriter import QueryRewriter
 from src.llm.prompt_builder import PromptBuilder
 from src.verification.citation_verifier import CitationVerifier
 
@@ -8,17 +7,12 @@ class LegalRAG:
         self.retriever = retriever
         self.llm = llm 
         self.context_builder = ContextBuilder()
-        self.query_rewriter = QueryRewriter(llm)
         self.prompt_builder = PromptBuilder()
         self.citation_verifier = CitationVerifier()
 
-    def rewrite_question(self, question: str) -> str:
-        return self.query_rewriter.rewrite(question)
-
     def retrieve(self, question: str, k: int = 5):
-        rewritten_question = self.rewrite_question(question)
-        results = self.retriever.retrieve(rewritten_question, k=k)
-        return rewritten_question, results
+        results = self.retriever.retrieve(question, k=k)
+        return question, results
 
     def build_context(self, results) -> str:
         return self.context_builder.build(results)

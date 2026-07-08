@@ -39,8 +39,6 @@ def main():
     print("=" * 60)
 
     def print_trace(trace: dict):
-        print("Rewritten query:")
-        print(trace["rewritten_question"])
         print("-" * 60)
         print("Retrieved context:")
         print(trace["context"])

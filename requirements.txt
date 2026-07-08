@@ -3,3 +3,10 @@ sentence-transformers
 chromadb
 openai
 BM25
+nltk
+rouge-score
+fastapi
+uvicorn
+streamlit
+python-dotenv
+requests
