@@ -79,6 +79,15 @@ class HybridRRFRetriever:
         add_source(self._collect_ranked_items(vector_results), "vector")
         add_source(self._collect_ranked_items(bm25_results), "bm25")
 
+        # Apply custom scoring heuristics
+        for item in combined.values():
+            if item["vector_rank"] is not None and item["bm25_rank"] is not None:
+                # Tăng 20% điểm nếu xuất hiện ở cả 2 bên (ưu tiên cao nhất)
+                item["score"] *= 1.2
+            elif item["vector_rank"] is not None and item["bm25_rank"] is None:
+                # Tăng 10% điểm nếu chỉ xuất hiện ở Vector (ưu tiên Semantic Search hơn BM25)
+                item["score"] *= 1.1
+
         reranked = sorted(
             combined.values(),
             key=lambda item: (-item["score"], item["best_rank"]),

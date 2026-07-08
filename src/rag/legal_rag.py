@@ -1,6 +1,7 @@
 from src.rag.context_builder import ContextBuilder
 from src.llm.prompt_builder import PromptBuilder
 from src.verification.citation_verifier import CitationVerifier
+from src.cleaners.query_preprocessor import QueryPreprocessor
 
 class LegalRAG:
     def __init__(self, retriever, llm):
@@ -9,10 +10,12 @@ class LegalRAG:
         self.context_builder = ContextBuilder()
         self.prompt_builder = PromptBuilder()
         self.citation_verifier = CitationVerifier()
+        self.query_preprocessor = QueryPreprocessor()
 
     def retrieve(self, question: str, k: int = 5):
-        results = self.retriever.retrieve(question, k=k)
-        return question, results
+        clean_question = self.query_preprocessor.preprocess(question)
+        results = self.retriever.retrieve(clean_question, k=k)
+        return clean_question, results
 
     def build_context(self, results) -> str:
         return self.context_builder.build(results)
