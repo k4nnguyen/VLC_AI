@@ -28,6 +28,7 @@ class HierarchyParser:
             line = line.strip()
             if not line:
                 continue
+
             # Clause
             clause_match = self.CLAUSE_PATTERN.match(line)
             if clause_match:
@@ -38,9 +39,14 @@ class HierarchyParser:
                 article.clauses.append(current_clause)
                 continue
 
+            # If there's no current_clause yet, we just encountered text (e.g. an unnumbered article).
+            if not current_clause:
+                current_clause = Clause(number=0, content="")
+                article.clauses.append(current_clause)
+
             # Point
             point_match = self.POINT_PATTERN.match(line)
-            if point_match and current_clause:
+            if point_match:
                 current_clause.points.append(
                     Point(
                         label=point_match.group(1),
@@ -50,8 +56,7 @@ class HierarchyParser:
                 continue
 
             # Multi-line
-            if current_clause:
-                if current_clause.points:
-                    current_clause.points[-1].content += "\n" + line
-                else:
-                    current_clause.content += "\n" + line
+            if current_clause.points:
+                current_clause.points[-1].content += "\n" + line
+            else:
+                current_clause.content += "\n" + line
