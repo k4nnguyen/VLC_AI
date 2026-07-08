@@ -1,78 +1,49 @@
-# VLC AI - Legal Retrieval-Augmented Generation (RAG) System
+# VLC AI - Hệ Thống Trợ Lý Ảo Pháp Luật (Bộ Luật Lao Động)
 
-**Version:** 1.0.0
+Dự án này là một hệ thống Hỏi Đáp thông minh (RAG - Retrieval-Augmented Generation) chuyên biệt cho Bộ Luật Lao Động Việt Nam. Hệ thống sử dụng kết hợp giữa tìm kiếm ngữ nghĩa (Semantic Search - Vector Embeddings) và tìm kiếm từ khóa (BM25) để truy xuất chính xác các điều khoản pháp luật, sau đó dùng Large Language Model (LLM) để tổng hợp và trả lời cho người dùng.
 
-## Overview
-VLC AI is a specialized Retrieval-Augmented Generation (RAG) application designed to assist users in querying and understanding the Labor Code of Vietnam. The system utilizes advanced natural language processing (NLP) and large language models (LLMs) to retrieve relevant legal articles based on user queries and synthesize accurate, context-aware answers.
+## Kiến Trúc Hệ Thống (RAG Pipeline)
+Hệ thống được xây dựng với các thành phần chính:
+1. **Document Parsers & Chunkers**: Phân tách file `lao_dong.docx` thành cấu trúc phân cấp (Chương, Mục, Điều, Khoản, Điểm) để chia nhỏ (chunk) thành các đơn vị tra cứu hợp lý.
+2. **Hybrid Retriever (RRF)**: Sử dụng phương pháp Reciprocal Rank Fusion kết hợp giữa:
+   - **Vector Retriever**: `multilingual-e5-small` qua ChromaDB.
+   - **BM25 Retriever**: Phân tích từ khóa truyền thống.
+   - *Heuristic Reranking*: Tăng 20% điểm cho các văn bản tìm thấy ở cả 2 bên, và 10% cho các văn bản chỉ tìm thấy bằng Vector để tối ưu thứ hạng.
+3. **Query Preprocessor**: Xử lý câu hỏi người dùng (chuẩn hóa, xóa khoảng trắng thừa) và ánh xạ từ điển đồng nghĩa (Synonyms) như "bầu bí" -> "thai sản", "đuổi việc" -> "sa thải"... để tăng độ bắt dính của BM25.
+4. **LLM Generation**: OpenAI LLM dựa trên `prompt_builder` chặt chẽ để chống Hallucination (tuyệt đối không bịa luật) và tự động xuất trích dẫn kèm toàn văn điều khoản.
 
-## Architecture
+## Kết Quả Đánh Giá (Evaluation Results)
 
-The project is structured into several core modules to ensure maintainability, scalability, and high performance:
+Hệ thống được đánh giá tự động trên bộ 120 câu hỏi test (`evaluations/evaluate.py`), đo lường khả năng truy xuất chính xác điều luật ở **Top-5 (k=5)**.
 
-### 1. Retrieval Module (`src/retrieval`)
-The retrieval system is responsible for finding the most relevant legal articles given a user query. It implements a Hybrid RRF (Reciprocal Rank Fusion) approach, combining:
-- **Vector Search (Embedding-based):** Captures the semantic meaning of the user query.
-- **BM25 Search (Keyword-based):** Ensures exact keyword matches, which is critical in the legal domain where specific terminology matters.
-Both results are fused using the RRF algorithm to rank the final results effectively.
+| Phương Pháp (Retriever) | Recall@5 | Hit Rate (Success) | MRR (Mean Reciprocal Rank) |
+|-------------------------|----------|---------------------|----------------------------|
+| **BM25 (Từ khóa)** | ~76.67% | 92 / 120 | - |
+| **Vector (Embeddings)** | 90.00% | 108 / 120 | 0.805 |
+| **Hybrid RRF (Kết hợp)** | **91.67%** | **110 / 120** | **0.786** |
 
-### 2. LLM Module (`src/llm`)
-This module manages the interaction with Large Language Models (e.g., OpenAI models). It handles prompt building and API communication, ensuring that the retrieved legal context is formatted correctly before being passed to the LLM.
+### Phân tích chi tiết:
+- Tổng số câu hỏi: **120**
+- Số câu chỉ Vector tìm thấy (BM25 trượt): **18**
+- Số câu chỉ BM25 tìm thấy (Vector trượt): **2**
+- Trượt cả 2 bên: **10**
+- Thuật toán **Hybrid RRF** kết hợp với **Heuristic Scoring** đã bắt được **toàn bộ 110 câu** mà ít nhất 1 trong 2 thuật toán tìm thấy. Điều này chứng minh sức mạnh của mô hình lai so với việc chỉ dùng 1 phương pháp đơn lẻ.
 
-### 3. RAG Core (`src/rag`)
-The RAG core orchestrates the entire process:
-- **Context Builder:** Aggregates retrieved documents into a coherent context block.
-- **Legal RAG Pipeline:** Takes the user query, triggers the retrieval, builds the context, and queries the LLM to generate the final response.
+## Cài Đặt & Chạy Ứng Dụng
 
-### 4. Verification Module (`src/verification`)
-To prevent hallucination, the verification module (`CitationVerifier`) strictly checks the LLM's response against the retrieved legal citations. It ensures that the generated answer does not cite articles or clauses that were not provided in the context.
-
-### 5. Evaluation Module (`src/evaluation`)
-A comprehensive suite of evaluation scripts to measure system performance:
-- `evaluate.py`: Evaluates retrieval metrics (Recall, Precision, MRR, HitRate) for BM25, Vector, and Hybrid retrievers.
-- `generate_evaluation.py`: Uses an LLM to generate a synthetic evaluation dataset (Q&A pairs) from the legal text chunks.
-- `evaluate_generation.py`: Evaluates the end-to-end generation quality.
-- `evaluate_query_rewrite.py`: (Deprecated) Evaluates the impact of query rewriting on retrieval performance.
-
-## Setup and Installation
-
-### Prerequisites
-- Python 3.10+
-- `.env` file containing necessary API keys (e.g., `OPENAI_API_KEY`). See `.env.example` for details.
-
-### Installation
-Install the required dependencies using pip:
-```bash
-pip install -r requirements.txt
-```
-
-### Database Initialization
-Before running the system, initialize the vector and document database:
+**1. Khởi tạo Database (ChromaDB + BM25)**
 ```bash
 python db_init.py
 ```
 
-## Usage
-
-### Running the Application
-Currently, the application can be run via the command line interface:
+**2. Chạy Backend API (FastAPI)**
 ```bash
-python main.py
+cd web
+fastapi dev api.py
 ```
 
-### Running Evaluations
-To evaluate the retrieval performance:
+**3. Chạy Giao Diện Người Dùng (Streamlit)**
 ```bash
-python evaluate.py
+cd web
+streamlit run app.py
 ```
-To generate the evaluation dataset:
-```bash
-python generate_evaluation.py
-```
-To evaluate the generation step:
-```bash
-python evaluate_generation.py
-```
-
-## Upcoming Features (Roadmap)
-- Integration of a Web Interface using Streamlit.
-- Implementation of a RESTful API backend using FastAPI.

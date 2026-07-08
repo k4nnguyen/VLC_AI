@@ -1,121 +1,121 @@
 question,expected,retrieved,hit,rank,recall,precision
 Người lao động là gì?,3,"161,3,148,160,162",True,2,1.0,0.2
 Người sử dụng lao động là gì?,3,"3,163,159,160",True,1,1.0,0.2
-Tổ chức đại diện người lao động là gì?,3,"3,68,178,170,69",True,1,1.0,0.2
-Quan hệ lao động là gì?,3,"3,7,2",True,1,1.0,0.2
-Phân biệt người lao động và người sử dụng lao động.,3,"3,90,163,57,8",True,1,1.0,0.2
-Các nguyên tắc của pháp luật lao động là gì?,5,"15,180,4,49,118",False,0,0.0,0.0
-Quyền của người lao động gồm những gì?,5,"5,136,6,159,10",True,1,1.0,0.2
-Nghĩa vụ của người lao động gồm những gì?,5,"5,56,164,40,6",True,1,1.0,0.2
+Tổ chức đại diện người lao động là gì?,3,"3,178,170,68,69",True,1,1.0,0.2
+Quan hệ lao động là gì?,3,"3,2,7,65,1",True,1,1.0,0.2
+Phân biệt người lao động và người sử dụng lao động.,3,"3,163,90,57,8",True,1,1.0,0.2
+Các nguyên tắc của pháp luật lao động là gì?,5,"15,180,4,118,122",False,0,0.0,0.0
+Quyền của người lao động gồm những gì?,5,"5,6,10,136,159",True,1,1.0,0.2
+Nghĩa vụ của người lao động gồm những gì?,5,"5,164,6,56,58",True,1,1.0,0.2
 Những hành vi nào bị nghiêm cấm trong lao động?,8,"8,127,208",True,1,1.0,0.2
 Phân biệt đối xử trong lao động có bị cấm không?,8,"8,3,57,175,32",True,1,1.0,0.2
-Đối tượng áp dụng của Bộ luật Lao động là ai?,2,"2,173,220,18",True,1,1.0,0.2
-Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?,2,"154,151,152,153",False,0,0.0,0.0
-Người sử dụng lao động có thuộc đối tượng áp dụng không?,2,"2,3,220,159",True,1,1.0,0.2
-Các cơ quan tổ chức có liên quan có thuộc đối tượng áp dụng không?,2,"2,181,220,70,171",True,1,1.0,0.2
+Đối tượng áp dụng của Bộ luật Lao động là ai?,2,"2,173,18,220",True,1,1.0,0.2
+Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?,2,"154,151,152,153,1",False,0,0.0,0.0
+Người sử dụng lao động có thuộc đối tượng áp dụng không?,2,"2,3,159,220",True,1,1.0,0.2
+Các cơ quan tổ chức có liên quan có thuộc đối tượng áp dụng không?,2,"2,183,181,70,174",True,1,1.0,0.2
 Bộ luật Lao động áp dụng cho những đối tượng nào?,2,"2,4,220",True,1,1.0,0.2
-Hợp đồng lao động là gì?,13,"22,162,13,20,21",True,3,1.0,0.2
-Hợp đồng lao động có bắt buộc bằng văn bản không?,14,"14,55,162,21,202",True,1,1.0,0.2
-Có được giao kết hợp đồng bằng lời nói không?,14,"14,15,18,19,33",True,1,1.0,0.2
-Nguyên tắc giao kết hợp đồng lao động là gì?,15,"15,18,14,49,19",True,1,1.0,0.2
-Nội dung chủ yếu của hợp đồng lao động gồm gì?,21,"21,55,24,13,162",True,1,1.0,0.2
-Phụ lục hợp đồng lao động dùng để làm gì?,22,"22,33,162,3,21",True,1,1.0,0.2
-Khi nào hợp đồng lao động có hiệu lực?,23,"22,20,220,78,21",False,0,0.0,0.0
-Có được giao kết nhiều hợp đồng lao động không?,19,"19,20,18,14,15",True,1,1.0,0.2
-Có mấy loại hợp đồng lao động?,20,"20,21,13,48,162",True,1,1.0,0.2
-Khi nào được tạm hoãn thực hiện hợp đồng lao động?,30,"30,138,29,17",True,1,1.0,0.2
+Hợp đồng lao động là gì?,13,"22,162,13,21,20",True,3,1.0,0.2
+Hợp đồng lao động có bắt buộc bằng văn bản không?,14,"14,55,21,162,13",True,1,1.0,0.2
+Có được giao kết hợp đồng bằng lời nói không?,14,"14,15,19,16,18",True,1,1.0,0.2
+Nguyên tắc giao kết hợp đồng lao động là gì?,15,"15,18,14,19,49",True,1,1.0,0.2
+Nội dung chủ yếu của hợp đồng lao động gồm gì?,21,"21,55,13,162,24",True,1,1.0,0.2
+Phụ lục hợp đồng lao động dùng để làm gì?,22,"22,33,162,21,3",True,1,1.0,0.2
+Khi nào hợp đồng lao động có hiệu lực?,23,"23,22,20,220,21",True,1,1.0,0.2
+Có được giao kết nhiều hợp đồng lao động không?,19,"19,20,14,18,15",True,1,1.0,0.2
+Có mấy loại hợp đồng lao động?,20,"20,21,13,162,22",True,1,1.0,0.2
+Khi nào được tạm hoãn thực hiện hợp đồng lao động?,30,"30,31,138,29",True,1,1.0,0.2
 Có được sửa đổi hợp đồng lao động không?,33,"33,22,51,82",True,1,1.0,0.2
-Khi nào hợp đồng lao động chấm dứt?,34,"45,34,36,35,162",True,2,1.0,0.2
-Có bắt buộc phải thử việc không?,24,"24,27,25,64",True,1,1.0,0.2
-Thử việc tối đa bao nhiêu ngày?,25,"25,53,105,24,27",True,1,1.0,0.2
-Tiền lương thử việc tối thiểu là bao nhiêu?,26,"91,90,92,24,25",False,0,0.0,0.0
-Kết thúc thời gian thử việc phải làm gì?,27,"27,24,25",True,1,1.0,0.2
-Có được hủy bỏ thỏa thuận thử việc không?,27,"27,34,24",True,1,1.0,0.2
-Tiền lương là gì?,90,"90,92,95,96,46",True,1,1.0,0.2
+Khi nào hợp đồng lao động chấm dứt?,34,"45,34,36,35,39",True,2,1.0,0.2
+Có bắt buộc phải thử việc không?,24,"24,25,27,64,168",True,1,1.0,0.2
+Thử việc tối đa bao nhiêu ngày?,25,"25,105,155,53,24",True,1,1.0,0.2
+Tiền lương thử việc tối thiểu là bao nhiêu?,26,"91,90,26,24,92",True,3,1.0,0.2
+Kết thúc thời gian thử việc phải làm gì?,27,"27,25,24,26",True,1,1.0,0.2
+Có được hủy bỏ thỏa thuận thử việc không?,27,"27,34,24,38,25",True,1,1.0,0.2
+Tiền lương là gì?,90,"90,92,95,26,96",True,1,1.0,0.2
 Mức lương tối thiểu được quy định như thế nào?,91,"91,90",True,1,1.0,0.2
-Nguyên tắc trả lương là gì?,94,"94,96,53,90,95",True,1,1.0,0.2
-Người lao động được trả lương bằng những hình thức nào?,96,"96,95,201,90,100",True,1,1.0,0.2
+Nguyên tắc trả lương là gì?,94,"94,96,90,66,53",True,1,1.0,0.2
+Người lao động được trả lương bằng những hình thức nào?,96,"96,95,99,90,201",True,1,1.0,0.2
 Kỳ hạn trả lương được quy định như thế nào?,97,"97,113,10",True,1,1.0,0.2
-Làm thêm giờ được trả lương như thế nào?,98,"98,107,95,108,97",True,1,1.0,0.2
-Có được khấu trừ tiền lương của người lao động không?,102,"102,41,95,99,129",True,1,1.0,0.2
-Thưởng là gì?,104,"104,30,67,5,178",True,1,1.0,0.2
-Thời giờ làm việc bình thường là bao nhiêu giờ?,105,"105,107,146,93",True,1,1.0,0.2
-Một tuần được làm việc tối đa bao nhiêu giờ?,105,"105,146,97,111",True,1,1.0,0.2
-Làm việc ban đêm được tính từ mấy giờ?,106,"146,109,98,57",False,0,0.0,0.0
+Làm thêm giờ được trả lương như thế nào?,98,"98,108,107,95",True,1,1.0,0.2
+Có được khấu trừ tiền lương của người lao động không?,102,"102,41,99,95,129",True,1,1.0,0.2
+Thưởng là gì?,104,"104,30,5,8,67",True,1,1.0,0.2
+Thời giờ làm việc bình thường là bao nhiêu giờ?,105,"105,107,116,146,93",True,1,1.0,0.2
+Một tuần được làm việc tối đa bao nhiêu giờ?,105,"105,146,111,116,97",True,1,1.0,0.2
+Làm việc ban đêm được tính từ mấy giờ?,106,"106,146,109,98,57",True,1,1.0,0.2
 Làm thêm giờ được quy định như thế nào?,107,"107,108,98",True,1,1.0,0.2
-Một tháng được làm thêm tối đa bao nhiêu giờ?,107,"107,146,91,98,53",True,1,1.0,0.2
-Một năm được làm thêm tối đa bao nhiêu giờ?,107,"107,146,98,113",True,1,1.0,0.2
-Người lao động được nghỉ giữa giờ như thế nào?,109,"109,111,67,115,98",True,1,1.0,0.2
-Có được nghỉ giải lao trong giờ làm việc không?,109,"109,107,146,188,194",True,1,1.0,0.2
-Mỗi tuần người lao động được nghỉ bao nhiêu ngày?,111,"111,115,137,113,98",True,1,1.0,0.2
+Một tháng được làm thêm tối đa bao nhiêu giờ?,107,"107,146,98,155,91",True,1,1.0,0.2
+Một năm được làm thêm tối đa bao nhiêu giờ?,107,"107,146,98,155,113",True,1,1.0,0.2
+Người lao động được nghỉ giữa giờ như thế nào?,109,"109,110,116,111,67",True,1,1.0,0.2
+Có được nghỉ giải lao trong giờ làm việc không?,109,"109,107,116,188,146",True,1,1.0,0.2
+Mỗi tuần người lao động được nghỉ bao nhiêu ngày?,111,"111,115,113,137,98",True,1,1.0,0.2
 Nếu không nghỉ hằng tuần thì xử lý thế nào?,111,"111,113,125,217",True,1,1.0,0.2
-Người lao động được nghỉ lễ bao nhiêu ngày?,112,"111,112,98,115",True,2,1.0,0.2
-Những ngày nghỉ lễ được hưởng nguyên lương gồm những ngày nào?,112,"112,115,113,98,111",True,1,1.0,0.2
-Làm đủ 12 tháng được nghỉ phép bao nhiêu ngày?,113,"113,137,123,112,111",True,1,1.0,0.2
-Làm chưa đủ 12 tháng thì nghỉ phép được tính thế nào?,113,"113,36,137,143,139",True,1,1.0,0.2
-Có được gộp ngày nghỉ phép nhiều năm không?,113,"113,97,101",True,1,1.0,0.2
-Bao lâu thì được tăng thêm ngày nghỉ hằng năm?,114,"113,111,98",False,0,0.0,0.0
+Người lao động được nghỉ lễ bao nhiêu ngày?,112,"111,112,115,98",True,2,1.0,0.2
+Những ngày nghỉ lễ được hưởng nguyên lương gồm những ngày nào?,112,"112,115,113,111,98",True,1,1.0,0.2
+Làm đủ 12 tháng được nghỉ phép bao nhiêu ngày?,113,"113,137,114,123,112",True,1,1.0,0.2
+Làm chưa đủ 12 tháng thì nghỉ phép được tính thế nào?,113,"113,36,143,34,137",True,1,1.0,0.2
+Có được gộp ngày nghỉ phép nhiều năm không?,113,"113,114,155,97",True,1,1.0,0.2
+Bao lâu thì được tăng thêm ngày nghỉ hằng năm?,114,"114,113,111",True,1,1.0,0.2
 Người lao động được nghỉ việc riêng khi nào?,115,"115,37,112,10",True,1,1.0,0.2
-Ông bà mất có được nghỉ làm không?,115,"115,41,113,37,47",True,1,1.0,0.2
+Ông bà mất có được nghỉ làm không?,115,"115,140,41,37,113",True,1,1.0,0.2
 Có được nghỉ không hưởng lương không?,115,"115,113,98,139",True,1,1.0,0.2
 Nghỉ phép năm có được hưởng nguyên lương không?,113,"113,115,112,98",True,1,1.0,0.2
-Các trường hợp chấm dứt hợp đồng lao động là gì?,34,"34,45,156",True,1,1.0,0.2
-Người lao động có quyền đơn phương chấm dứt hợp đồng không?,35,"36,34,35,138,37",True,3,1.0,0.2
-Người lao động phải báo trước bao lâu khi nghỉ việc?,35,"139,29,115,36,113",False,0,0.0,0.0
-Khi nào người lao động được nghỉ việc không cần báo trước?,35,"139,36,33,35,27",True,4,1.0,0.2
-Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?,36,"34,36,37,35,40",True,2,1.0,0.2
-Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?,37,"36,37,34,35,40",True,2,1.0,0.2
-Đang nghỉ phép thì có bị cho thôi việc không?,37,"113,156,153,40,122",False,0,0.0,0.0
+Các trường hợp chấm dứt hợp đồng lao động là gì?,34,"39,34,45,156",True,2,1.0,0.2
+Người lao động có quyền đơn phương chấm dứt hợp đồng không?,35,"39,36,38,35,37",True,4,1.0,0.2
+Người lao động phải báo trước bao lâu khi nghỉ việc?,35,"139,36,35,29,115",True,3,1.0,0.2
+Khi nào người lao động được nghỉ việc không cần báo trước?,35,"139,36,35,115,33",True,3,1.0,0.2
+Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?,36,"34,36,35,37,38",True,2,1.0,0.2
+Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?,37,"36,37,35,34,39",True,2,1.0,0.2
+Đang nghỉ phép thì có bị cho thôi việc không?,37,"113,156,40,37,153",True,4,1.0,0.2
 Người lao động được trợ cấp thôi việc khi nào?,46,"46,40,41,47",True,1,1.0,0.2
 Trợ cấp mất việc làm được quy định như thế nào?,47,"47,43,46",True,1,1.0,0.2
-Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?,48,"48,113,41,115,53",True,1,1.0,0.2
-Kỷ luật lao động là gì?,117,"123,122,125,127,118",False,0,0.0,0.0
+Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?,48,"48,113,41,53,116",True,1,1.0,0.2
+Kỷ luật lao động là gì?,117,"117,123,122,127,125",True,1,1.0,0.2
 Nội quy lao động phải có những nội dung gì?,118,"118,21,64,33",True,1,1.0,0.2
 Nguyên tắc xử lý kỷ luật lao động là gì?,122,122,True,1,1.0,0.2
-Thời hiệu xử lý kỷ luật lao động là bao lâu?,123,"123,126,125,124",True,1,1.0,0.2
-Có những hình thức kỷ luật lao động nào?,124,"122,124,123,125,126",True,2,1.0,0.2
-Khi nào người lao động bị sa thải?,125,"34,125,124,137,177",True,2,1.0,0.2
-Có được xử lý kỷ luật lao động đối với người đang nghỉ ốm không?,122,"122,126,127,34",True,1,1.0,0.2
-Sa thải là một hình thức kỷ luật lao động đúng không?,124,"124,125,34,122",True,1,1.0,0.2
-Người lao động có quyền tự bào chữa khi bị xử lý kỷ luật không?,122,"122,125,126,127",True,1,1.0,0.2
-Có được xử lý nhiều hình thức kỷ luật cùng lúc không?,122,"122,125,124,127",True,1,1.0,0.2
+Thời hiệu xử lý kỷ luật lao động là bao lâu?,123,"123,126,124,125",True,1,1.0,0.2
+Có những hình thức kỷ luật lao động nào?,124,"125,122,117,123,124",True,5,1.0,0.2
+Khi nào người lao động bị sa thải?,125,"34,125,137,177,124",True,2,1.0,0.2
+Có được xử lý kỷ luật lao động đối với người đang nghỉ ốm không?,122,"122,126,34,127",True,1,1.0,0.2
+Sa thải là một hình thức kỷ luật lao động đúng không?,124,"125,124,34,122",True,2,1.0,0.2
+Người lao động có quyền tự bào chữa khi bị xử lý kỷ luật không?,122,"122,125,131,126,127",True,1,1.0,0.2
+Có được xử lý nhiều hình thức kỷ luật cùng lúc không?,122,"122,125,127,124",True,1,1.0,0.2
 Người lao động nước ngoài làm việc tại Việt Nam phải đáp ứng điều kiện gì?,151,"151,152,150",True,1,1.0,0.2
 Khi nào người nước ngoài được tuyển dụng vào Việt Nam?,152,"152,150,151",True,1,1.0,0.2
-Giấy phép lao động có thời hạn bao lâu?,155,"156,151,162,154,190",False,0,0.0,0.0
-Trường hợp nào không cần giấy phép lao động?,154,"156,154",True,2,1.0,0.2
-Khi nào giấy phép lao động bị thu hồi?,156,"156,172,54,36",True,1,1.0,0.2
+Giấy phép lao động có thời hạn bao lâu?,155,"155,156,151,162,157",True,1,1.0,0.2
+Trường hợp nào không cần giấy phép lao động?,154,"156,155,154,157",True,3,1.0,0.2
+Khi nào giấy phép lao động bị thu hồi?,156,"156,172,157,155,54",True,1,1.0,0.2
 Đối thoại tại nơi làm việc là gì?,63,"63,64",True,1,1.0,0.2
 Bao lâu phải tổ chức đối thoại tại nơi làm việc?,63,"63,64,178",True,1,1.0,0.2
-Thương lượng tập thể là gì?,65,"73,71,72,69,68",False,0,0.0,0.0
-Nguyên tắc thương lượng tập thể gồm những gì?,66,"72,73,70,179,67",False,0,0.0,0.0
-Ai có quyền yêu cầu thương lượng tập thể?,68,"68,70,73,69,74",True,1,1.0,0.2
-Thỏa ước lao động tập thể là gì?,75,"75,86,81,78,85",True,1,1.0,0.2
+Thương lượng tập thể là gì?,65,"73,65,66,71,72",True,2,1.0,0.2
+Nguyên tắc thương lượng tập thể gồm những gì?,66,"66,72,73,65,70",True,1,1.0,0.2
+Ai có quyền yêu cầu thương lượng tập thể?,68,"68,73,69,65,70",True,1,1.0,0.2
+Thỏa ước lao động tập thể là gì?,75,"75,86,78,82,76",True,1,1.0,0.2
 Thỏa ước lao động tập thể có hiệu lực khi nào?,78,"78,79,75,86",True,1,1.0,0.2
-Thời hạn của thỏa ước lao động tập thể là bao lâu?,83,"78,70,75,197,79",False,0,0.0,0.0
-Có được sửa đổi thỏa ước lao động tập thể không?,84,"82,79,75,51,80",False,0,0.0,0.0
-Khi nào thỏa ước lao động tập thể hết hiệu lực?,86,"78,79,80,86",True,4,1.0,0.2
-Tranh chấp lao động là gì?,179,"179,199,180,190,188",True,1,1.0,0.2
-Tranh chấp lao động cá nhân là gì?,179,"190,180,179,188,187",True,3,1.0,0.2
-Tranh chấp lao động tập thể là gì?,179,"179,194,192,191,195",True,1,1.0,0.2
-Ai có thẩm quyền hòa giải tranh chấp lao động?,185,"191,195,187,180,188",False,0,0.0,0.0
+Thời hạn của thỏa ước lao động tập thể là bao lâu?,83,"78,83,77,75",True,2,1.0,0.2
+Có được sửa đổi thỏa ước lao động tập thể không?,84,"82,79,75,80,89",False,0,0.0,0.0
+Khi nào thỏa ước lao động tập thể hết hiệu lực?,86,"78,79,83,86",True,4,1.0,0.2
+Tranh chấp lao động là gì?,179,"179,183,180,199,190",True,1,1.0,0.2
+Tranh chấp lao động cá nhân là gì?,179,"187,179,188,183,190",True,2,1.0,0.2
+Tranh chấp lao động tập thể là gì?,179,"179,192,191,194,198",True,1,1.0,0.2
+Ai có thẩm quyền hòa giải tranh chấp lao động?,185,"191,195,187,183,188",False,0,0.0,0.0
 Khi nào được yêu cầu Tòa án giải quyết tranh chấp lao động?,188,"190,189,194,191",False,0,0.0,0.0
-Đình công là gì?,198,"203,217,200,161,202",False,0,0.0,0.0
-Ai có quyền tổ chức đình công?,200,"203,201,204,202",False,0,0.0,0.0
+Đình công là gì?,198,"198,203,217,200,204",True,1,1.0,0.2
+Ai có quyền tổ chức đình công?,200,"203,198,204,201,202",False,0,0.0,0.0
 Trường hợp nào đình công là bất hợp pháp?,204,"204,217",True,1,1.0,0.2
-Khi nào được hoãn đình công?,210,"210,204,202,128,200",True,1,1.0,0.2
-Người lao động tham gia đình công có bị xử lý không?,207,"217,207,208,201,128",True,2,1.0,0.2
-Người lao động có quyền từ chối làm việc khi nào?,6,"10,35,3,5,143",False,0,0.0,0.0
-Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?,6,"134,159,6,100,5",True,3,1.0,0.2
-Người lao động phải tuân thủ quy định an toàn như thế nào?,6,"134,100,118,5,86",False,0,0.0,0.0
-Có được ép người lao động làm việc khi mất an toàn không?,6,"134,47,36,208,41",False,0,0.0,0.0
-Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?,6,"29,137,36,149,35",False,0,0.0,0.0
-Làm chưa đủ một năm thì nghỉ phép tính sao?,113,"113,143,109,156",True,1,1.0,0.2
-Đi làm ngày lễ thì tiền lương tính thế nào?,98,"98,112,113,41,97",True,1,1.0,0.2
+Khi nào được hoãn đình công?,210,"210,204,202,200,128",True,1,1.0,0.2
+Người lao động tham gia đình công có bị xử lý không?,207,"217,207,211,201,208",True,2,1.0,0.2
+Người lao động có quyền từ chối làm việc khi nào?,6,"10,35,5,143,177",False,0,0.0,0.0
+Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?,6,"134,159,6,132,100",True,3,1.0,0.2
+Người lao động phải tuân thủ quy định an toàn như thế nào?,6,"132,134,118,5,100",False,0,0.0,0.0
+Có được ép người lao động làm việc khi mất an toàn không?,6,"134,36,41,2,35",False,0,0.0,0.0
+Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?,6,"29,36,35,5,34",False,0,0.0,0.0
+Làm chưa đủ một năm thì nghỉ phép tính sao?,113,"113,143,156,114",True,1,1.0,0.2
+Đi làm ngày lễ thì tiền lương tính thế nào?,98,"98,112,41,113,97",True,1,1.0,0.2
 Công ty bắt thử việc ba tháng có đúng luật không?,25,"24,25,27",True,2,1.0,0.2
-Muốn nghỉ ngang thì có phải báo trước không?,35,"139,36,113,35,41",True,4,1.0,0.2
-Sếp giữ bằng đại học của nhân viên có hợp pháp không?,17,"17,18,177,137,14",True,1,1.0,0.2
-Nếu nghỉ việc thì công ty phải thanh toán tiền trong bao lâu?,48,"113,48,97,41,29",True,2,1.0,0.2
-Mình có được ký nhiều hợp đồng lao động cùng lúc không?,19,"20,19,76,55,61",True,2,1.0,0.2
+Muốn nghỉ ngang thì có phải báo trước không?,35,"139,36,35,125,113",True,3,1.0,0.2
+Sếp giữ bằng đại học của nhân viên có hợp pháp không?,17,"17,18,137,211,175",True,1,1.0,0.2
+Nếu nghỉ việc thì công ty phải thanh toán tiền trong bao lâu?,48,"113,48,41,116,128",True,2,1.0,0.2
+Mình có được ký nhiều hợp đồng lao động cùng lúc không?,19,"20,19,55,14,76",True,2,1.0,0.2
 Có thể nghỉ không lương vài ngày được không?,115,"115,111,113,98",True,1,1.0,0.2
-Doanh nghiệp được sa thải nhân viên trong trường hợp nào?,125,"34,125,137,124,68",True,2,1.0,0.2
-Bao nhiêu tuổi mới được phép đi làm hợp pháp?,143,"143,149,147,62,145",True,1,1.0,0.2
+Doanh nghiệp được sa thải nhân viên trong trường hợp nào?,125,"34,125,137,68,124",True,2,1.0,0.2
+Bao nhiêu tuổi mới được phép đi làm hợp pháp?,143,"143,147,145,18,149",True,1,1.0,0.2

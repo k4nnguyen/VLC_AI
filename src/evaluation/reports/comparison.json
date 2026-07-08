@@ -1,10 +1,10 @@
 {
     "summary": {
         "total": 120,
-        "miss_both": 20,
+        "miss_both": 10,
         "miss_embedding_only": 2,
-        "miss_bm25_only": 16,
-        "hit_both": 82
+        "miss_bm25_only": 18,
+        "hit_both": 90
     },
     "groups": {
         "miss_both": [
@@ -24,96 +24,6 @@
                 "question": "Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?",
                 "expected": [
                     2
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 21,
-                "category": "contract",
-                "question": "Khi nào hợp đồng lao động có hiệu lực?",
-                "expected": [
-                    23
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 29,
-                "category": "probation",
-                "question": "Tiền lương thử việc tối thiểu là bao nhiêu?",
-                "expected": [
-                    26
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 42,
-                "category": "working_time",
-                "question": "Làm việc ban đêm được tính từ mấy giờ?",
-                "expected": [
-                    106
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 55,
-                "category": "leave",
-                "question": "Bao lâu thì được tăng thêm ngày nghỉ hằng năm?",
-                "expected": [
-                    114
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 70,
-                "category": "discipline",
-                "question": "Kỷ luật lao động là gì?",
-                "expected": [
-                    117
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 82,
-                "category": "unknown",
-                "question": "Giấy phép lao động có thời hạn bao lâu?",
-                "expected": [
-                    155
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 87,
-                "category": "unknown",
-                "question": "Thương lượng tập thể là gì?",
-                "expected": [
-                    65
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 88,
-                "category": "unknown",
-                "question": "Nguyên tắc thương lượng tập thể gồm những gì?",
-                "expected": [
-                    66
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 92,
-                "category": "unknown",
-                "question": "Thời hạn của thỏa ước lao động tập thể là bao lâu?",
-                "expected": [
-                    83
                 ],
                 "embedding_hit": false,
                 "bm25_hit": false
@@ -144,16 +54,6 @@
                 "question": "Khi nào được yêu cầu Tòa án giải quyết tranh chấp lao động?",
                 "expected": [
                     188
-                ],
-                "embedding_hit": false,
-                "bm25_hit": false
-            },
-            {
-                "index": 100,
-                "category": "unknown",
-                "question": "Đình công là gì?",
-                "expected": [
-                    198
                 ],
                 "embedding_hit": false,
                 "bm25_hit": false
@@ -273,6 +173,16 @@
                 "bm25_hit": false
             },
             {
+                "index": 29,
+                "category": "probation",
+                "question": "Tiền lương thử việc tối thiểu là bao nhiêu?",
+                "expected": [
+                    26
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
                 "index": 61,
                 "category": "termination",
                 "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng không?",
@@ -318,6 +228,16 @@
                 "question": "Trường hợp nào không cần giấy phép lao động?",
                 "expected": [
                     154
+                ],
+                "embedding_hit": true,
+                "bm25_hit": false
+            },
+            {
+                "index": 87,
+                "category": "unknown",
+                "question": "Thương lượng tập thể là gì?",
+                "expected": [
+                    65
                 ],
                 "embedding_hit": true,
                 "bm25_hit": false
@@ -545,6 +465,16 @@
                 "bm25_hit": true
             },
             {
+                "index": 21,
+                "category": "contract",
+                "question": "Khi nào hợp đồng lao động có hiệu lực?",
+                "expected": [
+                    23
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
                 "index": 22,
                 "category": "contract",
                 "question": "Có được giao kết nhiều hợp đồng lao động không?",
@@ -735,6 +665,16 @@
                 "bm25_hit": true
             },
             {
+                "index": 42,
+                "category": "working_time",
+                "question": "Làm việc ban đêm được tính từ mấy giờ?",
+                "expected": [
+                    106
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
                 "index": 43,
                 "category": "working_time",
                 "question": "Làm thêm giờ được quy định như thế nào?",
@@ -855,6 +795,16 @@
                 "bm25_hit": true
             },
             {
+                "index": 55,
+                "category": "leave",
+                "question": "Bao lâu thì được tăng thêm ngày nghỉ hằng năm?",
+                "expected": [
+                    114
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
                 "index": 56,
                 "category": "leave",
                 "question": "Người lao động được nghỉ việc riêng khi nào?",
@@ -950,6 +900,16 @@
                 "question": "Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?",
                 "expected": [
                     48
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
+                "index": 70,
+                "category": "discipline",
+                "question": "Kỷ luật lao động là gì?",
+                "expected": [
+                    117
                 ],
                 "embedding_hit": true,
                 "bm25_hit": true
@@ -1055,6 +1015,16 @@
                 "bm25_hit": true
             },
             {
+                "index": 82,
+                "category": "unknown",
+                "question": "Giấy phép lao động có thời hạn bao lâu?",
+                "expected": [
+                    155
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
                 "index": 84,
                 "category": "unknown",
                 "question": "Khi nào giấy phép lao động bị thu hồi?",
@@ -1080,6 +1050,16 @@
                 "question": "Bao lâu phải tổ chức đối thoại tại nơi làm việc?",
                 "expected": [
                     63
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
+                "index": 88,
+                "category": "unknown",
+                "question": "Nguyên tắc thương lượng tập thể gồm những gì?",
+                "expected": [
+                    66
                 ],
                 "embedding_hit": true,
                 "bm25_hit": true
@@ -1115,11 +1095,31 @@
                 "bm25_hit": true
             },
             {
+                "index": 92,
+                "category": "unknown",
+                "question": "Thời hạn của thỏa ước lao động tập thể là bao lâu?",
+                "expected": [
+                    83
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
                 "index": 97,
                 "category": "unknown",
                 "question": "Tranh chấp lao động tập thể là gì?",
                 "expected": [
                     179
+                ],
+                "embedding_hit": true,
+                "bm25_hit": true
+            },
+            {
+                "index": 100,
+                "category": "unknown",
+                "question": "Đình công là gì?",
+                "expected": [
+                    198
                 ],
                 "embedding_hit": true,
                 "bm25_hit": true

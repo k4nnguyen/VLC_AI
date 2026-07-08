@@ -1,13 +1,13 @@
 {
     "overall": {
         "questions": 120,
-        "Recall@5": 0.8166666666666667,
-        "Precision@5": 0.16333333333333303,
-        "MRR": 0.740972222222222,
-        "HitRate": 0.8166666666666667,
-        "Success": 98,
-        "Failed": 22,
-        "AvgRank": 1.255
+        "Recall@5": 0.9,
+        "Precision@5": 0.17999999999999963,
+        "MRR": 0.8048611111111108,
+        "HitRate": 0.9,
+        "Success": 108,
+        "Failed": 12,
+        "AvgRank": 1.296
     },
     "details": [
         {
@@ -243,7 +243,8 @@
                 2,
                 181,
                 70,
-                174
+                174,
+                183
             ],
             "hit": true,
             "rank": 1,
@@ -383,15 +384,16 @@
                 23
             ],
             "retrieved": [
+                23,
                 22,
                 20,
                 21,
                 220
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 22,
@@ -438,6 +440,7 @@
             ],
             "retrieved": [
                 30,
+                31,
                 138,
                 29
             ],
@@ -472,12 +475,13 @@
             ],
             "retrieved": [
                 35,
+                39,
                 45,
                 34,
                 36
             ],
             "hit": true,
-            "rank": 3,
+            "rank": 4,
             "recall": 1.0,
             "precision": 0.2
         },
@@ -489,11 +493,11 @@
                 24
             ],
             "retrieved": [
-                24,
-                25
+                25,
+                24
             ],
             "hit": true,
-            "rank": 1,
+            "rank": 2,
             "recall": 1.0,
             "precision": 0.2
         },
@@ -521,15 +525,15 @@
                 26
             ],
             "retrieved": [
+                26,
                 91,
                 24,
-                90,
-                25
+                90
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 30,
@@ -574,10 +578,10 @@
             ],
             "retrieved": [
                 90,
+                26,
                 92,
                 96,
-                95,
-                101
+                95
             ],
             "hit": true,
             "rank": 1,
@@ -627,6 +631,7 @@
             "retrieved": [
                 96,
                 95,
+                99,
                 90
             ],
             "hit": true,
@@ -711,6 +716,7 @@
             ],
             "retrieved": [
                 105,
+                116,
                 107,
                 146
             ],
@@ -729,7 +735,8 @@
             "retrieved": [
                 105,
                 146,
-                111
+                111,
+                116
             ],
             "hit": true,
             "rank": 1,
@@ -744,15 +751,16 @@
                 106
             ],
             "retrieved": [
+                106,
                 146,
                 98,
                 109,
                 57
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 43,
@@ -813,9 +821,9 @@
             ],
             "retrieved": [
                 109,
-                111,
-                115,
-                112
+                116,
+                110,
+                111
             ],
             "hit": true,
             "rank": 1,
@@ -831,9 +839,9 @@
             ],
             "retrieved": [
                 109,
+                116,
                 107,
-                188,
-                194
+                188
             ],
             "hit": true,
             "rank": 1,
@@ -919,8 +927,8 @@
             "retrieved": [
                 113,
                 137,
-                123,
-                111
+                114,
+                123
             ],
             "hit": true,
             "rank": 1,
@@ -954,7 +962,8 @@
             ],
             "retrieved": [
                 113,
-                97
+                114,
+                155
             ],
             "hit": true,
             "rank": 1,
@@ -969,13 +978,14 @@
                 114
             ],
             "retrieved": [
+                114,
                 113,
                 111
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 56,
@@ -1004,8 +1014,8 @@
             "retrieved": [
                 115,
                 41,
-                37,
-                137
+                140,
+                37
             ],
             "hit": true,
             "rank": 1,
@@ -1053,11 +1063,12 @@
                 34
             ],
             "retrieved": [
+                39,
                 34,
                 45
             ],
             "hit": true,
-            "rank": 1,
+            "rank": 2,
             "recall": 1.0,
             "precision": 0.2
         },
@@ -1069,13 +1080,14 @@
                 35
             ],
             "retrieved": [
+                39,
                 35,
                 36,
-                37,
-                34
+                38,
+                37
             ],
             "hit": true,
-            "rank": 1,
+            "rank": 2,
             "recall": 1.0,
             "precision": 0.2
         },
@@ -1215,7 +1227,7 @@
                 113,
                 41,
                 53,
-                128
+                116
             ],
             "hit": true,
             "rank": 1,
@@ -1230,15 +1242,15 @@
                 117
             ],
             "retrieved": [
+                117,
                 123,
                 122,
-                127,
-                118
+                127
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 71,
@@ -1297,10 +1309,10 @@
                 124
             ],
             "retrieved": [
+                117,
                 122,
                 123,
-                125,
-                126
+                125
             ],
             "hit": false,
             "rank": 0,
@@ -1368,6 +1380,7 @@
             ],
             "retrieved": [
                 122,
+                131,
                 125
             ],
             "hit": true,
@@ -1433,15 +1446,15 @@
                 155
             ],
             "retrieved": [
+                155,
                 156,
                 162,
-                151,
-                190
+                151
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 83,
@@ -1451,11 +1464,13 @@
                 154
             ],
             "retrieved": [
+                155,
                 156,
-                154
+                154,
+                157
             ],
             "hit": true,
-            "rank": 2,
+            "rank": 3,
             "recall": 1.0,
             "precision": 0.2
         },
@@ -1469,7 +1484,8 @@
             "retrieved": [
                 156,
                 172,
-                36
+                155,
+                157
             ],
             "hit": true,
             "rank": 1,
@@ -1516,15 +1532,15 @@
                 65
             ],
             "retrieved": [
+                65,
+                66,
                 71,
-                73,
-                68,
-                67
+                73
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 88,
@@ -1534,15 +1550,16 @@
                 66
             ],
             "retrieved": [
+                66,
+                65,
                 72,
                 73,
-                70,
-                67
+                70
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 89,
@@ -1555,7 +1572,7 @@
                 68,
                 69,
                 73,
-                70
+                65
             ],
             "hit": true,
             "rank": 1,
@@ -1607,13 +1624,13 @@
             ],
             "retrieved": [
                 78,
-                70,
-                197
+                83,
+                77
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 93,
@@ -1642,8 +1659,8 @@
             ],
             "retrieved": [
                 78,
-                79,
-                80
+                83,
+                79
             ],
             "hit": false,
             "rank": 0,
@@ -1659,8 +1676,8 @@
             ],
             "retrieved": [
                 179,
-                180,
-                188
+                183,
+                180
             ],
             "hit": true,
             "rank": 1,
@@ -1676,9 +1693,9 @@
             ],
             "retrieved": [
                 179,
+                187,
                 188,
-                180,
-                190
+                183
             ],
             "hit": true,
             "rank": 1,
@@ -1712,8 +1729,8 @@
             "retrieved": [
                 191,
                 187,
-                195,
-                180
+                183,
+                195
             ],
             "hit": false,
             "rank": 0,
@@ -1745,16 +1762,16 @@
                 198
             ],
             "retrieved": [
+                198,
                 200,
                 217,
                 203,
-                204,
-                201
+                204
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 101,
@@ -1764,10 +1781,10 @@
                 200
             ],
             "retrieved": [
+                198,
                 203,
                 201,
-                204,
-                202
+                204
             ],
             "hit": false,
             "rank": 0,
@@ -1818,6 +1835,7 @@
             "retrieved": [
                 207,
                 217,
+                211,
                 201
             ],
             "hit": true,
@@ -1855,7 +1873,7 @@
                 134,
                 159,
                 6,
-                5
+                132
             ],
             "hit": true,
             "rank": 3,
@@ -1870,10 +1888,10 @@
                 6
             ],
             "retrieved": [
+                132,
                 134,
                 118,
-                5,
-                215
+                5
             ],
             "hit": false,
             "rank": 0,
@@ -1995,13 +2013,13 @@
             ],
             "retrieved": [
                 137,
+                211,
                 175,
                 17,
-                18,
-                177
+                18
             ],
             "hit": true,
-            "rank": 3,
+            "rank": 4,
             "recall": 1.0,
             "precision": 0.2
         },
@@ -2016,8 +2034,8 @@
                 113,
                 48,
                 41,
-                128,
-                101
+                116,
+                128
             ],
             "hit": true,
             "rank": 2,

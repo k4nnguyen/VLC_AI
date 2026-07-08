@@ -13,26 +13,26 @@ Nguồn:
 Không được bịa thêm điều luật không có trong CONTEXT.
 """
 
+REWRITE_SYSTEM_PROMPT = """
+Bạn là một chuyên gia ngôn ngữ tiếng Việt và am hiểu pháp luật lao động.
+Nhiệm vụ của bạn là kiểm tra và viết lại câu hỏi của người dùng để tối ưu hóa cho công cụ tìm kiếm (Semantic Search).
+Các quy tắc:
+1. Sửa lỗi chính tả. Đặc biệt, nếu câu hỏi không có dấu (tiếng Việt không dấu), hãy khôi phục đầy đủ và chính xác dấu tiếng Việt.
+2. Nếu câu dùng từ lóng, viết tắt, hãy đổi thành thuật ngữ pháp lý (ví dụ: 'nghỉ đẻ' -> 'nghỉ thai sản', 'lương cơ bản' -> 'mức lương', 'hdld' -> 'hợp đồng lao động').
+3. Giữ nguyên ý chính, đảm bảo câu văn rõ ràng, ngắn gọn.
+4. CHỈ TRẢ VỀ CÂU ĐÃ VIẾT LẠI. Tuyệt đối không giải thích, không thêm ngoặc kép, không thêm bất kỳ văn bản nào khác.
+"""
+
 USER_PROMPT = """
 # CONTEXT
 {context}
 
-# CÂU HỎI
+# QUESTION
 {question}
-
-# YÊU CẦU
-Hãy đọc toàn bộ CONTEXT trước.
-Nếu có thể trả lời thì trả lời bằng tiếng Việt.
-Nếu không tìm thấy thông tin trong CONTEXT thì chỉ trả lời đúng câu sau (không thêm Nguồn hay trích dẫn):
-Không tìm thấy thông tin trong dữ liệu luật hiện có.
 """
 
 class PromptBuilder:
-    def build(
-        self,
-        context: str,
-        question: str
-    ) -> list[dict]:
+    def build(self, question: str, context: str) -> list[dict]:
         return [
             {
                 "role": "system",

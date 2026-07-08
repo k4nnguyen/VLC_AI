@@ -12,8 +12,28 @@ class LegalRAG:
         self.citation_verifier = CitationVerifier()
         self.query_preprocessor = QueryPreprocessor()
 
+    def rewrite_query(self, question: str) -> str:
+        from src.llm.prompt_builder import REWRITE_SYSTEM_PROMPT
+        messages = [
+            {"role": "system", "content": REWRITE_SYSTEM_PROMPT},
+            {"role": "user", "content": question}
+        ]
+        try:
+            # We use self.llm to generate the rewritten query
+            rewritten = self.llm.chat(messages).strip()
+            # Fallback to original question if LLM returns empty
+            return rewritten if rewritten else question
+        except Exception:
+            return question
+
     def retrieve(self, question: str, k: int = 5):
-        clean_question = self.query_preprocessor.preprocess(question)
+        # 1. Ask LLM to rewrite query (add accents, fix slangs)
+        rewritten_question = self.rewrite_query(question)
+        
+        # 2. Basic pre-processing (lowercase, spaces)
+        clean_question = self.query_preprocessor.preprocess(rewritten_question)
+        
+        # 3. Retrieve
         results = self.retriever.retrieve(clean_question, k=k)
         return clean_question, results
 
