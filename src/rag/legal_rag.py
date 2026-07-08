@@ -42,6 +42,17 @@ class LegalRAG:
             allowed_citations,
         )
 
+        citation_to_content = {}
+        for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
+            citation = meta.get("citation")
+            if citation:
+                citation_to_content[citation] = doc
+
+        detailed_citations = []
+        for cite in sorted(verified_citations):
+            content = citation_to_content.get(cite, "")
+            detailed_citations.append(f"**{cite}**:\n\n{content.strip()}")
+
         return {
             "question": question,
             "rewritten_question": rewritten_question,
@@ -49,7 +60,7 @@ class LegalRAG:
             "context": context,
             "messages": messages,
             "answer": answer,
-            "verified_citations": sorted(verified_citations),
+            "verified_citations": detailed_citations,
         }
     
         
