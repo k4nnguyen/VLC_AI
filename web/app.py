@@ -120,7 +120,7 @@ for message in st.session_state.messages:
                     st.info(cite)
 
 # Chat input
-if prompt := st.chat_input("Nhập câu hỏi của bạn (VD: Thời gian nghỉ thai sản?)..."):
+if prompt := st.chat_input("Nhập câu hỏi của bạn (VD: Thời gian nghỉ thai sản?)...", max_chars=500):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
