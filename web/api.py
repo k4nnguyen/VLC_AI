@@ -33,9 +33,9 @@ def startup_event():
     hybrid_retriever = HybridRRFRetriever(
         vector_retriever=Retriever(store),
         bm25_retriever=BM25Retriever(chunks),
-        vector_k=10,
-        bm25_k=10,
-        final_k=10,
+        vector_k=15,
+        bm25_k=15,
+        final_k=15,
     )
     
     llm = OpenAILLM(
