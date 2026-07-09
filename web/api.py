@@ -23,10 +23,15 @@ app = FastAPI(title="VLC AI Backend API")
 
 # Global RAG instance
 rag_system = None
+semantic_cache = None
 
 @app.on_event("startup")
 def startup_event():
-    global rag_system
+    global rag_system, semantic_cache
+    
+    from src.rag.semantic_cache import SemanticCache
+    semantic_cache = SemanticCache(threshold=0.95)
+    
     print("Initializing Database and Models...")
     store, chunks = init_database()
     
@@ -69,7 +74,21 @@ def startup_event():
     graph_retriever = GraphRetriever(hybrid_retriever, graph)
     
     rag_system = LegalRAG(graph_retriever, llm)
-    print("Graph RAG System Initialized.")
+    
+    # ---------------------------------------------------------
+    # WARM-UP (LÀM NÓNG HỆ THỐNG): 
+    # Chạy thử 1 câu hỏi ngầm để kích hoạt (load) các model Pytorch/BM25 
+    # vào RAM và mở sẵn kết nối mạng (SSL handshake) với OpenAI. 
+    # Việc này giúp câu hỏi ĐẦU TIÊN của user sau khi restart sẽ không bị chậm (Cold Start).
+    print("Warming up models with a dummy query...")
+    try:
+        _ = rag_system.retrieve("warm up", k=1)
+        # Nếu muốn warmup luôn cả OpenAI thì mở cmt dòng dưới (tốn 1 xíu API)
+        # _ = rag_system.ask("warm up", k=1) 
+    except Exception as e:
+        print(f"Warmup warning: {e}")
+        
+    print("Graph RAG System Initialized and Ready!")
 
 class QueryRequest(BaseModel):
     question: str
@@ -90,7 +109,20 @@ def ask_question(request: QueryRequest):
         raise HTTPException(status_code=503, detail="System is still initializing.")
     
     try:
+        # TỐI ƯU 2: Kiểm tra Semantic Cache
+        cached_trace = semantic_cache.get_cached_answer(request.question)
+        if cached_trace:
+            return QueryResponse(
+                answer=cached_trace["answer"],
+                verified_citations=cached_trace["verified_citations"]
+            )
+
+        # Nếu không có trong cache, chạy RAG bình thường
         trace = rag_system.ask_with_trace(request.question, k=request.k)
+        
+        # Lưu lại vào cache cho lần sau
+        semantic_cache.add_to_cache(request.question, trace)
+
         return QueryResponse(
             answer=trace["answer"],
             verified_citations=trace["verified_citations"]
