@@ -21,8 +21,6 @@ class QueryPreprocessor:
             "thưởng tết": "tiền thưởng",
             "tai nạn lđ": "tai nạn lao động",
             "bệnh nn": "bệnh nghề nghiệp",
-            "nghỉ phép": "nghỉ hằng năm",
-            "nghỉ ốm": "nghỉ ốm đau",
             "nghỉ đẻ xong": "sau khi sinh con",
             "phạt tiền": "xử lý kỷ luật",
             "trừ lương": "khấu trừ tiền lương",
@@ -35,7 +33,6 @@ class QueryPreprocessor:
             "sếp": "người sử dụng lao động",
             "vợ đẻ": "vợ sinh con",
             "cưới": "kết hôn",
-            "đám tang": "việc hiếu",
             "lễ tết": "nghỉ lễ",
             "tăng ca": "làm thêm giờ"
         }

@@ -30,6 +30,33 @@ def startup_event():
     print("Initializing Database and Models...")
     store, chunks = init_database()
     
+    # Khởi tạo LLM trước
+    llm = OpenAILLM(
+        api_key=os.getenv("OPENAI_API_KEY"),
+        base_url=os.getenv("OPENAI_BASE_URL"),
+        model=os.getenv("OPENAI_MODEL")
+    )
+    
+    # Khởi tạo Knowledge Graph
+    from pathlib import Path
+    from src.loaders.docx_loader import DocxLoader
+    from src.cleaners.text_cleaner import TextCleaner
+    from src.parsing.structure_parser import StructureParser
+    from src.parsing.hierarchy_parser import HierarchyParser
+    from src.graph.graph_builder import KnowledgeGraphBuilder
+    from src.graph.concept_extractor import ConceptExtractor
+    from src.retrieval.graph_retriever import GraphRetriever
+
+    print("Building Knowledge Graph from cache...")
+    loader = DocxLoader()
+    raw_doc = loader.load(Path("data/raw/lao_dong.docx"))
+    legal_document = HierarchyParser().parse(StructureParser().parse(TextCleaner().clean(raw_doc)))
+    
+    # Tải cache concept lên đồ thị
+    extractor = ConceptExtractor(llm, cache_file="data/processed/concepts_cache.json")
+    builder = KnowledgeGraphBuilder(concept_extractor=extractor)
+    graph = builder.build(legal_document)
+    
     hybrid_retriever = HybridRRFRetriever(
         vector_retriever=Retriever(store),
         bm25_retriever=BM25Retriever(chunks),
@@ -38,14 +65,11 @@ def startup_event():
         final_k=15,
     )
     
-    llm = OpenAILLM(
-        api_key=os.getenv("OPENAI_API_KEY"),
-        base_url=os.getenv("OPENAI_BASE_URL"),
-        model=os.getenv("OPENAI_MODEL")
-    )
+    # Bọc Hybrid Retriever bằng Graph Retriever để mở rộng ngữ cảnh
+    graph_retriever = GraphRetriever(hybrid_retriever, graph)
     
-    rag_system = LegalRAG(hybrid_retriever, llm)
-    print("RAG System Initialized.")
+    rag_system = LegalRAG(graph_retriever, llm)
+    print("Graph RAG System Initialized.")
 
 class QueryRequest(BaseModel):
     question: str

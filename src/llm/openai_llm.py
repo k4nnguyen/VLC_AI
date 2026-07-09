@@ -9,7 +9,9 @@ class OpenAILLM(BaseLLM):
     ):
         self.client = OpenAI(
             api_key=api_key,
-            base_url=base_url
+            base_url=base_url,
+            timeout=15.0, # Tránh bị treo nếu server phản hồi chậm
+            max_retries=2 # Tự động thử lại nếu lỗi mạng
         )
         self.model = model
     def chat(self, 
