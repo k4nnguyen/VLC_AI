@@ -13,6 +13,15 @@ class LegalRAG:
         self.query_preprocessor = QueryPreprocessor()
 
     def rewrite_query(self, question: str) -> str:
+        import re
+        # TỐI ƯU 1: BỎ QUA REWRITE NẾU ĐÃ LÀ TIẾNG VIỆT CÓ DẤU (Tiết kiệm 2-3s)
+        # Kiểm tra xem câu hỏi có chứa các dấu tiếng Việt phổ biến không
+        has_accents = re.search(r'[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]', question, re.IGNORECASE)
+        
+        # Nếu đã có dấu hoặc câu hỏi quá ngắn, trả về luôn bản gốc
+        if has_accents or len(question) < 5:
+            return question
+
         from src.llm.prompt_builder import REWRITE_SYSTEM_PROMPT
         messages = [
             {"role": "system", "content": REWRITE_SYSTEM_PROMPT},
