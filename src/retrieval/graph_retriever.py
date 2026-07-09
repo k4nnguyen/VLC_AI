@@ -61,8 +61,10 @@ class GraphRetriever:
                     parent_node = self.graph.nodes[parent_id]
                     parent_citation = parent_node.get("citation")
                     if parent_citation and parent_citation not in seen_citations:
-                        # Thêm bối cảnh của Điều luật chứa Khoản này
-                        expanded_docs.append(f"[BỐI CẢNH CỦA {citation}]:\n{parent_node.get('text', '')}")
+                        # TỐI ƯU HÓA: Chỉ lấy Tên Điều luật (title) thay vì toàn bộ nội dung (text) 
+                        # Việc lấy toàn bộ Text của Article cha làm Context phình to gấp 10 lần, gây chậm API.
+                        parent_title = parent_node.get("title", parent_node.get("citation"))
+                        expanded_docs.append(f"[BỐI CẢNH CỦA {citation}]: {parent_title}")
                         expanded_metas.append({"citation": parent_citation, "type": "context"})
                         seen_citations.add(parent_citation)
                         
