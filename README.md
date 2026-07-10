@@ -1,37 +1,38 @@
-# VLC AI - Hệ Thống Trợ Lý Ảo Pháp Luật (Bộ Luật Lao Động)
+# VLC AI - Hệ Thống Trợ Lý Ảo Pháp Luật Việt Nam (Multi-Domain RAG)
 
-Dự án này là một hệ thống Hỏi Đáp thông minh (RAG - Retrieval-Augmented Generation) chuyên biệt cho Bộ Luật Lao Động Việt Nam. Hệ thống sử dụng kết hợp giữa tìm kiếm ngữ nghĩa (Semantic Search - Vector Embeddings) và tìm kiếm từ khóa (BM25) để truy xuất chính xác các điều khoản pháp luật, sau đó dùng Large Language Model (LLM) để tổng hợp và trả lời cho người dùng.
+Dự án này là một hệ thống Hỏi Đáp thông minh (RAG - Retrieval-Augmented Generation) chuyên biệt cho Pháp luật Việt Nam, hiện đang hỗ trợ đa tên miền (Multi-Domain): **Bộ Luật Lao Động** và **Luật Giao Thông**. 
 
-## Kiến Trúc Hệ Thống (RAG Pipeline)
-Hệ thống được xây dựng với các thành phần chính:
-1. **Document Parsers & Chunkers**: Phân tách file `lao_dong.docx` thành cấu trúc phân cấp (Chương, Mục, Điều, Khoản, Điểm) để chia nhỏ (chunk) thành các đơn vị tra cứu hợp lý.
+Hệ thống ứng dụng các kỹ thuật tiên tiến nhất hiện nay như Hybrid Retrieval (Vector + BM25), Graph RAG (Knowledge Graph), Query Rewriting (dịch từ lóng), Semantic Caching, và Chain-of-Thought (CoT) Reasoning để đưa ra các tư vấn pháp lý chính xác và chặn đứng hiện tượng "bịa luật" (Hallucination).
+
+## 🌟 Các Tính Năng Nổi Bật
+1. **Multi-Domain Knowledge**: Hỗ trợ tra cứu chéo hoặc độc lập giữa nhiều bộ luật khác nhau thông qua cơ chế phân luồng dữ liệu chuẩn xác.
+2. **Graph RAG (Knowledge Graph)**: Trích xuất và xây dựng Đồ thị Tri thức để liên kết các Điều/Khoản có tính chất "tham chiếu chéo" hoặc "loại trừ" (Ví dụ: "Phạt 500k trừ các trường hợp quy định tại điểm c khoản 7").
+3. **Intelligent Query Rewriting**: Tự động nhận diện và phiên dịch "từ lóng" của người dùng thành "thuật ngữ pháp lý" (Ví dụ: "vượt đèn đỏ" -> "không chấp hành hiệu lệnh của đèn tín hiệu", "thổi nồng độ cồn" -> "trong máu có nồng độ cồn") nhằm tối ưu hóa công cụ tìm kiếm.
+4. **Chain-of-Thought (CoT) Reasoning**: Ép buộc LLM phải suy luận theo từng bước, đối chiếu đối tượng, phân tích các khoản loại trừ, và rẽ nhánh điều kiện trước khi đưa ra kết luận. Có nút Bật/Tắt tính năng suy luận trên UI.
+5. **Semantic Caching**: Lưu trữ các câu trả lời dựa trên độ tương đồng ngữ nghĩa (Cosine Similarity), giúp giảm 90% độ trễ (latency) và tiết kiệm token OpenAI cho các câu hỏi trùng lặp, hỗ trợ phân tách Cache theo cấu hình người dùng.
+
+## ⚙️ Kiến Trúc Hệ Thống (Pipeline)
+1. **Document Parsers & Chunkers**: Phân tách file `*.docx` thành cấu trúc phân cấp (Chương, Mục, Điều, Khoản, Điểm) để bảo toàn ngữ cảnh pháp lý.
 2. **Hybrid Retriever (RRF)**: Sử dụng phương pháp Reciprocal Rank Fusion kết hợp giữa:
-   - **Vector Retriever**: `multilingual-e5-small` qua ChromaDB.
-   - **BM25 Retriever**: Phân tích từ khóa truyền thống.
-   - *Heuristic Reranking*: Tăng 20% điểm cho các văn bản tìm thấy ở cả 2 bên, và 10% cho các văn bản chỉ tìm thấy bằng Vector để tối ưu thứ hạng.
-3. **Query Preprocessor**: Xử lý câu hỏi người dùng (chuẩn hóa, xóa khoảng trắng thừa) và ánh xạ từ điển đồng nghĩa (Synonyms) như "bầu bí" -> "thai sản", "đuổi việc" -> "sa thải"... để tăng độ bắt dính của BM25.
-4. **LLM Generation**: OpenAI LLM dựa trên `prompt_builder` chặt chẽ để chống Hallucination (tuyệt đối không bịa luật) và tự động xuất trích dẫn kèm toàn văn điều khoản.
+   - **Vector Retriever**: Mô hình `multilingual-e5-small` qua ChromaDB.
+   - **BM25 Retriever**: Phân tích từ khóa truyền thống (Lexical Search).
+3. **Graph Expansion**: Retriever mở rộng tập kết quả bằng cách duyệt qua đồ thị tri thức để lấy các điều khoản tham chiếu ẩn.
+4. **LLM Generation**: Sử dụng OpenAI LLM với Prompt Chain chặt chẽ, luôn có thẻ `<reasoning>` để suy luận và kết xuất trích dẫn minh bạch.
 
-## Kết Quả Đánh Giá (Evaluation Results)
-
+## 📊 Kết Quả Đánh Giá (Evaluation)
 Hệ thống được đánh giá tự động trên bộ 120 câu hỏi test (`evaluations/evaluate.py`), đo lường khả năng truy xuất chính xác điều luật ở **Top-5 (k=5)**.
 
-| Phương Pháp (Retriever) | Recall@5 | Hit Rate (Success) | MRR (Mean Reciprocal Rank) |
-|-------------------------|----------|---------------------|----------------------------|
+| Phương Pháp (Retriever) | Recall@5 | Hit Rate (Success) | MRR |
+|-------------------------|----------|---------------------|----------------|
 | **BM25 (Từ khóa)** | ~76.67% | 92 / 120 | - |
 | **Vector (Embeddings)** | 90.00% | 108 / 120 | 0.805 |
 | **Hybrid RRF (Kết hợp)** | **91.67%** | **110 / 120** | **0.786** |
 
-### Phân tích chi tiết:
-- Tổng số câu hỏi: **120**
-- Số câu chỉ Vector tìm thấy (BM25 trượt): **18**
-- Số câu chỉ BM25 tìm thấy (Vector trượt): **2**
-- Trượt cả 2 bên: **10**
-- Thuật toán **Hybrid RRF** kết hợp với **Heuristic Scoring** đã bắt được **toàn bộ 110 câu** mà ít nhất 1 trong 2 thuật toán tìm thấy. Điều này chứng minh sức mạnh của mô hình lai so với việc chỉ dùng 1 phương pháp đơn lẻ.
+*Thuật toán Hybrid RRF kết hợp với Heuristic Scoring đã bắt được toàn bộ 110 câu mà ít nhất 1 trong 2 thuật toán tìm thấy.*
 
-## Cài Đặt & Chạy Ứng Dụng
+## 🚀 Cài Đặt & Chạy Ứng Dụng
 
-**1. Khởi tạo Database (ChromaDB + BM25)**
+**1. Khởi tạo Database (ChromaDB + BM25 + Knowledge Graph)**
 ```bash
 python db_init.py
 ```

@@ -1,121 +1,271 @@
 question,expected,retrieved,hit,rank,recall,precision
-Người lao động là gì?,3,"3,148,161",True,1,1.0,0.2
-Người sử dụng lao động là gì?,3,"3,163",True,1,1.0,0.2
-Tổ chức đại diện người lao động là gì?,3,"3,178,170",True,1,1.0,0.2
-Quan hệ lao động là gì?,3,"3,7,2",True,1,1.0,0.2
-Phân biệt người lao động và người sử dụng lao động.,3,"3,163",True,1,1.0,0.2
-Các nguyên tắc của pháp luật lao động là gì?,5,"15,4,180,118,122",False,0,0.0,0.0
-Quyền của người lao động gồm những gì?,5,"5,6,10",True,1,1.0,0.2
-Nghĩa vụ của người lao động gồm những gì?,5,"5,164,6",True,1,1.0,0.2
-Những hành vi nào bị nghiêm cấm trong lao động?,8,"8,127",True,1,1.0,0.2
-Phân biệt đối xử trong lao động có bị cấm không?,8,"8,3,175,57",True,1,1.0,0.2
-Đối tượng áp dụng của Bộ luật Lao động là ai?,2,"2,173,18",True,1,1.0,0.2
-Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?,2,"151,154,152,153",False,0,0.0,0.0
-Người sử dụng lao động có thuộc đối tượng áp dụng không?,2,"2,3,159",True,1,1.0,0.2
-Các cơ quan tổ chức có liên quan có thuộc đối tượng áp dụng không?,2,"2,181,70,174,183",True,1,1.0,0.2
-Bộ luật Lao động áp dụng cho những đối tượng nào?,2,"2,4",True,1,1.0,0.2
-Hợp đồng lao động là gì?,13,"13,162,21,22",True,1,1.0,0.2
-Hợp đồng lao động có bắt buộc bằng văn bản không?,14,"14,21,162,13,55",True,1,1.0,0.2
-Có được giao kết hợp đồng bằng lời nói không?,14,"14,15,19,16",True,1,1.0,0.2
-Nguyên tắc giao kết hợp đồng lao động là gì?,15,"15,14,18,19",True,1,1.0,0.2
-Nội dung chủ yếu của hợp đồng lao động gồm gì?,21,"21,13,162,55",True,1,1.0,0.2
-Phụ lục hợp đồng lao động dùng để làm gì?,22,"22,33,162,21",True,1,1.0,0.2
-Khi nào hợp đồng lao động có hiệu lực?,23,"23,22,20,21,220",True,1,1.0,0.2
-Có được giao kết nhiều hợp đồng lao động không?,19,"19,20,14",True,1,1.0,0.2
-Có mấy loại hợp đồng lao động?,20,"13,21,20,162,22",True,3,1.0,0.2
-Khi nào được tạm hoãn thực hiện hợp đồng lao động?,30,"30,31,138,29",True,1,1.0,0.2
-Có được sửa đổi hợp đồng lao động không?,33,"33,51,22",True,1,1.0,0.2
-Khi nào hợp đồng lao động chấm dứt?,34,"35,39,45,34,36",True,4,1.0,0.2
-Có bắt buộc phải thử việc không?,24,"25,24",True,2,1.0,0.2
-Thử việc tối đa bao nhiêu ngày?,25,"25,105",True,1,1.0,0.2
-Tiền lương thử việc tối thiểu là bao nhiêu?,26,"26,91,24,90",True,1,1.0,0.2
-Kết thúc thời gian thử việc phải làm gì?,27,"27,24,25",True,1,1.0,0.2
-Có được hủy bỏ thỏa thuận thử việc không?,27,"27,34,24",True,1,1.0,0.2
-Tiền lương là gì?,90,"90,26,92,96,95",True,1,1.0,0.2
-Mức lương tối thiểu được quy định như thế nào?,91,"91,90",True,1,1.0,0.2
-Nguyên tắc trả lương là gì?,94,"94,96,90",True,1,1.0,0.2
-Người lao động được trả lương bằng những hình thức nào?,96,"96,95,99,90",True,1,1.0,0.2
-Kỳ hạn trả lương được quy định như thế nào?,97,"97,113",True,1,1.0,0.2
-Làm thêm giờ được trả lương như thế nào?,98,"98,107,108",True,1,1.0,0.2
-Có được khấu trừ tiền lương của người lao động không?,102,"102,41,99",True,1,1.0,0.2
-Thưởng là gì?,104,"104,30,5,8",True,1,1.0,0.2
-Thời giờ làm việc bình thường là bao nhiêu giờ?,105,"105,116,107,146",True,1,1.0,0.2
-Một tuần được làm việc tối đa bao nhiêu giờ?,105,"105,146,111,116",True,1,1.0,0.2
-Làm việc ban đêm được tính từ mấy giờ?,106,"106,146,98,109,57",True,1,1.0,0.2
-Làm thêm giờ được quy định như thế nào?,107,"107,108",True,1,1.0,0.2
-Một tháng được làm thêm tối đa bao nhiêu giờ?,107,"107,146,98",True,1,1.0,0.2
-Một năm được làm thêm tối đa bao nhiêu giờ?,107,"107,98,146",True,1,1.0,0.2
-Người lao động được nghỉ giữa giờ như thế nào?,109,"109,116,110,111",True,1,1.0,0.2
-Có được nghỉ giải lao trong giờ làm việc không?,109,"109,116,107,188",True,1,1.0,0.2
-Mỗi tuần người lao động được nghỉ bao nhiêu ngày?,111,"111,115,113",True,1,1.0,0.2
-Nếu không nghỉ hằng tuần thì xử lý thế nào?,111,"111,125,113",True,1,1.0,0.2
-Người lao động được nghỉ lễ bao nhiêu ngày?,112,"112,111,115",True,1,1.0,0.2
-Những ngày nghỉ lễ được hưởng nguyên lương gồm những ngày nào?,112,"112,115,111,113",True,1,1.0,0.2
-Làm đủ 12 tháng được nghỉ phép bao nhiêu ngày?,113,"113,137,114,123",True,1,1.0,0.2
-Làm chưa đủ 12 tháng thì nghỉ phép được tính thế nào?,113,"113,36,143,34",True,1,1.0,0.2
-Có được gộp ngày nghỉ phép nhiều năm không?,113,"113,114,155",True,1,1.0,0.2
-Bao lâu thì được tăng thêm ngày nghỉ hằng năm?,114,"114,113,111",True,1,1.0,0.2
-Người lao động được nghỉ việc riêng khi nào?,115,"115,37,112",True,1,1.0,0.2
-Ông bà mất có được nghỉ làm không?,115,"115,41,140,37",True,1,1.0,0.2
-Có được nghỉ không hưởng lương không?,115,"115,113",True,1,1.0,0.2
-Nghỉ phép năm có được hưởng nguyên lương không?,113,"113,112,115",True,1,1.0,0.2
-Các trường hợp chấm dứt hợp đồng lao động là gì?,34,"39,34,45",True,2,1.0,0.2
-Người lao động có quyền đơn phương chấm dứt hợp đồng không?,35,"39,35,36,38,37",True,2,1.0,0.2
-Người lao động phải báo trước bao lâu khi nghỉ việc?,35,"36,35,29,115,139",True,2,1.0,0.2
-Khi nào người lao động được nghỉ việc không cần báo trước?,35,"36,35,139,115",True,2,1.0,0.2
-Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?,36,"34,35,36,37",True,3,1.0,0.2
-Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?,37,"35,37,36,34",True,2,1.0,0.2
-Đang nghỉ phép thì có bị cho thôi việc không?,37,"113,156,40,37",True,4,1.0,0.2
-Người lao động được trợ cấp thôi việc khi nào?,46,"46,40,41",True,1,1.0,0.2
-Trợ cấp mất việc làm được quy định như thế nào?,47,"47,43",True,1,1.0,0.2
-Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?,48,"48,113,41,53,116",True,1,1.0,0.2
-Kỷ luật lao động là gì?,117,"117,123,122,127",True,1,1.0,0.2
-Nội quy lao động phải có những nội dung gì?,118,"118,64,21",True,1,1.0,0.2
-Nguyên tắc xử lý kỷ luật lao động là gì?,122,122,True,1,1.0,0.2
-Thời hiệu xử lý kỷ luật lao động là bao lâu?,123,"123,126,124",True,1,1.0,0.2
-Có những hình thức kỷ luật lao động nào?,124,"117,122,123,125",False,0,0.0,0.0
-Khi nào người lao động bị sa thải?,125,"34,125,137,177",True,2,1.0,0.2
-Có được xử lý kỷ luật lao động đối với người đang nghỉ ốm không?,122,"122,126,34",True,1,1.0,0.2
-Sa thải là một hình thức kỷ luật lao động đúng không?,124,"34,125,124",True,3,1.0,0.2
-Người lao động có quyền tự bào chữa khi bị xử lý kỷ luật không?,122,"122,131,125",True,1,1.0,0.2
-Có được xử lý nhiều hình thức kỷ luật cùng lúc không?,122,"122,125,127",True,1,1.0,0.2
-Người lao động nước ngoài làm việc tại Việt Nam phải đáp ứng điều kiện gì?,151,"151,152",True,1,1.0,0.2
-Khi nào người nước ngoài được tuyển dụng vào Việt Nam?,152,"152,150,151",True,1,1.0,0.2
-Giấy phép lao động có thời hạn bao lâu?,155,"155,156,162,151",True,1,1.0,0.2
-Trường hợp nào không cần giấy phép lao động?,154,"155,156,154,157",True,3,1.0,0.2
-Khi nào giấy phép lao động bị thu hồi?,156,"156,172,155,157",True,1,1.0,0.2
-Đối thoại tại nơi làm việc là gì?,63,"63,64",True,1,1.0,0.2
-Bao lâu phải tổ chức đối thoại tại nơi làm việc?,63,"63,64",True,1,1.0,0.2
-Thương lượng tập thể là gì?,65,"65,66,71,73",True,1,1.0,0.2
-Nguyên tắc thương lượng tập thể gồm những gì?,66,"66,65,72,73,70",True,1,1.0,0.2
-Ai có quyền yêu cầu thương lượng tập thể?,68,"68,69,73,65",True,1,1.0,0.2
-Thỏa ước lao động tập thể là gì?,75,"75,86,78,82,76",True,1,1.0,0.2
-Thỏa ước lao động tập thể có hiệu lực khi nào?,78,"78,75,79",True,1,1.0,0.2
-Thời hạn của thỏa ước lao động tập thể là bao lâu?,83,"78,83,77",True,2,1.0,0.2
-Có được sửa đổi thỏa ước lao động tập thể không?,84,"82,79,75,80",False,0,0.0,0.0
-Khi nào thỏa ước lao động tập thể hết hiệu lực?,86,"78,83,79",False,0,0.0,0.0
-Tranh chấp lao động là gì?,179,"179,183,180",True,1,1.0,0.2
-Tranh chấp lao động cá nhân là gì?,179,"179,187,188,183",True,1,1.0,0.2
-Tranh chấp lao động tập thể là gì?,179,"179,192,191",True,1,1.0,0.2
-Ai có thẩm quyền hòa giải tranh chấp lao động?,185,"191,187,183,195",False,0,0.0,0.0
-Khi nào được yêu cầu Tòa án giải quyết tranh chấp lao động?,188,"190,194,189",False,0,0.0,0.0
-Đình công là gì?,198,"198,200,217,203,204",True,1,1.0,0.2
-Ai có quyền tổ chức đình công?,200,"198,203,201,204",False,0,0.0,0.0
-Trường hợp nào đình công là bất hợp pháp?,204,"204,217",True,1,1.0,0.2
-Khi nào được hoãn đình công?,210,"210,204,202,200",True,1,1.0,0.2
-Người lao động tham gia đình công có bị xử lý không?,207,"207,217,211,201",True,1,1.0,0.2
-Người lao động có quyền từ chối làm việc khi nào?,6,"35,5,143,10,177",False,0,0.0,0.0
-Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?,6,"134,159,6,132",True,3,1.0,0.2
-Người lao động phải tuân thủ quy định an toàn như thế nào?,6,"132,134,118,5",False,0,0.0,0.0
-Có được ép người lao động làm việc khi mất an toàn không?,6,"134,36,41,2,35",False,0,0.0,0.0
-Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?,6,"29,36,35,5,34",False,0,0.0,0.0
-Làm chưa đủ một năm thì nghỉ phép tính sao?,113,"113,143,156",True,1,1.0,0.2
-Đi làm ngày lễ thì tiền lương tính thế nào?,98,"98,112,41",True,1,1.0,0.2
-Công ty bắt thử việc ba tháng có đúng luật không?,25,"25,24",True,1,1.0,0.2
-Muốn nghỉ ngang thì có phải báo trước không?,35,"36,139,35,125",True,3,1.0,0.2
-Sếp giữ bằng đại học của nhân viên có hợp pháp không?,17,"137,211,175,17,18",True,4,1.0,0.2
-Nếu nghỉ việc thì công ty phải thanh toán tiền trong bao lâu?,48,"113,48,41,116,128",True,2,1.0,0.2
-Mình có được ký nhiều hợp đồng lao động cùng lúc không?,19,"19,55,20,14",True,1,1.0,0.2
-Có thể nghỉ không lương vài ngày được không?,115,"115,113,111",True,1,1.0,0.2
-Doanh nghiệp được sa thải nhân viên trong trường hợp nào?,125,"34,137,125",True,3,1.0,0.2
-Bao nhiêu tuổi mới được phép đi làm hợp pháp?,143,"143,147,145,18",True,1,1.0,0.2
+Ai là đối tượng áp dụng theo Điều 2 Khoản 1 Bộ luật Lao động?,2,"2,3",True,1,1.0,0.2
+Những ai được Bộ luật Lao động điều chỉnh theo Khoản 1 Điều 2?,2,"2,1,5,3",True,1,1.0,0.2
+Người làm việc không có quan hệ lao động có thuộc đối tượng áp dụng không?,2,"2,3",True,1,1.0,0.2
+Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?,2,"3,159,163",False,0,0.0,0.0
+Ai được xem là người sử dụng lao động trong Bộ luật Lao động?,2,"3,163,159",False,0,0.0,0.0
+Người sử dụng lao động có phải là đối tượng áp dụng của Bộ luật Lao động không?,2,"2,3,163,160",True,1,1.0,0.2
+Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động không?,2,"2,150,151,154",True,1,1.0,0.2
+Ai là người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam?,2,"154,151,150",False,0,0.0,0.0
+Người lao động nước ngoài làm việc tại Việt Nam có thuộc đối tượng áp dụng của Bộ luật Lao động không?,2,"2,154,151,150",True,1,1.0,0.2
+Đối tượng áp dụng trong Khoản 4 Điều 2 gồm những ai?,2,"2,3",True,1,1.0,0.2
+Ai được xem là đối tượng áp dụng theo Khoản 4 Điều 2 Bộ luật Lao động?,2,"2,164",True,1,1.0,0.2
+Cơ quan không liên quan trực tiếp đến quan hệ lao động có phải là đối tượng áp dụng theo Khoản 4 Điều 2 không?,2,"2,3",True,1,1.0,0.2
+Người lao động được định nghĩa như thế nào theo Bộ luật Lao động?,3,"3,148,161",True,1,1.0,0.2
+Hãy giải thích lại khái niệm người lao động bằng cách khác.,3,"3,5",True,1,1.0,0.2
+Người lao động phải đủ 15 tuổi trở lên theo quy định của Bộ luật Lao động?,3,"143,145",False,0,0.0,0.0
+Người sử dụng lao động được định nghĩa như thế nào theo Điều 3 Khoản 2?,3,"3,163,2",True,1,1.0,0.2
+"Theo Điều 3 Khoản 2, người sử dụng lao động là ai?",3,"3,2,163,18",True,1,1.0,0.2
+Người sử dụng lao động là cá nhân không cần có năng lực hành vi dân sự đầy đủ đúng hay sai?,3,"3,34,137,163,145",True,1,1.0,0.2
+Tổ chức đại diện người lao động tại cơ sở là gì?,3,"3,178,176",True,1,1.0,0.2
+Tổ chức đại diện người lao động tại cơ sở có thể là những tổ chức nào?,3,"3,178,176",True,1,1.0,0.2
+Tổ chức đại diện người lao động tại cơ sở được thành lập bắt buộc hay tự nguyện?,3,"3,178,170,176",True,1,1.0,0.2
+Tổ chức đại diện người sử dụng lao động là gì theo Bộ luật Lao động?,3,"3,177,178",True,1,1.0,0.2
+Tổ chức đại diện người sử dụng lao động có vai trò gì trong quan hệ lao động?,3,"3,7,178",True,1,1.0,0.2
+Tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp đúng không?,3,"3,177,178",True,1,1.0,0.2
+Quan hệ lao động là gì theo Bộ luật Lao động?,3,"3,7,2,220",True,1,1.0,0.2
+Quan hệ lao động bao gồm những mối quan hệ nào?,3,"3,7,13,81",True,1,1.0,0.2
+Quan hệ lao động chỉ xảy ra giữa người lao động và người sử dụng lao động đúng không?,3,"3,2,163",True,1,1.0,0.2
+Người làm việc không có quan hệ lao động được định nghĩa như thế nào theo Bộ luật Lao động?,3,"3,2,4,32",True,1,1.0,0.2
+Người làm việc không có quan hệ lao động là người làm việc mà không ký hợp đồng lao động đúng không?,3,"3,2,20,32,28",True,1,1.0,0.2
+Người làm việc không có quan hệ lao động có phải là người làm việc theo hợp đồng lao động không?,3,"3,2,28,13,32",True,1,1.0,0.2
+Cưỡng bức lao động được hiểu là gì theo Bộ luật Lao động?,3,"3,8,164,35,165",True,1,1.0,0.2
+Cưỡng bức lao động có thể được mô tả như việc nào?,3,"3,8,164,35",True,1,1.0,0.2
+Cưỡng bức lao động là hành vi ép buộc người lao động làm việc trái ý muốn của họ đúng không?,3,"3,8,164,165,35",True,1,1.0,0.2
+Phân biệt đối xử trong lao động được hiểu như thế nào theo luật?,3,"3,8,175,57,118",True,1,1.0,0.2
+Hành vi ưu tiên hoặc loại trừ người lao động dựa trên đặc điểm cá nhân nào được coi là phân biệt đối xử trong lao động?,3,"3,175,8,165,160",True,1,1.0,0.2
+Việc phân biệt đối xử trong lao động vì yêu cầu đặc thù của công việc có bị coi là vi phạm pháp luật không?,3,"3,8,175,217,118",True,1,1.0,0.2
+Quấy rối tình dục tại nơi làm việc được định nghĩa như thế nào theo Bộ luật Lao động?,3,"3,8,135,118,35",True,1,1.0,0.2
+Hành vi quấy rối tình dục tại nơi làm việc là gì nếu nói bằng cách khác?,3,"3,8,118,125,35",True,1,1.0,0.2
+"Quấy rối tình dục tại nơi làm việc chỉ xảy ra khi có sự đồng ý của người bị quấy rối, đúng hay sai?",3,"3,8,35,118,135",True,1,1.0,0.2
+Chính sách của Nhà nước về lao động bảo đảm điều gì cho người lao động?,4,"4,135,158",True,1,1.0,0.2
+Nhà nước khuyến khích điều gì liên quan đến thỏa thuận lao động?,4,"4,81,212",True,1,1.0,0.2
+Nhà nước chỉ bảo vệ quyền lợi của người lao động có hợp đồng lao động đúng không?,4,"4,21,137,30",True,1,1.0,0.2
+Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến người sử dụng lao động?,4,"4,212,44",True,1,1.0,0.2
+Nhà nước có chính sách gì để bảo vệ người sử dụng lao động và quản lý lao động?,4,"4,158",True,1,1.0,0.2
+Nhà nước có chính sách nâng cao trách nhiệm xã hội trong quản lý lao động không?,4,"4,213",True,1,1.0,0.2
+Chính sách của Nhà nước về lao động trong khoản 3 Điều 4 bao gồm những nội dung gì?,4,4,True,1,1.0,0.2
+Khoản 3 Điều 4 quy định Nhà nước hỗ trợ gì cho người lao động và hoạt động kinh doanh?,4,"4,212,136,135",True,1,1.0,0.2
+Khoản 3 Điều 4 có đề cập đến việc áp dụng Bộ luật Lao động cho người không có quan hệ lao động không?,4,"4,3,2,220",True,1,1.0,0.2
+Chính sách của Nhà nước về lao động bao gồm những nội dung gì?,4,"212,4",True,2,1.0,0.2
+Nhà nước có chính sách gì để giúp người lao động nâng cao kỹ năng và duy trì việc làm?,4,"4,59,135",True,1,1.0,0.2
+"Nhà nước ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao đúng không?",4,"4,60,169,158,135",True,1,1.0,0.2
+Chính sách của Nhà nước về thị trường lao động là gì?,4,4,True,1,1.0,0.2
+Nhà nước có chính sách gì để thúc đẩy sự kết nối giữa người lao động và người sử dụng lao động?,4,4,True,1,1.0,0.2
+Nhà nước có chính sách đa dạng hình thức kết nối cung cầu lao động không?,4,"4,212,135",True,1,1.0,0.2
+Chính sách của Nhà nước về lao động trong Khoản 6 Điều 4 là gì?,4,4,True,1,1.0,0.2
+Nhà nước khuyến khích điều gì giữa người lao động và người sử dụng lao động theo Khoản 6 Điều 4?,4,"4,148",True,1,1.0,0.2
+Nhà nước không khuyến khích đối thoại giữa người lao động và người sử dụng lao động đúng hay sai?,4,"4,2,63,148",True,1,1.0,0.2
+Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến lao động nữ và người lao động đặc biệt?,4,"4,135",True,1,1.0,0.2
+Nhà nước có chính sách gì để hỗ trợ các nhóm lao động như người khuyết tật và lao động chưa thành niên?,4,"158,4,59",True,2,1.0,0.2
+Chính sách lao động của Nhà nước có bao gồm bảo vệ lao động nữ không?,4,"4,135",True,1,1.0,0.2
+Người lao động có những quyền gì theo Điều 5 Khoản 1?,5,"5,6,10,58",True,1,1.0,0.2
+Điều 5 Khoản 1 nói gì về quyền của người lao động?,5,"5,6,10,4",True,1,1.0,0.2
+Người lao động có quyền theo Điều 5 Khoản 1 không?,5,"5,10,2,6",True,1,1.0,0.2
+Người lao động có những nghĩa vụ gì theo Điều 5 Khoản 2?,5,"5,6,177,163",True,1,1.0,0.2
+"Theo Điều 5 Khoản 2, người lao động phải thực hiện những trách nhiệm nào?",5,"5,9,48,6,134",True,1,1.0,0.2
+Người lao động có nghĩa vụ theo quy định tại Điều 5 Khoản 2 phải không?,5,"5,6,177,163",True,1,1.0,0.2
+Người sử dụng lao động có những quyền gì theo Điều 6 Khoản 1?,6,"6,5,10,11",True,1,1.0,0.2
+Điều 6 Khoản 1 nói gì về quyền của người sử dụng lao động?,6,"6,5,10,2",True,1,1.0,0.2
+Người sử dụng lao động có quyền theo Điều 6 Khoản 1 không?,6,"6,5,10,2",True,1,1.0,0.2
+Người sử dụng lao động có những nghĩa vụ gì theo Điều 6 Khoản 2?,6,"6,5,2,3",True,1,1.0,0.2
+"Theo Điều 6 Khoản 2, người sử dụng lao động phải thực hiện những trách nhiệm nào?",6,"6,9,48,2",True,1,1.0,0.2
+Người sử dụng lao động không có nghĩa vụ nào theo Điều 6 Khoản 2 đúng hay sai?,6,"6,5,163",True,1,1.0,0.2
+Quan hệ lao động được xác lập như thế nào theo Điều 7 Khoản 1?,7,"7,3,2",True,1,1.0,0.2
+Việc thiết lập quan hệ lao động phải dựa trên những nguyên tắc nào?,7,"7,3",True,1,1.0,0.2
+Quan hệ lao động có thể được xác lập mà không cần sự thỏa thuận giữa các bên không?,7,"7,81,3",True,1,1.0,0.2
+Ai là những chủ thể tham gia xây dựng quan hệ lao động theo Điều 7 Khoản 2?,7,"7,2",True,1,1.0,0.2
+"Theo Điều 7 Khoản 2, quan hệ lao động cần được xây dựng như thế nào với sự hỗ trợ của cơ quan nhà nước?",7,"7,212",True,1,1.0,0.2
+Có phải cơ quan nhà nước có thẩm quyền không hỗ trợ trong việc xây dựng quan hệ lao động không?,7,"7,212,213",True,1,1.0,0.2
+Công đoàn có vai trò gì trong xây dựng quan hệ lao động theo Điều 7 Khoản 3?,7,"7,172",True,1,1.0,0.2
+Nêu cách công đoàn góp phần bảo vệ người lao động theo quy định tại Điều 7 Khoản 3.,7,"7,172,67,134,3",True,1,1.0,0.2
+Công đoàn chỉ giám sát việc thi hành pháp luật lao động mà không tham gia xây dựng quan hệ lao động đúng không?,7,"7,211,2,3,220",True,1,1.0,0.2
+Phòng Thương mại và Công nghiệp Việt Nam có vai trò gì trong quan hệ lao động?,7,"7,3,4",True,1,1.0,0.2
+Các tổ chức đại diện người sử dụng lao động được thành lập theo pháp luật có nhiệm vụ gì trong quan hệ lao động?,7,"3,7,178,177",True,2,1.0,0.2
+Liên minh Hợp tác xã Việt Nam có thể tham gia xây dựng quan hệ lao động ổn định không?,7,"7,220,3",True,1,1.0,0.2
+Phân biệt đối xử trong lao động là gì theo Điều 8 Khoản 1?,8,"3,8,175,21",True,2,1.0,0.2
+"Theo Điều 8 Khoản 1, việc đối xử không công bằng với người lao động có bị cấm không?",8,"8,3,2",True,1,1.0,0.2
+Điều 8 Khoản 1 có cấm phân biệt đối xử trong lao động không?,8,"8,3,175",True,1,1.0,0.2
+Hành vi nào bị nghiêm cấm liên quan đến người lao động theo Điều 8 Khoản 2?,8,"8,208",True,1,1.0,0.2
+"Theo luật, việc bắt buộc người lao động làm việc trái ý muốn có bị cấm không?",8,"118,35,10,165,41",False,0,0.0,0.0
+Ngược đãi người lao động có bị pháp luật nghiêm cấm không?,8,"8,165,49",True,1,1.0,0.2
+Nghị định này quy định về những vấn đề gì theo Điểm a Khoản 1 Điều 1?,1,"41,48,1,52",True,3,1.0,0.2
+Phạm vi điều chỉnh liên quan đến giấy phép lái xe trong Nghị định này là gì?,1,"1,47,32,26,5",True,1,1.0,0.2
+Việc trừ điểm và phục hồi điểm giấy phép lái xe có thuộc phạm vi điều chỉnh của Nghị định này không?,1,"1,51,2,20",True,1,1.0,0.2
+Tổ chức kinh tế được thành lập theo quy định của Luật Doanh nghiệp bao gồm những loại hình nào theo Khoản 2 Điều 2?,2,"2,47,41",True,1,1.0,0.2
+Hộ kinh doanh hoặc hộ gia đình khi vi phạm hành chính sẽ bị xử lý ra sao?,2,"2,52,48",True,1,1.0,0.2
+Tổ chức nước ngoài có hành vi vi phạm hành chính về giao thông đường bộ tại Việt Nam có bị áp dụng Nghị định này không?,2,"2,1,41,52,32",True,1,1.0,0.2
+"Các hình thức xử phạt chính đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông đường bộ bao gồm những gì?",3,"3,4,1,41",True,1,1.0,0.2
+"Ngoài hình thức phạt chính, cá nhân hoặc tổ chức vi phạm có thể bị áp dụng những hình phạt bổ sung nào?",3,"3,26,2,39",True,1,1.0,0.2
+Đình chỉ hoạt động có thời hạn có phải là một hình thức xử phạt bổ sung không?,3,"3,5,39,4",True,1,1.0,0.2
+"Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là bao lâu?",4,"4,3,47,41",True,1,1.0,0.2
+Thời gian tính thời hiệu đối với các vi phạm phát hiện qua thiết bị kỹ thuật nghiệp vụ bắt đầu từ khi nào?,4,"4,47,5",True,1,1.0,0.2
+Thời hiệu xử phạt vi phạm hành chính giao thông đường bộ có phải là 02 năm không?,4,"4,3,52,41",True,1,1.0,0.2
+"Những loại giấy phép, chứng chỉ hành nghề nào có thể bị tước quyền sử dụng có thời hạn?",5,5,True,1,1.0,0.2
+Trong trường hợp nào người vi phạm bị tước cả giấy phép lái xe thay vì trừ điểm khi bị phạt cùng một lần?,5,"20,5,12,50,6",True,2,1.0,0.2
+"Trong thời gian bị tước quyền sử dụng giấy phép lái xe, cá nhân có thể làm thủ tục cấp mới giấy phép lái xe không?",5,"5,51,50",True,1,1.0,0.2
+Mức phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe ô tô được áp dụng cho hành vi nào liên quan đến tín hiệu chuyển hướng?,6,"7,6,13",True,2,1.0,0.2
+Hành vi sử dụng còi xe ô tô trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau bị xử phạt ra sao?,6,"7,8,6,16",True,3,1.0,0.2
+Chở người trên buồng lái ô tô quá số lượng quy định có bị phạt tiền từ 600.000 đến 800.000 đồng không?,6,"6,20,13",True,1,1.0,0.2
+Mức phạt đối với người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h là bao nhiêu?,6,"8,7,6",True,3,1.0,0.2
+Lái xe ô tô không thắt dây đai an toàn khi xe đang chạy trên đường sẽ bị xử phạt như thế nào?,6,"12,20,7,26",False,0,0.0,0.0
+Điều khiển xe ô tô chạy dưới tốc độ tối thiểu quy định có bị phạt tiền từ 800.000 đến 1.000.000 đồng không?,6,"7,8,13",False,0,0.0,0.0
+Mức phạt tiền đối với hành vi lùi xe ô tô trên đường một chiều hoặc khu vực cấm lùi xe là bao nhiêu?,6,"7,6,34,12",True,2,1.0,0.2
+Mức phạt nào được áp dụng cho hành vi người lái xe ô tô dùng tay cầm và sử dụng điện thoại khi đang di chuyển?,6,"7,20,26,18",False,0,0.0,0.0
+Chở người trên thùng xe tải trái quy định hoặc trên nóc xe có bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng không?,6,"26,13,6,28",True,3,1.0,0.2
+Mức phạt tiền đối với người lái ô tô trong máu có nồng độ cồn chưa vượt quá 50 miligam/100 mililít máu là bao nhiêu?,6,"6,7,8",True,1,1.0,0.2
+Hành vi người điều khiển xe ô tô đi trên vỉa hè bị xử phạt thế nào theo luật?,6,"7,6,17,12",True,2,1.0,0.2
+Lái xe ô tô chạy quá tốc độ quy định trên 35 km/h có bị phạt từ 12.000.000 đến 14.000.000 đồng không?,6,"7,6,13",True,2,1.0,0.2
+"Gây tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường hoặc không trợ giúp người bị nạn thì người lái ô tô bị phạt bao nhiêu?",6,"6,7,8,20",True,1,1.0,0.2
+Người lái ô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông sẽ đối mặt với mức phạt nào?,6,"7,13,6,14",True,3,1.0,0.2
+Mức phạt từ 20.000.000 đến 22.000.000 đồng có áp dụng cho hành vi lái xe ô tô lùi xe gây tai nạn giao thông không?,6,"32,26",False,0,0.0,0.0
+Người lái xe ô tô không chấp hành yêu cầu kiểm tra nồng độ cồn của người thi hành công vụ bị phạt bao nhiêu?,6,"6,7,8,13",True,1,1.0,0.2
+Lái xe ô tô có sử dụng chất ma túy sẽ bị xử phạt hành chính với số tiền bao nhiêu?,6,"6,32,7,18",True,1,1.0,0.2
+Người lái ô tô dùng chân điều khiển vô lăng có bị phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng không?,6,"6,20,18,13",True,1,1.0,0.2
+"Tái phạm hành vi lạng lách, đánh võng xe ô tô sẽ bị hình phạt bổ sung gì nặng nhất?",6,"6,9,7,32",True,1,1.0,0.2
+Người lái xe ô tô vi phạm quy định chạy quá tốc độ trên 20km/h bị trừ bao nhiêu điểm GPLX?,6,"20,6,21,32,7",True,2,1.0,0.2
+Lái xe ô tô không chấp hành yêu cầu kiểm tra ma túy có bị trừ 10 điểm giấy phép lái xe không?,6,"7,20,6,21",True,3,1.0,0.2
+"Mức phạt tiền cho người điều khiển xe mô tô, xe gắn máy không có tín hiệu khi vượt xe là bao nhiêu?",7,"18,7,14",True,2,1.0,0.2
+Lái xe máy và chở người ngồi sau có sử dụng ô (dù) sẽ bị phạt bao nhiêu tiền?,7,"12,26,20,21",False,0,0.0,0.0
+Việc sử dụng còi xe máy trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau có bị phạt tiền từ 200.000 đến 400.000 đồng không?,7,"7,8,19,13",True,1,1.0,0.2
+Người điều khiển xe máy chở theo 02 người (không thuộc trường hợp ngoại lệ) bị phạt bao nhiêu?,7,"20,9,18",False,0,0.0,0.0
+Nếu người lái xe mô tô không đội mũ bảo hiểm hoặc cài quai không đúng quy cách thì bị phạt mức nào?,7,"12,9,13,18,7",True,5,1.0,0.2
+Điều khiển xe mô tô chạy quá tốc độ từ 05 km/h đến dưới 10 km/h có bị phạt tiền từ 400.000 đồng đến 600.000 đồng không?,7,"7,13,6,14",True,1,1.0,0.2
+Người điều khiển xe máy chở từ 03 người trở lên sẽ bị phạt bao nhiêu tiền?,7,"13,20,9,18",False,0,0.0,0.0
+Người lái xe máy dùng tay cầm điện thoại hoặc đeo tai nghe (thiết bị âm thanh) khi đang chạy xe bị phạt bao nhiêu?,7,"7,18,20",True,1,1.0,0.2
+Xe máy đi ngược chiều trên đường một chiều có bị phạt từ 4.000.000 đến 6.000.000 đồng không?,7,"7,6,8",True,1,1.0,0.2
+"Mức phạt cao nhất bằng tiền đối với xe mô tô, xe gắn máy vi phạm nồng độ cồn trên 80 mg/100 ml máu là bao nhiêu?",7,"7,8,6",True,1,1.0,0.2
+"Hành vi người đi xe máy buông cả hai tay bị xử phạt tịch thu phương tiện, đúng hay sai?",7,"16,7,13,14",True,2,1.0,0.2
+Người lái xe mô tô vi phạm nồng độ cồn ở mức cao nhất có bị trừ 10 điểm GPLX không?,7,"7,6,20",True,1,1.0,0.2
+Người điều khiển xe máy chuyên dùng đỗ xe trên dốc không chèn bánh bị phạt bao nhiêu?,8,"8,6,18",True,1,1.0,0.2
+Lái xe máy chuyên dùng trong hầm đường bộ mà không sử dụng đèn chiếu sáng gần bị xử phạt như thế nào?,8,"8,7,6",True,1,1.0,0.2
+Người lái xe máy chuyên dùng gây tai nạn giao thông mà không dừng lại có bị phạt từ 2.000.000 đến 3.000.000 đồng không?,8,"8,32,18",True,1,1.0,0.2
+Người đi xe đạp vượt bên phải trong trường hợp không được phép bị phạt bao nhiêu tiền?,9,"9,12",True,1,1.0,0.2
+"Mức phạt tiền cho việc sử dụng điện thoại khi đang điều khiển xe đạp, xe đạp máy là bao nhiêu?",9,"9,12",True,1,1.0,0.2
+"Người đi xe đạp lạng lách, đánh võng trên đường có bị phạt tiền từ 300.000 đến 400.000 đồng không?",9,"9,6,35,33,18",True,1,1.0,0.2
+Mức phạt đối với người đi xe đạp đi vào đường cao tốc là bao nhiêu?,9,"9,10,6,20,7",True,1,1.0,0.2
+Người đi bộ đi qua đường không đúng nơi quy định sẽ chịu mức phạt như thế nào?,10,"10,8,7",True,1,1.0,0.2
+Người đi bộ mang vác vật cồng kềnh gây cản trở giao thông có bị phạt từ 400.000 đến 600.000 đồng không?,10,"10,11,6,12",True,1,1.0,0.2
+Hành vi để vật nuôi đi trên đường bộ không bảo đảm an toàn cho giao thông bị phạt bao nhiêu tiền?,11,"11,24",True,1,1.0,0.2
+"Người bán hàng rong trên lòng đường, vỉa hè các tuyến phố cấm bị phạt mức nào?",12,"12,7",True,1,1.0,0.2
+"Hành vi sử dụng trái phép lòng đường, vỉa hè để kinh doanh dịch vụ ăn uống có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng đối với cá nhân không?",12,12,True,1,1.0,0.2
+Mức phạt đối với hành vi điều khiển xe ô tô không có kính chắn gió (đối với xe có thiết kế) là bao nhiêu?,13,"13,32,15",True,1,1.0,0.2
+Lái xe ô tô không có còi hoặc còi không có tác dụng bị phạt bao nhiêu?,13,"13,18",True,1,1.0,0.2
+Điều khiển ô tô không có bộ phận giảm thanh có bị phạt tiền từ 400.000 đến 600.000 đồng không?,13,"13,15,16,7,14",True,1,1.0,0.2
+Hành vi ô tô kinh doanh vận tải hành khách tự ý lắp thêm ghế bị phạt thế nào?,13,"20,13,26",True,2,1.0,0.2
+Điều khiển xe ô tô không có chứng nhận đăng ký xe bị xử phạt ra sao?,13,"13,47,16,14",True,1,1.0,0.2
+Dán phù hiệu cơ quan nhà nước lên ô tô trái phép có bị phạt từ 2.000.000 đến 3.000.000 đồng không?,13,"13,38,23",True,1,1.0,0.2
+Giấy chứng nhận kiểm định xe ô tô hết hạn dưới 01 tháng bị phạt mức nào?,13,"13,16,32,14",True,1,1.0,0.2
+Hệ thống hãm của xe ô tô không có tác dụng bị phạt bao nhiêu?,13,"13,15,14,21,20",True,1,1.0,0.2
+Tem kiểm định hết hạn từ 01 tháng trở lên đối với xe ô tô bị phạt từ 4.000.000 đến 6.000.000 đồng đúng không?,13,"13,16",True,1,1.0,0.2
+Điều khiển xe ô tô không gắn biển số bị phạt bao nhiêu?,13,"16,37,14,13",True,4,1.0,0.2
+Lái ô tô gắn biển số không do cơ quan có thẩm quyền cấp bị xử lý phạt tiền thế nào?,13,"14,37,13,32",True,3,1.0,0.2
+Ô tô quá niên hạn sử dụng tham gia giao thông có bị tịch thu phương tiện không?,13,"16,13,14,32,47",True,2,1.0,0.2
+Hành vi vi phạm quy định tại Khoản 3 Điều 13 bị trừ mấy điểm giấy phép lái xe?,13,"7,13,34,20,21",True,2,1.0,0.2
+Người điều khiển xe máy không có còi bị phạt bao nhiêu?,14,"13,9,8,18",False,0,0.0,0.0
+Xe máy không có đèn tín hiệu bị phạt 400.000 đến 600.000 đồng đúng không?,14,"14,13,7,16",True,1,1.0,0.2
+Lái xe máy không có chứng nhận đăng ký xe bị phạt bao nhiêu?,14,"18,32,13",False,0,0.0,0.0
+Sử dụng còi xe máy không đúng quy chuẩn kỹ thuật bị phạt mức nào?,14,"16,40,8",False,0,0.0,0.0
+Lái xe máy có dán che lấp biển số bị phạt từ 4.000.000 đến 6.000.000 đồng phải không?,14,"14,32,16,12,13",True,1,1.0,0.2
+Hành vi vi phạm Khoản 3 Điều 14 bị trừ mấy điểm giấy phép lái xe?,14,"13,7,34,14,6",True,4,1.0,0.2
+Đi xe thô sơ không có bộ phận phát âm thanh cảnh báo bị phạt bao nhiêu?,15,"15,13,7,8",True,1,1.0,0.2
+Xe thô sơ không có hệ thống hãm (phanh) bị phạt từ 300.000 đến 400.000 đồng phải không?,15,"15,39,13",True,1,1.0,0.2
+Xe máy chuyên dùng không gắn biển số bị phạt thế nào?,16,"16,14,13",True,1,1.0,0.2
+Lái xe máy chuyên dùng hoạt động sai phạm vi quy định bị phạt bao nhiêu?,16,"39,19,40,32",False,0,0.0,0.0
+"Điều khiển xe máy chuyên dùng sản xuất, lắp ráp trái quy định tham gia giao thông có bị tịch thu phương tiện không?",16,"16,14,13",True,1,1.0,0.2
+Lái xe ô tô không đáp ứng yêu cầu vệ sinh lưu thông trong đô thị bị phạt bao nhiêu?,17,"17,25,24",True,1,1.0,0.2
+Chở đất đá làm rơi vãi xuống đường bộ bị phạt thế nào?,17,"17,12,6,26,10",True,1,1.0,0.2
+Đổ trái phép phế thải ra phần đất dành cho đường bộ ngoài đô thị bị phạt từ 4-6 triệu đồng đúng không?,17,"25,17,37,26",True,2,1.0,0.2
+"Đổ trái phép rác, phế thải ra đường phố bị phạt mức tiền bao nhiêu?",17,"17,25,24",True,1,1.0,0.2
+Người điều khiển xe ô tô đổ trái phép phế thải ra đường phố bị trừ bao nhiêu điểm GPLX?,17,"25,20,17",True,3,1.0,0.2
+Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô có bị phạt cảnh cáo không?,18,"18,14",True,1,1.0,0.2
+Người lái xe mô tô kinh doanh vận tải không mang bảo hiểm trách nhiệm dân sự bị phạt bao nhiêu?,18,"18,26,20",True,1,1.0,0.2
+Người lái ô tô kinh doanh vận tải quên mang giấy phép lái xe bị xử phạt như thế nào?,18,"27,26,20",False,0,0.0,0.0
+Người 16 tuổi đến dưới 18 tuổi lái xe mô tô trên 50cm3 bị phạt từ 400.000 đến 600.000 đồng đúng không?,18,"18,26",True,1,1.0,0.2
+Lái xe mô tô dưới 125cm3 không có GPLX bị phạt bao nhiêu?,18,"18,12,13,7",True,1,1.0,0.2
+Người chưa đủ 18 tuổi lái xe ô tô sẽ chịu mức phạt tiền bao nhiêu?,18,"18,26",True,1,1.0,0.2
+Lái xe mô tô trên 125cm3 không có GPLX bị phạt 6-8 triệu đồng phải không?,18,"18,12,7",True,1,1.0,0.2
+GPLX ô tô hết hạn sử dụng dưới 01 năm bị phạt thế nào?,18,"16,14,32,20",False,0,0.0,0.0
+Lái xe ô tô khi GPLX đã hết hạn từ 01 năm trở lên chịu mức phạt ra sao?,18,"14,5,32,18",True,4,1.0,0.2
+Lái xe ô tô bằng GPLX hết hạn dưới 01 năm có bị trừ điểm GPLX không?,18,"50,32,7,21",False,0,0.0,0.0
+Người điều khiển xe máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc bị phạt bao nhiêu?,19,"19,18,16",True,1,1.0,0.2
+Lái xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển bị phạt tiền như thế nào?,19,"19,18,16",True,1,1.0,0.2
+"Không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trên xe ô tô chở khách có bị phạt không?",20,"20,26,8",True,1,1.0,0.2
+Ô tô chở khách (trừ xe buýt) chở quá số người quy định bị phạt bao nhiêu trên mỗi người vượt quá?,20,"20,32",True,1,1.0,0.2
+Xe khách không đóng cửa lên xuống khi đang chạy bị xử lý thế nào?,20,"20,7,33,13",True,1,1.0,0.2
+Xe khách kinh doanh chạy tuyến có cự ly lớn hơn 300km chở quá số người quy định có bị phạt 1-2 triệu trên 1 người không?,20,20,True,1,1.0,0.2
+"Để người lên, xuống xe khi xe đang chạy bị phạt bao nhiêu?",20,"20,7",True,1,1.0,0.2
+"Đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách bị phạt tiền bao nhiêu?",20,"20,33",True,1,1.0,0.2
+Chở người trên mui xe khách có bị phạt từ 3.000.000 đến 5.000.000 đồng không?,20,"33,20",True,2,1.0,0.2
+Người điều khiển xe chở khách không có hoặc không gắn phù hiệu theo quy định bị phạt mức nào?,20,"20,13",True,1,1.0,0.2
+"Đón, trả hành khách trên đường cao tốc bị xử lý phạt bao nhiêu?",20,"20,6,9,7,10",True,1,1.0,0.2
+Đón trả khách trên đường cao tốc có bị trừ 06 điểm giấy phép lái xe không?,20,"6,20",True,2,1.0,0.2
+"Điều khiển xe tải không chốt, đóng cố định cửa sau khi đang chạy bị phạt bao nhiêu?",21,"20,13,21",True,3,1.0,0.2
+Xe tải chở hàng vượt tải trọng cho phép từ trên 10% đến 30% bị phạt như thế nào?,21,"34,21,47",True,2,1.0,0.2
+Điều khiển xe chở người trên mui xe tải có bị phạt 800.000 đến 1.000.000 đồng không?,21,"21,20,13,18",True,1,1.0,0.2
+Điều khiển xe ô tô đầu kéo không lắp thiết bị ghi nhận hình ảnh người lái xe bị phạt bao nhiêu?,21,"21,30,29,26,13",True,1,1.0,0.2
+Điều khiển xe tải chở hàng vượt quá chiều cao cho phép chịu mức phạt tiền bao nhiêu?,21,"21,34",True,1,1.0,0.2
+Điều khiển xe chở hàng vượt trọng tải trên 30% đến 50% bị phạt từ 3.000.000 đến 5.000.000 đồng đúng không?,21,"34,13",False,0,0.0,0.0
+Điều khiển xe tải kinh doanh không có hoặc không gắn phù hiệu bị phạt tiền ở mức nào?,21,"38,18,28,13",False,0,0.0,0.0
+Điều khiển xe chở hàng vượt trọng tải trên 100% đến 150% bị phạt bao nhiêu?,21,"34,21",True,2,1.0,0.2
+"Người điều khiển xe tải nhận, trả hàng trên đường cao tốc bị phạt 10.000.000 đến 12.000.000 đồng đúng không?",21,"21,20",True,1,1.0,0.2
+"Mức phạt đối với hành vi vận chuyển hàng hóa là máy móc, thiết bị kỹ thuật dạng trụ không chằng buộc theo quy định là bao nhiêu?",21,21,True,1,1.0,0.2
+Hành vi chở công-ten-nơ không sử dụng cơ cấu khóa hãm mà gây tai nạn giao thông sẽ bị xử phạt như thế nào?,21,"21,32,26,47",True,1,1.0,0.2
+Người điều khiển xe tải chở hàng vượt trọng tải trên 150% có bị trừ 10 điểm giấy phép lái xe không?,21,"20,32,21,34",True,3,1.0,0.2
+"Người điều khiển xe chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng bị phạt bao nhiêu?",22,22,True,1,1.0,0.2
+"Chở hàng siêu trường, siêu trọng mà kích thước bao ngoài của xe vượt quá quy định trong giấy phép lưu hành thì bị phạt ra sao?",22,"22,34",True,1,1.0,0.2
+"Điều khiển xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành có bị phạt tiền từ 13.000.000 đến 15.000.000 đồng không?",22,"22,34",True,1,1.0,0.2
+"Lái xe vi phạm chở hàng siêu trường, siêu trọng vượt quá quy định trong giấy phép bị trừ bao nhiêu điểm GPLX?",22,22,True,1,1.0,0.2
+Không bóc hoặc xóa biểu trưng nguy hiểm trên phương tiện khi không còn vận chuyển hàng nguy hiểm bị phạt bao nhiêu?,23,"23,26,21",True,1,1.0,0.2
+"Vận chuyển hàng nguy hiểm mà xe không dán nhãn, biểu trưng nhận diện có bị phạt tiền từ 4.000.000 đến 6.000.000 đồng không?",23,"23,26",True,1,1.0,0.2
+"Mức phạt tiền đối với hành vi vận chuyển chất dễ cháy, nổ đi qua hầm đường bộ dài từ 100 mét trở lên là bao nhiêu?",23,"23,10,26",True,1,1.0,0.2
+Vận chuyển hàng hóa nguy hiểm mà không có giấy phép bị phạt ở mức nào?,23,"23,26",True,1,1.0,0.2
+Người điều khiển xe vận chuyển hàng hóa nguy hiểm không có giấy phép có bị trừ 04 điểm giấy phép lái xe không?,23,"23,50,6,28",True,1,1.0,0.2
+"Vận chuyển động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy định bị phạt bao nhiêu tiền?",24,"24,23,20",True,1,1.0,0.2
+"Hành vi vận chuyển thực phẩm tươi sống không đảm bảo an toàn thực phẩm, vệ sinh môi trường bị xử phạt như thế nào?",24,"24,23,47",True,1,1.0,0.2
+"Lái xe vệ sinh môi trường chở phế thải không chạy đúng tuyến, phạm vi quy định có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",25,"25,24,17",True,1,1.0,0.2
+Xếp hàng hóa lên xe ô tô vượt quá trọng tải cho phép từ trên 10% đến 50% bị phạt đối với cá nhân là bao nhiêu?,26,"21,26",True,2,1.0,0.2
+"Doanh nghiệp không đánh số thứ tự ghế ngồi, giường nằm trên xe ô tô chở khách sẽ bị phạt ra sao?",26,"26,20,13",True,1,1.0,0.2
+Kinh doanh vận tải không cấp thẻ nhận dạng lái xe cho lái xe có bị phạt tiền từ 3.000.000 đến 4.000.000 đồng đối với cá nhân không?,26,"26,20,18",True,1,1.0,0.2
+Sử dụng xe kinh doanh chở trẻ em mầm non không có ghế ngồi phù hợp lứa tuổi bị phạt mức nào đối với tổ chức?,26,"26,27",True,1,1.0,0.2
+"Tổ chức sử dụng xe kinh doanh chở học sinh không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em bị phạt bao nhiêu?",26,"27,26",True,2,1.0,0.2
+Tổ chức kinh doanh vận tải sử dụng xe không lắp thiết bị giám sát hành trình có bị phạt từ 10.000.000 đến 12.000.000 đồng không?,26,"20,26",True,2,1.0,0.2
+Không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt bao nhiêu đối với cá nhân kinh doanh vận tải?,26,"26,20",True,1,1.0,0.2
+Đơn vị sản xuất thiết bị giám sát hành trình làm sai lệch dữ liệu của thiết bị giám sát sẽ bị phạt bao nhiêu?,26,"26,20,39",True,1,1.0,0.2
+Lái xe ô tô chở học sinh không hướng dẫn học sinh ngồi đúng vị trí có bị phạt từ 1.000.000 đến 2.000.000 đồng không?,27,"27,26,20",True,1,1.0,0.2
+Lái xe chở học sinh tiểu học mà trên xe không có đủ người quản lý theo quy định bị phạt bao nhiêu?,27,"27,26,20,39",True,1,1.0,0.2
+Lái xe ô tô đưa đón trẻ em mầm non không có thiết bị chống bỏ quên trẻ em bị phạt như thế nào?,27,"27,26",True,1,1.0,0.2
+Điều khiển xe chở người bốn bánh có gắn động cơ chở quá số người quy định có bị phạt 1-2 triệu đồng không?,28,"28,18,6",True,1,1.0,0.2
+"Lái xe chở người bốn bánh có gắn động cơ hoạt động không đúng tuyến đường, thời gian quy định bị phạt bao nhiêu?",28,"28,18",True,1,1.0,0.2
+Người điều khiển xe cứu hộ giao thông không lắp thiết bị ghi nhận hình ảnh người lái xe sẽ bị phạt bao nhiêu?,29,"29,30,26",True,1,1.0,0.2
+Điều khiển xe ô tô cứu hộ không có dụng cụ chuyên dùng để cứu hộ có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng không?,29,"29,30,13",True,1,1.0,0.2
+Lái xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt mức nào?,30,"30,29,26",True,1,1.0,0.2
+Hành vi cá nhân mua bán biển số xe không do cơ quan nhà nước có thẩm quyền sản xuất bị xử lý phạt bao nhiêu?,31,"31,37",True,1,1.0,0.2
+"Tổ chức sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ có bị phạt tiền đến 100 triệu đồng không?",31,"31,32,26",True,1,1.0,0.2
+Chủ xe mô tô tự ý thay đổi màu sơn của xe không đúng với chứng nhận đăng ký xe bị phạt bao nhiêu?,32,"32,16,47,13",True,1,1.0,0.2
+Chủ xe ô tô lắp kính chắn gió không phải là loại kính an toàn bị xử phạt như thế nào?,32,"32,13,20",True,1,1.0,0.2
+Chủ xe mô tô không làm thủ tục đổi chứng nhận đăng ký xe theo quy định có bị phạt từ 800.000 đến 1.000.000 đồng (với cá nhân) không?,32,"32,47,18,38",True,1,1.0,0.2
+"Chủ xe ô tô cá nhân không làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe theo quy định bị phạt bao nhiêu?",32,"32,47",True,1,1.0,0.2
+Hành vi chủ xe ô tô tự ý thay đổi màu sơn không đúng với màu sơn trong chứng nhận đăng ký xe bị phạt ra sao?,32,"47,32,16,14,13",True,2,1.0,0.2
+"Chủ xe mô tô tự ý thay đổi khung, máy, hình dáng của xe có bị phạt từ 4.000.000 đến 6.000.000 đồng (cá nhân) không?",32,"32,13,16,7",True,1,1.0,0.2
+Tổ chức là chủ xe ô tô đưa xe không có giấy chứng nhận kiểm định an toàn tham gia giao thông bị phạt bao nhiêu?,32,"32,13,26",True,1,1.0,0.2
+"Hành vi chủ xe tự ý cắt, cải tạo kết cấu, kích thước xe ô tô không đúng thiết kế sẽ bị xử phạt như thế nào?",32,"32,16,14",True,1,1.0,0.2
+"Đưa phương tiện đã bị cắt, hàn, đục sửa số khung tham gia giao thông có bị tịch thu phương tiện không?",32,"32,16,13,14",True,1,1.0,0.2
+Hành khách đi xe gây mất trật tự trên xe bị phạt bao nhiêu?,33,"33,20",True,1,1.0,0.2
+Hành khách tự ý mở cửa xe khi xe đang chạy bị xử lý mức phạt nào?,33,"33,20,7,8",True,1,1.0,0.2
+"Hành khách có hành vi đe dọa, xâm phạm sức khỏe lái xe có bị phạt từ 2-3 triệu đồng không?",33,"33,20",True,1,1.0,0.2
+Điều khiển xe vượt quá tải trọng cho phép của đường bộ trên 10% đến 20% bị phạt mức tiền bao nhiêu?,34,"34,20",True,1,1.0,0.2
+Hành vi chở hàng vượt khổ giới hạn của xe ghi trong giấy phép lưu hành bị phạt ra sao?,34,"34,22",True,1,1.0,0.2
+Điều khiển xe vượt quá tải trọng đường bộ trên 50% có bị phạt từ 40.000.000 đến 50.000.000 đồng không?,34,34,True,1,1.0,0.2
+"Tụ tập để cổ vũ, giúp sức hành vi đua xe trái phép bị phạt bao nhiêu?",35,"35,12",True,1,1.0,0.2
+Tổ chức đua xe trái phép thì cá nhân vi phạm sẽ phải chịu mức phạt tiền bao nhiêu?,35,"35,12,32",True,1,1.0,0.2
+Người đua xe mô tô trái phép trên đường giao thông có bị tịch thu phương tiện không?,35,"35,16,14,13",True,1,1.0,0.2
+Người đi xe máy chở hàng để rơi vãi hàng hóa xuống đường bị phạt bao nhiêu?,36,"36,21,17",True,1,1.0,0.2
+Đi xe gắn máy chở hàng vượt quá khổ giới hạn cho phép bị phạt ra sao?,36,"34,36,21",True,2,1.0,0.2
+Xe gắn biển số nước ngoài chở hành khách không có danh sách hành khách theo quy định có bị phạt 1-2 triệu đồng không?,37,37,True,1,1.0,0.2
+Lưu hành phương tiện gắn biển số nước ngoài trên lãnh thổ Việt Nam quá thời hạn quy định bị phạt thế nào?,37,37,True,1,1.0,0.2
+"Lái xe mô tô trong Khu kinh tế cửa khẩu quốc tế không có tờ khai tạm nhập, tái xuất theo quy định bị phạt bao nhiêu?",38,"38,18",True,1,1.0,0.2
+Giáo viên dạy lái xe thực hành không mang theo giấy phép xe tập lái có bị phạt từ 2-3 triệu đồng không?,39,39,True,1,1.0,0.2
+"Cơ sở đào tạo lái xe sử dụng xe tập lái không có mui che mưa, nắng bị phạt bao nhiêu?",39,39,True,1,1.0,0.2
+"Đăng kiểm viên đưa ra yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức sẽ bị phạt như thế nào?",40,"40,47",True,1,1.0,0.2
+Cơ sở đăng kiểm từ chối cung cấp dịch vụ kiểm định không đúng quy định có bị phạt từ 16.000.000 đến 20.000.000 đồng không?,40,"40,38",True,1,1.0,0.2

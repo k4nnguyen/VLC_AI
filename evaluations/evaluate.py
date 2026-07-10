@@ -10,8 +10,8 @@ from src.retrieval.bm25_retriever import BM25Retriever
 from src.retrieval.hybrid_rrf_retriever import HybridRRFRetriever
 from src.evaluation.report_writer import ReportWriter
 
-def build_database():
-    return init_database()
+def build_database(doc_name: str):
+    return init_database(doc_name=doc_name)
 
 
 def print_overall_report(method: str, report: dict):
@@ -87,10 +87,32 @@ def print_comparison(comparison: dict):
 
 def main():
     load_dotenv()
-    store, chunks = build_database()
     
-    vector_retriever = Retriever(store)
-    evaluator = RetrieverEvaluator(vector_retriever)
+    docs = ["lao_dong", "giao_thong"]
+    vector_retrievers = {}
+    bm25_retrievers = {}
+    hybrid_retrievers = {}
+    
+    for doc_name in docs:
+        print(f"Loading database for {doc_name}...")
+        store, chunks = build_database(doc_name)
+        
+        vector_retriever = Retriever(store)
+        bm25_retriever = BM25Retriever(chunks)
+        hybrid_retriever = HybridRRFRetriever(
+            vector_retriever=vector_retriever,
+            bm25_retriever=bm25_retriever,
+            vector_k=5,
+            bm25_k=5,
+            final_k=5,
+        )
+        
+        vector_retrievers[doc_name] = vector_retriever
+        bm25_retrievers[doc_name] = bm25_retriever
+        hybrid_retrievers[doc_name] = hybrid_retriever
+
+    print("Evaluating Vector Retriever...")
+    evaluator = RetrieverEvaluator(vector_retrievers)
     embedding_report = evaluator.evaluate(k=5)
     print_overall_report("embedding", embedding_report)
 
@@ -100,8 +122,8 @@ def main():
         method="embedding"
     )
     
-    bm25_retriever = BM25Retriever(chunks)
-    evaluator = RetrieverEvaluator(bm25_retriever)
+    print("Evaluating BM25 Retriever...")
+    evaluator = RetrieverEvaluator(bm25_retrievers)
     bm25_report = evaluator.evaluate(k=5)
     print_overall_report("bm25", bm25_report)
 
@@ -110,14 +132,8 @@ def main():
         method="bm25"
     )
 
-    hybrid_retriever = HybridRRFRetriever(
-        vector_retriever=vector_retriever,
-        bm25_retriever=bm25_retriever,
-        vector_k=5,
-        bm25_k=5,
-        final_k=5,
-    )
-    evaluator = RetrieverEvaluator(hybrid_retriever)
+    print("Evaluating Hybrid RRF Retriever...")
+    evaluator = RetrieverEvaluator(hybrid_retrievers)
     hybrid_report = evaluator.evaluate(k=5)
     print_overall_report("hybrid_rrf", hybrid_report)
 

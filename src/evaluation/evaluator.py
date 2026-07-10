@@ -1,9 +1,16 @@
-from src.evaluation.dataset import EVAL_DATASET
+import json
+from pathlib import Path
+from src.evaluation.metrics import RetrievalMetrics
+
+dataset_path = Path(__file__).parent / "generated_dataset.json"
+with open(dataset_path, "r", encoding="utf-8") as f:
+    EVAL_DATASET = json.load(f)
 from src.evaluation.metrics import RetrievalMetrics
 
 class RetrieverEvaluator:
-    def __init__(self, retriever):
-        self.retriever = retriever
+    def __init__(self, retriever_dict):
+        # retriever_dict is a dict mapping law (str) -> retriever instance
+        self.retriever_dict = retriever_dict
 
     def _expected_articles(self, sample):
         if "expected" in sample:
@@ -28,8 +35,11 @@ class RetrieverEvaluator:
             sample_index = len(details)
             category = sample.get("category", "unknown")
             question = sample["question"]
+            law = sample.get("law", "lao_dong")
             expected = self._expected_articles(sample)
-            results = self.retriever.retrieve(question, k)
+            
+            retriever = self.retriever_dict[law]
+            results = retriever.retrieve(question, k)
             retrieved = [
                 meta["article"]
                 for meta in results["metadatas"][0]

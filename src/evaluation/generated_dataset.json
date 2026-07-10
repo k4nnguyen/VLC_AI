@@ -1,632 +1,2972 @@
 [
   {
+    "id": 1,
     "category": "definition",
     "question": "Ai là đối tượng áp dụng theo Điều 2 Khoản 1 Bộ luật Lao động?",
     "reference_answer": "Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 1"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 2,
     "category": "paraphrase",
     "question": "Những ai được Bộ luật Lao động điều chỉnh theo Khoản 1 Điều 2?",
     "reference_answer": "Là những người đang làm việc hoặc học nghề, tập nghề, kể cả những người không có quan hệ lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 1"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 3,
     "category": "yes-no",
     "question": "Người làm việc không có quan hệ lao động có thuộc đối tượng áp dụng không?",
     "reference_answer": "Có.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 1"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 4,
     "category": "definition",
     "question": "Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?",
     "reference_answer": "Người sử dụng lao động là đối tượng áp dụng của Bộ luật Lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 2"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 5,
     "category": "paraphrase",
     "question": "Ai được xem là người sử dụng lao động trong Bộ luật Lao động?",
     "reference_answer": "Người sử dụng lao động là cá nhân hoặc tổ chức thuê mướn lao động và chịu trách nhiệm theo quy định của Bộ luật Lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 2"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 6,
     "category": "yes-no",
     "question": "Người sử dụng lao động có phải là đối tượng áp dụng của Bộ luật Lao động không?",
     "reference_answer": "Có.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 2"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 7,
     "category": "definition",
     "question": "Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động không?",
     "reference_answer": "Có, người lao động nước ngoài làm việc tại Việt Nam là đối tượng áp dụng của Bộ luật Lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 3"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 8,
     "category": "paraphrase",
     "question": "Ai là người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam?",
     "reference_answer": "Là những người lao động không mang quốc tịch Việt Nam làm việc tại Việt Nam.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 3"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 9,
     "category": "yes-no",
     "question": "Người lao động nước ngoài làm việc tại Việt Nam có thuộc đối tượng áp dụng của Bộ luật Lao động không?",
     "reference_answer": "Có.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 3"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 10,
     "category": "definition",
     "question": "Đối tượng áp dụng trong Khoản 4 Điều 2 gồm những ai?",
     "reference_answer": "Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 4"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 11,
     "category": "paraphrase",
     "question": "Ai được xem là đối tượng áp dụng theo Khoản 4 Điều 2 Bộ luật Lao động?",
     "reference_answer": "Là các cơ quan, tổ chức hoặc cá nhân có mối quan hệ trực tiếp với quan hệ lao động.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 4"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 12,
     "category": "yes-no",
     "question": "Cơ quan không liên quan trực tiếp đến quan hệ lao động có phải là đối tượng áp dụng theo Khoản 4 Điều 2 không?",
     "reference_answer": "Không.",
-    "expected_articles": [2],
-    "citation": "Điều 2 Khoản 4"
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 13,
     "category": "definition",
     "question": "Người lao động được định nghĩa như thế nào theo Bộ luật Lao động?",
     "reference_answer": "Người lao động là người làm việc cho người sử dụng lao động theo thỏa thuận, được trả lương và chịu sự quản lý, điều hành, giám sát của người sử dụng lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 1"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 14,
     "category": "paraphrase",
     "question": "Hãy giải thích lại khái niệm người lao động bằng cách khác.",
     "reference_answer": "Người lao động là cá nhân làm việc cho chủ sử dụng lao động theo hợp đồng, nhận lương và phải tuân theo sự quản lý, giám sát của chủ sử dụng lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 1"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 15,
     "category": "yes-no",
     "question": "Người lao động phải đủ 15 tuổi trở lên theo quy định của Bộ luật Lao động?",
     "reference_answer": "Có, độ tuổi lao động tối thiểu là đủ 15 tuổi, trừ trường hợp quy định khác.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 1"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 16,
     "category": "definition",
     "question": "Người sử dụng lao động được định nghĩa như thế nào theo Điều 3 Khoản 2?",
     "reference_answer": "Là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc theo thỏa thuận; nếu là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 2"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 17,
     "category": "paraphrase",
     "question": "Theo Điều 3 Khoản 2, người sử dụng lao động là ai?",
     "reference_answer": "Là các tổ chức hoặc cá nhân thuê người làm việc cho mình theo hợp đồng; cá nhân phải có đầy đủ năng lực pháp lý.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 2"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 18,
     "category": "yes-no",
     "question": "Người sử dụng lao động là cá nhân không cần có năng lực hành vi dân sự đầy đủ đúng hay sai?",
     "reference_answer": "Sai, cá nhân phải có năng lực hành vi dân sự đầy đủ.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 2"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 19,
     "category": "definition",
     "question": "Tổ chức đại diện người lao động tại cơ sở là gì?",
     "reference_answer": "Là tổ chức được thành lập trên cơ sở tự nguyện của người lao động tại một đơn vị sử dụng lao động nhằm bảo vệ quyền và lợi ích hợp pháp của người lao động trong quan hệ lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 3"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 20,
     "category": "paraphrase",
     "question": "Tổ chức đại diện người lao động tại cơ sở có thể là những tổ chức nào?",
     "reference_answer": "Bao gồm công đoàn cơ sở và tổ chức của người lao động tại doanh nghiệp.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 3"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 21,
     "category": "yes-no",
     "question": "Tổ chức đại diện người lao động tại cơ sở được thành lập bắt buộc hay tự nguyện?",
     "reference_answer": "Tự nguyện.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 3"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 22,
     "category": "definition",
     "question": "Tổ chức đại diện người sử dụng lao động là gì theo Bộ luật Lao động?",
     "reference_answer": "Là tổ chức được thành lập hợp pháp, đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 4"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 23,
     "category": "paraphrase",
     "question": "Tổ chức đại diện người sử dụng lao động có vai trò gì trong quan hệ lao động?",
     "reference_answer": "Đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 4"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 24,
     "category": "yes-no",
     "question": "Tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp đúng không?",
     "reference_answer": "Đúng.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 4"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 25,
     "category": "definition",
     "question": "Quan hệ lao động là gì theo Bộ luật Lao động?",
     "reference_answer": "Quan hệ lao động là quan hệ xã hội phát sinh trong việc thuê mướn, sử dụng lao động, trả lương giữa người lao động, người sử dụng lao động, các tổ chức đại diện của các bên, cơ quan nhà nước có thẩm quyền.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 5"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 5",
+    "law": "lao_dong"
   },
   {
+    "id": 26,
     "category": "paraphrase",
     "question": "Quan hệ lao động bao gồm những mối quan hệ nào?",
     "reference_answer": "Quan hệ lao động bao gồm quan hệ lao động cá nhân và quan hệ lao động tập thể.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 5"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 5",
+    "law": "lao_dong"
   },
   {
+    "id": 27,
     "category": "yes-no",
     "question": "Quan hệ lao động chỉ xảy ra giữa người lao động và người sử dụng lao động đúng không?",
     "reference_answer": "Không, quan hệ lao động còn bao gồm các tổ chức đại diện của các bên và cơ quan nhà nước có thẩm quyền.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 5"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 5",
+    "law": "lao_dong"
   },
   {
+    "id": 28,
     "category": "definition",
     "question": "Người làm việc không có quan hệ lao động được định nghĩa như thế nào theo Bộ luật Lao động?",
     "reference_answer": "Là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 6"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 6",
+    "law": "lao_dong"
   },
   {
+    "id": 29,
     "category": "paraphrase",
     "question": "Người làm việc không có quan hệ lao động là người làm việc mà không ký hợp đồng lao động đúng không?",
     "reference_answer": "Đúng, người làm việc không có quan hệ lao động là người không làm việc trên cơ sở hợp đồng lao động.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 6"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 6",
+    "law": "lao_dong"
   },
   {
+    "id": 30,
     "category": "yes-no",
     "question": "Người làm việc không có quan hệ lao động có phải là người làm việc theo hợp đồng lao động không?",
     "reference_answer": "Không phải.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 6"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 6",
+    "law": "lao_dong"
   },
   {
+    "id": 31,
     "category": "definition",
     "question": "Cưỡng bức lao động được hiểu là gì theo Bộ luật Lao động?",
     "reference_answer": "Là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 7"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 7",
+    "law": "lao_dong"
   },
   {
+    "id": 32,
     "category": "paraphrase",
     "question": "Cưỡng bức lao động có thể được mô tả như việc nào?",
     "reference_answer": "Dùng sức mạnh hoặc đe dọa để bắt người lao động làm việc không theo ý họ.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 7"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 7",
+    "law": "lao_dong"
   },
   {
+    "id": 33,
     "category": "yes-no",
     "question": "Cưỡng bức lao động là hành vi ép buộc người lao động làm việc trái ý muốn của họ đúng không?",
     "reference_answer": "Đúng.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 7"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 7",
+    "law": "lao_dong"
   },
   {
+    "id": 34,
     "category": "definition",
     "question": "Phân biệt đối xử trong lao động được hiểu như thế nào theo luật?",
     "reference_answer": "Là hành vi phân biệt, loại trừ hoặc ưu tiên dựa trên các đặc điểm như chủng tộc, giới tính, độ tuổi, tình trạng thai sản, tôn giáo, khuyết tật, hoặc vì lý do công đoàn, ảnh hưởng đến bình đẳng cơ hội việc làm.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 8"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 8",
+    "law": "lao_dong"
   },
   {
+    "id": 35,
     "category": "paraphrase",
     "question": "Hành vi ưu tiên hoặc loại trừ người lao động dựa trên đặc điểm cá nhân nào được coi là phân biệt đối xử trong lao động?",
     "reference_answer": "Ưu tiên hoặc loại trừ dựa trên chủng tộc, màu da, nguồn gốc, giới tính, tuổi tác, tình trạng thai sản, hôn nhân, tôn giáo, tín ngưỡng, chính kiến, khuyết tật, trách nhiệm gia đình, tình trạng nhiễm HIV hoặc hoạt động công đoàn.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 8"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 8",
+    "law": "lao_dong"
   },
   {
+    "id": 36,
     "category": "yes-no",
     "question": "Việc phân biệt đối xử trong lao động vì yêu cầu đặc thù của công việc có bị coi là vi phạm pháp luật không?",
     "reference_answer": "Không.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 8"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 8",
+    "law": "lao_dong"
   },
   {
+    "id": 37,
     "category": "definition",
     "question": "Quấy rối tình dục tại nơi làm việc được định nghĩa như thế nào theo Bộ luật Lao động?",
     "reference_answer": "Là hành vi có tính chất tình dục của bất kỳ người nào đối với người khác tại nơi làm việc mà không được người đó mong muốn hoặc chấp nhận.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 9"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 9",
+    "law": "lao_dong"
   },
   {
+    "id": 38,
     "category": "paraphrase",
     "question": "Hành vi quấy rối tình dục tại nơi làm việc là gì nếu nói bằng cách khác?",
     "reference_answer": "Là hành vi mang tính chất tình dục không được người nhận đồng ý xảy ra tại nơi người lao động làm việc theo thỏa thuận hoặc phân công.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 9"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 9",
+    "law": "lao_dong"
   },
   {
+    "id": 39,
     "category": "yes-no",
     "question": "Quấy rối tình dục tại nơi làm việc chỉ xảy ra khi có sự đồng ý của người bị quấy rối, đúng hay sai?",
     "reference_answer": "Sai, quấy rối tình dục là hành vi không được người đó mong muốn hoặc chấp nhận.",
-    "expected_articles": [3],
-    "citation": "Điều 3 Khoản 9"
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 9",
+    "law": "lao_dong"
   },
   {
+    "id": 40,
     "category": "definition",
     "question": "Chính sách của Nhà nước về lao động bảo đảm điều gì cho người lao động?",
     "reference_answer": "Bảo đảm quyền và lợi ích hợp pháp, chính đáng của người lao động và người làm việc không có quan hệ lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 1"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 41,
     "category": "paraphrase",
     "question": "Nhà nước khuyến khích điều gì liên quan đến thỏa thuận lao động?",
     "reference_answer": "Khuyến khích những thỏa thuận bảo đảm cho người lao động có điều kiện thuận lợi hơn so với quy định pháp luật lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 1"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 42,
     "category": "yes-no",
     "question": "Nhà nước chỉ bảo vệ quyền lợi của người lao động có hợp đồng lao động đúng không?",
     "reference_answer": "Không, Nhà nước bảo đảm quyền lợi cho cả người lao động và người làm việc không có quan hệ lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 1"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 43,
     "category": "definition",
     "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến người sử dụng lao động?",
     "reference_answer": "Bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quản lý lao động đúng pháp luật, dân chủ, công bằng, văn minh và nâng cao trách nhiệm xã hội.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 2"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 44,
     "category": "paraphrase",
     "question": "Nhà nước có chính sách gì để bảo vệ người sử dụng lao động và quản lý lao động?",
     "reference_answer": "Nhà nước bảo vệ quyền lợi hợp pháp của người sử dụng lao động, quản lý lao động theo pháp luật, đảm bảo dân chủ, công bằng, văn minh và tăng cường trách nhiệm xã hội.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 2"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 45,
     "category": "yes-no",
     "question": "Nhà nước có chính sách nâng cao trách nhiệm xã hội trong quản lý lao động không?",
     "reference_answer": "Có.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 2"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 46,
     "category": "definition",
     "question": "Chính sách của Nhà nước về lao động trong khoản 3 Điều 4 bao gồm những nội dung gì?",
     "reference_answer": "Tạo điều kiện thuận lợi cho tạo việc làm, tự tạo việc làm, dạy nghề, học nghề, hoạt động sản xuất kinh doanh thu hút nhiều lao động và áp dụng một số quy định Bộ luật cho người không có quan hệ lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 3"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 47,
     "category": "paraphrase",
     "question": "Khoản 3 Điều 4 quy định Nhà nước hỗ trợ gì cho người lao động và hoạt động kinh doanh?",
     "reference_answer": "Nhà nước hỗ trợ việc tạo và tự tạo việc làm, đào tạo nghề, phát triển sản xuất kinh doanh thu hút lao động và áp dụng quy định Bộ luật cho người không có hợp đồng lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 3"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 48,
     "category": "yes-no",
     "question": "Khoản 3 Điều 4 có đề cập đến việc áp dụng Bộ luật Lao động cho người không có quan hệ lao động không?",
     "reference_answer": "Có.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 3"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 49,
     "category": "definition",
     "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì?",
     "reference_answer": "Phát triển, phân bố nguồn nhân lực; nâng cao năng suất lao động; đào tạo, bồi dưỡng và nâng cao trình độ, kỹ năng nghề cho người lao động; hỗ trợ duy trì, chuyển đổi nghề nghiệp, việc làm; ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 4"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 50,
     "category": "paraphrase",
     "question": "Nhà nước có chính sách gì để giúp người lao động nâng cao kỹ năng và duy trì việc làm?",
     "reference_answer": "Nhà nước có chính sách đào tạo, bồi dưỡng, nâng cao trình độ, kỹ năng nghề và hỗ trợ duy trì, chuyển đổi nghề nghiệp, việc làm cho người lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 4"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 51,
     "category": "yes-no",
     "question": "Nhà nước ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao đúng không?",
     "reference_answer": "Đúng.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 4"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 52,
     "category": "definition",
     "question": "Chính sách của Nhà nước về thị trường lao động là gì?",
     "reference_answer": "Có chính sách phát triển thị trường lao động, đa dạng các hình thức kết nối cung, cầu lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 5"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 5",
+    "law": "lao_dong"
   },
   {
+    "id": 53,
     "category": "paraphrase",
     "question": "Nhà nước có chính sách gì để thúc đẩy sự kết nối giữa người lao động và người sử dụng lao động?",
     "reference_answer": "Nhà nước phát triển thị trường lao động và đa dạng hóa các cách thức kết nối cung và cầu lao động.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 5"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 5",
+    "law": "lao_dong"
   },
   {
+    "id": 54,
     "category": "yes-no",
     "question": "Nhà nước có chính sách đa dạng hình thức kết nối cung cầu lao động không?",
     "reference_answer": "Có.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 5"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 5",
+    "law": "lao_dong"
   },
   {
+    "id": 55,
     "category": "definition",
     "question": "Chính sách của Nhà nước về lao động trong Khoản 6 Điều 4 là gì?",
     "reference_answer": "Thúc đẩy người lao động và người sử dụng lao động đối thoại, thương lượng tập thể, xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 6"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 6",
+    "law": "lao_dong"
   },
   {
+    "id": 56,
     "category": "paraphrase",
     "question": "Nhà nước khuyến khích điều gì giữa người lao động và người sử dụng lao động theo Khoản 6 Điều 4?",
     "reference_answer": "Khuyến khích họ trao đổi, thương lượng chung để tạo dựng mối quan hệ lao động tốt đẹp, cân bằng và bền vững.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 6"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 6",
+    "law": "lao_dong"
   },
   {
+    "id": 57,
     "category": "yes-no",
     "question": "Nhà nước không khuyến khích đối thoại giữa người lao động và người sử dụng lao động đúng hay sai?",
     "reference_answer": "Sai, Nhà nước khuyến khích đối thoại và thương lượng tập thể.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 6"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 6",
+    "law": "lao_dong"
   },
   {
+    "id": 58,
     "category": "definition",
     "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến lao động nữ và người lao động đặc biệt?",
     "reference_answer": "Bảo đảm bình đẳng giới; quy định chế độ lao động và chính sách xã hội nhằm bảo vệ lao động nữ, lao động là người khuyết tật, người lao động cao tuổi, lao động chưa thành niên.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 7"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 7",
+    "law": "lao_dong"
   },
   {
+    "id": 59,
     "category": "paraphrase",
     "question": "Nhà nước có chính sách gì để hỗ trợ các nhóm lao động như người khuyết tật và lao động chưa thành niên?",
     "reference_answer": "Nhà nước quy định chế độ lao động và chính sách xã hội nhằm bảo vệ các nhóm lao động như người khuyết tật, lao động chưa thành niên, đồng thời bảo đảm bình đẳng giới.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 7"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 7",
+    "law": "lao_dong"
   },
   {
+    "id": 60,
     "category": "yes-no",
     "question": "Chính sách lao động của Nhà nước có bao gồm bảo vệ lao động nữ không?",
     "reference_answer": "Có.",
-    "expected_articles": [4],
-    "citation": "Điều 4 Khoản 7"
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 7",
+    "law": "lao_dong"
   },
   {
+    "id": 61,
     "category": "definition",
     "question": "Người lao động có những quyền gì theo Điều 5 Khoản 1?",
     "reference_answer": "Người lao động có các quyền được quy định tại Điều 5 Khoản 1.",
-    "expected_articles": [5],
-    "citation": "Điều 5 Khoản 1"
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 62,
     "category": "paraphrase",
     "question": "Điều 5 Khoản 1 nói gì về quyền của người lao động?",
     "reference_answer": "Điều 5 Khoản 1 quy định các quyền mà người lao động được hưởng.",
-    "expected_articles": [5],
-    "citation": "Điều 5 Khoản 1"
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 63,
     "category": "yes-no",
     "question": "Người lao động có quyền theo Điều 5 Khoản 1 không?",
     "reference_answer": "Có, người lao động có các quyền theo Điều 5 Khoản 1.",
-    "expected_articles": [5],
-    "citation": "Điều 5 Khoản 1"
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 64,
     "category": "definition",
     "question": "Người lao động có những nghĩa vụ gì theo Điều 5 Khoản 2?",
     "reference_answer": "Người lao động có các nghĩa vụ được quy định tại Điều 5 Khoản 2.",
-    "expected_articles": [5],
-    "citation": "Điều 5 Khoản 2"
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 65,
     "category": "paraphrase",
     "question": "Theo Điều 5 Khoản 2, người lao động phải thực hiện những trách nhiệm nào?",
     "reference_answer": "Người lao động phải thực hiện các nghĩa vụ được nêu trong Điều 5 Khoản 2.",
-    "expected_articles": [5],
-    "citation": "Điều 5 Khoản 2"
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 66,
     "category": "yes-no",
     "question": "Người lao động có nghĩa vụ theo quy định tại Điều 5 Khoản 2 phải không?",
     "reference_answer": "Có, người lao động có nghĩa vụ theo Điều 5 Khoản 2.",
-    "expected_articles": [5],
-    "citation": "Điều 5 Khoản 2"
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 67,
     "category": "definition",
     "question": "Người sử dụng lao động có những quyền gì theo Điều 6 Khoản 1?",
     "reference_answer": "Người sử dụng lao động có các quyền được quy định tại Điều 6 Khoản 1.",
-    "expected_articles": [6],
-    "citation": "Điều 6 Khoản 1"
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 68,
     "category": "paraphrase",
     "question": "Điều 6 Khoản 1 nói gì về quyền của người sử dụng lao động?",
     "reference_answer": "Điều 6 Khoản 1 quy định các quyền mà người sử dụng lao động được hưởng.",
-    "expected_articles": [6],
-    "citation": "Điều 6 Khoản 1"
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 69,
     "category": "yes-no",
     "question": "Người sử dụng lao động có quyền theo Điều 6 Khoản 1 không?",
     "reference_answer": "Có, người sử dụng lao động có các quyền theo Điều 6 Khoản 1.",
-    "expected_articles": [6],
-    "citation": "Điều 6 Khoản 1"
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 70,
     "category": "definition",
     "question": "Người sử dụng lao động có những nghĩa vụ gì theo Điều 6 Khoản 2?",
     "reference_answer": "Người sử dụng lao động có các nghĩa vụ được quy định tại Khoản 2 Điều 6.",
-    "expected_articles": [6],
-    "citation": "Điều 6 Khoản 2"
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 71,
     "category": "paraphrase",
     "question": "Theo Điều 6 Khoản 2, người sử dụng lao động phải thực hiện những trách nhiệm nào?",
     "reference_answer": "Người sử dụng lao động phải thực hiện các nghĩa vụ được nêu trong Khoản 2 Điều 6.",
-    "expected_articles": [6],
-    "citation": "Điều 6 Khoản 2"
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 72,
     "category": "yes-no",
     "question": "Người sử dụng lao động không có nghĩa vụ nào theo Điều 6 Khoản 2 đúng hay sai?",
     "reference_answer": "Sai, người sử dụng lao động có các nghĩa vụ theo Điều 6 Khoản 2.",
-    "expected_articles": [6],
-    "citation": "Điều 6 Khoản 2"
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 73,
     "category": "definition",
     "question": "Quan hệ lao động được xác lập như thế nào theo Điều 7 Khoản 1?",
     "reference_answer": "Qua đối thoại, thương lượng, thỏa thuận theo nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác, tôn trọng quyền và lợi ích hợp pháp của nhau.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 1"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 74,
     "category": "paraphrase",
     "question": "Việc thiết lập quan hệ lao động phải dựa trên những nguyên tắc nào?",
     "reference_answer": "Dựa trên nguyên tắc tự nguyện, thiện chí, bình đẳng, hợp tác và tôn trọng quyền lợi hợp pháp của các bên.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 1"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 75,
     "category": "yes-no",
     "question": "Quan hệ lao động có thể được xác lập mà không cần sự thỏa thuận giữa các bên không?",
     "reference_answer": "Không.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 1"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 76,
     "category": "definition",
     "question": "Ai là những chủ thể tham gia xây dựng quan hệ lao động theo Điều 7 Khoản 2?",
     "reference_answer": "Người sử dụng lao động, tổ chức đại diện người sử dụng lao động, người lao động và tổ chức đại diện người lao động.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 2"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 77,
     "category": "paraphrase",
     "question": "Theo Điều 7 Khoản 2, quan hệ lao động cần được xây dựng như thế nào với sự hỗ trợ của cơ quan nhà nước?",
     "reference_answer": "Quan hệ lao động phải tiến bộ, hài hòa và ổn định.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 2"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 78,
     "category": "yes-no",
     "question": "Có phải cơ quan nhà nước có thẩm quyền không hỗ trợ trong việc xây dựng quan hệ lao động không?",
     "reference_answer": "Không, cơ quan nhà nước có thẩm quyền hỗ trợ xây dựng quan hệ lao động.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 2"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 79,
     "category": "definition",
     "question": "Công đoàn có vai trò gì trong xây dựng quan hệ lao động theo Điều 7 Khoản 3?",
     "reference_answer": "Công đoàn tham gia cùng cơ quan nhà nước hỗ trợ xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định; giám sát thi hành pháp luật lao động; bảo vệ quyền lợi người lao động.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 3"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 80,
     "category": "paraphrase",
     "question": "Nêu cách công đoàn góp phần bảo vệ người lao động theo quy định tại Điều 7 Khoản 3.",
     "reference_answer": "Công đoàn phối hợp với cơ quan nhà nước giám sát việc thực hiện pháp luật lao động và bảo vệ quyền lợi hợp pháp của người lao động.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 3"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 81,
     "category": "yes-no",
     "question": "Công đoàn chỉ giám sát việc thi hành pháp luật lao động mà không tham gia xây dựng quan hệ lao động đúng không?",
     "reference_answer": "Không đúng, công đoàn vừa tham gia xây dựng quan hệ lao động vừa giám sát thi hành pháp luật lao động.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 3"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 3",
+    "law": "lao_dong"
   },
   {
+    "id": 82,
     "category": "definition",
     "question": "Phòng Thương mại và Công nghiệp Việt Nam có vai trò gì trong quan hệ lao động?",
     "reference_answer": "Có vai trò đại diện, bảo vệ quyền và lợi ích hợp pháp của người sử dụng lao động, tham gia xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 4"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 83,
     "category": "paraphrase",
     "question": "Các tổ chức đại diện người sử dụng lao động được thành lập theo pháp luật có nhiệm vụ gì trong quan hệ lao động?",
     "reference_answer": "Đại diện và bảo vệ quyền lợi hợp pháp của người sử dụng lao động, đồng thời góp phần xây dựng quan hệ lao động tiến bộ, hài hòa và ổn định.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 4"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 84,
     "category": "yes-no",
     "question": "Liên minh Hợp tác xã Việt Nam có thể tham gia xây dựng quan hệ lao động ổn định không?",
     "reference_answer": "Có.",
-    "expected_articles": [7],
-    "citation": "Điều 7 Khoản 4"
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 4",
+    "law": "lao_dong"
   },
   {
+    "id": 85,
     "category": "definition",
     "question": "Phân biệt đối xử trong lao động là gì theo Điều 8 Khoản 1?",
     "reference_answer": "Phân biệt đối xử trong lao động là hành vi bị nghiêm cấm trong lĩnh vực lao động.",
-    "expected_articles": [8],
-    "citation": "Điều 8 Khoản 1"
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 86,
     "category": "paraphrase",
     "question": "Theo Điều 8 Khoản 1, việc đối xử không công bằng với người lao động có bị cấm không?",
     "reference_answer": "Có, việc phân biệt đối xử trong lao động bị nghiêm cấm.",
-    "expected_articles": [8],
-    "citation": "Điều 8 Khoản 1"
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 87,
     "category": "yes-no",
     "question": "Điều 8 Khoản 1 có cấm phân biệt đối xử trong lao động không?",
     "reference_answer": "Có.",
-    "expected_articles": [8],
-    "citation": "Điều 8 Khoản 1"
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 1",
+    "law": "lao_dong"
   },
   {
+    "id": 88,
     "category": "definition",
     "question": "Hành vi nào bị nghiêm cấm liên quan đến người lao động theo Điều 8 Khoản 2?",
     "reference_answer": "Ngược đãi người lao động và cưỡng bức lao động.",
-    "expected_articles": [8],
-    "citation": "Điều 8 Khoản 2"
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 89,
     "category": "paraphrase",
     "question": "Theo luật, việc bắt buộc người lao động làm việc trái ý muốn có bị cấm không?",
     "reference_answer": "Có, cưỡng bức lao động là hành vi bị nghiêm cấm.",
-    "expected_articles": [8],
-    "citation": "Điều 8 Khoản 2"
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 2",
+    "law": "lao_dong"
   },
   {
+    "id": 90,
     "category": "yes-no",
     "question": "Ngược đãi người lao động có bị pháp luật nghiêm cấm không?",
     "reference_answer": "Có.",
-    "expected_articles": [8],
-    "citation": "Điều 8 Khoản 2"
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 2",
+    "law": "lao_dong"
+  },
+  {
+    "id": 91,
+    "category": "definition",
+    "question": "Nghị định này quy định về những vấn đề gì theo Điểm a Khoản 1 Điều 1?",
+    "reference_answer": "Xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm: hành vi, hình thức, mức xử phạt, biện pháp khắc phục hậu quả, thẩm quyền lập biên bản và thẩm quyền xử phạt.",
+    "expected_articles": [
+      1
+    ],
+    "citation": "Điều 1 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 92,
+    "category": "paraphrase",
+    "question": "Phạm vi điều chỉnh liên quan đến giấy phép lái xe trong Nghị định này là gì?",
+    "reference_answer": "Quy định mức trừ điểm giấy phép lái xe đối với từng hành vi vi phạm; trình tự, thủ tục, thẩm quyền trừ điểm và phục hồi điểm giấy phép lái xe.",
+    "expected_articles": [
+      1
+    ],
+    "citation": "Điều 1 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 93,
+    "category": "yes-no",
+    "question": "Việc trừ điểm và phục hồi điểm giấy phép lái xe có thuộc phạm vi điều chỉnh của Nghị định này không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      1
+    ],
+    "citation": "Điều 1 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 94,
+    "category": "definition",
+    "question": "Tổ chức kinh tế được thành lập theo quy định của Luật Doanh nghiệp bao gồm những loại hình nào theo Khoản 2 Điều 2?",
+    "reference_answer": "Gồm: doanh nghiệp tư nhân, công ty cổ phần, công ty trách nhiệm hữu hạn, công ty hợp danh và các đơn vị phụ thuộc doanh nghiệp (chi nhánh, văn phòng đại diện).",
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 2 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 95,
+    "category": "paraphrase",
+    "question": "Hộ kinh doanh hoặc hộ gia đình khi vi phạm hành chính sẽ bị xử lý ra sao?",
+    "reference_answer": "Bị xử phạt như đối với cá nhân vi phạm.",
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 3",
+    "law": "giao_thong"
+  },
+  {
+    "id": 96,
+    "category": "yes-no",
+    "question": "Tổ chức nước ngoài có hành vi vi phạm hành chính về giao thông đường bộ tại Việt Nam có bị áp dụng Nghị định này không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      2
+    ],
+    "citation": "Điều 2 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 97,
+    "category": "definition",
+    "question": "Các hình thức xử phạt chính đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông đường bộ bao gồm những gì?",
+    "reference_answer": "Cảnh cáo; Phạt tiền; Tịch thu phương tiện được sử dụng để vi phạm hành chính.",
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 98,
+    "category": "paraphrase",
+    "question": "Ngoài hình thức phạt chính, cá nhân hoặc tổ chức vi phạm có thể bị áp dụng những hình phạt bổ sung nào?",
+    "reference_answer": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn; Đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm trong trường hợp không áp dụng là hình thức xử phạt chính.",
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 99,
+    "category": "yes-no",
+    "question": "Đình chỉ hoạt động có thời hạn có phải là một hình thức xử phạt bổ sung không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      3
+    ],
+    "citation": "Điều 3 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 100,
+    "category": "definition",
+    "question": "Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là bao lâu?",
+    "reference_answer": "Là 01 năm.",
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 101,
+    "category": "paraphrase",
+    "question": "Thời gian tính thời hiệu đối với các vi phạm phát hiện qua thiết bị kỹ thuật nghiệp vụ bắt đầu từ khi nào?",
+    "reference_answer": "Tính từ thời điểm phương tiện, thiết bị kỹ thuật ghi nhận hành vi vi phạm.",
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 102,
+    "category": "yes-no",
+    "question": "Thời hiệu xử phạt vi phạm hành chính giao thông đường bộ có phải là 02 năm không?",
+    "reference_answer": "Không. Thời hiệu xử phạt là 01 năm.",
+    "expected_articles": [
+      4
+    ],
+    "citation": "Điều 4 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 103,
+    "category": "definition",
+    "question": "Những loại giấy phép, chứng chỉ hành nghề nào có thể bị tước quyền sử dụng có thời hạn?",
+    "reference_answer": "Phù hiệu xe kinh doanh vận tải; giấy chứng nhận, tem kiểm định; giấy phép đào tạo lái xe; giấy phép sát hạch; chứng chỉ đăng kiểm viên; giấy phép lái xe quốc gia và quốc tế theo quy định.",
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 104,
+    "category": "paraphrase",
+    "question": "Trong trường hợp nào người vi phạm bị tước cả giấy phép lái xe thay vì trừ điểm khi bị phạt cùng một lần?",
+    "reference_answer": "Nếu một người thực hiện nhiều hành vi vi phạm trong cùng một lần, trong đó có hành vi bị tước quyền sử dụng GPLX và hành vi bị trừ điểm, thì chỉ áp dụng hình thức tước quyền sử dụng GPLX.",
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 105,
+    "category": "yes-no",
+    "question": "Trong thời gian bị tước quyền sử dụng giấy phép lái xe, cá nhân có thể làm thủ tục cấp mới giấy phép lái xe không?",
+    "reference_answer": "Không.",
+    "expected_articles": [
+      5
+    ],
+    "citation": "Điều 5 Khoản 5",
+    "law": "giao_thong"
+  },
+  {
+    "id": 106,
+    "category": "definition",
+    "question": "Mức phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe ô tô được áp dụng cho hành vi nào liên quan đến tín hiệu chuyển hướng?",
+    "reference_answer": "Khi ra, vào vị trí dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 107,
+    "category": "paraphrase",
+    "question": "Hành vi sử dụng còi xe ô tô trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau bị xử phạt ra sao?",
+    "reference_answer": "Phạt tiền từ 400.000 đồng đến 600.000 đồng (trừ xe ưu tiên đang đi làm nhiệm vụ).",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 1 Điểm đ",
+    "law": "giao_thong"
+  },
+  {
+    "id": 108,
+    "category": "yes-no",
+    "question": "Chở người trên buồng lái ô tô quá số lượng quy định có bị phạt tiền từ 600.000 đến 800.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 109,
+    "category": "definition",
+    "question": "Mức phạt đối với người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 3 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 110,
+    "category": "paraphrase",
+    "question": "Lái xe ô tô không thắt dây đai an toàn khi xe đang chạy trên đường sẽ bị xử phạt như thế nào?",
+    "reference_answer": "Người lái xe sẽ bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 3 Điểm k",
+    "law": "giao_thong"
+  },
+  {
+    "id": 111,
+    "category": "yes-no",
+    "question": "Điều khiển xe ô tô chạy dưới tốc độ tối thiểu quy định có bị phạt tiền từ 800.000 đến 1.000.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 3 Điểm o",
+    "law": "giao_thong"
+  },
+  {
+    "id": 112,
+    "category": "definition",
+    "question": "Mức phạt tiền đối với hành vi lùi xe ô tô trên đường một chiều hoặc khu vực cấm lùi xe là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 4 Điểm e",
+    "law": "giao_thong"
+  },
+  {
+    "id": 113,
+    "category": "paraphrase",
+    "question": "Mức phạt nào được áp dụng cho hành vi người lái xe ô tô dùng tay cầm và sử dụng điện thoại khi đang di chuyển?",
+    "reference_answer": "Bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 5 Điểm h",
+    "law": "giao_thong"
+  },
+  {
+    "id": 114,
+    "category": "yes-no",
+    "question": "Chở người trên thùng xe tải trái quy định hoặc trên nóc xe có bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 5 Điểm p",
+    "law": "giao_thong"
+  },
+  {
+    "id": 115,
+    "category": "definition",
+    "question": "Mức phạt tiền đối với người lái ô tô trong máu có nồng độ cồn chưa vượt quá 50 miligam/100 mililít máu là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 6 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 116,
+    "category": "paraphrase",
+    "question": "Hành vi người điều khiển xe ô tô đi trên vỉa hè bị xử phạt thế nào theo luật?",
+    "reference_answer": "Bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng, trừ trường hợp đi qua vỉa hè để vào nhà hoặc cơ quan.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 6 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 117,
+    "category": "yes-no",
+    "question": "Lái xe ô tô chạy quá tốc độ quy định trên 35 km/h có bị phạt từ 12.000.000 đến 14.000.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 7 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 118,
+    "category": "definition",
+    "question": "Gây tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường hoặc không trợ giúp người bị nạn thì người lái ô tô bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 8",
+    "law": "giao_thong"
+  },
+  {
+    "id": 119,
+    "category": "paraphrase",
+    "question": "Người lái ô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông sẽ đối mặt với mức phạt nào?",
+    "reference_answer": "Bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 9 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 120,
+    "category": "yes-no",
+    "question": "Mức phạt từ 20.000.000 đến 22.000.000 đồng có áp dụng cho hành vi lái xe ô tô lùi xe gây tai nạn giao thông không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 10 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 121,
+    "category": "definition",
+    "question": "Người lái xe ô tô không chấp hành yêu cầu kiểm tra nồng độ cồn của người thi hành công vụ bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 11 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 122,
+    "category": "paraphrase",
+    "question": "Lái xe ô tô có sử dụng chất ma túy sẽ bị xử phạt hành chính với số tiền bao nhiêu?",
+    "reference_answer": "Từ 30.000.000 đồng đến 40.000.000 đồng.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 11 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 123,
+    "category": "yes-no",
+    "question": "Người lái ô tô dùng chân điều khiển vô lăng có bị phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 12",
+    "law": "giao_thong"
+  },
+  {
+    "id": 124,
+    "category": "definition",
+    "question": "Tái phạm hành vi lạng lách, đánh võng xe ô tô sẽ bị hình phạt bổ sung gì nặng nhất?",
+    "reference_answer": "Tịch thu phương tiện.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 14",
+    "law": "giao_thong"
+  },
+  {
+    "id": 125,
+    "category": "paraphrase",
+    "question": "Người lái xe ô tô vi phạm quy định chạy quá tốc độ trên 20km/h bị trừ bao nhiêu điểm GPLX?",
+    "reference_answer": "Sẽ bị trừ 04 điểm giấy phép lái xe.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 16 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 126,
+    "category": "yes-no",
+    "question": "Lái xe ô tô không chấp hành yêu cầu kiểm tra ma túy có bị trừ 10 điểm giấy phép lái xe không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      6
+    ],
+    "citation": "Điều 6 Khoản 16 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 127,
+    "category": "definition",
+    "question": "Mức phạt tiền cho người điều khiển xe mô tô, xe gắn máy không có tín hiệu khi vượt xe là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 200.000 đồng đến 400.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 128,
+    "category": "paraphrase",
+    "question": "Lái xe máy và chở người ngồi sau có sử dụng ô (dù) sẽ bị phạt bao nhiêu tiền?",
+    "reference_answer": "Bị phạt tiền từ 200.000 đồng đến 400.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 1 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 129,
+    "category": "yes-no",
+    "question": "Việc sử dụng còi xe máy trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau có bị phạt tiền từ 200.000 đến 400.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 1 Điểm i",
+    "law": "giao_thong"
+  },
+  {
+    "id": 130,
+    "category": "definition",
+    "question": "Người điều khiển xe máy chở theo 02 người (không thuộc trường hợp ngoại lệ) bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 2 Điểm g",
+    "law": "giao_thong"
+  },
+  {
+    "id": 131,
+    "category": "paraphrase",
+    "question": "Nếu người lái xe mô tô không đội mũ bảo hiểm hoặc cài quai không đúng quy cách thì bị phạt mức nào?",
+    "reference_answer": "Sẽ bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 2 Điểm h",
+    "law": "giao_thong"
+  },
+  {
+    "id": 132,
+    "category": "yes-no",
+    "question": "Điều khiển xe mô tô chạy quá tốc độ từ 05 km/h đến dưới 10 km/h có bị phạt tiền từ 400.000 đồng đến 600.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 133,
+    "category": "definition",
+    "question": "Người điều khiển xe máy chở từ 03 người trở lên sẽ bị phạt bao nhiêu tiền?",
+    "reference_answer": "Phạt tiền từ 600.000 đồng đến 800.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 134,
+    "category": "paraphrase",
+    "question": "Người lái xe máy dùng tay cầm điện thoại hoặc đeo tai nghe (thiết bị âm thanh) khi đang chạy xe bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 4 Điểm đ",
+    "law": "giao_thong"
+  },
+  {
+    "id": 135,
+    "category": "yes-no",
+    "question": "Xe máy đi ngược chiều trên đường một chiều có bị phạt từ 4.000.000 đến 6.000.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 7 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 136,
+    "category": "definition",
+    "question": "Mức phạt cao nhất bằng tiền đối với xe mô tô, xe gắn máy vi phạm nồng độ cồn trên 80 mg/100 ml máu là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 9 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 137,
+    "category": "paraphrase",
+    "question": "Hành vi người đi xe máy buông cả hai tay bị xử phạt tịch thu phương tiện, đúng hay sai?",
+    "reference_answer": "Đúng, người đi xe máy buông cả hai tay sẽ bị tịch thu phương tiện.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 11 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 138,
+    "category": "yes-no",
+    "question": "Người lái xe mô tô vi phạm nồng độ cồn ở mức cao nhất có bị trừ 10 điểm GPLX không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      7
+    ],
+    "citation": "Điều 7 Khoản 13 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 139,
+    "category": "definition",
+    "question": "Người điều khiển xe máy chuyên dùng đỗ xe trên dốc không chèn bánh bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 600.000 đồng đến 800.000 đồng.",
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 140,
+    "category": "paraphrase",
+    "question": "Lái xe máy chuyên dùng trong hầm đường bộ mà không sử dụng đèn chiếu sáng gần bị xử phạt như thế nào?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng.",
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 4 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 141,
+    "category": "yes-no",
+    "question": "Người lái xe máy chuyên dùng gây tai nạn giao thông mà không dừng lại có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      8
+    ],
+    "citation": "Điều 8 Khoản 5 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 142,
+    "category": "definition",
+    "question": "Người đi xe đạp vượt bên phải trong trường hợp không được phép bị phạt bao nhiêu tiền?",
+    "reference_answer": "Phạt tiền từ 100.000 đồng đến 200.000 đồng.",
+    "expected_articles": [
+      9
+    ],
+    "citation": "Điều 9 Khoản 1 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 143,
+    "category": "paraphrase",
+    "question": "Mức phạt tiền cho việc sử dụng điện thoại khi đang điều khiển xe đạp, xe đạp máy là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 100.000 đồng đến 200.000 đồng.",
+    "expected_articles": [
+      9
+    ],
+    "citation": "Điều 9 Khoản 1 Điểm h",
+    "law": "giao_thong"
+  },
+  {
+    "id": 144,
+    "category": "yes-no",
+    "question": "Người đi xe đạp lạng lách, đánh võng trên đường có bị phạt tiền từ 300.000 đến 400.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      9
+    ],
+    "citation": "Điều 9 Khoản 3 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 145,
+    "category": "definition",
+    "question": "Mức phạt đối với người đi xe đạp đi vào đường cao tốc là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng.",
+    "expected_articles": [
+      9
+    ],
+    "citation": "Điều 9 Khoản 5",
+    "law": "giao_thong"
+  },
+  {
+    "id": 146,
+    "category": "paraphrase",
+    "question": "Người đi bộ đi qua đường không đúng nơi quy định sẽ chịu mức phạt như thế nào?",
+    "reference_answer": "Sẽ bị phạt tiền từ 150.000 đồng đến 250.000 đồng.",
+    "expected_articles": [
+      10
+    ],
+    "citation": "Điều 10 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 147,
+    "category": "yes-no",
+    "question": "Người đi bộ mang vác vật cồng kềnh gây cản trở giao thông có bị phạt từ 400.000 đến 600.000 đồng không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      10
+    ],
+    "citation": "Điều 10 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 148,
+    "category": "definition",
+    "question": "Hành vi để vật nuôi đi trên đường bộ không bảo đảm an toàn cho giao thông bị phạt bao nhiêu tiền?",
+    "reference_answer": "Phạt tiền từ 150.000 đồng đến 250.000 đồng.",
+    "expected_articles": [
+      11
+    ],
+    "citation": "Điều 11 Khoản 1 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 149,
+    "category": "paraphrase",
+    "question": "Người bán hàng rong trên lòng đường, vỉa hè các tuyến phố cấm bị phạt mức nào?",
+    "reference_answer": "Bị phạt tiền từ 200.000 đồng đến 250.000 đồng.",
+    "expected_articles": [
+      12
+    ],
+    "citation": "Điều 12 Khoản 2 Điểm e",
+    "law": "giao_thong"
+  },
+  {
+    "id": 150,
+    "category": "yes-no",
+    "question": "Hành vi sử dụng trái phép lòng đường, vỉa hè để kinh doanh dịch vụ ăn uống có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng đối với cá nhân không?",
+    "reference_answer": "Có.",
+    "expected_articles": [
+      12
+    ],
+    "citation": "Điều 12 Khoản 7",
+    "law": "giao_thong"
+  },
+  {
+    "id": 151,
+    "category": "definition",
+    "question": "Mức phạt đối với hành vi điều khiển xe ô tô không có kính chắn gió (đối với xe có thiết kế) là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 200.000 đồng đến 400.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 152,
+    "category": "paraphrase",
+    "question": "Lái xe ô tô không có còi hoặc còi không có tác dụng bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 400.000 đồng đến 600.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 153,
+    "category": "yes-no",
+    "question": "Điều khiển ô tô không có bộ phận giảm thanh có bị phạt tiền từ 400.000 đến 600.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 2 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 154,
+    "category": "definition",
+    "question": "Hành vi ô tô kinh doanh vận tải hành khách tự ý lắp thêm ghế bị phạt thế nào?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 3 Điểm d",
+    "law": "giao_thong"
+  },
+  {
+    "id": 155,
+    "category": "paraphrase",
+    "question": "Điều khiển xe ô tô không có chứng nhận đăng ký xe bị xử phạt ra sao?",
+    "reference_answer": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 4 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 156,
+    "category": "yes-no",
+    "question": "Dán phù hiệu cơ quan nhà nước lên ô tô trái phép có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 4 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 157,
+    "category": "definition",
+    "question": "Giấy chứng nhận kiểm định xe ô tô hết hạn dưới 01 tháng bị phạt mức nào?",
+    "reference_answer": "Phạt tiền từ 3.000.000 đồng đến 4.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 5 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 158,
+    "category": "paraphrase",
+    "question": "Hệ thống hãm của xe ô tô không có tác dụng bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 3.000.000 đồng đến 4.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 5 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 159,
+    "category": "yes-no",
+    "question": "Tem kiểm định hết hạn từ 01 tháng trở lên đối với xe ô tô bị phạt từ 4.000.000 đến 6.000.000 đồng đúng không?",
+    "reference_answer": "Đúng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 6 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 160,
+    "category": "definition",
+    "question": "Điều khiển xe ô tô không gắn biển số bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 7 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 161,
+    "category": "paraphrase",
+    "question": "Lái ô tô gắn biển số không do cơ quan có thẩm quyền cấp bị xử lý phạt tiền thế nào?",
+    "reference_answer": "Bị phạt tiền từ 20.000.000 đồng đến 26.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 8 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 162,
+    "category": "yes-no",
+    "question": "Ô tô quá niên hạn sử dụng tham gia giao thông có bị tịch thu phương tiện không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 9 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 163,
+    "category": "definition",
+    "question": "Hành vi vi phạm quy định tại Khoản 3 Điều 13 bị trừ mấy điểm giấy phép lái xe?",
+    "reference_answer": "Bị trừ điểm giấy phép lái xe 02 điểm[cite: 2].",
+    "expected_articles": [
+      13
+    ],
+    "citation": "Điều 13 Khoản 13 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 164,
+    "category": "paraphrase",
+    "question": "Người điều khiển xe máy không có còi bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 400.000 đồng đến 600.000 đồng[cite: 2].",
+    "expected_articles": [
+      14
+    ],
+    "citation": "Điều 14 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 165,
+    "category": "yes-no",
+    "question": "Xe máy không có đèn tín hiệu bị phạt 400.000 đến 600.000 đồng đúng không?",
+    "reference_answer": "Đúng[cite: 2].",
+    "expected_articles": [
+      14
+    ],
+    "citation": "Điều 14 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 166,
+    "category": "definition",
+    "question": "Lái xe máy không có chứng nhận đăng ký xe bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      14
+    ],
+    "citation": "Điều 14 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 167,
+    "category": "paraphrase",
+    "question": "Sử dụng còi xe máy không đúng quy chuẩn kỹ thuật bị phạt mức nào?",
+    "reference_answer": "Bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      14
+    ],
+    "citation": "Điều 14 Khoản 2 Điểm đ",
+    "law": "giao_thong"
+  },
+  {
+    "id": 168,
+    "category": "yes-no",
+    "question": "Lái xe máy có dán che lấp biển số bị phạt từ 4.000.000 đến 6.000.000 đồng phải không?",
+    "reference_answer": "Phải[cite: 2].",
+    "expected_articles": [
+      14
+    ],
+    "citation": "Điều 14 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 169,
+    "category": "definition",
+    "question": "Hành vi vi phạm Khoản 3 Điều 14 bị trừ mấy điểm giấy phép lái xe?",
+    "reference_answer": "Bị trừ điểm giấy phép lái xe 06 điểm[cite: 2].",
+    "expected_articles": [
+      14
+    ],
+    "citation": "Điều 14 Khoản 8 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 170,
+    "category": "paraphrase",
+    "question": "Đi xe thô sơ không có bộ phận phát âm thanh cảnh báo bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 100.000 đồng đến 200.000 đồng[cite: 2].",
+    "expected_articles": [
+      15
+    ],
+    "citation": "Điều 15 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 171,
+    "category": "yes-no",
+    "question": "Xe thô sơ không có hệ thống hãm (phanh) bị phạt từ 300.000 đến 400.000 đồng phải không?",
+    "reference_answer": "Phải[cite: 2].",
+    "expected_articles": [
+      15
+    ],
+    "citation": "Điều 15 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 172,
+    "category": "definition",
+    "question": "Xe máy chuyên dùng không gắn biển số bị phạt thế nào?",
+    "reference_answer": "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      16
+    ],
+    "citation": "Điều 16 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 173,
+    "category": "paraphrase",
+    "question": "Lái xe máy chuyên dùng hoạt động sai phạm vi quy định bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      16
+    ],
+    "citation": "Điều 16 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 174,
+    "category": "yes-no",
+    "question": "Điều khiển xe máy chuyên dùng sản xuất, lắp ráp trái quy định tham gia giao thông có bị tịch thu phương tiện không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      16
+    ],
+    "citation": "Điều 16 Khoản 3",
+    "law": "giao_thong"
+  },
+  {
+    "id": 175,
+    "category": "definition",
+    "question": "Lái xe ô tô không đáp ứng yêu cầu vệ sinh lưu thông trong đô thị bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      17
+    ],
+    "citation": "Điều 17 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 176,
+    "category": "paraphrase",
+    "question": "Chở đất đá làm rơi vãi xuống đường bộ bị phạt thế nào?",
+    "reference_answer": "Bị phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      17
+    ],
+    "citation": "Điều 17 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 177,
+    "category": "yes-no",
+    "question": "Đổ trái phép phế thải ra phần đất dành cho đường bộ ngoài đô thị bị phạt từ 4-6 triệu đồng đúng không?",
+    "reference_answer": "Đúng[cite: 2].",
+    "expected_articles": [
+      17
+    ],
+    "citation": "Điều 17 Khoản 3",
+    "law": "giao_thong"
+  },
+  {
+    "id": 178,
+    "category": "definition",
+    "question": "Đổ trái phép rác, phế thải ra đường phố bị phạt mức tiền bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      17
+    ],
+    "citation": "Điều 17 Khoản 4",
+    "law": "giao_thong"
+  },
+  {
+    "id": 179,
+    "category": "paraphrase",
+    "question": "Người điều khiển xe ô tô đổ trái phép phế thải ra đường phố bị trừ bao nhiêu điểm GPLX?",
+    "reference_answer": "Bị trừ điểm giấy phép lái xe 02 điểm[cite: 2].",
+    "expected_articles": [
+      17
+    ],
+    "citation": "Điều 17 Khoản 5",
+    "law": "giao_thong"
+  },
+  {
+    "id": 180,
+    "category": "yes-no",
+    "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô có bị phạt cảnh cáo không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 181,
+    "category": "definition",
+    "question": "Người lái xe mô tô kinh doanh vận tải không mang bảo hiểm trách nhiệm dân sự bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 200.000 đồng đến 300.000 đồng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 182,
+    "category": "paraphrase",
+    "question": "Người lái ô tô kinh doanh vận tải quên mang giấy phép lái xe bị xử phạt như thế nào?",
+    "reference_answer": "Bị phạt tiền từ 300.000 đồng đến 400.000 đồng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 3 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 183,
+    "category": "yes-no",
+    "question": "Người 16 tuổi đến dưới 18 tuổi lái xe mô tô trên 50cm3 bị phạt từ 400.000 đến 600.000 đồng đúng không?",
+    "reference_answer": "Đúng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 4 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 184,
+    "category": "definition",
+    "question": "Lái xe mô tô dưới 125cm3 không có GPLX bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 5 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 185,
+    "category": "paraphrase",
+    "question": "Người chưa đủ 18 tuổi lái xe ô tô sẽ chịu mức phạt tiền bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 6",
+    "law": "giao_thong"
+  },
+  {
+    "id": 186,
+    "category": "yes-no",
+    "question": "Lái xe mô tô trên 125cm3 không có GPLX bị phạt 6-8 triệu đồng phải không?",
+    "reference_answer": "Phải[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 7 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 187,
+    "category": "definition",
+    "question": "GPLX ô tô hết hạn sử dụng dưới 01 năm bị phạt thế nào?",
+    "reference_answer": "Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 8 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 188,
+    "category": "paraphrase",
+    "question": "Lái xe ô tô khi GPLX đã hết hạn từ 01 năm trở lên chịu mức phạt ra sao?",
+    "reference_answer": "Bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 9 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 189,
+    "category": "yes-no",
+    "question": "Lái xe ô tô bằng GPLX hết hạn dưới 01 năm có bị trừ điểm GPLX không?",
+    "reference_answer": "Có, bị trừ 02 điểm đối với giấy phép lái xe được cấp mới nhất[cite: 2].",
+    "expected_articles": [
+      18
+    ],
+    "citation": "Điều 18 Khoản 12",
+    "law": "giao_thong"
+  },
+  {
+    "id": 190,
+    "category": "definition",
+    "question": "Người điều khiển xe máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 400.000 đồng đến 600.000 đồng[cite: 2].",
+    "expected_articles": [
+      19
+    ],
+    "citation": "Điều 19 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 191,
+    "category": "paraphrase",
+    "question": "Lái xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển bị phạt tiền như thế nào?",
+    "reference_answer": "Bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      19
+    ],
+    "citation": "Điều 19 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 192,
+    "category": "yes-no",
+    "question": "Không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trên xe ô tô chở khách có bị phạt không?",
+    "reference_answer": "Có, phạt tiền từ 100.000 đồng đến 200.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 193,
+    "category": "definition",
+    "question": "Ô tô chở khách (trừ xe buýt) chở quá số người quy định bị phạt bao nhiêu trên mỗi người vượt quá?",
+    "reference_answer": "Phạt tiền từ 400.000 đồng đến 600.000 đồng trên mỗi người vượt quá, tổng mức phạt tối đa không vượt quá 75.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 194,
+    "category": "paraphrase",
+    "question": "Xe khách không đóng cửa lên xuống khi đang chạy bị xử lý thế nào?",
+    "reference_answer": "Bị phạt tiền từ 600.000 đồng đến 800.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 3 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 195,
+    "category": "yes-no",
+    "question": "Xe khách kinh doanh chạy tuyến có cự ly lớn hơn 300km chở quá số người quy định có bị phạt 1-2 triệu trên 1 người không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 4",
+    "law": "giao_thong"
+  },
+  {
+    "id": 196,
+    "category": "definition",
+    "question": "Để người lên, xuống xe khi xe đang chạy bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 5 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 197,
+    "category": "paraphrase",
+    "question": "Đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách bị phạt tiền bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 5 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 198,
+    "category": "yes-no",
+    "question": "Chở người trên mui xe khách có bị phạt từ 3.000.000 đến 5.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 6 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 199,
+    "category": "definition",
+    "question": "Người điều khiển xe chở khách không có hoặc không gắn phù hiệu theo quy định bị phạt mức nào?",
+    "reference_answer": "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 7",
+    "law": "giao_thong"
+  },
+  {
+    "id": 200,
+    "category": "paraphrase",
+    "question": "Đón, trả hành khách trên đường cao tốc bị xử lý phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 8",
+    "law": "giao_thong"
+  },
+  {
+    "id": 201,
+    "category": "yes-no",
+    "question": "Đón trả khách trên đường cao tốc có bị trừ 06 điểm giấy phép lái xe không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      20
+    ],
+    "citation": "Điều 20 Khoản 10 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 202,
+    "category": "definition",
+    "question": "Điều khiển xe tải không chốt, đóng cố định cửa sau khi đang chạy bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 600.000 đồng đến 800.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 203,
+    "category": "paraphrase",
+    "question": "Xe tải chở hàng vượt tải trọng cho phép từ trên 10% đến 30% bị phạt như thế nào?",
+    "reference_answer": "Bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 204,
+    "category": "yes-no",
+    "question": "Điều khiển xe chở người trên mui xe tải có bị phạt 800.000 đến 1.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 2 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 205,
+    "category": "definition",
+    "question": "Điều khiển xe ô tô đầu kéo không lắp thiết bị ghi nhận hình ảnh người lái xe bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 206,
+    "category": "paraphrase",
+    "question": "Điều khiển xe tải chở hàng vượt quá chiều cao cho phép chịu mức phạt tiền bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 4",
+    "law": "giao_thong"
+  },
+  {
+    "id": 207,
+    "category": "yes-no",
+    "question": "Điều khiển xe chở hàng vượt trọng tải trên 30% đến 50% bị phạt từ 3.000.000 đến 5.000.000 đồng đúng không?",
+    "reference_answer": "Đúng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 5 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 208,
+    "category": "definition",
+    "question": "Điều khiển xe tải kinh doanh không có hoặc không gắn phù hiệu bị phạt tiền ở mức nào?",
+    "reference_answer": "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 6 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 209,
+    "category": "paraphrase",
+    "question": "Điều khiển xe chở hàng vượt trọng tải trên 100% đến 150% bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 7.000.000 đồng đến 8.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 7 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 210,
+    "category": "yes-no",
+    "question": "Người điều khiển xe tải nhận, trả hàng trên đường cao tốc bị phạt 10.000.000 đến 12.000.000 đồng đúng không?",
+    "reference_answer": "Đúng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 9",
+    "law": "giao_thong"
+  },
+  {
+    "id": 211,
+    "category": "definition",
+    "question": "Mức phạt đối với hành vi vận chuyển hàng hóa là máy móc, thiết bị kỹ thuật dạng trụ không chằng buộc theo quy định là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 18.000.000 đồng đến 22.000.000 đồng (trừ máy móc khổ lớn trên phương tiện chuyên dùng có giấy phép)[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 10 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 212,
+    "category": "paraphrase",
+    "question": "Hành vi chở công-ten-nơ không sử dụng cơ cấu khóa hãm mà gây tai nạn giao thông sẽ bị xử phạt như thế nào?",
+    "reference_answer": "Sẽ bị phạt tiền từ 30.000.000 đồng đến 35.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 11",
+    "law": "giao_thong"
+  },
+  {
+    "id": 213,
+    "category": "yes-no",
+    "question": "Người điều khiển xe tải chở hàng vượt trọng tải trên 150% có bị trừ 10 điểm giấy phép lái xe không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      21
+    ],
+    "citation": "Điều 21 Khoản 13 Điểm đ",
+    "law": "giao_thong"
+  },
+  {
+    "id": 214,
+    "category": "definition",
+    "question": "Người điều khiển xe chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      22
+    ],
+    "citation": "Điều 22 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 215,
+    "category": "paraphrase",
+    "question": "Chở hàng siêu trường, siêu trọng mà kích thước bao ngoài của xe vượt quá quy định trong giấy phép lưu hành thì bị phạt ra sao?",
+    "reference_answer": "Bị phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      22
+    ],
+    "citation": "Điều 22 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 216,
+    "category": "yes-no",
+    "question": "Điều khiển xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành có bị phạt tiền từ 13.000.000 đến 15.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      22
+    ],
+    "citation": "Điều 22 Khoản 3 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 217,
+    "category": "definition",
+    "question": "Lái xe vi phạm chở hàng siêu trường, siêu trọng vượt quá quy định trong giấy phép bị trừ bao nhiêu điểm GPLX?",
+    "reference_answer": "Bị trừ điểm giấy phép lái xe 04 điểm[cite: 2].",
+    "expected_articles": [
+      22
+    ],
+    "citation": "Điều 22 Khoản 6 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 218,
+    "category": "paraphrase",
+    "question": "Không bóc hoặc xóa biểu trưng nguy hiểm trên phương tiện khi không còn vận chuyển hàng nguy hiểm bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      23
+    ],
+    "citation": "Điều 23 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 219,
+    "category": "yes-no",
+    "question": "Vận chuyển hàng nguy hiểm mà xe không dán nhãn, biểu trưng nhận diện có bị phạt tiền từ 4.000.000 đến 6.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      23
+    ],
+    "citation": "Điều 23 Khoản 3",
+    "law": "giao_thong"
+  },
+  {
+    "id": 220,
+    "category": "definition",
+    "question": "Mức phạt tiền đối với hành vi vận chuyển chất dễ cháy, nổ đi qua hầm đường bộ dài từ 100 mét trở lên là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      23
+    ],
+    "citation": "Điều 23 Khoản 4",
+    "law": "giao_thong"
+  },
+  {
+    "id": 221,
+    "category": "paraphrase",
+    "question": "Vận chuyển hàng hóa nguy hiểm mà không có giấy phép bị phạt ở mức nào?",
+    "reference_answer": "Phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      23
+    ],
+    "citation": "Điều 23 Khoản 5",
+    "law": "giao_thong"
+  },
+  {
+    "id": 222,
+    "category": "yes-no",
+    "question": "Người điều khiển xe vận chuyển hàng hóa nguy hiểm không có giấy phép có bị trừ 04 điểm giấy phép lái xe không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      23
+    ],
+    "citation": "Điều 23 Khoản 7 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 223,
+    "category": "definition",
+    "question": "Vận chuyển động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy định bị phạt bao nhiêu tiền?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      24
+    ],
+    "citation": "Điều 24 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 224,
+    "category": "paraphrase",
+    "question": "Hành vi vận chuyển thực phẩm tươi sống không đảm bảo an toàn thực phẩm, vệ sinh môi trường bị xử phạt như thế nào?",
+    "reference_answer": "Bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      24
+    ],
+    "citation": "Điều 24 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 225,
+    "category": "yes-no",
+    "question": "Lái xe vệ sinh môi trường chở phế thải không chạy đúng tuyến, phạm vi quy định có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      25
+    ],
+    "citation": "Điều 25 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 226,
+    "category": "definition",
+    "question": "Xếp hàng hóa lên xe ô tô vượt quá trọng tải cho phép từ trên 10% đến 50% bị phạt đối với cá nhân là bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với cá nhân[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 227,
+    "category": "paraphrase",
+    "question": "Doanh nghiệp không đánh số thứ tự ghế ngồi, giường nằm trên xe ô tô chở khách sẽ bị phạt ra sao?",
+    "reference_answer": "Sẽ bị phạt từ 1.000.000 đồng đến 2.000.000 đồng với cá nhân, 2.000.000 đồng đến 4.000.000 đồng với tổ chức[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 228,
+    "category": "yes-no",
+    "question": "Kinh doanh vận tải không cấp thẻ nhận dạng lái xe cho lái xe có bị phạt tiền từ 3.000.000 đến 4.000.000 đồng đối với cá nhân không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 4 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 229,
+    "category": "definition",
+    "question": "Sử dụng xe kinh doanh chở trẻ em mầm non không có ghế ngồi phù hợp lứa tuổi bị phạt mức nào đối với tổ chức?",
+    "reference_answer": "Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 4 Điểm e",
+    "law": "giao_thong"
+  },
+  {
+    "id": 230,
+    "category": "paraphrase",
+    "question": "Tổ chức sử dụng xe kinh doanh chở học sinh không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 6 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 231,
+    "category": "yes-no",
+    "question": "Tổ chức kinh doanh vận tải sử dụng xe không lắp thiết bị giám sát hành trình có bị phạt từ 10.000.000 đến 12.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 7 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 232,
+    "category": "definition",
+    "question": "Không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt bao nhiêu đối với cá nhân kinh doanh vận tải?",
+    "reference_answer": "Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 8 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 233,
+    "category": "paraphrase",
+    "question": "Đơn vị sản xuất thiết bị giám sát hành trình làm sai lệch dữ liệu của thiết bị giám sát sẽ bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 40.000.000 đồng đến 60.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      26
+    ],
+    "citation": "Điều 26 Khoản 10 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 234,
+    "category": "yes-no",
+    "question": "Lái xe ô tô chở học sinh không hướng dẫn học sinh ngồi đúng vị trí có bị phạt từ 1.000.000 đến 2.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      27
+    ],
+    "citation": "Điều 27 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 235,
+    "category": "definition",
+    "question": "Lái xe chở học sinh tiểu học mà trên xe không có đủ người quản lý theo quy định bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      27
+    ],
+    "citation": "Điều 27 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 236,
+    "category": "paraphrase",
+    "question": "Lái xe ô tô đưa đón trẻ em mầm non không có thiết bị chống bỏ quên trẻ em bị phạt như thế nào?",
+    "reference_answer": "Bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      27
+    ],
+    "citation": "Điều 27 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 237,
+    "category": "yes-no",
+    "question": "Điều khiển xe chở người bốn bánh có gắn động cơ chở quá số người quy định có bị phạt 1-2 triệu đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      28
+    ],
+    "citation": "Điều 28 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 238,
+    "category": "definition",
+    "question": "Lái xe chở người bốn bánh có gắn động cơ hoạt động không đúng tuyến đường, thời gian quy định bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      28
+    ],
+    "citation": "Điều 28 Khoản 3",
+    "law": "giao_thong"
+  },
+  {
+    "id": 239,
+    "category": "paraphrase",
+    "question": "Người điều khiển xe cứu hộ giao thông không lắp thiết bị ghi nhận hình ảnh người lái xe sẽ bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      29
+    ],
+    "citation": "Điều 29 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 240,
+    "category": "yes-no",
+    "question": "Điều khiển xe ô tô cứu hộ không có dụng cụ chuyên dùng để cứu hộ có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      29
+    ],
+    "citation": "Điều 29 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 241,
+    "category": "definition",
+    "question": "Lái xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt mức nào?",
+    "reference_answer": "Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      30
+    ],
+    "citation": "Điều 30 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 242,
+    "category": "paraphrase",
+    "question": "Hành vi cá nhân mua bán biển số xe không do cơ quan nhà nước có thẩm quyền sản xuất bị xử lý phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      31
+    ],
+    "citation": "Điều 31 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 243,
+    "category": "yes-no",
+    "question": "Tổ chức sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ có bị phạt tiền đến 100 triệu đồng không?",
+    "reference_answer": "Có, phạt tiền từ 80.000.000 đồng đến 100.000.000 đồng đối với tổ chức[cite: 2].",
+    "expected_articles": [
+      31
+    ],
+    "citation": "Điều 31 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 244,
+    "category": "definition",
+    "question": "Chủ xe mô tô tự ý thay đổi màu sơn của xe không đúng với chứng nhận đăng ký xe bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 200.000 đồng đến 300.000 đồng đối với cá nhân, 400.000 đồng đến 600.000 đồng đối với tổ chức[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 245,
+    "category": "paraphrase",
+    "question": "Chủ xe ô tô lắp kính chắn gió không phải là loại kính an toàn bị xử phạt như thế nào?",
+    "reference_answer": "Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với cá nhân, từ 600.000 đồng đến 800.000 đồng đối với tổ chức[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 246,
+    "category": "yes-no",
+    "question": "Chủ xe mô tô không làm thủ tục đổi chứng nhận đăng ký xe theo quy định có bị phạt từ 800.000 đến 1.000.000 đồng (với cá nhân) không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 247,
+    "category": "definition",
+    "question": "Chủ xe ô tô cá nhân không làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe theo quy định bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 7 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 248,
+    "category": "paraphrase",
+    "question": "Hành vi chủ xe ô tô tự ý thay đổi màu sơn không đúng với màu sơn trong chứng nhận đăng ký xe bị phạt ra sao?",
+    "reference_answer": "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 7 Điểm i",
+    "law": "giao_thong"
+  },
+  {
+    "id": 249,
+    "category": "yes-no",
+    "question": "Chủ xe mô tô tự ý thay đổi khung, máy, hình dáng của xe có bị phạt từ 4.000.000 đến 6.000.000 đồng (cá nhân) không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 8 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 250,
+    "category": "definition",
+    "question": "Tổ chức là chủ xe ô tô đưa xe không có giấy chứng nhận kiểm định an toàn tham gia giao thông bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 20.000.000 đồng đến 24.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 11 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 251,
+    "category": "paraphrase",
+    "question": "Hành vi chủ xe tự ý cắt, cải tạo kết cấu, kích thước xe ô tô không đúng thiết kế sẽ bị xử phạt như thế nào?",
+    "reference_answer": "Phạt tiền từ 65.000.000 đồng đến 75.000.000 đồng đối với cá nhân, từ 130.000.000 đồng đến 150.000.000 đồng đối với tổ chức[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 16 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 252,
+    "category": "yes-no",
+    "question": "Đưa phương tiện đã bị cắt, hàn, đục sửa số khung tham gia giao thông có bị tịch thu phương tiện không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      32
+    ],
+    "citation": "Điều 32 Khoản 17 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 253,
+    "category": "definition",
+    "question": "Hành khách đi xe gây mất trật tự trên xe bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 100.000 đồng đến 200.000 đồng[cite: 2].",
+    "expected_articles": [
+      33
+    ],
+    "citation": "Điều 33 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 254,
+    "category": "paraphrase",
+    "question": "Hành khách tự ý mở cửa xe khi xe đang chạy bị xử lý mức phạt nào?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      33
+    ],
+    "citation": "Điều 33 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 255,
+    "category": "yes-no",
+    "question": "Hành khách có hành vi đe dọa, xâm phạm sức khỏe lái xe có bị phạt từ 2-3 triệu đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      33
+    ],
+    "citation": "Điều 33 Khoản 3",
+    "law": "giao_thong"
+  },
+  {
+    "id": 256,
+    "category": "definition",
+    "question": "Điều khiển xe vượt quá tải trọng cho phép của đường bộ trên 10% đến 20% bị phạt mức tiền bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      34
+    ],
+    "citation": "Điều 34 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 257,
+    "category": "paraphrase",
+    "question": "Hành vi chở hàng vượt khổ giới hạn của xe ghi trong giấy phép lưu hành bị phạt ra sao?",
+    "reference_answer": "Bị phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      34
+    ],
+    "citation": "Điều 34 Khoản 3 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 258,
+    "category": "yes-no",
+    "question": "Điều khiển xe vượt quá tải trọng đường bộ trên 50% có bị phạt từ 40.000.000 đến 50.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      34
+    ],
+    "citation": "Điều 34 Khoản 5 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 259,
+    "category": "definition",
+    "question": "Tụ tập để cổ vũ, giúp sức hành vi đua xe trái phép bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      35
+    ],
+    "citation": "Điều 35 Khoản 1",
+    "law": "giao_thong"
+  },
+  {
+    "id": 260,
+    "category": "paraphrase",
+    "question": "Tổ chức đua xe trái phép thì cá nhân vi phạm sẽ phải chịu mức phạt tiền bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với cá nhân[cite: 2].",
+    "expected_articles": [
+      35
+    ],
+    "citation": "Điều 35 Khoản 2",
+    "law": "giao_thong"
+  },
+  {
+    "id": 261,
+    "category": "yes-no",
+    "question": "Người đua xe mô tô trái phép trên đường giao thông có bị tịch thu phương tiện không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      35
+    ],
+    "citation": "Điều 35 Khoản 3 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 262,
+    "category": "definition",
+    "question": "Người đi xe máy chở hàng để rơi vãi hàng hóa xuống đường bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 300.000 đồng đến 400.000 đồng[cite: 2].",
+    "expected_articles": [
+      36
+    ],
+    "citation": "Điều 36 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 263,
+    "category": "paraphrase",
+    "question": "Đi xe gắn máy chở hàng vượt quá khổ giới hạn cho phép bị phạt ra sao?",
+    "reference_answer": "Bị phạt tiền từ 400.000 đồng đến 600.000 đồng[cite: 2].",
+    "expected_articles": [
+      36
+    ],
+    "citation": "Điều 36 Khoản 2 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 264,
+    "category": "yes-no",
+    "question": "Xe gắn biển số nước ngoài chở hành khách không có danh sách hành khách theo quy định có bị phạt 1-2 triệu đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      37
+    ],
+    "citation": "Điều 37 Khoản 1 Điểm b",
+    "law": "giao_thong"
+  },
+  {
+    "id": 265,
+    "category": "definition",
+    "question": "Lưu hành phương tiện gắn biển số nước ngoài trên lãnh thổ Việt Nam quá thời hạn quy định bị phạt thế nào?",
+    "reference_answer": "Phạt tiền từ 30.000.000 đồng đến 35.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      37
+    ],
+    "citation": "Điều 37 Khoản 6",
+    "law": "giao_thong"
+  },
+  {
+    "id": 266,
+    "category": "paraphrase",
+    "question": "Lái xe mô tô trong Khu kinh tế cửa khẩu quốc tế không có tờ khai tạm nhập, tái xuất theo quy định bị phạt bao nhiêu?",
+    "reference_answer": "Bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      38
+    ],
+    "citation": "Điều 38 Khoản 1 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 267,
+    "category": "yes-no",
+    "question": "Giáo viên dạy lái xe thực hành không mang theo giấy phép xe tập lái có bị phạt từ 2-3 triệu đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      39
+    ],
+    "citation": "Điều 39 Khoản 1 Điểm e",
+    "law": "giao_thong"
+  },
+  {
+    "id": 268,
+    "category": "definition",
+    "question": "Cơ sở đào tạo lái xe sử dụng xe tập lái không có mui che mưa, nắng bị phạt bao nhiêu?",
+    "reference_answer": "Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      39
+    ],
+    "citation": "Điều 39 Khoản 2 Điểm a",
+    "law": "giao_thong"
+  },
+  {
+    "id": 269,
+    "category": "paraphrase",
+    "question": "Đăng kiểm viên đưa ra yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức sẽ bị phạt như thế nào?",
+    "reference_answer": "Sẽ bị phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng[cite: 2].",
+    "expected_articles": [
+      40
+    ],
+    "citation": "Điều 40 Khoản 1 Điểm c",
+    "law": "giao_thong"
+  },
+  {
+    "id": 270,
+    "category": "yes-no",
+    "question": "Cơ sở đăng kiểm từ chối cung cấp dịch vụ kiểm định không đúng quy định có bị phạt từ 16.000.000 đến 20.000.000 đồng không?",
+    "reference_answer": "Có[cite: 2].",
+    "expected_articles": [
+      40
+    ],
+    "citation": "Điều 40 Khoản 4 Điểm c",
+    "law": "giao_thong"
   }
 ]

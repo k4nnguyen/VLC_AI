@@ -1,121 +1,271 @@
 group,index,category,question,embedding_hit,bm25_hit,expected
-miss_both,5,definition,Các nguyên tắc của pháp luật lao động là gì?,False,False,5
-miss_both,11,scope,Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?,False,False,2
-miss_both,93,unknown,Có được sửa đổi thỏa ước lao động tập thể không?,False,False,84
-miss_both,98,unknown,Ai có thẩm quyền hòa giải tranh chấp lao động?,False,False,185
-miss_both,99,unknown,Khi nào được yêu cầu Tòa án giải quyết tranh chấp lao động?,False,False,188
-miss_both,101,unknown,Ai có quyền tổ chức đình công?,False,False,200
-miss_both,105,unknown,Người lao động có quyền từ chối làm việc khi nào?,False,False,6
-miss_both,107,unknown,Người lao động phải tuân thủ quy định an toàn như thế nào?,False,False,6
-miss_both,108,unknown,Có được ép người lao động làm việc khi mất an toàn không?,False,False,6
-miss_both,109,unknown,Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?,False,False,6
-miss_embedding_only,74,discipline,Có những hình thức kỷ luật lao động nào?,False,True,124
-miss_embedding_only,94,unknown,Khi nào thỏa ước lao động tập thể hết hiệu lực?,False,True,86
-miss_bm25_only,0,definition,Người lao động là gì?,True,False,3
-miss_bm25_only,6,definition,Quyền của người lao động gồm những gì?,True,False,5
-miss_bm25_only,7,definition,Nghĩa vụ của người lao động gồm những gì?,True,False,5
-miss_bm25_only,15,contract,Hợp đồng lao động là gì?,True,False,13
-miss_bm25_only,29,probation,Tiền lương thử việc tối thiểu là bao nhiêu?,True,False,26
-miss_bm25_only,61,termination,Người lao động có quyền đơn phương chấm dứt hợp đồng không?,True,False,35
-miss_bm25_only,62,termination,Người lao động phải báo trước bao lâu khi nghỉ việc?,True,False,35
-miss_bm25_only,63,termination,Khi nào người lao động được nghỉ việc không cần báo trước?,True,False,35
-miss_bm25_only,66,termination,Đang nghỉ phép thì có bị cho thôi việc không?,True,False,37
-miss_bm25_only,83,unknown,Trường hợp nào không cần giấy phép lao động?,True,False,154
-miss_bm25_only,87,unknown,Thương lượng tập thể là gì?,True,False,65
-miss_bm25_only,95,unknown,Tranh chấp lao động là gì?,True,False,179
-miss_bm25_only,96,unknown,Tranh chấp lao động cá nhân là gì?,True,False,179
-miss_bm25_only,104,unknown,Người lao động tham gia đình công có bị xử lý không?,True,False,207
-miss_bm25_only,106,unknown,Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?,True,False,6
-miss_bm25_only,113,unknown,Muốn nghỉ ngang thì có phải báo trước không?,True,False,35
-miss_bm25_only,116,unknown,Mình có được ký nhiều hợp đồng lao động cùng lúc không?,True,False,19
-miss_bm25_only,119,unknown,Bao nhiêu tuổi mới được phép đi làm hợp pháp?,True,False,143
-hit_both,1,definition,Người sử dụng lao động là gì?,True,True,3
-hit_both,2,definition,Tổ chức đại diện người lao động là gì?,True,True,3
-hit_both,3,definition,Quan hệ lao động là gì?,True,True,3
-hit_both,4,definition,Phân biệt người lao động và người sử dụng lao động.,True,True,3
-hit_both,8,definition,Những hành vi nào bị nghiêm cấm trong lao động?,True,True,8
-hit_both,9,definition,Phân biệt đối xử trong lao động có bị cấm không?,True,True,8
-hit_both,10,scope,Đối tượng áp dụng của Bộ luật Lao động là ai?,True,True,2
-hit_both,12,scope,Người sử dụng lao động có thuộc đối tượng áp dụng không?,True,True,2
-hit_both,13,scope,Các cơ quan tổ chức có liên quan có thuộc đối tượng áp dụng không?,True,True,2
-hit_both,14,scope,Bộ luật Lao động áp dụng cho những đối tượng nào?,True,True,2
-hit_both,16,contract,Hợp đồng lao động có bắt buộc bằng văn bản không?,True,True,14
-hit_both,17,contract,Có được giao kết hợp đồng bằng lời nói không?,True,True,14
-hit_both,18,contract,Nguyên tắc giao kết hợp đồng lao động là gì?,True,True,15
-hit_both,19,contract,Nội dung chủ yếu của hợp đồng lao động gồm gì?,True,True,21
-hit_both,20,contract,Phụ lục hợp đồng lao động dùng để làm gì?,True,True,22
-hit_both,21,contract,Khi nào hợp đồng lao động có hiệu lực?,True,True,23
-hit_both,22,contract,Có được giao kết nhiều hợp đồng lao động không?,True,True,19
-hit_both,23,contract,Có mấy loại hợp đồng lao động?,True,True,20
-hit_both,24,contract,Khi nào được tạm hoãn thực hiện hợp đồng lao động?,True,True,30
-hit_both,25,contract,Có được sửa đổi hợp đồng lao động không?,True,True,33
-hit_both,26,contract,Khi nào hợp đồng lao động chấm dứt?,True,True,34
-hit_both,27,probation,Có bắt buộc phải thử việc không?,True,True,24
-hit_both,28,probation,Thử việc tối đa bao nhiêu ngày?,True,True,25
-hit_both,30,probation,Kết thúc thời gian thử việc phải làm gì?,True,True,27
-hit_both,31,probation,Có được hủy bỏ thỏa thuận thử việc không?,True,True,27
-hit_both,32,salary,Tiền lương là gì?,True,True,90
-hit_both,33,salary,Mức lương tối thiểu được quy định như thế nào?,True,True,91
-hit_both,34,salary,Nguyên tắc trả lương là gì?,True,True,94
-hit_both,35,salary,Người lao động được trả lương bằng những hình thức nào?,True,True,96
-hit_both,36,salary,Kỳ hạn trả lương được quy định như thế nào?,True,True,97
-hit_both,37,salary,Làm thêm giờ được trả lương như thế nào?,True,True,98
-hit_both,38,salary,Có được khấu trừ tiền lương của người lao động không?,True,True,102
-hit_both,39,salary,Thưởng là gì?,True,True,104
-hit_both,40,working_time,Thời giờ làm việc bình thường là bao nhiêu giờ?,True,True,105
-hit_both,41,working_time,Một tuần được làm việc tối đa bao nhiêu giờ?,True,True,105
-hit_both,42,working_time,Làm việc ban đêm được tính từ mấy giờ?,True,True,106
-hit_both,43,working_time,Làm thêm giờ được quy định như thế nào?,True,True,107
-hit_both,44,working_time,Một tháng được làm thêm tối đa bao nhiêu giờ?,True,True,107
-hit_both,45,working_time,Một năm được làm thêm tối đa bao nhiêu giờ?,True,True,107
-hit_both,46,working_time,Người lao động được nghỉ giữa giờ như thế nào?,True,True,109
-hit_both,47,working_time,Có được nghỉ giải lao trong giờ làm việc không?,True,True,109
-hit_both,48,working_time,Mỗi tuần người lao động được nghỉ bao nhiêu ngày?,True,True,111
-hit_both,49,working_time,Nếu không nghỉ hằng tuần thì xử lý thế nào?,True,True,111
-hit_both,50,leave,Người lao động được nghỉ lễ bao nhiêu ngày?,True,True,112
-hit_both,51,leave,Những ngày nghỉ lễ được hưởng nguyên lương gồm những ngày nào?,True,True,112
-hit_both,52,leave,Làm đủ 12 tháng được nghỉ phép bao nhiêu ngày?,True,True,113
-hit_both,53,leave,Làm chưa đủ 12 tháng thì nghỉ phép được tính thế nào?,True,True,113
-hit_both,54,leave,Có được gộp ngày nghỉ phép nhiều năm không?,True,True,113
-hit_both,55,leave,Bao lâu thì được tăng thêm ngày nghỉ hằng năm?,True,True,114
-hit_both,56,leave,Người lao động được nghỉ việc riêng khi nào?,True,True,115
-hit_both,57,leave,Ông bà mất có được nghỉ làm không?,True,True,115
-hit_both,58,leave,Có được nghỉ không hưởng lương không?,True,True,115
-hit_both,59,leave,Nghỉ phép năm có được hưởng nguyên lương không?,True,True,113
-hit_both,60,termination,Các trường hợp chấm dứt hợp đồng lao động là gì?,True,True,34
-hit_both,64,termination,Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?,True,True,36
-hit_both,65,termination,Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?,True,True,37
-hit_both,67,termination,Người lao động được trợ cấp thôi việc khi nào?,True,True,46
-hit_both,68,termination,Trợ cấp mất việc làm được quy định như thế nào?,True,True,47
-hit_both,69,termination,Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?,True,True,48
-hit_both,70,discipline,Kỷ luật lao động là gì?,True,True,117
-hit_both,71,discipline,Nội quy lao động phải có những nội dung gì?,True,True,118
-hit_both,72,discipline,Nguyên tắc xử lý kỷ luật lao động là gì?,True,True,122
-hit_both,73,discipline,Thời hiệu xử lý kỷ luật lao động là bao lâu?,True,True,123
-hit_both,75,discipline,Khi nào người lao động bị sa thải?,True,True,125
-hit_both,76,discipline,Có được xử lý kỷ luật lao động đối với người đang nghỉ ốm không?,True,True,122
-hit_both,77,discipline,Sa thải là một hình thức kỷ luật lao động đúng không?,True,True,124
-hit_both,78,discipline,Người lao động có quyền tự bào chữa khi bị xử lý kỷ luật không?,True,True,122
-hit_both,79,discipline,Có được xử lý nhiều hình thức kỷ luật cùng lúc không?,True,True,122
-hit_both,80,unknown,Người lao động nước ngoài làm việc tại Việt Nam phải đáp ứng điều kiện gì?,True,True,151
-hit_both,81,unknown,Khi nào người nước ngoài được tuyển dụng vào Việt Nam?,True,True,152
-hit_both,82,unknown,Giấy phép lao động có thời hạn bao lâu?,True,True,155
-hit_both,84,unknown,Khi nào giấy phép lao động bị thu hồi?,True,True,156
-hit_both,85,unknown,Đối thoại tại nơi làm việc là gì?,True,True,63
-hit_both,86,unknown,Bao lâu phải tổ chức đối thoại tại nơi làm việc?,True,True,63
-hit_both,88,unknown,Nguyên tắc thương lượng tập thể gồm những gì?,True,True,66
-hit_both,89,unknown,Ai có quyền yêu cầu thương lượng tập thể?,True,True,68
-hit_both,90,unknown,Thỏa ước lao động tập thể là gì?,True,True,75
-hit_both,91,unknown,Thỏa ước lao động tập thể có hiệu lực khi nào?,True,True,78
-hit_both,92,unknown,Thời hạn của thỏa ước lao động tập thể là bao lâu?,True,True,83
-hit_both,97,unknown,Tranh chấp lao động tập thể là gì?,True,True,179
-hit_both,100,unknown,Đình công là gì?,True,True,198
-hit_both,102,unknown,Trường hợp nào đình công là bất hợp pháp?,True,True,204
-hit_both,103,unknown,Khi nào được hoãn đình công?,True,True,210
-hit_both,110,unknown,Làm chưa đủ một năm thì nghỉ phép tính sao?,True,True,113
-hit_both,111,unknown,Đi làm ngày lễ thì tiền lương tính thế nào?,True,True,98
-hit_both,112,unknown,Công ty bắt thử việc ba tháng có đúng luật không?,True,True,25
-hit_both,114,unknown,Sếp giữ bằng đại học của nhân viên có hợp pháp không?,True,True,17
-hit_both,115,unknown,Nếu nghỉ việc thì công ty phải thanh toán tiền trong bao lâu?,True,True,48
-hit_both,117,unknown,Có thể nghỉ không lương vài ngày được không?,True,True,115
-hit_both,118,unknown,Doanh nghiệp được sa thải nhân viên trong trường hợp nào?,True,True,125
+miss_both,3,definition,Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?,False,False,2
+miss_both,4,paraphrase,Ai được xem là người sử dụng lao động trong Bộ luật Lao động?,False,False,2
+miss_both,7,paraphrase,Ai là người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam?,False,False,2
+miss_both,14,yes-no,Người lao động phải đủ 15 tuổi trở lên theo quy định của Bộ luật Lao động?,False,False,3
+miss_both,129,definition,Người điều khiển xe máy chở theo 02 người (không thuộc trường hợp ngoại lệ) bị phạt bao nhiêu?,False,False,7
+miss_both,172,paraphrase,Lái xe máy chuyên dùng hoạt động sai phạm vi quy định bị phạt bao nhiêu?,False,False,16
+miss_both,207,definition,Điều khiển xe tải kinh doanh không có hoặc không gắn phù hiệu bị phạt tiền ở mức nào?,False,False,21
+miss_embedding_only,88,paraphrase,"Theo luật, việc bắt buộc người lao động làm việc trái ý muốn có bị cấm không?",False,True,8
+miss_embedding_only,109,paraphrase,Lái xe ô tô không thắt dây đai an toàn khi xe đang chạy trên đường sẽ bị xử phạt như thế nào?,False,True,6
+miss_embedding_only,110,yes-no,Điều khiển xe ô tô chạy dưới tốc độ tối thiểu quy định có bị phạt tiền từ 800.000 đến 1.000.000 đồng không?,False,True,6
+miss_embedding_only,112,paraphrase,Mức phạt nào được áp dụng cho hành vi người lái xe ô tô dùng tay cầm và sử dụng điện thoại khi đang di chuyển?,False,True,6
+miss_embedding_only,119,yes-no,Mức phạt từ 20.000.000 đến 22.000.000 đồng có áp dụng cho hành vi lái xe ô tô lùi xe gây tai nạn giao thông không?,False,True,6
+miss_embedding_only,127,paraphrase,Lái xe máy và chở người ngồi sau có sử dụng ô (dù) sẽ bị phạt bao nhiêu tiền?,False,True,7
+miss_embedding_only,132,definition,Người điều khiển xe máy chở từ 03 người trở lên sẽ bị phạt bao nhiêu tiền?,False,True,7
+miss_embedding_only,163,paraphrase,Người điều khiển xe máy không có còi bị phạt bao nhiêu?,False,True,14
+miss_embedding_only,165,definition,Lái xe máy không có chứng nhận đăng ký xe bị phạt bao nhiêu?,False,True,14
+miss_embedding_only,166,paraphrase,Sử dụng còi xe máy không đúng quy chuẩn kỹ thuật bị phạt mức nào?,False,True,14
+miss_embedding_only,181,paraphrase,Người lái ô tô kinh doanh vận tải quên mang giấy phép lái xe bị xử phạt như thế nào?,False,True,18
+miss_embedding_only,186,definition,GPLX ô tô hết hạn sử dụng dưới 01 năm bị phạt thế nào?,False,True,18
+miss_embedding_only,188,yes-no,Lái xe ô tô bằng GPLX hết hạn dưới 01 năm có bị trừ điểm GPLX không?,False,True,18
+miss_embedding_only,206,yes-no,Điều khiển xe chở hàng vượt trọng tải trên 30% đến 50% bị phạt từ 3.000.000 đến 5.000.000 đồng đúng không?,False,True,21
+miss_bm25_only,1,paraphrase,Những ai được Bộ luật Lao động điều chỉnh theo Khoản 1 Điều 2?,True,False,2
+miss_bm25_only,27,definition,Người làm việc không có quan hệ lao động được định nghĩa như thế nào theo Bộ luật Lao động?,True,False,3
+miss_bm25_only,56,yes-no,Nhà nước không khuyến khích đối thoại giữa người lao động và người sử dụng lao động đúng hay sai?,True,False,4
+miss_bm25_only,60,definition,Người lao động có những quyền gì theo Điều 5 Khoản 1?,True,False,5
+miss_bm25_only,61,paraphrase,Điều 5 Khoản 1 nói gì về quyền của người lao động?,True,False,5
+miss_bm25_only,62,yes-no,Người lao động có quyền theo Điều 5 Khoản 1 không?,True,False,5
+miss_bm25_only,63,definition,Người lao động có những nghĩa vụ gì theo Điều 5 Khoản 2?,True,False,5
+miss_bm25_only,64,paraphrase,"Theo Điều 5 Khoản 2, người lao động phải thực hiện những trách nhiệm nào?",True,False,5
+miss_bm25_only,65,yes-no,Người lao động có nghĩa vụ theo quy định tại Điều 5 Khoản 2 phải không?,True,False,5
+miss_bm25_only,66,definition,Người sử dụng lao động có những quyền gì theo Điều 6 Khoản 1?,True,False,6
+miss_bm25_only,67,paraphrase,Điều 6 Khoản 1 nói gì về quyền của người sử dụng lao động?,True,False,6
+miss_bm25_only,68,yes-no,Người sử dụng lao động có quyền theo Điều 6 Khoản 1 không?,True,False,6
+miss_bm25_only,69,definition,Người sử dụng lao động có những nghĩa vụ gì theo Điều 6 Khoản 2?,True,False,6
+miss_bm25_only,70,paraphrase,"Theo Điều 6 Khoản 2, người sử dụng lao động phải thực hiện những trách nhiệm nào?",True,False,6
+miss_bm25_only,71,yes-no,Người sử dụng lao động không có nghĩa vụ nào theo Điều 6 Khoản 2 đúng hay sai?,True,False,6
+miss_bm25_only,79,paraphrase,Nêu cách công đoàn góp phần bảo vệ người lao động theo quy định tại Điều 7 Khoản 3.,True,False,7
+miss_bm25_only,90,definition,Nghị định này quy định về những vấn đề gì theo Điểm a Khoản 1 Điều 1?,True,False,1
+miss_bm25_only,113,yes-no,Chở người trên thùng xe tải trái quy định hoặc trên nóc xe có bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng không?,True,False,6
+hit_both,0,definition,Ai là đối tượng áp dụng theo Điều 2 Khoản 1 Bộ luật Lao động?,True,True,2
+hit_both,2,yes-no,Người làm việc không có quan hệ lao động có thuộc đối tượng áp dụng không?,True,True,2
+hit_both,5,yes-no,Người sử dụng lao động có phải là đối tượng áp dụng của Bộ luật Lao động không?,True,True,2
+hit_both,6,definition,Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động không?,True,True,2
+hit_both,8,yes-no,Người lao động nước ngoài làm việc tại Việt Nam có thuộc đối tượng áp dụng của Bộ luật Lao động không?,True,True,2
+hit_both,9,definition,Đối tượng áp dụng trong Khoản 4 Điều 2 gồm những ai?,True,True,2
+hit_both,10,paraphrase,Ai được xem là đối tượng áp dụng theo Khoản 4 Điều 2 Bộ luật Lao động?,True,True,2
+hit_both,11,yes-no,Cơ quan không liên quan trực tiếp đến quan hệ lao động có phải là đối tượng áp dụng theo Khoản 4 Điều 2 không?,True,True,2
+hit_both,12,definition,Người lao động được định nghĩa như thế nào theo Bộ luật Lao động?,True,True,3
+hit_both,13,paraphrase,Hãy giải thích lại khái niệm người lao động bằng cách khác.,True,True,3
+hit_both,15,definition,Người sử dụng lao động được định nghĩa như thế nào theo Điều 3 Khoản 2?,True,True,3
+hit_both,16,paraphrase,"Theo Điều 3 Khoản 2, người sử dụng lao động là ai?",True,True,3
+hit_both,17,yes-no,Người sử dụng lao động là cá nhân không cần có năng lực hành vi dân sự đầy đủ đúng hay sai?,True,True,3
+hit_both,18,definition,Tổ chức đại diện người lao động tại cơ sở là gì?,True,True,3
+hit_both,19,paraphrase,Tổ chức đại diện người lao động tại cơ sở có thể là những tổ chức nào?,True,True,3
+hit_both,20,yes-no,Tổ chức đại diện người lao động tại cơ sở được thành lập bắt buộc hay tự nguyện?,True,True,3
+hit_both,21,definition,Tổ chức đại diện người sử dụng lao động là gì theo Bộ luật Lao động?,True,True,3
+hit_both,22,paraphrase,Tổ chức đại diện người sử dụng lao động có vai trò gì trong quan hệ lao động?,True,True,3
+hit_both,23,yes-no,Tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp đúng không?,True,True,3
+hit_both,24,definition,Quan hệ lao động là gì theo Bộ luật Lao động?,True,True,3
+hit_both,25,paraphrase,Quan hệ lao động bao gồm những mối quan hệ nào?,True,True,3
+hit_both,26,yes-no,Quan hệ lao động chỉ xảy ra giữa người lao động và người sử dụng lao động đúng không?,True,True,3
+hit_both,28,paraphrase,Người làm việc không có quan hệ lao động là người làm việc mà không ký hợp đồng lao động đúng không?,True,True,3
+hit_both,29,yes-no,Người làm việc không có quan hệ lao động có phải là người làm việc theo hợp đồng lao động không?,True,True,3
+hit_both,30,definition,Cưỡng bức lao động được hiểu là gì theo Bộ luật Lao động?,True,True,3
+hit_both,31,paraphrase,Cưỡng bức lao động có thể được mô tả như việc nào?,True,True,3
+hit_both,32,yes-no,Cưỡng bức lao động là hành vi ép buộc người lao động làm việc trái ý muốn của họ đúng không?,True,True,3
+hit_both,33,definition,Phân biệt đối xử trong lao động được hiểu như thế nào theo luật?,True,True,3
+hit_both,34,paraphrase,Hành vi ưu tiên hoặc loại trừ người lao động dựa trên đặc điểm cá nhân nào được coi là phân biệt đối xử trong lao động?,True,True,3
+hit_both,35,yes-no,Việc phân biệt đối xử trong lao động vì yêu cầu đặc thù của công việc có bị coi là vi phạm pháp luật không?,True,True,3
+hit_both,36,definition,Quấy rối tình dục tại nơi làm việc được định nghĩa như thế nào theo Bộ luật Lao động?,True,True,3
+hit_both,37,paraphrase,Hành vi quấy rối tình dục tại nơi làm việc là gì nếu nói bằng cách khác?,True,True,3
+hit_both,38,yes-no,"Quấy rối tình dục tại nơi làm việc chỉ xảy ra khi có sự đồng ý của người bị quấy rối, đúng hay sai?",True,True,3
+hit_both,39,definition,Chính sách của Nhà nước về lao động bảo đảm điều gì cho người lao động?,True,True,4
+hit_both,40,paraphrase,Nhà nước khuyến khích điều gì liên quan đến thỏa thuận lao động?,True,True,4
+hit_both,41,yes-no,Nhà nước chỉ bảo vệ quyền lợi của người lao động có hợp đồng lao động đúng không?,True,True,4
+hit_both,42,definition,Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến người sử dụng lao động?,True,True,4
+hit_both,43,paraphrase,Nhà nước có chính sách gì để bảo vệ người sử dụng lao động và quản lý lao động?,True,True,4
+hit_both,44,yes-no,Nhà nước có chính sách nâng cao trách nhiệm xã hội trong quản lý lao động không?,True,True,4
+hit_both,45,definition,Chính sách của Nhà nước về lao động trong khoản 3 Điều 4 bao gồm những nội dung gì?,True,True,4
+hit_both,46,paraphrase,Khoản 3 Điều 4 quy định Nhà nước hỗ trợ gì cho người lao động và hoạt động kinh doanh?,True,True,4
+hit_both,47,yes-no,Khoản 3 Điều 4 có đề cập đến việc áp dụng Bộ luật Lao động cho người không có quan hệ lao động không?,True,True,4
+hit_both,48,definition,Chính sách của Nhà nước về lao động bao gồm những nội dung gì?,True,True,4
+hit_both,49,paraphrase,Nhà nước có chính sách gì để giúp người lao động nâng cao kỹ năng và duy trì việc làm?,True,True,4
+hit_both,50,yes-no,"Nhà nước ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao đúng không?",True,True,4
+hit_both,51,definition,Chính sách của Nhà nước về thị trường lao động là gì?,True,True,4
+hit_both,52,paraphrase,Nhà nước có chính sách gì để thúc đẩy sự kết nối giữa người lao động và người sử dụng lao động?,True,True,4
+hit_both,53,yes-no,Nhà nước có chính sách đa dạng hình thức kết nối cung cầu lao động không?,True,True,4
+hit_both,54,definition,Chính sách của Nhà nước về lao động trong Khoản 6 Điều 4 là gì?,True,True,4
+hit_both,55,paraphrase,Nhà nước khuyến khích điều gì giữa người lao động và người sử dụng lao động theo Khoản 6 Điều 4?,True,True,4
+hit_both,57,definition,Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến lao động nữ và người lao động đặc biệt?,True,True,4
+hit_both,58,paraphrase,Nhà nước có chính sách gì để hỗ trợ các nhóm lao động như người khuyết tật và lao động chưa thành niên?,True,True,4
+hit_both,59,yes-no,Chính sách lao động của Nhà nước có bao gồm bảo vệ lao động nữ không?,True,True,4
+hit_both,72,definition,Quan hệ lao động được xác lập như thế nào theo Điều 7 Khoản 1?,True,True,7
+hit_both,73,paraphrase,Việc thiết lập quan hệ lao động phải dựa trên những nguyên tắc nào?,True,True,7
+hit_both,74,yes-no,Quan hệ lao động có thể được xác lập mà không cần sự thỏa thuận giữa các bên không?,True,True,7
+hit_both,75,definition,Ai là những chủ thể tham gia xây dựng quan hệ lao động theo Điều 7 Khoản 2?,True,True,7
+hit_both,76,paraphrase,"Theo Điều 7 Khoản 2, quan hệ lao động cần được xây dựng như thế nào với sự hỗ trợ của cơ quan nhà nước?",True,True,7
+hit_both,77,yes-no,Có phải cơ quan nhà nước có thẩm quyền không hỗ trợ trong việc xây dựng quan hệ lao động không?,True,True,7
+hit_both,78,definition,Công đoàn có vai trò gì trong xây dựng quan hệ lao động theo Điều 7 Khoản 3?,True,True,7
+hit_both,80,yes-no,Công đoàn chỉ giám sát việc thi hành pháp luật lao động mà không tham gia xây dựng quan hệ lao động đúng không?,True,True,7
+hit_both,81,definition,Phòng Thương mại và Công nghiệp Việt Nam có vai trò gì trong quan hệ lao động?,True,True,7
+hit_both,82,paraphrase,Các tổ chức đại diện người sử dụng lao động được thành lập theo pháp luật có nhiệm vụ gì trong quan hệ lao động?,True,True,7
+hit_both,83,yes-no,Liên minh Hợp tác xã Việt Nam có thể tham gia xây dựng quan hệ lao động ổn định không?,True,True,7
+hit_both,84,definition,Phân biệt đối xử trong lao động là gì theo Điều 8 Khoản 1?,True,True,8
+hit_both,85,paraphrase,"Theo Điều 8 Khoản 1, việc đối xử không công bằng với người lao động có bị cấm không?",True,True,8
+hit_both,86,yes-no,Điều 8 Khoản 1 có cấm phân biệt đối xử trong lao động không?,True,True,8
+hit_both,87,definition,Hành vi nào bị nghiêm cấm liên quan đến người lao động theo Điều 8 Khoản 2?,True,True,8
+hit_both,89,yes-no,Ngược đãi người lao động có bị pháp luật nghiêm cấm không?,True,True,8
+hit_both,91,paraphrase,Phạm vi điều chỉnh liên quan đến giấy phép lái xe trong Nghị định này là gì?,True,True,1
+hit_both,92,yes-no,Việc trừ điểm và phục hồi điểm giấy phép lái xe có thuộc phạm vi điều chỉnh của Nghị định này không?,True,True,1
+hit_both,93,definition,Tổ chức kinh tế được thành lập theo quy định của Luật Doanh nghiệp bao gồm những loại hình nào theo Khoản 2 Điều 2?,True,True,2
+hit_both,94,paraphrase,Hộ kinh doanh hoặc hộ gia đình khi vi phạm hành chính sẽ bị xử lý ra sao?,True,True,2
+hit_both,95,yes-no,Tổ chức nước ngoài có hành vi vi phạm hành chính về giao thông đường bộ tại Việt Nam có bị áp dụng Nghị định này không?,True,True,2
+hit_both,96,definition,"Các hình thức xử phạt chính đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông đường bộ bao gồm những gì?",True,True,3
+hit_both,97,paraphrase,"Ngoài hình thức phạt chính, cá nhân hoặc tổ chức vi phạm có thể bị áp dụng những hình phạt bổ sung nào?",True,True,3
+hit_both,98,yes-no,Đình chỉ hoạt động có thời hạn có phải là một hình thức xử phạt bổ sung không?,True,True,3
+hit_both,99,definition,"Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là bao lâu?",True,True,4
+hit_both,100,paraphrase,Thời gian tính thời hiệu đối với các vi phạm phát hiện qua thiết bị kỹ thuật nghiệp vụ bắt đầu từ khi nào?,True,True,4
+hit_both,101,yes-no,Thời hiệu xử phạt vi phạm hành chính giao thông đường bộ có phải là 02 năm không?,True,True,4
+hit_both,102,definition,"Những loại giấy phép, chứng chỉ hành nghề nào có thể bị tước quyền sử dụng có thời hạn?",True,True,5
+hit_both,103,paraphrase,Trong trường hợp nào người vi phạm bị tước cả giấy phép lái xe thay vì trừ điểm khi bị phạt cùng một lần?,True,True,5
+hit_both,104,yes-no,"Trong thời gian bị tước quyền sử dụng giấy phép lái xe, cá nhân có thể làm thủ tục cấp mới giấy phép lái xe không?",True,True,5
+hit_both,105,definition,Mức phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe ô tô được áp dụng cho hành vi nào liên quan đến tín hiệu chuyển hướng?,True,True,6
+hit_both,106,paraphrase,Hành vi sử dụng còi xe ô tô trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau bị xử phạt ra sao?,True,True,6
+hit_both,107,yes-no,Chở người trên buồng lái ô tô quá số lượng quy định có bị phạt tiền từ 600.000 đến 800.000 đồng không?,True,True,6
+hit_both,108,definition,Mức phạt đối với người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h là bao nhiêu?,True,True,6
+hit_both,111,definition,Mức phạt tiền đối với hành vi lùi xe ô tô trên đường một chiều hoặc khu vực cấm lùi xe là bao nhiêu?,True,True,6
+hit_both,114,definition,Mức phạt tiền đối với người lái ô tô trong máu có nồng độ cồn chưa vượt quá 50 miligam/100 mililít máu là bao nhiêu?,True,True,6
+hit_both,115,paraphrase,Hành vi người điều khiển xe ô tô đi trên vỉa hè bị xử phạt thế nào theo luật?,True,True,6
+hit_both,116,yes-no,Lái xe ô tô chạy quá tốc độ quy định trên 35 km/h có bị phạt từ 12.000.000 đến 14.000.000 đồng không?,True,True,6
+hit_both,117,definition,"Gây tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường hoặc không trợ giúp người bị nạn thì người lái ô tô bị phạt bao nhiêu?",True,True,6
+hit_both,118,paraphrase,Người lái ô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông sẽ đối mặt với mức phạt nào?,True,True,6
+hit_both,120,definition,Người lái xe ô tô không chấp hành yêu cầu kiểm tra nồng độ cồn của người thi hành công vụ bị phạt bao nhiêu?,True,True,6
+hit_both,121,paraphrase,Lái xe ô tô có sử dụng chất ma túy sẽ bị xử phạt hành chính với số tiền bao nhiêu?,True,True,6
+hit_both,122,yes-no,Người lái ô tô dùng chân điều khiển vô lăng có bị phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng không?,True,True,6
+hit_both,123,definition,"Tái phạm hành vi lạng lách, đánh võng xe ô tô sẽ bị hình phạt bổ sung gì nặng nhất?",True,True,6
+hit_both,124,paraphrase,Người lái xe ô tô vi phạm quy định chạy quá tốc độ trên 20km/h bị trừ bao nhiêu điểm GPLX?,True,True,6
+hit_both,125,yes-no,Lái xe ô tô không chấp hành yêu cầu kiểm tra ma túy có bị trừ 10 điểm giấy phép lái xe không?,True,True,6
+hit_both,126,definition,"Mức phạt tiền cho người điều khiển xe mô tô, xe gắn máy không có tín hiệu khi vượt xe là bao nhiêu?",True,True,7
+hit_both,128,yes-no,Việc sử dụng còi xe máy trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau có bị phạt tiền từ 200.000 đến 400.000 đồng không?,True,True,7
+hit_both,130,paraphrase,Nếu người lái xe mô tô không đội mũ bảo hiểm hoặc cài quai không đúng quy cách thì bị phạt mức nào?,True,True,7
+hit_both,131,yes-no,Điều khiển xe mô tô chạy quá tốc độ từ 05 km/h đến dưới 10 km/h có bị phạt tiền từ 400.000 đồng đến 600.000 đồng không?,True,True,7
+hit_both,133,paraphrase,Người lái xe máy dùng tay cầm điện thoại hoặc đeo tai nghe (thiết bị âm thanh) khi đang chạy xe bị phạt bao nhiêu?,True,True,7
+hit_both,134,yes-no,Xe máy đi ngược chiều trên đường một chiều có bị phạt từ 4.000.000 đến 6.000.000 đồng không?,True,True,7
+hit_both,135,definition,"Mức phạt cao nhất bằng tiền đối với xe mô tô, xe gắn máy vi phạm nồng độ cồn trên 80 mg/100 ml máu là bao nhiêu?",True,True,7
+hit_both,136,paraphrase,"Hành vi người đi xe máy buông cả hai tay bị xử phạt tịch thu phương tiện, đúng hay sai?",True,True,7
+hit_both,137,yes-no,Người lái xe mô tô vi phạm nồng độ cồn ở mức cao nhất có bị trừ 10 điểm GPLX không?,True,True,7
+hit_both,138,definition,Người điều khiển xe máy chuyên dùng đỗ xe trên dốc không chèn bánh bị phạt bao nhiêu?,True,True,8
+hit_both,139,paraphrase,Lái xe máy chuyên dùng trong hầm đường bộ mà không sử dụng đèn chiếu sáng gần bị xử phạt như thế nào?,True,True,8
+hit_both,140,yes-no,Người lái xe máy chuyên dùng gây tai nạn giao thông mà không dừng lại có bị phạt từ 2.000.000 đến 3.000.000 đồng không?,True,True,8
+hit_both,141,definition,Người đi xe đạp vượt bên phải trong trường hợp không được phép bị phạt bao nhiêu tiền?,True,True,9
+hit_both,142,paraphrase,"Mức phạt tiền cho việc sử dụng điện thoại khi đang điều khiển xe đạp, xe đạp máy là bao nhiêu?",True,True,9
+hit_both,143,yes-no,"Người đi xe đạp lạng lách, đánh võng trên đường có bị phạt tiền từ 300.000 đến 400.000 đồng không?",True,True,9
+hit_both,144,definition,Mức phạt đối với người đi xe đạp đi vào đường cao tốc là bao nhiêu?,True,True,9
+hit_both,145,paraphrase,Người đi bộ đi qua đường không đúng nơi quy định sẽ chịu mức phạt như thế nào?,True,True,10
+hit_both,146,yes-no,Người đi bộ mang vác vật cồng kềnh gây cản trở giao thông có bị phạt từ 400.000 đến 600.000 đồng không?,True,True,10
+hit_both,147,definition,Hành vi để vật nuôi đi trên đường bộ không bảo đảm an toàn cho giao thông bị phạt bao nhiêu tiền?,True,True,11
+hit_both,148,paraphrase,"Người bán hàng rong trên lòng đường, vỉa hè các tuyến phố cấm bị phạt mức nào?",True,True,12
+hit_both,149,yes-no,"Hành vi sử dụng trái phép lòng đường, vỉa hè để kinh doanh dịch vụ ăn uống có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng đối với cá nhân không?",True,True,12
+hit_both,150,definition,Mức phạt đối với hành vi điều khiển xe ô tô không có kính chắn gió (đối với xe có thiết kế) là bao nhiêu?,True,True,13
+hit_both,151,paraphrase,Lái xe ô tô không có còi hoặc còi không có tác dụng bị phạt bao nhiêu?,True,True,13
+hit_both,152,yes-no,Điều khiển ô tô không có bộ phận giảm thanh có bị phạt tiền từ 400.000 đến 600.000 đồng không?,True,True,13
+hit_both,153,definition,Hành vi ô tô kinh doanh vận tải hành khách tự ý lắp thêm ghế bị phạt thế nào?,True,True,13
+hit_both,154,paraphrase,Điều khiển xe ô tô không có chứng nhận đăng ký xe bị xử phạt ra sao?,True,True,13
+hit_both,155,yes-no,Dán phù hiệu cơ quan nhà nước lên ô tô trái phép có bị phạt từ 2.000.000 đến 3.000.000 đồng không?,True,True,13
+hit_both,156,definition,Giấy chứng nhận kiểm định xe ô tô hết hạn dưới 01 tháng bị phạt mức nào?,True,True,13
+hit_both,157,paraphrase,Hệ thống hãm của xe ô tô không có tác dụng bị phạt bao nhiêu?,True,True,13
+hit_both,158,yes-no,Tem kiểm định hết hạn từ 01 tháng trở lên đối với xe ô tô bị phạt từ 4.000.000 đến 6.000.000 đồng đúng không?,True,True,13
+hit_both,159,definition,Điều khiển xe ô tô không gắn biển số bị phạt bao nhiêu?,True,True,13
+hit_both,160,paraphrase,Lái ô tô gắn biển số không do cơ quan có thẩm quyền cấp bị xử lý phạt tiền thế nào?,True,True,13
+hit_both,161,yes-no,Ô tô quá niên hạn sử dụng tham gia giao thông có bị tịch thu phương tiện không?,True,True,13
+hit_both,162,definition,Hành vi vi phạm quy định tại Khoản 3 Điều 13 bị trừ mấy điểm giấy phép lái xe?,True,True,13
+hit_both,164,yes-no,Xe máy không có đèn tín hiệu bị phạt 400.000 đến 600.000 đồng đúng không?,True,True,14
+hit_both,167,yes-no,Lái xe máy có dán che lấp biển số bị phạt từ 4.000.000 đến 6.000.000 đồng phải không?,True,True,14
+hit_both,168,definition,Hành vi vi phạm Khoản 3 Điều 14 bị trừ mấy điểm giấy phép lái xe?,True,True,14
+hit_both,169,paraphrase,Đi xe thô sơ không có bộ phận phát âm thanh cảnh báo bị phạt bao nhiêu?,True,True,15
+hit_both,170,yes-no,Xe thô sơ không có hệ thống hãm (phanh) bị phạt từ 300.000 đến 400.000 đồng phải không?,True,True,15
+hit_both,171,definition,Xe máy chuyên dùng không gắn biển số bị phạt thế nào?,True,True,16
+hit_both,173,yes-no,"Điều khiển xe máy chuyên dùng sản xuất, lắp ráp trái quy định tham gia giao thông có bị tịch thu phương tiện không?",True,True,16
+hit_both,174,definition,Lái xe ô tô không đáp ứng yêu cầu vệ sinh lưu thông trong đô thị bị phạt bao nhiêu?,True,True,17
+hit_both,175,paraphrase,Chở đất đá làm rơi vãi xuống đường bộ bị phạt thế nào?,True,True,17
+hit_both,176,yes-no,Đổ trái phép phế thải ra phần đất dành cho đường bộ ngoài đô thị bị phạt từ 4-6 triệu đồng đúng không?,True,True,17
+hit_both,177,definition,"Đổ trái phép rác, phế thải ra đường phố bị phạt mức tiền bao nhiêu?",True,True,17
+hit_both,178,paraphrase,Người điều khiển xe ô tô đổ trái phép phế thải ra đường phố bị trừ bao nhiêu điểm GPLX?,True,True,17
+hit_both,179,yes-no,Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô có bị phạt cảnh cáo không?,True,True,18
+hit_both,180,definition,Người lái xe mô tô kinh doanh vận tải không mang bảo hiểm trách nhiệm dân sự bị phạt bao nhiêu?,True,True,18
+hit_both,182,yes-no,Người 16 tuổi đến dưới 18 tuổi lái xe mô tô trên 50cm3 bị phạt từ 400.000 đến 600.000 đồng đúng không?,True,True,18
+hit_both,183,definition,Lái xe mô tô dưới 125cm3 không có GPLX bị phạt bao nhiêu?,True,True,18
+hit_both,184,paraphrase,Người chưa đủ 18 tuổi lái xe ô tô sẽ chịu mức phạt tiền bao nhiêu?,True,True,18
+hit_both,185,yes-no,Lái xe mô tô trên 125cm3 không có GPLX bị phạt 6-8 triệu đồng phải không?,True,True,18
+hit_both,187,paraphrase,Lái xe ô tô khi GPLX đã hết hạn từ 01 năm trở lên chịu mức phạt ra sao?,True,True,18
+hit_both,189,definition,Người điều khiển xe máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc bị phạt bao nhiêu?,True,True,19
+hit_both,190,paraphrase,Lái xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển bị phạt tiền như thế nào?,True,True,19
+hit_both,191,yes-no,"Không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trên xe ô tô chở khách có bị phạt không?",True,True,20
+hit_both,192,definition,Ô tô chở khách (trừ xe buýt) chở quá số người quy định bị phạt bao nhiêu trên mỗi người vượt quá?,True,True,20
+hit_both,193,paraphrase,Xe khách không đóng cửa lên xuống khi đang chạy bị xử lý thế nào?,True,True,20
+hit_both,194,yes-no,Xe khách kinh doanh chạy tuyến có cự ly lớn hơn 300km chở quá số người quy định có bị phạt 1-2 triệu trên 1 người không?,True,True,20
+hit_both,195,definition,"Để người lên, xuống xe khi xe đang chạy bị phạt bao nhiêu?",True,True,20
+hit_both,196,paraphrase,"Đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách bị phạt tiền bao nhiêu?",True,True,20
+hit_both,197,yes-no,Chở người trên mui xe khách có bị phạt từ 3.000.000 đến 5.000.000 đồng không?,True,True,20
+hit_both,198,definition,Người điều khiển xe chở khách không có hoặc không gắn phù hiệu theo quy định bị phạt mức nào?,True,True,20
+hit_both,199,paraphrase,"Đón, trả hành khách trên đường cao tốc bị xử lý phạt bao nhiêu?",True,True,20
+hit_both,200,yes-no,Đón trả khách trên đường cao tốc có bị trừ 06 điểm giấy phép lái xe không?,True,True,20
+hit_both,201,definition,"Điều khiển xe tải không chốt, đóng cố định cửa sau khi đang chạy bị phạt bao nhiêu?",True,True,21
+hit_both,202,paraphrase,Xe tải chở hàng vượt tải trọng cho phép từ trên 10% đến 30% bị phạt như thế nào?,True,True,21
+hit_both,203,yes-no,Điều khiển xe chở người trên mui xe tải có bị phạt 800.000 đến 1.000.000 đồng không?,True,True,21
+hit_both,204,definition,Điều khiển xe ô tô đầu kéo không lắp thiết bị ghi nhận hình ảnh người lái xe bị phạt bao nhiêu?,True,True,21
+hit_both,205,paraphrase,Điều khiển xe tải chở hàng vượt quá chiều cao cho phép chịu mức phạt tiền bao nhiêu?,True,True,21
+hit_both,208,paraphrase,Điều khiển xe chở hàng vượt trọng tải trên 100% đến 150% bị phạt bao nhiêu?,True,True,21
+hit_both,209,yes-no,"Người điều khiển xe tải nhận, trả hàng trên đường cao tốc bị phạt 10.000.000 đến 12.000.000 đồng đúng không?",True,True,21
+hit_both,210,definition,"Mức phạt đối với hành vi vận chuyển hàng hóa là máy móc, thiết bị kỹ thuật dạng trụ không chằng buộc theo quy định là bao nhiêu?",True,True,21
+hit_both,211,paraphrase,Hành vi chở công-ten-nơ không sử dụng cơ cấu khóa hãm mà gây tai nạn giao thông sẽ bị xử phạt như thế nào?,True,True,21
+hit_both,212,yes-no,Người điều khiển xe tải chở hàng vượt trọng tải trên 150% có bị trừ 10 điểm giấy phép lái xe không?,True,True,21
+hit_both,213,definition,"Người điều khiển xe chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng bị phạt bao nhiêu?",True,True,22
+hit_both,214,paraphrase,"Chở hàng siêu trường, siêu trọng mà kích thước bao ngoài của xe vượt quá quy định trong giấy phép lưu hành thì bị phạt ra sao?",True,True,22
+hit_both,215,yes-no,"Điều khiển xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành có bị phạt tiền từ 13.000.000 đến 15.000.000 đồng không?",True,True,22
+hit_both,216,definition,"Lái xe vi phạm chở hàng siêu trường, siêu trọng vượt quá quy định trong giấy phép bị trừ bao nhiêu điểm GPLX?",True,True,22
+hit_both,217,paraphrase,Không bóc hoặc xóa biểu trưng nguy hiểm trên phương tiện khi không còn vận chuyển hàng nguy hiểm bị phạt bao nhiêu?,True,True,23
+hit_both,218,yes-no,"Vận chuyển hàng nguy hiểm mà xe không dán nhãn, biểu trưng nhận diện có bị phạt tiền từ 4.000.000 đến 6.000.000 đồng không?",True,True,23
+hit_both,219,definition,"Mức phạt tiền đối với hành vi vận chuyển chất dễ cháy, nổ đi qua hầm đường bộ dài từ 100 mét trở lên là bao nhiêu?",True,True,23
+hit_both,220,paraphrase,Vận chuyển hàng hóa nguy hiểm mà không có giấy phép bị phạt ở mức nào?,True,True,23
+hit_both,221,yes-no,Người điều khiển xe vận chuyển hàng hóa nguy hiểm không có giấy phép có bị trừ 04 điểm giấy phép lái xe không?,True,True,23
+hit_both,222,definition,"Vận chuyển động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy định bị phạt bao nhiêu tiền?",True,True,24
+hit_both,223,paraphrase,"Hành vi vận chuyển thực phẩm tươi sống không đảm bảo an toàn thực phẩm, vệ sinh môi trường bị xử phạt như thế nào?",True,True,24
+hit_both,224,yes-no,"Lái xe vệ sinh môi trường chở phế thải không chạy đúng tuyến, phạm vi quy định có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",True,True,25
+hit_both,225,definition,Xếp hàng hóa lên xe ô tô vượt quá trọng tải cho phép từ trên 10% đến 50% bị phạt đối với cá nhân là bao nhiêu?,True,True,26
+hit_both,226,paraphrase,"Doanh nghiệp không đánh số thứ tự ghế ngồi, giường nằm trên xe ô tô chở khách sẽ bị phạt ra sao?",True,True,26
+hit_both,227,yes-no,Kinh doanh vận tải không cấp thẻ nhận dạng lái xe cho lái xe có bị phạt tiền từ 3.000.000 đến 4.000.000 đồng đối với cá nhân không?,True,True,26
+hit_both,228,definition,Sử dụng xe kinh doanh chở trẻ em mầm non không có ghế ngồi phù hợp lứa tuổi bị phạt mức nào đối với tổ chức?,True,True,26
+hit_both,229,paraphrase,"Tổ chức sử dụng xe kinh doanh chở học sinh không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em bị phạt bao nhiêu?",True,True,26
+hit_both,230,yes-no,Tổ chức kinh doanh vận tải sử dụng xe không lắp thiết bị giám sát hành trình có bị phạt từ 10.000.000 đến 12.000.000 đồng không?,True,True,26
+hit_both,231,definition,Không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt bao nhiêu đối với cá nhân kinh doanh vận tải?,True,True,26
+hit_both,232,paraphrase,Đơn vị sản xuất thiết bị giám sát hành trình làm sai lệch dữ liệu của thiết bị giám sát sẽ bị phạt bao nhiêu?,True,True,26
+hit_both,233,yes-no,Lái xe ô tô chở học sinh không hướng dẫn học sinh ngồi đúng vị trí có bị phạt từ 1.000.000 đến 2.000.000 đồng không?,True,True,27
+hit_both,234,definition,Lái xe chở học sinh tiểu học mà trên xe không có đủ người quản lý theo quy định bị phạt bao nhiêu?,True,True,27
+hit_both,235,paraphrase,Lái xe ô tô đưa đón trẻ em mầm non không có thiết bị chống bỏ quên trẻ em bị phạt như thế nào?,True,True,27
+hit_both,236,yes-no,Điều khiển xe chở người bốn bánh có gắn động cơ chở quá số người quy định có bị phạt 1-2 triệu đồng không?,True,True,28
+hit_both,237,definition,"Lái xe chở người bốn bánh có gắn động cơ hoạt động không đúng tuyến đường, thời gian quy định bị phạt bao nhiêu?",True,True,28
+hit_both,238,paraphrase,Người điều khiển xe cứu hộ giao thông không lắp thiết bị ghi nhận hình ảnh người lái xe sẽ bị phạt bao nhiêu?,True,True,29
+hit_both,239,yes-no,Điều khiển xe ô tô cứu hộ không có dụng cụ chuyên dùng để cứu hộ có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng không?,True,True,29
+hit_both,240,definition,Lái xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt mức nào?,True,True,30
+hit_both,241,paraphrase,Hành vi cá nhân mua bán biển số xe không do cơ quan nhà nước có thẩm quyền sản xuất bị xử lý phạt bao nhiêu?,True,True,31
+hit_both,242,yes-no,"Tổ chức sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ có bị phạt tiền đến 100 triệu đồng không?",True,True,31
+hit_both,243,definition,Chủ xe mô tô tự ý thay đổi màu sơn của xe không đúng với chứng nhận đăng ký xe bị phạt bao nhiêu?,True,True,32
+hit_both,244,paraphrase,Chủ xe ô tô lắp kính chắn gió không phải là loại kính an toàn bị xử phạt như thế nào?,True,True,32
+hit_both,245,yes-no,Chủ xe mô tô không làm thủ tục đổi chứng nhận đăng ký xe theo quy định có bị phạt từ 800.000 đến 1.000.000 đồng (với cá nhân) không?,True,True,32
+hit_both,246,definition,"Chủ xe ô tô cá nhân không làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe theo quy định bị phạt bao nhiêu?",True,True,32
+hit_both,247,paraphrase,Hành vi chủ xe ô tô tự ý thay đổi màu sơn không đúng với màu sơn trong chứng nhận đăng ký xe bị phạt ra sao?,True,True,32
+hit_both,248,yes-no,"Chủ xe mô tô tự ý thay đổi khung, máy, hình dáng của xe có bị phạt từ 4.000.000 đến 6.000.000 đồng (cá nhân) không?",True,True,32
+hit_both,249,definition,Tổ chức là chủ xe ô tô đưa xe không có giấy chứng nhận kiểm định an toàn tham gia giao thông bị phạt bao nhiêu?,True,True,32
+hit_both,250,paraphrase,"Hành vi chủ xe tự ý cắt, cải tạo kết cấu, kích thước xe ô tô không đúng thiết kế sẽ bị xử phạt như thế nào?",True,True,32
+hit_both,251,yes-no,"Đưa phương tiện đã bị cắt, hàn, đục sửa số khung tham gia giao thông có bị tịch thu phương tiện không?",True,True,32
+hit_both,252,definition,Hành khách đi xe gây mất trật tự trên xe bị phạt bao nhiêu?,True,True,33
+hit_both,253,paraphrase,Hành khách tự ý mở cửa xe khi xe đang chạy bị xử lý mức phạt nào?,True,True,33
+hit_both,254,yes-no,"Hành khách có hành vi đe dọa, xâm phạm sức khỏe lái xe có bị phạt từ 2-3 triệu đồng không?",True,True,33
+hit_both,255,definition,Điều khiển xe vượt quá tải trọng cho phép của đường bộ trên 10% đến 20% bị phạt mức tiền bao nhiêu?,True,True,34
+hit_both,256,paraphrase,Hành vi chở hàng vượt khổ giới hạn của xe ghi trong giấy phép lưu hành bị phạt ra sao?,True,True,34
+hit_both,257,yes-no,Điều khiển xe vượt quá tải trọng đường bộ trên 50% có bị phạt từ 40.000.000 đến 50.000.000 đồng không?,True,True,34
+hit_both,258,definition,"Tụ tập để cổ vũ, giúp sức hành vi đua xe trái phép bị phạt bao nhiêu?",True,True,35
+hit_both,259,paraphrase,Tổ chức đua xe trái phép thì cá nhân vi phạm sẽ phải chịu mức phạt tiền bao nhiêu?,True,True,35
+hit_both,260,yes-no,Người đua xe mô tô trái phép trên đường giao thông có bị tịch thu phương tiện không?,True,True,35
+hit_both,261,definition,Người đi xe máy chở hàng để rơi vãi hàng hóa xuống đường bị phạt bao nhiêu?,True,True,36
+hit_both,262,paraphrase,Đi xe gắn máy chở hàng vượt quá khổ giới hạn cho phép bị phạt ra sao?,True,True,36
+hit_both,263,yes-no,Xe gắn biển số nước ngoài chở hành khách không có danh sách hành khách theo quy định có bị phạt 1-2 triệu đồng không?,True,True,37
+hit_both,264,definition,Lưu hành phương tiện gắn biển số nước ngoài trên lãnh thổ Việt Nam quá thời hạn quy định bị phạt thế nào?,True,True,37
+hit_both,265,paraphrase,"Lái xe mô tô trong Khu kinh tế cửa khẩu quốc tế không có tờ khai tạm nhập, tái xuất theo quy định bị phạt bao nhiêu?",True,True,38
+hit_both,266,yes-no,Giáo viên dạy lái xe thực hành không mang theo giấy phép xe tập lái có bị phạt từ 2-3 triệu đồng không?,True,True,39
+hit_both,267,definition,"Cơ sở đào tạo lái xe sử dụng xe tập lái không có mui che mưa, nắng bị phạt bao nhiêu?",True,True,39
+hit_both,268,paraphrase,"Đăng kiểm viên đưa ra yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức sẽ bị phạt như thế nào?",True,True,40
+hit_both,269,yes-no,Cơ sở đăng kiểm từ chối cung cấp dịch vụ kiểm định không đúng quy định có bị phạt từ 16.000.000 đến 20.000.000 đồng không?,True,True,40

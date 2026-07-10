@@ -1,83 +1,25 @@
 {
     "overall": {
-        "questions": 120,
-        "Recall@5": 0.7666666666666667,
-        "Precision@5": 0.15333333333333304,
-        "MRR": 0.6165277777777777,
-        "HitRate": 0.7666666666666667,
-        "Success": 92,
-        "Failed": 28,
-        "AvgRank": 1.533
+        "questions": 270,
+        "Recall@5": 0.9074074074074074,
+        "Precision@5": 0.18148148148148205,
+        "MRR": 0.7838271604938271,
+        "HitRate": 0.9074074074074074,
+        "Success": 245,
+        "Failed": 25,
+        "AvgRank": 1.376
     },
     "details": [
         {
             "index": 0,
             "category": "definition",
-            "question": "Người lao động là gì?",
+            "question": "Ai là đối tượng áp dụng theo Điều 2 Khoản 1 Bộ luật Lao động?",
             "expected": [
-                3
-            ],
-            "retrieved": [
-                161,
-                160,
-                162,
-                158,
-                159
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 1,
-            "category": "definition",
-            "question": "Người sử dụng lao động là gì?",
-            "expected": [
-                3
-            ],
-            "retrieved": [
-                159,
-                160,
-                3,
-                163
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 2,
-            "category": "definition",
-            "question": "Tổ chức đại diện người lao động là gì?",
-            "expected": [
-                3
-            ],
-            "retrieved": [
-                68,
-                3,
-                69,
-                65,
-                176
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 3,
-            "category": "definition",
-            "question": "Quan hệ lao động là gì?",
-            "expected": [
-                3
-            ],
-            "retrieved": [
-                3,
-                65,
-                1,
                 2
+            ],
+            "retrieved": [
+                2,
+                220
             ],
             "hit": true,
             "rank": 1,
@@ -85,74 +27,123 @@
             "precision": 0.2
         },
         {
-            "index": 4,
-            "category": "definition",
-            "question": "Phân biệt người lao động và người sử dụng lao động.",
+            "index": 1,
+            "category": "paraphrase",
+            "question": "Những ai được Bộ luật Lao động điều chỉnh theo Khoản 1 Điều 2?",
             "expected": [
-                3
+                2
             ],
             "retrieved": [
-                90,
-                3,
-                57,
-                8,
-                32
+                1,
+                118,
+                117,
+                41,
+                99
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 2,
+            "category": "yes-no",
+            "question": "Người làm việc không có quan hệ lao động có thuộc đối tượng áp dụng không?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                4,
+                220
             ],
             "hit": true,
-            "rank": 2,
+            "rank": 1,
             "recall": 1.0,
             "precision": 0.2
         },
         {
-            "index": 5,
+            "index": 3,
             "category": "definition",
-            "question": "Các nguyên tắc của pháp luật lao động là gì?",
+            "question": "Người sử dụng lao động được hiểu là ai theo Bộ luật Lao động?",
             "expected": [
-                5
+                2
             ],
             "retrieved": [
-                180,
-                49,
-                15,
-                53
+                3,
+                160,
+                45,
+                179
             ],
             "hit": false,
             "rank": 0,
             "recall": 0.0,
             "precision": 0.0
+        },
+        {
+            "index": 4,
+            "category": "paraphrase",
+            "question": "Ai được xem là người sử dụng lao động trong Bộ luật Lao động?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                3,
+                160,
+                42,
+                125,
+                80
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 5,
+            "category": "yes-no",
+            "question": "Người sử dụng lao động có phải là đối tượng áp dụng của Bộ luật Lao động không?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                78
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 6,
             "category": "definition",
-            "question": "Quyền của người lao động gồm những gì?",
+            "question": "Người lao động nước ngoài làm việc tại Việt Nam được coi là đối tượng áp dụng của Bộ luật Lao động không?",
             "expected": [
-                5
+                2
             ],
             "retrieved": [
-                136,
-                159,
-                56,
-                187,
-                76
+                2,
+                154,
+                150,
+                151
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 7,
-            "category": "definition",
-            "question": "Nghĩa vụ của người lao động gồm những gì?",
+            "category": "paraphrase",
+            "question": "Ai là người lao động nước ngoài theo quy định của Bộ luật Lao động Việt Nam?",
             "expected": [
-                5
+                2
             ],
             "retrieved": [
-                56,
-                58,
-                40,
-                79,
-                178
+                150,
+                154,
+                151
             ],
             "hit": false,
             "rank": 0,
@@ -161,14 +152,16 @@
         },
         {
             "index": 8,
-            "category": "definition",
-            "question": "Những hành vi nào bị nghiêm cấm trong lao động?",
+            "category": "yes-no",
+            "question": "Người lao động nước ngoài làm việc tại Việt Nam có thuộc đối tượng áp dụng của Bộ luật Lao động không?",
             "expected": [
-                8
+                2
             ],
             "retrieved": [
-                8,
-                208
+                2,
+                154,
+                151,
+                150
             ],
             "hit": true,
             "rank": 1,
@@ -178,16 +171,13 @@
         {
             "index": 9,
             "category": "definition",
-            "question": "Phân biệt đối xử trong lao động có bị cấm không?",
+            "question": "Đối tượng áp dụng trong Khoản 4 Điều 2 gồm những ai?",
             "expected": [
-                8
+                2
             ],
             "retrieved": [
-                8,
-                3,
-                32,
-                57,
-                127
+                2,
+                76
             ],
             "hit": true,
             "rank": 1,
@@ -196,8 +186,8 @@
         },
         {
             "index": 10,
-            "category": "scope",
-            "question": "Đối tượng áp dụng của Bộ luật Lao động là ai?",
+            "category": "paraphrase",
+            "question": "Ai được xem là đối tượng áp dụng theo Khoản 4 Điều 2 Bộ luật Lao động?",
             "expected": [
                 2
             ],
@@ -212,30 +202,16 @@
         },
         {
             "index": 11,
-            "category": "scope",
-            "question": "Người lao động nước ngoài có thuộc phạm vi điều chỉnh không?",
-            "expected": [
-                2
-            ],
-            "retrieved": [
-                154,
-                1
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 12,
-            "category": "scope",
-            "question": "Người sử dụng lao động có thuộc đối tượng áp dụng không?",
+            "category": "yes-no",
+            "question": "Cơ quan không liên quan trực tiếp đến quan hệ lao động có phải là đối tượng áp dụng theo Khoản 4 Điều 2 không?",
             "expected": [
                 2
             ],
             "retrieved": [
                 2,
-                220
+                1,
+                175,
+                212
             ],
             "hit": true,
             "rank": 1,
@@ -243,17 +219,34 @@
             "precision": 0.2
         },
         {
-            "index": 13,
-            "category": "scope",
-            "question": "Các cơ quan tổ chức có liên quan có thuộc đối tượng áp dụng không?",
+            "index": 12,
+            "category": "definition",
+            "question": "Người lao động được định nghĩa như thế nào theo Bộ luật Lao động?",
             "expected": [
-                2
+                3
             ],
             "retrieved": [
-                2,
-                183,
-                220,
-                171
+                186,
+                108,
+                10,
+                217,
+                3
+            ],
+            "hit": true,
+            "rank": 5,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 13,
+            "category": "paraphrase",
+            "question": "Hãy giải thích lại khái niệm người lao động bằng cách khác.",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                55
             ],
             "hit": true,
             "rank": 1,
@@ -262,32 +255,16 @@
         },
         {
             "index": 14,
-            "category": "scope",
-            "question": "Bộ luật Lao động áp dụng cho những đối tượng nào?",
+            "category": "yes-no",
+            "question": "Người lao động phải đủ 15 tuổi trở lên theo quy định của Bộ luật Lao động?",
             "expected": [
-                2
+                3
             ],
             "retrieved": [
-                2,
-                220
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 15,
-            "category": "contract",
-            "question": "Hợp đồng lao động là gì?",
-            "expected": [
-                13
-            ],
-            "retrieved": [
-                22,
-                20,
-                162,
-                39
+                18,
+                145,
+                61,
+                143
             ],
             "hit": false,
             "rank": 0,
@@ -295,18 +272,35 @@
             "precision": 0.0
         },
         {
-            "index": 16,
-            "category": "contract",
-            "question": "Hợp đồng lao động có bắt buộc bằng văn bản không?",
+            "index": 15,
+            "category": "definition",
+            "question": "Người sử dụng lao động được định nghĩa như thế nào theo Điều 3 Khoản 2?",
             "expected": [
-                14
+                3
             ],
             "retrieved": [
-                14,
-                202,
-                55,
-                17,
-                38
+                10,
+                53,
+                3,
+                108
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 16,
+            "category": "paraphrase",
+            "question": "Theo Điều 3 Khoản 2, người sử dụng lao động là ai?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                61,
+                160,
+                164
             ],
             "hit": true,
             "rank": 1,
@@ -315,15 +309,17 @@
         },
         {
             "index": 17,
-            "category": "contract",
-            "question": "Có được giao kết hợp đồng bằng lời nói không?",
+            "category": "yes-no",
+            "question": "Người sử dụng lao động là cá nhân không cần có năng lực hành vi dân sự đầy đủ đúng hay sai?",
             "expected": [
-                14
+                3
             ],
             "retrieved": [
-                14,
-                18,
-                33
+                3,
+                34,
+                145,
+                137,
+                151
             ],
             "hit": true,
             "rank": 1,
@@ -332,851 +328,17 @@
         },
         {
             "index": 18,
-            "category": "contract",
-            "question": "Nguyên tắc giao kết hợp đồng lao động là gì?",
+            "category": "definition",
+            "question": "Tổ chức đại diện người lao động tại cơ sở là gì?",
             "expected": [
-                15
+                3
             ],
             "retrieved": [
-                15,
-                49,
-                18,
-                27
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 19,
-            "category": "contract",
-            "question": "Nội dung chủ yếu của hợp đồng lao động gồm gì?",
-            "expected": [
-                21
-            ],
-            "retrieved": [
-                24,
-                21,
-                55,
-                118,
-                201
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 20,
-            "category": "contract",
-            "question": "Phụ lục hợp đồng lao động dùng để làm gì?",
-            "expected": [
-                22
-            ],
-            "retrieved": [
-                22,
-                33,
-                3,
-                103
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 21,
-            "category": "contract",
-            "question": "Khi nào hợp đồng lao động có hiệu lực?",
-            "expected": [
-                23
-            ],
-            "retrieved": [
-                23,
-                78,
-                20,
-                22,
-                220
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 22,
-            "category": "contract",
-            "question": "Có được giao kết nhiều hợp đồng lao động không?",
-            "expected": [
-                19
-            ],
-            "retrieved": [
-                19,
-                18,
-                15
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 23,
-            "category": "contract",
-            "question": "Có mấy loại hợp đồng lao động?",
-            "expected": [
-                20
-            ],
-            "retrieved": [
-                20,
-                21,
-                48,
-                135
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 24,
-            "category": "contract",
-            "question": "Khi nào được tạm hoãn thực hiện hợp đồng lao động?",
-            "expected": [
-                30
-            ],
-            "retrieved": [
-                30,
-                138,
-                31
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 25,
-            "category": "contract",
-            "question": "Có được sửa đổi hợp đồng lao động không?",
-            "expected": [
-                33
-            ],
-            "retrieved": [
-                33,
-                22,
-                82
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 26,
-            "category": "contract",
-            "question": "Khi nào hợp đồng lao động chấm dứt?",
-            "expected": [
-                34
-            ],
-            "retrieved": [
-                162,
-                45,
-                34,
-                38,
-                36
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 27,
-            "category": "probation",
-            "question": "Có bắt buộc phải thử việc không?",
-            "expected": [
-                24
-            ],
-            "retrieved": [
-                27,
-                24,
-                64,
-                168
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 28,
-            "category": "probation",
-            "question": "Thử việc tối đa bao nhiêu ngày?",
-            "expected": [
-                25
-            ],
-            "retrieved": [
-                155,
-                53,
-                25,
-                24,
-                27
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 29,
-            "category": "probation",
-            "question": "Tiền lương thử việc tối thiểu là bao nhiêu?",
-            "expected": [
-                26
-            ],
-            "retrieved": [
-                92,
-                90,
-                91
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 30,
-            "category": "probation",
-            "question": "Kết thúc thời gian thử việc phải làm gì?",
-            "expected": [
-                27
-            ],
-            "retrieved": [
-                27,
-                26,
-                25
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 31,
-            "category": "probation",
-            "question": "Có được hủy bỏ thỏa thuận thử việc không?",
-            "expected": [
-                27
-            ],
-            "retrieved": [
-                34,
-                27,
-                38,
-                24,
-                25
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 32,
-            "category": "salary",
-            "question": "Tiền lương là gì?",
-            "expected": [
-                90
-            ],
-            "retrieved": [
-                92,
-                90,
-                95,
-                46,
-                47
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 33,
-            "category": "salary",
-            "question": "Mức lương tối thiểu được quy định như thế nào?",
-            "expected": [
-                91
-            ],
-            "retrieved": [
-                91,
-                90
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 34,
-            "category": "salary",
-            "question": "Nguyên tắc trả lương là gì?",
-            "expected": [
-                94
-            ],
-            "retrieved": [
-                94,
-                66,
-                53,
-                95
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 35,
-            "category": "salary",
-            "question": "Người lao động được trả lương bằng những hình thức nào?",
-            "expected": [
-                96
-            ],
-            "retrieved": [
-                96,
-                201,
-                100
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 36,
-            "category": "salary",
-            "question": "Kỳ hạn trả lương được quy định như thế nào?",
-            "expected": [
-                97
-            ],
-            "retrieved": [
-                97,
-                10
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 37,
-            "category": "salary",
-            "question": "Làm thêm giờ được trả lương như thế nào?",
-            "expected": [
-                98
-            ],
-            "retrieved": [
-                98,
-                108,
-                95
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 38,
-            "category": "salary",
-            "question": "Có được khấu trừ tiền lương của người lao động không?",
-            "expected": [
-                102
-            ],
-            "retrieved": [
-                102,
-                95,
-                129
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 39,
-            "category": "salary",
-            "question": "Thưởng là gì?",
-            "expected": [
-                104
-            ],
-            "retrieved": [
-                104,
-                67,
-                178,
-                166
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 40,
-            "category": "working_time",
-            "question": "Thời giờ làm việc bình thường là bao nhiêu giờ?",
-            "expected": [
-                105
-            ],
-            "retrieved": [
-                105,
-                107,
-                93
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 41,
-            "category": "working_time",
-            "question": "Một tuần được làm việc tối đa bao nhiêu giờ?",
-            "expected": [
-                105
-            ],
-            "retrieved": [
-                97,
-                155,
-                105,
-                146
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 42,
-            "category": "working_time",
-            "question": "Làm việc ban đêm được tính từ mấy giờ?",
-            "expected": [
-                106
-            ],
-            "retrieved": [
-                106,
-                109,
-                98,
-                146
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 43,
-            "category": "working_time",
-            "question": "Làm thêm giờ được quy định như thế nào?",
-            "expected": [
-                107
-            ],
-            "retrieved": [
-                108,
-                107,
-                98
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 44,
-            "category": "working_time",
-            "question": "Một tháng được làm thêm tối đa bao nhiêu giờ?",
-            "expected": [
-                107
-            ],
-            "retrieved": [
-                155,
-                107,
-                91,
-                53,
-                146
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 45,
-            "category": "working_time",
-            "question": "Một năm được làm thêm tối đa bao nhiêu giờ?",
-            "expected": [
-                107
-            ],
-            "retrieved": [
-                155,
-                107,
-                113,
-                114,
-                146
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 46,
-            "category": "working_time",
-            "question": "Người lao động được nghỉ giữa giờ như thế nào?",
-            "expected": [
-                109
-            ],
-            "retrieved": [
-                109,
-                67,
-                98,
-                108,
-                110
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 47,
-            "category": "working_time",
-            "question": "Có được nghỉ giải lao trong giờ làm việc không?",
-            "expected": [
-                109
-            ],
-            "retrieved": [
-                109,
-                146,
-                107
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 48,
-            "category": "working_time",
-            "question": "Mỗi tuần người lao động được nghỉ bao nhiêu ngày?",
-            "expected": [
-                111
-            ],
-            "retrieved": [
-                111,
-                137,
-                98
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 49,
-            "category": "working_time",
-            "question": "Nếu không nghỉ hằng tuần thì xử lý thế nào?",
-            "expected": [
-                111
-            ],
-            "retrieved": [
-                111,
-                217,
-                113
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 50,
-            "category": "leave",
-            "question": "Người lao động được nghỉ lễ bao nhiêu ngày?",
-            "expected": [
-                112
-            ],
-            "retrieved": [
-                111,
-                98,
-                112
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 51,
-            "category": "leave",
-            "question": "Những ngày nghỉ lễ được hưởng nguyên lương gồm những ngày nào?",
-            "expected": [
-                112
-            ],
-            "retrieved": [
-                112,
-                98,
-                101,
-                113,
-                115
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 52,
-            "category": "leave",
-            "question": "Làm đủ 12 tháng được nghỉ phép bao nhiêu ngày?",
-            "expected": [
-                113
-            ],
-            "retrieved": [
-                113,
-                137,
-                112,
-                114
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 53,
-            "category": "leave",
-            "question": "Làm chưa đủ 12 tháng thì nghỉ phép được tính thế nào?",
-            "expected": [
-                113
-            ],
-            "retrieved": [
-                113,
-                137,
-                139
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 54,
-            "category": "leave",
-            "question": "Có được gộp ngày nghỉ phép nhiều năm không?",
-            "expected": [
-                113
-            ],
-            "retrieved": [
-                113,
-                97,
-                114
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 55,
-            "category": "leave",
-            "question": "Bao lâu thì được tăng thêm ngày nghỉ hằng năm?",
-            "expected": [
-                114
-            ],
-            "retrieved": [
-                114,
-                113,
-                111
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 56,
-            "category": "leave",
-            "question": "Người lao động được nghỉ việc riêng khi nào?",
-            "expected": [
-                115
-            ],
-            "retrieved": [
-                115,
-                37,
-                10
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 57,
-            "category": "leave",
-            "question": "Ông bà mất có được nghỉ làm không?",
-            "expected": [
-                115
-            ],
-            "retrieved": [
-                115,
-                113,
-                47,
-                140
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 58,
-            "category": "leave",
-            "question": "Có được nghỉ không hưởng lương không?",
-            "expected": [
-                115
-            ],
-            "retrieved": [
-                115,
-                98,
-                139
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 59,
-            "category": "leave",
-            "question": "Nghỉ phép năm có được hưởng nguyên lương không?",
-            "expected": [
-                113
-            ],
-            "retrieved": [
-                115,
-                98,
-                113
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 60,
-            "category": "termination",
-            "question": "Các trường hợp chấm dứt hợp đồng lao động là gì?",
-            "expected": [
-                34
-            ],
-            "retrieved": [
-                39,
-                34,
-                156
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 61,
-            "category": "termination",
-            "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng không?",
-            "expected": [
-                35
-            ],
-            "retrieved": [
-                36,
-                39,
-                38,
-                138,
-                34
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 62,
-            "category": "termination",
-            "question": "Người lao động phải báo trước bao lâu khi nghỉ việc?",
-            "expected": [
-                35
-            ],
-            "retrieved": [
-                113,
-                38,
-                140,
-                139,
-                110
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 63,
-            "category": "termination",
-            "question": "Khi nào người lao động được nghỉ việc không cần báo trước?",
-            "expected": [
-                35
-            ],
-            "retrieved": [
-                33,
-                27,
-                140,
-                139
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 64,
-            "category": "termination",
-            "question": "Người sử dụng lao động được đơn phương chấm dứt hợp đồng khi nào?",
-            "expected": [
-                36
-            ],
-            "retrieved": [
-                36,
-                38,
-                34,
-                39,
-                40
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 65,
-            "category": "termination",
-            "question": "Khi nào người sử dụng lao động không được đơn phương chấm dứt hợp đồng?",
-            "expected": [
-                37
-            ],
-            "retrieved": [
-                36,
-                39,
-                40,
-                38,
-                37
+                68,
+                120,
+                176,
+                175,
+                3
             ],
             "hit": true,
             "rank": 5,
@@ -1184,88 +346,17 @@
             "precision": 0.2
         },
         {
-            "index": 66,
-            "category": "termination",
-            "question": "Đang nghỉ phép thì có bị cho thôi việc không?",
+            "index": 19,
+            "category": "paraphrase",
+            "question": "Tổ chức đại diện người lao động tại cơ sở có thể là những tổ chức nào?",
             "expected": [
-                37
+                3
             ],
             "retrieved": [
-                113,
-                153,
-                140,
-                122,
-                53
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 67,
-            "category": "termination",
-            "question": "Người lao động được trợ cấp thôi việc khi nào?",
-            "expected": [
-                46
-            ],
-            "retrieved": [
-                46,
-                40,
-                47
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 68,
-            "category": "termination",
-            "question": "Trợ cấp mất việc làm được quy định như thế nào?",
-            "expected": [
-                47
-            ],
-            "retrieved": [
-                47,
-                46
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 69,
-            "category": "termination",
-            "question": "Sau khi nghỉ việc công ty phải thanh toán trong bao lâu?",
-            "expected": [
-                48
-            ],
-            "retrieved": [
-                113,
-                48,
-                216,
-                140
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 70,
-            "category": "discipline",
-            "question": "Kỷ luật lao động là gì?",
-            "expected": [
-                117
-            ],
-            "retrieved": [
-                125,
-                123,
-                117,
-                122,
-                126
+                68,
+                120,
+                3,
+                176
             ],
             "hit": true,
             "rank": 3,
@@ -1273,266 +364,17 @@
             "precision": 0.2
         },
         {
-            "index": 71,
-            "category": "discipline",
-            "question": "Nội quy lao động phải có những nội dung gì?",
+            "index": 20,
+            "category": "yes-no",
+            "question": "Tổ chức đại diện người lao động tại cơ sở được thành lập bắt buộc hay tự nguyện?",
             "expected": [
-                118
+                3
             ],
             "retrieved": [
-                118,
-                21,
-                33,
-                64
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 72,
-            "category": "discipline",
-            "question": "Nguyên tắc xử lý kỷ luật lao động là gì?",
-            "expected": [
-                122
-            ],
-            "retrieved": [
-                122
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 73,
-            "category": "discipline",
-            "question": "Thời hiệu xử lý kỷ luật lao động là bao lâu?",
-            "expected": [
-                123
-            ],
-            "retrieved": [
-                123,
-                125,
-                126
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 74,
-            "category": "discipline",
-            "question": "Có những hình thức kỷ luật lao động nào?",
-            "expected": [
-                124
-            ],
-            "retrieved": [
-                125,
-                124,
-                122
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 75,
-            "category": "discipline",
-            "question": "Khi nào người lao động bị sa thải?",
-            "expected": [
-                125
-            ],
-            "retrieved": [
-                34,
-                125,
-                124
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 76,
-            "category": "discipline",
-            "question": "Có được xử lý kỷ luật lao động đối với người đang nghỉ ốm không?",
-            "expected": [
-                122
-            ],
-            "retrieved": [
-                122,
-                127
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 77,
-            "category": "discipline",
-            "question": "Sa thải là một hình thức kỷ luật lao động đúng không?",
-            "expected": [
-                124
-            ],
-            "retrieved": [
-                125,
-                124,
-                122
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 78,
-            "category": "discipline",
-            "question": "Người lao động có quyền tự bào chữa khi bị xử lý kỷ luật không?",
-            "expected": [
-                122
-            ],
-            "retrieved": [
-                122,
-                126,
-                125,
-                127
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 79,
-            "category": "discipline",
-            "question": "Có được xử lý nhiều hình thức kỷ luật cùng lúc không?",
-            "expected": [
-                122
-            ],
-            "retrieved": [
-                122,
-                125,
-                124
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 80,
-            "category": "unknown",
-            "question": "Người lao động nước ngoài làm việc tại Việt Nam phải đáp ứng điều kiện gì?",
-            "expected": [
-                151
-            ],
-            "retrieved": [
-                152,
-                151,
-                150
-            ],
-            "hit": true,
-            "rank": 2,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 81,
-            "category": "unknown",
-            "question": "Khi nào người nước ngoài được tuyển dụng vào Việt Nam?",
-            "expected": [
-                152
-            ],
-            "retrieved": [
-                152,
-                150
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 82,
-            "category": "unknown",
-            "question": "Giấy phép lao động có thời hạn bao lâu?",
-            "expected": [
-                155
-            ],
-            "retrieved": [
-                155,
-                156,
-                157,
-                151
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 83,
-            "category": "unknown",
-            "question": "Trường hợp nào không cần giấy phép lao động?",
-            "expected": [
-                154
-            ],
-            "retrieved": [
-                156
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 84,
-            "category": "unknown",
-            "question": "Khi nào giấy phép lao động bị thu hồi?",
-            "expected": [
-                156
-            ],
-            "retrieved": [
-                156,
-                157,
-                54,
-                172
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 85,
-            "category": "unknown",
-            "question": "Đối thoại tại nơi làm việc là gì?",
-            "expected": [
-                63
-            ],
-            "retrieved": [
-                63,
-                64
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 86,
-            "category": "unknown",
-            "question": "Bao lâu phải tổ chức đối thoại tại nơi làm việc?",
-            "expected": [
-                63
-            ],
-            "retrieved": [
-                63,
+                3,
+                177,
+                68,
+                175,
                 178
             ],
             "hit": true,
@@ -1541,16 +383,127 @@
             "precision": 0.2
         },
         {
-            "index": 87,
-            "category": "unknown",
-            "question": "Thương lượng tập thể là gì?",
+            "index": 21,
+            "category": "definition",
+            "question": "Tổ chức đại diện người sử dụng lao động là gì theo Bộ luật Lao động?",
             "expected": [
-                65
+                3
             ],
             "retrieved": [
-                72,
+                3,
                 69,
-                73
+                65,
+                178,
+                176
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 22,
+            "category": "paraphrase",
+            "question": "Tổ chức đại diện người sử dụng lao động có vai trò gì trong quan hệ lao động?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                7,
+                1,
+                3
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 23,
+            "category": "yes-no",
+            "question": "Tổ chức đại diện người sử dụng lao động phải được thành lập hợp pháp đúng không?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                177,
+                175,
+                176
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 24,
+            "category": "definition",
+            "question": "Quan hệ lao động là gì theo Bộ luật Lao động?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                178,
+                1
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 25,
+            "category": "paraphrase",
+            "question": "Quan hệ lao động bao gồm những mối quan hệ nào?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                67,
+                65,
+                179,
+                1
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 26,
+            "category": "yes-no",
+            "question": "Quan hệ lao động chỉ xảy ra giữa người lao động và người sử dụng lao động đúng không?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                179,
+                65,
+                67,
+                91
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 27,
+            "category": "definition",
+            "question": "Người làm việc không có quan hệ lao động được định nghĩa như thế nào theo Bộ luật Lao động?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                178,
+                10,
+                186,
+                108,
+                212
             ],
             "hit": false,
             "rank": 0,
@@ -1558,17 +511,18 @@
             "precision": 0.0
         },
         {
-            "index": 88,
-            "category": "unknown",
-            "question": "Nguyên tắc thương lượng tập thể gồm những gì?",
+            "index": 28,
+            "category": "paraphrase",
+            "question": "Người làm việc không có quan hệ lao động là người làm việc mà không ký hợp đồng lao động đúng không?",
             "expected": [
-                66
+                3
             ],
             "retrieved": [
-                66,
-                72,
-                73,
-                179
+                3,
+                2,
+                20,
+                35,
+                212
             ],
             "hit": true,
             "rank": 1,
@@ -1576,17 +530,165 @@
             "precision": 0.2
         },
         {
-            "index": 89,
-            "category": "unknown",
-            "question": "Ai có quyền yêu cầu thương lượng tập thể?",
+            "index": 29,
+            "category": "yes-no",
+            "question": "Người làm việc không có quan hệ lao động có phải là người làm việc theo hợp đồng lao động không?",
             "expected": [
-                68
+                3
             ],
             "retrieved": [
-                70,
-                68,
-                74,
-                73
+                3,
+                2,
+                13,
+                35,
+                36
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 30,
+            "category": "definition",
+            "question": "Cưỡng bức lao động được hiểu là gì theo Bộ luật Lao động?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                164,
+                165,
+                8
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 31,
+            "category": "paraphrase",
+            "question": "Cưỡng bức lao động có thể được mô tả như việc nào?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                8,
+                164,
+                3,
+                165,
+                10
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 32,
+            "category": "yes-no",
+            "question": "Cưỡng bức lao động là hành vi ép buộc người lao động làm việc trái ý muốn của họ đúng không?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                164,
+                8,
+                165
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 33,
+            "category": "definition",
+            "question": "Phân biệt đối xử trong lao động được hiểu như thế nào theo luật?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                8,
+                57,
+                3,
+                90
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 34,
+            "category": "paraphrase",
+            "question": "Hành vi ưu tiên hoặc loại trừ người lao động dựa trên đặc điểm cá nhân nào được coi là phân biệt đối xử trong lao động?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                8,
+                137,
+                160
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 35,
+            "category": "yes-no",
+            "question": "Việc phân biệt đối xử trong lao động vì yêu cầu đặc thù của công việc có bị coi là vi phạm pháp luật không?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                8,
+                175,
+                217
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 36,
+            "category": "definition",
+            "question": "Quấy rối tình dục tại nơi làm việc được định nghĩa như thế nào theo Bộ luật Lao động?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                3,
+                8,
+                67,
+                135,
+                118
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 37,
+            "category": "paraphrase",
+            "question": "Hành vi quấy rối tình dục tại nơi làm việc là gì nếu nói bằng cách khác?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                8,
+                3,
+                164,
+                118,
+                165
             ],
             "hit": true,
             "rank": 2,
@@ -1594,16 +696,35 @@
             "precision": 0.2
         },
         {
-            "index": 90,
-            "category": "unknown",
-            "question": "Thỏa ước lao động tập thể là gì?",
+            "index": 38,
+            "category": "yes-no",
+            "question": "Quấy rối tình dục tại nơi làm việc chỉ xảy ra khi có sự đồng ý của người bị quấy rối, đúng hay sai?",
             "expected": [
-                75
+                3
             ],
             "retrieved": [
-                75,
-                81,
-                85
+                8,
+                67,
+                3,
+                135,
+                165
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 39,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về lao động bảo đảm điều gì cho người lao động?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135,
+                158
             ],
             "hit": true,
             "rank": 1,
@@ -1611,16 +732,933 @@
             "precision": 0.2
         },
         {
-            "index": 91,
-            "category": "unknown",
-            "question": "Thỏa ước lao động tập thể có hiệu lực khi nào?",
+            "index": 40,
+            "category": "paraphrase",
+            "question": "Nhà nước khuyến khích điều gì liên quan đến thỏa thuận lao động?",
             "expected": [
-                78
+                4
             ],
             "retrieved": [
-                78,
-                79,
-                86
+                4,
+                148,
+                135,
+                158,
+                150
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 41,
+            "category": "yes-no",
+            "question": "Nhà nước chỉ bảo vệ quyền lợi của người lao động có hợp đồng lao động đúng không?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                7,
+                100,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 42,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến người sử dụng lao động?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                135,
+                4,
+                44
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 43,
+            "category": "paraphrase",
+            "question": "Nhà nước có chính sách gì để bảo vệ người sử dụng lao động và quản lý lao động?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                213,
+                135
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 44,
+            "category": "yes-no",
+            "question": "Nhà nước có chính sách nâng cao trách nhiệm xã hội trong quản lý lao động không?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                213
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 45,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về lao động trong khoản 3 Điều 4 bao gồm những nội dung gì?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135,
+                21,
+                201
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 46,
+            "category": "paraphrase",
+            "question": "Khoản 3 Điều 4 quy định Nhà nước hỗ trợ gì cho người lao động và hoạt động kinh doanh?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                212,
+                4,
+                7,
+                136
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 47,
+            "category": "yes-no",
+            "question": "Khoản 3 Điều 4 có đề cập đến việc áp dụng Bộ luật Lao động cho người không có quan hệ lao động không?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                2,
+                212,
+                4,
+                3
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 48,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135,
+                201
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 49,
+            "category": "paraphrase",
+            "question": "Nhà nước có chính sách gì để giúp người lao động nâng cao kỹ năng và duy trì việc làm?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135,
+                59,
+                60
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 50,
+            "category": "yes-no",
+            "question": "Nhà nước ưu đãi người lao động có trình độ chuyên môn, kỹ thuật cao đúng không?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                25,
+                169,
+                152
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 51,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về thị trường lao động là gì?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                158,
+                135
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 52,
+            "category": "paraphrase",
+            "question": "Nhà nước có chính sách gì để thúc đẩy sự kết nối giữa người lao động và người sử dụng lao động?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135,
+                158
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 53,
+            "category": "yes-no",
+            "question": "Nhà nước có chính sách đa dạng hình thức kết nối cung cầu lao động không?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135,
+                212
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 54,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về lao động trong Khoản 6 Điều 4 là gì?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                158,
+                4,
+                135
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 55,
+            "category": "paraphrase",
+            "question": "Nhà nước khuyến khích điều gì giữa người lao động và người sử dụng lao động theo Khoản 6 Điều 4?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                148,
+                135,
+                158,
+                105,
+                4
+            ],
+            "hit": true,
+            "rank": 5,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 56,
+            "category": "yes-no",
+            "question": "Nhà nước không khuyến khích đối thoại giữa người lao động và người sử dụng lao động đúng hay sai?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                63,
+                148,
+                158,
+                135,
+                105
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 57,
+            "category": "definition",
+            "question": "Chính sách của Nhà nước về lao động bao gồm những nội dung gì liên quan đến lao động nữ và người lao động đặc biệt?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                135,
+                4,
+                136
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 58,
+            "category": "paraphrase",
+            "question": "Nhà nước có chính sách gì để hỗ trợ các nhóm lao động như người khuyết tật và lao động chưa thành niên?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                158,
+                160
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 59,
+            "category": "yes-no",
+            "question": "Chính sách lao động của Nhà nước có bao gồm bảo vệ lao động nữ không?",
+            "expected": [
+                4
+            ],
+            "retrieved": [
+                4,
+                135
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 60,
+            "category": "definition",
+            "question": "Người lao động có những quyền gì theo Điều 5 Khoản 1?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                100,
+                144,
+                18,
+                4,
+                56
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 61,
+            "category": "paraphrase",
+            "question": "Điều 5 Khoản 1 nói gì về quyền của người lao động?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                14,
+                35,
+                4,
+                191,
+                215
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 62,
+            "category": "yes-no",
+            "question": "Người lao động có quyền theo Điều 5 Khoản 1 không?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                100,
+                216,
+                18,
+                45,
+                207
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 63,
+            "category": "definition",
+            "question": "Người lao động có những nghĩa vụ gì theo Điều 5 Khoản 2?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                58,
+                40,
+                56,
+                177,
+                178
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 64,
+            "category": "paraphrase",
+            "question": "Theo Điều 5 Khoản 2, người lao động phải thực hiện những trách nhiệm nào?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                30,
+                217,
+                100,
+                213,
+                134
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 65,
+            "category": "yes-no",
+            "question": "Người lao động có nghĩa vụ theo quy định tại Điều 5 Khoản 2 phải không?",
+            "expected": [
+                5
+            ],
+            "retrieved": [
+                58,
+                41,
+                177,
+                178,
+                101
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 66,
+            "category": "definition",
+            "question": "Người sử dụng lao động có những quyền gì theo Điều 6 Khoản 1?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                144,
+                100,
+                159,
+                139,
+                136
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 67,
+            "category": "paraphrase",
+            "question": "Điều 6 Khoản 1 nói gì về quyền của người sử dụng lao động?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                14,
+                35,
+                4,
+                179,
+                43
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 68,
+            "category": "yes-no",
+            "question": "Người sử dụng lao động có quyền theo Điều 6 Khoản 1 không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                100,
+                18,
+                105,
+                45,
+                34
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 69,
+            "category": "definition",
+            "question": "Người sử dụng lao động có những nghĩa vụ gì theo Điều 6 Khoản 2?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                40,
+                177,
+                58,
+                56,
+                100
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 70,
+            "category": "paraphrase",
+            "question": "Theo Điều 6 Khoản 2, người sử dụng lao động phải thực hiện những trách nhiệm nào?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                100,
+                30,
+                43,
+                134,
+                217
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 71,
+            "category": "yes-no",
+            "question": "Người sử dụng lao động không có nghĩa vụ nào theo Điều 6 Khoản 2 đúng hay sai?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                51,
+                179,
+                10,
+                3
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 72,
+            "category": "definition",
+            "question": "Quan hệ lao động được xác lập như thế nào theo Điều 7 Khoản 1?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                91,
+                65,
+                171
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 73,
+            "category": "paraphrase",
+            "question": "Việc thiết lập quan hệ lao động phải dựa trên những nguyên tắc nào?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                91,
+                144,
+                118,
+                172
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 74,
+            "category": "yes-no",
+            "question": "Quan hệ lao động có thể được xác lập mà không cần sự thỏa thuận giữa các bên không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                65,
+                13,
+                71,
+                7,
+                179
+            ],
+            "hit": true,
+            "rank": 4,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 75,
+            "category": "definition",
+            "question": "Ai là những chủ thể tham gia xây dựng quan hệ lao động theo Điều 7 Khoản 2?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                178,
+                65
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 76,
+            "category": "paraphrase",
+            "question": "Theo Điều 7 Khoản 2, quan hệ lao động cần được xây dựng như thế nào với sự hỗ trợ của cơ quan nhà nước?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                212,
+                74,
+                4
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 77,
+            "category": "yes-no",
+            "question": "Có phải cơ quan nhà nước có thẩm quyền không hỗ trợ trong việc xây dựng quan hệ lao động không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                212,
+                3,
+                74
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 78,
+            "category": "definition",
+            "question": "Công đoàn có vai trò gì trong xây dựng quan hệ lao động theo Điều 7 Khoản 3?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                171
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 79,
+            "category": "paraphrase",
+            "question": "Nêu cách công đoàn góp phần bảo vệ người lao động theo quy định tại Điều 7 Khoản 3.",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                154,
+                172,
+                171,
+                170
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 80,
+            "category": "yes-no",
+            "question": "Công đoàn chỉ giám sát việc thi hành pháp luật lao động mà không tham gia xây dựng quan hệ lao động đúng không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                178
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 81,
+            "category": "definition",
+            "question": "Phòng Thương mại và Công nghiệp Việt Nam có vai trò gì trong quan hệ lao động?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                171,
+                150,
+                100
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 82,
+            "category": "paraphrase",
+            "question": "Các tổ chức đại diện người sử dụng lao động được thành lập theo pháp luật có nhiệm vụ gì trong quan hệ lao động?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                3,
+                178,
+                176,
+                7,
+                1
+            ],
+            "hit": true,
+            "rank": 4,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 83,
+            "category": "yes-no",
+            "question": "Liên minh Hợp tác xã Việt Nam có thể tham gia xây dựng quan hệ lao động ổn định không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                4
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 84,
+            "category": "definition",
+            "question": "Phân biệt đối xử trong lao động là gì theo Điều 8 Khoản 1?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                3,
+                57,
+                32,
+                90
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 85,
+            "category": "paraphrase",
+            "question": "Theo Điều 8 Khoản 1, việc đối xử không công bằng với người lao động có bị cấm không?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                127,
+                165,
+                208,
+                32,
+                8
+            ],
+            "hit": true,
+            "rank": 5,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 86,
+            "category": "yes-no",
+            "question": "Điều 8 Khoản 1 có cấm phân biệt đối xử trong lao động không?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                57,
+                3,
+                32,
+                175
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 87,
+            "category": "definition",
+            "question": "Hành vi nào bị nghiêm cấm liên quan đến người lao động theo Điều 8 Khoản 2?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                165,
+                8,
+                208
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 88,
+            "category": "paraphrase",
+            "question": "Theo luật, việc bắt buộc người lao động làm việc trái ý muốn có bị cấm không?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                3,
+                8,
+                64,
+                208,
+                41
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 89,
+            "category": "yes-no",
+            "question": "Ngược đãi người lao động có bị pháp luật nghiêm cấm không?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                165,
+                164,
+                127
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 90,
+            "category": "definition",
+            "question": "Nghị định này quy định về những vấn đề gì theo Điểm a Khoản 1 Điều 1?",
+            "expected": [
+                1
+            ],
+            "retrieved": [
+                47,
+                13,
+                48,
+                53
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 91,
+            "category": "paraphrase",
+            "question": "Phạm vi điều chỉnh liên quan đến giấy phép lái xe trong Nghị định này là gì?",
+            "expected": [
+                1
+            ],
+            "retrieved": [
+                1,
+                32
             ],
             "hit": true,
             "rank": 1,
@@ -1629,15 +1667,86 @@
         },
         {
             "index": 92,
-            "category": "unknown",
-            "question": "Thời hạn của thỏa ước lao động tập thể là bao lâu?",
+            "category": "yes-no",
+            "question": "Việc trừ điểm và phục hồi điểm giấy phép lái xe có thuộc phạm vi điều chỉnh của Nghị định này không?",
             "expected": [
-                83
+                1
             ],
             "retrieved": [
-                78,
-                83,
-                75
+                1,
+                51,
+                3,
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 93,
+            "category": "definition",
+            "question": "Tổ chức kinh tế được thành lập theo quy định của Luật Doanh nghiệp bao gồm những loại hình nào theo Khoản 2 Điều 2?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                3,
+                47,
+                26,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 94,
+            "category": "paraphrase",
+            "question": "Hộ kinh doanh hoặc hộ gia đình khi vi phạm hành chính sẽ bị xử lý ra sao?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                3,
+                29
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 95,
+            "category": "yes-no",
+            "question": "Tổ chức nước ngoài có hành vi vi phạm hành chính về giao thông đường bộ tại Việt Nam có bị áp dụng Nghị định này không?",
+            "expected": [
+                2
+            ],
+            "retrieved": [
+                2,
+                37,
+                44
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 96,
+            "category": "definition",
+            "question": "Các hình thức xử phạt chính đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông đường bộ bao gồm những gì?",
+            "expected": [
+                3
+            ],
+            "retrieved": [
+                1,
+                3,
+                52
             ],
             "hit": true,
             "rank": 2,
@@ -1645,176 +1754,108 @@
             "precision": 0.2
         },
         {
-            "index": 93,
-            "category": "unknown",
-            "question": "Có được sửa đổi thỏa ước lao động tập thể không?",
-            "expected": [
-                84
-            ],
-            "retrieved": [
-                82,
-                79,
-                89,
-                51
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 94,
-            "category": "unknown",
-            "question": "Khi nào thỏa ước lao động tập thể hết hiệu lực?",
-            "expected": [
-                86
-            ],
-            "retrieved": [
-                78,
-                79,
-                86,
-                83
-            ],
-            "hit": true,
-            "rank": 3,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 95,
-            "category": "unknown",
-            "question": "Tranh chấp lao động là gì?",
-            "expected": [
-                179
-            ],
-            "retrieved": [
-                199,
-                190,
-                194
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 96,
-            "category": "unknown",
-            "question": "Tranh chấp lao động cá nhân là gì?",
-            "expected": [
-                179
-            ],
-            "retrieved": [
-                187,
-                190,
-                180
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
             "index": 97,
-            "category": "unknown",
-            "question": "Tranh chấp lao động tập thể là gì?",
+            "category": "paraphrase",
+            "question": "Ngoài hình thức phạt chính, cá nhân hoặc tổ chức vi phạm có thể bị áp dụng những hình phạt bổ sung nào?",
             "expected": [
-                179
+                3
             ],
             "retrieved": [
-                194,
-                198,
-                179
+                3,
+                31,
+                26,
+                40,
+                52
             ],
             "hit": true,
-            "rank": 3,
+            "rank": 1,
             "recall": 1.0,
             "precision": 0.2
         },
         {
             "index": 98,
-            "category": "unknown",
-            "question": "Ai có thẩm quyền hòa giải tranh chấp lao động?",
+            "category": "yes-no",
+            "question": "Đình chỉ hoạt động có thời hạn có phải là một hình thức xử phạt bổ sung không?",
             "expected": [
-                185
+                3
             ],
             "retrieved": [
-                195,
-                191,
-                187,
-                188
+                3,
+                5,
+                50,
+                44,
+                43
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 99,
-            "category": "unknown",
-            "question": "Khi nào được yêu cầu Tòa án giải quyết tranh chấp lao động?",
+            "category": "definition",
+            "question": "Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là bao lâu?",
             "expected": [
-                188
+                4
             ],
             "retrieved": [
-                189,
-                191,
-                190,
-                194
+                4,
+                1,
+                46,
+                54,
+                3
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 100,
-            "category": "unknown",
-            "question": "Đình công là gì?",
+            "category": "paraphrase",
+            "question": "Thời gian tính thời hiệu đối với các vi phạm phát hiện qua thiết bị kỹ thuật nghiệp vụ bắt đầu từ khi nào?",
             "expected": [
-                198
+                4
             ],
             "retrieved": [
-                161,
-                203,
-                202,
-                217,
-                198
+                4,
+                47,
+                5,
+                3
             ],
             "hit": true,
-            "rank": 5,
+            "rank": 1,
             "recall": 1.0,
             "precision": 0.2
         },
         {
             "index": 101,
-            "category": "unknown",
-            "question": "Ai có quyền tổ chức đình công?",
+            "category": "yes-no",
+            "question": "Thời hiệu xử phạt vi phạm hành chính giao thông đường bộ có phải là 02 năm không?",
             "expected": [
-                200
+                4
             ],
             "retrieved": [
-                203,
-                204,
-                201,
-                198,
-                202
+                4,
+                5,
+                52,
+                9,
+                47
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 102,
-            "category": "unknown",
-            "question": "Trường hợp nào đình công là bất hợp pháp?",
+            "category": "definition",
+            "question": "Những loại giấy phép, chứng chỉ hành nghề nào có thể bị tước quyền sử dụng có thời hạn?",
             "expected": [
-                204
+                5
             ],
             "retrieved": [
-                204,
-                217
+                5
             ],
             "hit": true,
             "rank": 1,
@@ -1823,16 +1864,16 @@
         },
         {
             "index": 103,
-            "category": "unknown",
-            "question": "Khi nào được hoãn đình công?",
+            "category": "paraphrase",
+            "question": "Trong trường hợp nào người vi phạm bị tước cả giấy phép lái xe thay vì trừ điểm khi bị phạt cùng một lần?",
             "expected": [
-                210
+                5
             ],
             "retrieved": [
-                210,
-                204,
-                128,
-                162
+                5,
+                50,
+                51,
+                32
             ],
             "hit": true,
             "rank": 1,
@@ -1841,157 +1882,31 @@
         },
         {
             "index": 104,
-            "category": "unknown",
-            "question": "Người lao động tham gia đình công có bị xử lý không?",
+            "category": "yes-no",
+            "question": "Trong thời gian bị tước quyền sử dụng giấy phép lái xe, cá nhân có thể làm thủ tục cấp mới giấy phép lái xe không?",
             "expected": [
-                207
+                5
             ],
             "retrieved": [
-                208,
-                217,
-                128
+                5,
+                51
             ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         },
         {
             "index": 105,
-            "category": "unknown",
-            "question": "Người lao động có quyền từ chối làm việc khi nào?",
+            "category": "definition",
+            "question": "Mức phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe ô tô được áp dụng cho hành vi nào liên quan đến tín hiệu chuyển hướng?",
             "expected": [
                 6
             ],
             "retrieved": [
-                108,
-                3,
-                10,
-                70,
-                162
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 106,
-            "category": "unknown",
-            "question": "Người sử dụng lao động phải bảo đảm điều gì về an toàn lao động?",
-            "expected": [
+                7,
+                32,
                 6
-            ],
-            "retrieved": [
-                159,
-                134,
-                100,
-                142
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 107,
-            "category": "unknown",
-            "question": "Người lao động phải tuân thủ quy định an toàn như thế nào?",
-            "expected": [
-                6
-            ],
-            "retrieved": [
-                100,
-                132,
-                134,
-                86,
-                122
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 108,
-            "category": "unknown",
-            "question": "Có được ép người lao động làm việc khi mất an toàn không?",
-            "expected": [
-                6
-            ],
-            "retrieved": [
-                47,
-                208,
-                217
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 109,
-            "category": "unknown",
-            "question": "Người lao động có quyền rời khỏi nơi làm việc khi nguy hiểm không?",
-            "expected": [
-                6
-            ],
-            "retrieved": [
-                137,
-                149,
-                216,
-                169,
-                160
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 110,
-            "category": "unknown",
-            "question": "Làm chưa đủ một năm thì nghỉ phép tính sao?",
-            "expected": [
-                113
-            ],
-            "retrieved": [
-                113,
-                114
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 111,
-            "category": "unknown",
-            "question": "Đi làm ngày lễ thì tiền lương tính thế nào?",
-            "expected": [
-                98
-            ],
-            "retrieved": [
-                98,
-                113,
-                97
-            ],
-            "hit": true,
-            "rank": 1,
-            "recall": 1.0,
-            "precision": 0.2
-        },
-        {
-            "index": 112,
-            "category": "unknown",
-            "question": "Công ty bắt thử việc ba tháng có đúng luật không?",
-            "expected": [
-                25
-            ],
-            "retrieved": [
-                24,
-                27,
-                25
             ],
             "hit": true,
             "rank": 3,
@@ -1999,17 +1914,140 @@
             "precision": 0.2
         },
         {
-            "index": 113,
-            "category": "unknown",
-            "question": "Muốn nghỉ ngang thì có phải báo trước không?",
+            "index": 106,
+            "category": "paraphrase",
+            "question": "Hành vi sử dụng còi xe ô tô trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau bị xử phạt ra sao?",
             "expected": [
-                35
+                6
             ],
             "retrieved": [
-                113,
-                140,
-                139,
-                41
+                7,
+                8,
+                6,
+                9
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 107,
+            "category": "yes-no",
+            "question": "Chở người trên buồng lái ô tô quá số lượng quy định có bị phạt tiền từ 600.000 đến 800.000 đồng không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                21,
+                6,
+                32,
+                20
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 108,
+            "category": "definition",
+            "question": "Mức phạt đối với người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h là bao nhiêu?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                8,
+                6,
+                7
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 109,
+            "category": "paraphrase",
+            "question": "Lái xe ô tô không thắt dây đai an toàn khi xe đang chạy trên đường sẽ bị xử phạt như thế nào?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                12,
+                6,
+                20,
+                26,
+                51
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 110,
+            "category": "yes-no",
+            "question": "Điều khiển xe ô tô chạy dưới tốc độ tối thiểu quy định có bị phạt tiền từ 800.000 đến 1.000.000 đồng không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                8,
+                6
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 111,
+            "category": "definition",
+            "question": "Mức phạt tiền đối với hành vi lùi xe ô tô trên đường một chiều hoặc khu vực cấm lùi xe là bao nhiêu?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                8,
+                6,
+                9,
+                7
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 112,
+            "category": "paraphrase",
+            "question": "Mức phạt nào được áp dụng cho hành vi người lái xe ô tô dùng tay cầm và sử dụng điện thoại khi đang di chuyển?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                7,
+                6,
+                9,
+                39
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 113,
+            "category": "yes-no",
+            "question": "Chở người trên thùng xe tải trái quy định hoặc trên nóc xe có bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                21,
+                33,
+                26
             ],
             "hit": false,
             "rank": 0,
@@ -2018,17 +2056,16 @@
         },
         {
             "index": 114,
-            "category": "unknown",
-            "question": "Sếp giữ bằng đại học của nhân viên có hợp pháp không?",
+            "category": "definition",
+            "question": "Mức phạt tiền đối với người lái ô tô trong máu có nồng độ cồn chưa vượt quá 50 miligam/100 mililít máu là bao nhiêu?",
             "expected": [
-                17
+                6
             ],
             "retrieved": [
-                14,
-                17,
-                18,
-                177,
-                45
+                7,
+                6,
+                9,
+                8
             ],
             "hit": true,
             "rank": 2,
@@ -2037,71 +2074,87 @@
         },
         {
             "index": 115,
-            "category": "unknown",
-            "question": "Nếu nghỉ việc thì công ty phải thanh toán tiền trong bao lâu?",
+            "category": "paraphrase",
+            "question": "Hành vi người điều khiển xe ô tô đi trên vỉa hè bị xử phạt thế nào theo luật?",
             "expected": [
-                48
+                6
             ],
             "retrieved": [
-                113,
-                29,
-                97,
-                48,
-                99
+                6,
+                7
             ],
             "hit": true,
-            "rank": 4,
+            "rank": 1,
             "recall": 1.0,
             "precision": 0.2
         },
         {
             "index": 116,
-            "category": "unknown",
-            "question": "Mình có được ký nhiều hợp đồng lao động cùng lúc không?",
+            "category": "yes-no",
+            "question": "Lái xe ô tô chạy quá tốc độ quy định trên 35 km/h có bị phạt từ 12.000.000 đến 14.000.000 đồng không?",
             "expected": [
-                19
+                6
             ],
             "retrieved": [
-                76,
-                61,
-                73,
-                20,
-                58
-            ],
-            "hit": false,
-            "rank": 0,
-            "recall": 0.0,
-            "precision": 0.0
-        },
-        {
-            "index": 117,
-            "category": "unknown",
-            "question": "Có thể nghỉ không lương vài ngày được không?",
-            "expected": [
-                115
-            ],
-            "retrieved": [
-                115,
-                98,
-                111
+                6,
+                7,
+                8,
+                35
             ],
             "hit": true,
             "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 117,
+            "category": "definition",
+            "question": "Gây tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường hoặc không trợ giúp người bị nạn thì người lái ô tô bị phạt bao nhiêu?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                8,
+                6,
+                9,
+                7
+            ],
+            "hit": true,
+            "rank": 2,
             "recall": 1.0,
             "precision": 0.2
         },
         {
             "index": 118,
-            "category": "unknown",
-            "question": "Doanh nghiệp được sa thải nhân viên trong trường hợp nào?",
+            "category": "paraphrase",
+            "question": "Người lái ô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông sẽ đối mặt với mức phạt nào?",
             "expected": [
-                125
+                6
             ],
             "retrieved": [
-                125,
-                34,
-                68,
-                124
+                10,
+                7,
+                6,
+                8,
+                9
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 119,
+            "category": "yes-no",
+            "question": "Mức phạt từ 20.000.000 đến 22.000.000 đồng có áp dụng cho hành vi lái xe ô tô lùi xe gây tai nạn giao thông không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                6,
+                7,
+                8,
+                26
             ],
             "hit": true,
             "rank": 1,
@@ -2109,23 +2162,2574 @@
             "precision": 0.2
         },
         {
-            "index": 119,
-            "category": "unknown",
-            "question": "Bao nhiêu tuổi mới được phép đi làm hợp pháp?",
+            "index": 120,
+            "category": "definition",
+            "question": "Người lái xe ô tô không chấp hành yêu cầu kiểm tra nồng độ cồn của người thi hành công vụ bị phạt bao nhiêu?",
             "expected": [
-                143
+                6
             ],
             "retrieved": [
-                149,
-                62,
-                137,
-                29,
-                150
+                8,
+                6,
+                7,
+                9,
+                34
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 121,
+            "category": "paraphrase",
+            "question": "Lái xe ô tô có sử dụng chất ma túy sẽ bị xử phạt hành chính với số tiền bao nhiêu?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                6,
+                8,
+                7,
+                13,
+                14
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 122,
+            "category": "yes-no",
+            "question": "Người lái ô tô dùng chân điều khiển vô lăng có bị phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                6,
+                34,
+                35,
+                32,
+                29
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 123,
+            "category": "definition",
+            "question": "Tái phạm hành vi lạng lách, đánh võng xe ô tô sẽ bị hình phạt bổ sung gì nặng nhất?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                6,
+                7,
+                35,
+                9
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 124,
+            "category": "paraphrase",
+            "question": "Người lái xe ô tô vi phạm quy định chạy quá tốc độ trên 20km/h bị trừ bao nhiêu điểm GPLX?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                7,
+                6,
+                8
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 125,
+            "category": "yes-no",
+            "question": "Lái xe ô tô không chấp hành yêu cầu kiểm tra ma túy có bị trừ 10 điểm giấy phép lái xe không?",
+            "expected": [
+                6
+            ],
+            "retrieved": [
+                6,
+                8,
+                7,
+                12,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 126,
+            "category": "definition",
+            "question": "Mức phạt tiền cho người điều khiển xe mô tô, xe gắn máy không có tín hiệu khi vượt xe là bao nhiêu?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                36,
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 127,
+            "category": "paraphrase",
+            "question": "Lái xe máy và chở người ngồi sau có sử dụng ô (dù) sẽ bị phạt bao nhiêu tiền?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                9,
+                12,
+                7,
+                21
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 128,
+            "category": "yes-no",
+            "question": "Việc sử dụng còi xe máy trong khu đông dân cư từ 22 giờ hôm trước đến 05 giờ sáng hôm sau có bị phạt tiền từ 200.000 đến 400.000 đồng không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                8,
+                6,
+                9
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 129,
+            "category": "definition",
+            "question": "Người điều khiển xe máy chở theo 02 người (không thuộc trường hợp ngoại lệ) bị phạt bao nhiêu?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                40,
+                13,
+                2
             ],
             "hit": false,
             "rank": 0,
             "recall": 0.0,
             "precision": 0.0
+        },
+        {
+            "index": 130,
+            "category": "paraphrase",
+            "question": "Nếu người lái xe mô tô không đội mũ bảo hiểm hoặc cài quai không đúng quy cách thì bị phạt mức nào?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                9,
+                12,
+                7,
+                50
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 131,
+            "category": "yes-no",
+            "question": "Điều khiển xe mô tô chạy quá tốc độ từ 05 km/h đến dưới 10 km/h có bị phạt tiền từ 400.000 đồng đến 600.000 đồng không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                8,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 132,
+            "category": "definition",
+            "question": "Người điều khiển xe máy chở từ 03 người trở lên sẽ bị phạt bao nhiêu tiền?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                9,
+                7,
+                18
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 133,
+            "category": "paraphrase",
+            "question": "Người lái xe máy dùng tay cầm điện thoại hoặc đeo tai nghe (thiết bị âm thanh) khi đang chạy xe bị phạt bao nhiêu?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                6,
+                9,
+                39
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 134,
+            "category": "yes-no",
+            "question": "Xe máy đi ngược chiều trên đường một chiều có bị phạt từ 4.000.000 đến 6.000.000 đồng không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                8,
+                7,
+                9,
+                6
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 135,
+            "category": "definition",
+            "question": "Mức phạt cao nhất bằng tiền đối với xe mô tô, xe gắn máy vi phạm nồng độ cồn trên 80 mg/100 ml máu là bao nhiêu?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                9,
+                8,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 136,
+            "category": "paraphrase",
+            "question": "Hành vi người đi xe máy buông cả hai tay bị xử phạt tịch thu phương tiện, đúng hay sai?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                7,
+                9,
+                16
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 137,
+            "category": "yes-no",
+            "question": "Người lái xe mô tô vi phạm nồng độ cồn ở mức cao nhất có bị trừ 10 điểm GPLX không?",
+            "expected": [
+                7
+            ],
+            "retrieved": [
+                9,
+                7,
+                6,
+                8
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 138,
+            "category": "definition",
+            "question": "Người điều khiển xe máy chuyên dùng đỗ xe trên dốc không chèn bánh bị phạt bao nhiêu?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                6,
+                19
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 139,
+            "category": "paraphrase",
+            "question": "Lái xe máy chuyên dùng trong hầm đường bộ mà không sử dụng đèn chiếu sáng gần bị xử phạt như thế nào?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                6,
+                14,
+                8,
+                9
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 140,
+            "category": "yes-no",
+            "question": "Người lái xe máy chuyên dùng gây tai nạn giao thông mà không dừng lại có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",
+            "expected": [
+                8
+            ],
+            "retrieved": [
+                8,
+                7,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 141,
+            "category": "definition",
+            "question": "Người đi xe đạp vượt bên phải trong trường hợp không được phép bị phạt bao nhiêu tiền?",
+            "expected": [
+                9
+            ],
+            "retrieved": [
+                9,
+                6,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 142,
+            "category": "paraphrase",
+            "question": "Mức phạt tiền cho việc sử dụng điện thoại khi đang điều khiển xe đạp, xe đạp máy là bao nhiêu?",
+            "expected": [
+                9
+            ],
+            "retrieved": [
+                9
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 143,
+            "category": "yes-no",
+            "question": "Người đi xe đạp lạng lách, đánh võng trên đường có bị phạt tiền từ 300.000 đến 400.000 đồng không?",
+            "expected": [
+                9
+            ],
+            "retrieved": [
+                9,
+                35,
+                6,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 144,
+            "category": "definition",
+            "question": "Mức phạt đối với người đi xe đạp đi vào đường cao tốc là bao nhiêu?",
+            "expected": [
+                9
+            ],
+            "retrieved": [
+                9,
+                10,
+                8
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 145,
+            "category": "paraphrase",
+            "question": "Người đi bộ đi qua đường không đúng nơi quy định sẽ chịu mức phạt như thế nào?",
+            "expected": [
+                10
+            ],
+            "retrieved": [
+                8,
+                10,
+                6,
+                7
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 146,
+            "category": "yes-no",
+            "question": "Người đi bộ mang vác vật cồng kềnh gây cản trở giao thông có bị phạt từ 400.000 đến 600.000 đồng không?",
+            "expected": [
+                10
+            ],
+            "retrieved": [
+                10,
+                9,
+                12,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 147,
+            "category": "definition",
+            "question": "Hành vi để vật nuôi đi trên đường bộ không bảo đảm an toàn cho giao thông bị phạt bao nhiêu tiền?",
+            "expected": [
+                11
+            ],
+            "retrieved": [
+                11,
+                12,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 148,
+            "category": "paraphrase",
+            "question": "Người bán hàng rong trên lòng đường, vỉa hè các tuyến phố cấm bị phạt mức nào?",
+            "expected": [
+                12
+            ],
+            "retrieved": [
+                12,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 149,
+            "category": "yes-no",
+            "question": "Hành vi sử dụng trái phép lòng đường, vỉa hè để kinh doanh dịch vụ ăn uống có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng đối với cá nhân không?",
+            "expected": [
+                12
+            ],
+            "retrieved": [
+                12,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 150,
+            "category": "definition",
+            "question": "Mức phạt đối với hành vi điều khiển xe ô tô không có kính chắn gió (đối với xe có thiết kế) là bao nhiêu?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                32,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 151,
+            "category": "paraphrase",
+            "question": "Lái xe ô tô không có còi hoặc còi không có tác dụng bị phạt bao nhiêu?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                14,
+                8,
+                15
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 152,
+            "category": "yes-no",
+            "question": "Điều khiển ô tô không có bộ phận giảm thanh có bị phạt tiền từ 400.000 đến 600.000 đồng không?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                16,
+                15,
+                14
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 153,
+            "category": "definition",
+            "question": "Hành vi ô tô kinh doanh vận tải hành khách tự ý lắp thêm ghế bị phạt thế nào?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                26,
+                27,
+                13
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 154,
+            "category": "paraphrase",
+            "question": "Điều khiển xe ô tô không có chứng nhận đăng ký xe bị xử phạt ra sao?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                14,
+                16,
+                13
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 155,
+            "category": "yes-no",
+            "question": "Dán phù hiệu cơ quan nhà nước lên ô tô trái phép có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                31,
+                13,
+                39,
+                18
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 156,
+            "category": "definition",
+            "question": "Giấy chứng nhận kiểm định xe ô tô hết hạn dưới 01 tháng bị phạt mức nào?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                40,
+                32,
+                13,
+                16
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 157,
+            "category": "paraphrase",
+            "question": "Hệ thống hãm của xe ô tô không có tác dụng bị phạt bao nhiêu?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                14,
+                16,
+                15
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 158,
+            "category": "yes-no",
+            "question": "Tem kiểm định hết hạn từ 01 tháng trở lên đối với xe ô tô bị phạt từ 4.000.000 đến 6.000.000 đồng đúng không?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                16,
+                18,
+                40
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 159,
+            "category": "definition",
+            "question": "Điều khiển xe ô tô không gắn biển số bị phạt bao nhiêu?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                14,
+                16,
+                37
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 160,
+            "category": "paraphrase",
+            "question": "Lái ô tô gắn biển số không do cơ quan có thẩm quyền cấp bị xử lý phạt tiền thế nào?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                37,
+                14,
+                13,
+                3
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 161,
+            "category": "yes-no",
+            "question": "Ô tô quá niên hạn sử dụng tham gia giao thông có bị tịch thu phương tiện không?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 162,
+            "category": "definition",
+            "question": "Hành vi vi phạm quy định tại Khoản 3 Điều 13 bị trừ mấy điểm giấy phép lái xe?",
+            "expected": [
+                13
+            ],
+            "retrieved": [
+                13,
+                32,
+                7,
+                21,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 163,
+            "category": "paraphrase",
+            "question": "Người điều khiển xe máy không có còi bị phạt bao nhiêu?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                13,
+                14,
+                8,
+                21
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 164,
+            "category": "yes-no",
+            "question": "Xe máy không có đèn tín hiệu bị phạt 400.000 đến 600.000 đồng đúng không?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                14,
+                13,
+                32,
+                7,
+                8
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 165,
+            "category": "definition",
+            "question": "Lái xe máy không có chứng nhận đăng ký xe bị phạt bao nhiêu?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                13,
+                14,
+                32
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 166,
+            "category": "paraphrase",
+            "question": "Sử dụng còi xe máy không đúng quy chuẩn kỹ thuật bị phạt mức nào?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                14,
+                16,
+                13,
+                40
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 167,
+            "category": "yes-no",
+            "question": "Lái xe máy có dán che lấp biển số bị phạt từ 4.000.000 đến 6.000.000 đồng phải không?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                14,
+                13,
+                16,
+                37,
+                36
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 168,
+            "category": "definition",
+            "question": "Hành vi vi phạm Khoản 3 Điều 14 bị trừ mấy điểm giấy phép lái xe?",
+            "expected": [
+                14
+            ],
+            "retrieved": [
+                32,
+                14,
+                26,
+                12,
+                6
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 169,
+            "category": "paraphrase",
+            "question": "Đi xe thô sơ không có bộ phận phát âm thanh cảnh báo bị phạt bao nhiêu?",
+            "expected": [
+                15
+            ],
+            "retrieved": [
+                15,
+                8,
+                9,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 170,
+            "category": "yes-no",
+            "question": "Xe thô sơ không có hệ thống hãm (phanh) bị phạt từ 300.000 đến 400.000 đồng phải không?",
+            "expected": [
+                15
+            ],
+            "retrieved": [
+                15,
+                13,
+                16,
+                14,
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 171,
+            "category": "definition",
+            "question": "Xe máy chuyên dùng không gắn biển số bị phạt thế nào?",
+            "expected": [
+                16
+            ],
+            "retrieved": [
+                16,
+                14,
+                19,
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 172,
+            "category": "paraphrase",
+            "question": "Lái xe máy chuyên dùng hoạt động sai phạm vi quy định bị phạt bao nhiêu?",
+            "expected": [
+                16
+            ],
+            "retrieved": [
+                40,
+                2
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 173,
+            "category": "yes-no",
+            "question": "Điều khiển xe máy chuyên dùng sản xuất, lắp ráp trái quy định tham gia giao thông có bị tịch thu phương tiện không?",
+            "expected": [
+                16
+            ],
+            "retrieved": [
+                16,
+                14,
+                31,
+                13
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 174,
+            "category": "definition",
+            "question": "Lái xe ô tô không đáp ứng yêu cầu vệ sinh lưu thông trong đô thị bị phạt bao nhiêu?",
+            "expected": [
+                17
+            ],
+            "retrieved": [
+                17,
+                25,
+                48,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 175,
+            "category": "paraphrase",
+            "question": "Chở đất đá làm rơi vãi xuống đường bộ bị phạt thế nào?",
+            "expected": [
+                17
+            ],
+            "retrieved": [
+                17,
+                12,
+                36
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 176,
+            "category": "yes-no",
+            "question": "Đổ trái phép phế thải ra phần đất dành cho đường bộ ngoài đô thị bị phạt từ 4-6 triệu đồng đúng không?",
+            "expected": [
+                17
+            ],
+            "retrieved": [
+                17,
+                25,
+                8
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 177,
+            "category": "definition",
+            "question": "Đổ trái phép rác, phế thải ra đường phố bị phạt mức tiền bao nhiêu?",
+            "expected": [
+                17
+            ],
+            "retrieved": [
+                17,
+                12,
+                25
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 178,
+            "category": "paraphrase",
+            "question": "Người điều khiển xe ô tô đổ trái phép phế thải ra đường phố bị trừ bao nhiêu điểm GPLX?",
+            "expected": [
+                17
+            ],
+            "retrieved": [
+                17,
+                12,
+                25
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 179,
+            "category": "yes-no",
+            "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô có bị phạt cảnh cáo không?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                7,
+                9
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 180,
+            "category": "definition",
+            "question": "Người lái xe mô tô kinh doanh vận tải không mang bảo hiểm trách nhiệm dân sự bị phạt bao nhiêu?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                26,
+                20,
+                19
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 181,
+            "category": "paraphrase",
+            "question": "Người lái ô tô kinh doanh vận tải quên mang giấy phép lái xe bị xử phạt như thế nào?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                27,
+                26,
+                18
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 182,
+            "category": "yes-no",
+            "question": "Người 16 tuổi đến dưới 18 tuổi lái xe mô tô trên 50cm3 bị phạt từ 400.000 đến 600.000 đồng đúng không?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                9,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 183,
+            "category": "definition",
+            "question": "Lái xe mô tô dưới 125cm3 không có GPLX bị phạt bao nhiêu?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                7,
+                18,
+                9,
+                32,
+                5
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 184,
+            "category": "paraphrase",
+            "question": "Người chưa đủ 18 tuổi lái xe ô tô sẽ chịu mức phạt tiền bao nhiêu?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                51,
+                39
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 185,
+            "category": "yes-no",
+            "question": "Lái xe mô tô trên 125cm3 không có GPLX bị phạt 6-8 triệu đồng phải không?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                7,
+                14,
+                18,
+                9
+            ],
+            "hit": true,
+            "rank": 3,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 186,
+            "category": "definition",
+            "question": "GPLX ô tô hết hạn sử dụng dưới 01 năm bị phạt thế nào?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                13,
+                52
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 187,
+            "category": "paraphrase",
+            "question": "Lái xe ô tô khi GPLX đã hết hạn từ 01 năm trở lên chịu mức phạt ra sao?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                13,
+                16
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 188,
+            "category": "yes-no",
+            "question": "Lái xe ô tô bằng GPLX hết hạn dưới 01 năm có bị trừ điểm GPLX không?",
+            "expected": [
+                18
+            ],
+            "retrieved": [
+                18,
+                13,
+                51,
+                53
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 189,
+            "category": "definition",
+            "question": "Người điều khiển xe máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc bị phạt bao nhiêu?",
+            "expected": [
+                19
+            ],
+            "retrieved": [
+                19,
+                18,
+                16
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 190,
+            "category": "paraphrase",
+            "question": "Lái xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển bị phạt tiền như thế nào?",
+            "expected": [
+                19
+            ],
+            "retrieved": [
+                19,
+                16,
+                8,
+                5
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 191,
+            "category": "yes-no",
+            "question": "Không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trên xe ô tô chở khách có bị phạt không?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                26,
+                33
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 192,
+            "category": "definition",
+            "question": "Ô tô chở khách (trừ xe buýt) chở quá số người quy định bị phạt bao nhiêu trên mỗi người vượt quá?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 193,
+            "category": "paraphrase",
+            "question": "Xe khách không đóng cửa lên xuống khi đang chạy bị xử lý thế nào?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                33,
+                21,
+                8
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 194,
+            "category": "yes-no",
+            "question": "Xe khách kinh doanh chạy tuyến có cự ly lớn hơn 300km chở quá số người quy định có bị phạt 1-2 triệu trên 1 người không?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 195,
+            "category": "definition",
+            "question": "Để người lên, xuống xe khi xe đang chạy bị phạt bao nhiêu?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                7,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 196,
+            "category": "paraphrase",
+            "question": "Đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách bị phạt tiền bao nhiêu?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                8,
+                26,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 197,
+            "category": "yes-no",
+            "question": "Chở người trên mui xe khách có bị phạt từ 3.000.000 đến 5.000.000 đồng không?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                33,
+                20,
+                17,
+                26
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 198,
+            "category": "definition",
+            "question": "Người điều khiển xe chở khách không có hoặc không gắn phù hiệu theo quy định bị phạt mức nào?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                28,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 199,
+            "category": "paraphrase",
+            "question": "Đón, trả hành khách trên đường cao tốc bị xử lý phạt bao nhiêu?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                26,
+                21,
+                9
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 200,
+            "category": "yes-no",
+            "question": "Đón trả khách trên đường cao tốc có bị trừ 06 điểm giấy phép lái xe không?",
+            "expected": [
+                20
+            ],
+            "retrieved": [
+                20,
+                26,
+                6,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 201,
+            "category": "definition",
+            "question": "Điều khiển xe tải không chốt, đóng cố định cửa sau khi đang chạy bị phạt bao nhiêu?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                20,
+                6,
+                8
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 202,
+            "category": "paraphrase",
+            "question": "Xe tải chở hàng vượt tải trọng cho phép từ trên 10% đến 30% bị phạt như thế nào?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 203,
+            "category": "yes-no",
+            "question": "Điều khiển xe chở người trên mui xe tải có bị phạt 800.000 đến 1.000.000 đồng không?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                20,
+                17,
+                33
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 204,
+            "category": "definition",
+            "question": "Điều khiển xe ô tô đầu kéo không lắp thiết bị ghi nhận hình ảnh người lái xe bị phạt bao nhiêu?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                30,
+                29,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 205,
+            "category": "paraphrase",
+            "question": "Điều khiển xe tải chở hàng vượt quá chiều cao cho phép chịu mức phạt tiền bao nhiêu?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 206,
+            "category": "yes-no",
+            "question": "Điều khiển xe chở hàng vượt trọng tải trên 30% đến 50% bị phạt từ 3.000.000 đến 5.000.000 đồng đúng không?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                34,
+                21,
+                26
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 207,
+            "category": "definition",
+            "question": "Điều khiển xe tải kinh doanh không có hoặc không gắn phù hiệu bị phạt tiền ở mức nào?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                28,
+                27,
+                26,
+                38
+            ],
+            "hit": false,
+            "rank": 0,
+            "recall": 0.0,
+            "precision": 0.0
+        },
+        {
+            "index": 208,
+            "category": "paraphrase",
+            "question": "Điều khiển xe chở hàng vượt trọng tải trên 100% đến 150% bị phạt bao nhiêu?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 209,
+            "category": "yes-no",
+            "question": "Người điều khiển xe tải nhận, trả hàng trên đường cao tốc bị phạt 10.000.000 đến 12.000.000 đồng đúng không?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                26,
+                20,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 210,
+            "category": "definition",
+            "question": "Mức phạt đối với hành vi vận chuyển hàng hóa là máy móc, thiết bị kỹ thuật dạng trụ không chằng buộc theo quy định là bao nhiêu?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                47
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 211,
+            "category": "paraphrase",
+            "question": "Hành vi chở công-ten-nơ không sử dụng cơ cấu khóa hãm mà gây tai nạn giao thông sẽ bị xử phạt như thế nào?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                8,
+                6,
+                7
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 212,
+            "category": "yes-no",
+            "question": "Người điều khiển xe tải chở hàng vượt trọng tải trên 150% có bị trừ 10 điểm giấy phép lái xe không?",
+            "expected": [
+                21
+            ],
+            "retrieved": [
+                21,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 213,
+            "category": "definition",
+            "question": "Người điều khiển xe chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng bị phạt bao nhiêu?",
+            "expected": [
+                22
+            ],
+            "retrieved": [
+                22,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 214,
+            "category": "paraphrase",
+            "question": "Chở hàng siêu trường, siêu trọng mà kích thước bao ngoài của xe vượt quá quy định trong giấy phép lưu hành thì bị phạt ra sao?",
+            "expected": [
+                22
+            ],
+            "retrieved": [
+                22,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 215,
+            "category": "yes-no",
+            "question": "Điều khiển xe chở hàng siêu trường, siêu trọng không có giấy phép lưu hành có bị phạt tiền từ 13.000.000 đến 15.000.000 đồng không?",
+            "expected": [
+                22
+            ],
+            "retrieved": [
+                22,
+                34,
+                19
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 216,
+            "category": "definition",
+            "question": "Lái xe vi phạm chở hàng siêu trường, siêu trọng vượt quá quy định trong giấy phép bị trừ bao nhiêu điểm GPLX?",
+            "expected": [
+                22
+            ],
+            "retrieved": [
+                22,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 217,
+            "category": "paraphrase",
+            "question": "Không bóc hoặc xóa biểu trưng nguy hiểm trên phương tiện khi không còn vận chuyển hàng nguy hiểm bị phạt bao nhiêu?",
+            "expected": [
+                23
+            ],
+            "retrieved": [
+                23,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 218,
+            "category": "yes-no",
+            "question": "Vận chuyển hàng nguy hiểm mà xe không dán nhãn, biểu trưng nhận diện có bị phạt tiền từ 4.000.000 đến 6.000.000 đồng không?",
+            "expected": [
+                23
+            ],
+            "retrieved": [
+                23,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 219,
+            "category": "definition",
+            "question": "Mức phạt tiền đối với hành vi vận chuyển chất dễ cháy, nổ đi qua hầm đường bộ dài từ 100 mét trở lên là bao nhiêu?",
+            "expected": [
+                23
+            ],
+            "retrieved": [
+                23,
+                33,
+                9,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 220,
+            "category": "paraphrase",
+            "question": "Vận chuyển hàng hóa nguy hiểm mà không có giấy phép bị phạt ở mức nào?",
+            "expected": [
+                23
+            ],
+            "retrieved": [
+                23,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 221,
+            "category": "yes-no",
+            "question": "Người điều khiển xe vận chuyển hàng hóa nguy hiểm không có giấy phép có bị trừ 04 điểm giấy phép lái xe không?",
+            "expected": [
+                23
+            ],
+            "retrieved": [
+                23
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 222,
+            "category": "definition",
+            "question": "Vận chuyển động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy định bị phạt bao nhiêu tiền?",
+            "expected": [
+                24
+            ],
+            "retrieved": [
+                24,
+                19,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 223,
+            "category": "paraphrase",
+            "question": "Hành vi vận chuyển thực phẩm tươi sống không đảm bảo an toàn thực phẩm, vệ sinh môi trường bị xử phạt như thế nào?",
+            "expected": [
+                24
+            ],
+            "retrieved": [
+                24,
+                19,
+                48
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 224,
+            "category": "yes-no",
+            "question": "Lái xe vệ sinh môi trường chở phế thải không chạy đúng tuyến, phạm vi quy định có bị phạt từ 2.000.000 đến 3.000.000 đồng không?",
+            "expected": [
+                25
+            ],
+            "retrieved": [
+                25,
+                17
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 225,
+            "category": "definition",
+            "question": "Xếp hàng hóa lên xe ô tô vượt quá trọng tải cho phép từ trên 10% đến 50% bị phạt đối với cá nhân là bao nhiêu?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26,
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 226,
+            "category": "paraphrase",
+            "question": "Doanh nghiệp không đánh số thứ tự ghế ngồi, giường nằm trên xe ô tô chở khách sẽ bị phạt ra sao?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26,
+                20,
+                13
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 227,
+            "category": "yes-no",
+            "question": "Kinh doanh vận tải không cấp thẻ nhận dạng lái xe cho lái xe có bị phạt tiền từ 3.000.000 đến 4.000.000 đồng đối với cá nhân không?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26,
+                21,
+                20
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 228,
+            "category": "definition",
+            "question": "Sử dụng xe kinh doanh chở trẻ em mầm non không có ghế ngồi phù hợp lứa tuổi bị phạt mức nào đối với tổ chức?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                27,
+                26
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 229,
+            "category": "paraphrase",
+            "question": "Tổ chức sử dụng xe kinh doanh chở học sinh không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em bị phạt bao nhiêu?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26,
+                27
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 230,
+            "category": "yes-no",
+            "question": "Tổ chức kinh doanh vận tải sử dụng xe không lắp thiết bị giám sát hành trình có bị phạt từ 10.000.000 đến 12.000.000 đồng không?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26,
+                27,
+                20
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 231,
+            "category": "definition",
+            "question": "Không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt bao nhiêu đối với cá nhân kinh doanh vận tải?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 232,
+            "category": "paraphrase",
+            "question": "Đơn vị sản xuất thiết bị giám sát hành trình làm sai lệch dữ liệu của thiết bị giám sát sẽ bị phạt bao nhiêu?",
+            "expected": [
+                26
+            ],
+            "retrieved": [
+                26,
+                30,
+                29
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 233,
+            "category": "yes-no",
+            "question": "Lái xe ô tô chở học sinh không hướng dẫn học sinh ngồi đúng vị trí có bị phạt từ 1.000.000 đến 2.000.000 đồng không?",
+            "expected": [
+                27
+            ],
+            "retrieved": [
+                27,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 234,
+            "category": "definition",
+            "question": "Lái xe chở học sinh tiểu học mà trên xe không có đủ người quản lý theo quy định bị phạt bao nhiêu?",
+            "expected": [
+                27
+            ],
+            "retrieved": [
+                27,
+                26,
+                39
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 235,
+            "category": "paraphrase",
+            "question": "Lái xe ô tô đưa đón trẻ em mầm non không có thiết bị chống bỏ quên trẻ em bị phạt như thế nào?",
+            "expected": [
+                27
+            ],
+            "retrieved": [
+                27,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 236,
+            "category": "yes-no",
+            "question": "Điều khiển xe chở người bốn bánh có gắn động cơ chở quá số người quy định có bị phạt 1-2 triệu đồng không?",
+            "expected": [
+                28
+            ],
+            "retrieved": [
+                28,
+                13,
+                18
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 237,
+            "category": "definition",
+            "question": "Lái xe chở người bốn bánh có gắn động cơ hoạt động không đúng tuyến đường, thời gian quy định bị phạt bao nhiêu?",
+            "expected": [
+                28
+            ],
+            "retrieved": [
+                28,
+                13,
+                5,
+                32,
+                25
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 238,
+            "category": "paraphrase",
+            "question": "Người điều khiển xe cứu hộ giao thông không lắp thiết bị ghi nhận hình ảnh người lái xe sẽ bị phạt bao nhiêu?",
+            "expected": [
+                29
+            ],
+            "retrieved": [
+                29,
+                30,
+                32,
+                21,
+                3
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 239,
+            "category": "yes-no",
+            "question": "Điều khiển xe ô tô cứu hộ không có dụng cụ chuyên dùng để cứu hộ có bị phạt tiền từ 2.000.000 đến 3.000.000 đồng không?",
+            "expected": [
+                29
+            ],
+            "retrieved": [
+                29,
+                32,
+                19
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 240,
+            "category": "definition",
+            "question": "Lái xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt mức nào?",
+            "expected": [
+                30
+            ],
+            "retrieved": [
+                30,
+                29,
+                32,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 241,
+            "category": "paraphrase",
+            "question": "Hành vi cá nhân mua bán biển số xe không do cơ quan nhà nước có thẩm quyền sản xuất bị xử lý phạt bao nhiêu?",
+            "expected": [
+                31
+            ],
+            "retrieved": [
+                31,
+                2
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 242,
+            "category": "yes-no",
+            "question": "Tổ chức sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ có bị phạt tiền đến 100 triệu đồng không?",
+            "expected": [
+                31
+            ],
+            "retrieved": [
+                31,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 243,
+            "category": "definition",
+            "question": "Chủ xe mô tô tự ý thay đổi màu sơn của xe không đúng với chứng nhận đăng ký xe bị phạt bao nhiêu?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                14
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 244,
+            "category": "paraphrase",
+            "question": "Chủ xe ô tô lắp kính chắn gió không phải là loại kính an toàn bị xử phạt như thế nào?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                13,
+                47
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 245,
+            "category": "yes-no",
+            "question": "Chủ xe mô tô không làm thủ tục đổi chứng nhận đăng ký xe theo quy định có bị phạt từ 800.000 đến 1.000.000 đồng (với cá nhân) không?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                47
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 246,
+            "category": "definition",
+            "question": "Chủ xe ô tô cá nhân không làm thủ tục thu hồi chứng nhận đăng ký xe, biển số xe theo quy định bị phạt bao nhiêu?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                47,
+                3
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 247,
+            "category": "paraphrase",
+            "question": "Hành vi chủ xe ô tô tự ý thay đổi màu sơn không đúng với màu sơn trong chứng nhận đăng ký xe bị phạt ra sao?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                14,
+                3,
+                13
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 248,
+            "category": "yes-no",
+            "question": "Chủ xe mô tô tự ý thay đổi khung, máy, hình dáng của xe có bị phạt từ 4.000.000 đến 6.000.000 đồng (cá nhân) không?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 249,
+            "category": "definition",
+            "question": "Tổ chức là chủ xe ô tô đưa xe không có giấy chứng nhận kiểm định an toàn tham gia giao thông bị phạt bao nhiêu?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                47
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 250,
+            "category": "paraphrase",
+            "question": "Hành vi chủ xe tự ý cắt, cải tạo kết cấu, kích thước xe ô tô không đúng thiết kế sẽ bị xử phạt như thế nào?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                26,
+                39
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 251,
+            "category": "yes-no",
+            "question": "Đưa phương tiện đã bị cắt, hàn, đục sửa số khung tham gia giao thông có bị tịch thu phương tiện không?",
+            "expected": [
+                32
+            ],
+            "retrieved": [
+                32,
+                16
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 252,
+            "category": "definition",
+            "question": "Hành khách đi xe gây mất trật tự trên xe bị phạt bao nhiêu?",
+            "expected": [
+                33
+            ],
+            "retrieved": [
+                33,
+                12,
+                32
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 253,
+            "category": "paraphrase",
+            "question": "Hành khách tự ý mở cửa xe khi xe đang chạy bị xử lý mức phạt nào?",
+            "expected": [
+                33
+            ],
+            "retrieved": [
+                33,
+                20,
+                8,
+                6
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 254,
+            "category": "yes-no",
+            "question": "Hành khách có hành vi đe dọa, xâm phạm sức khỏe lái xe có bị phạt từ 2-3 triệu đồng không?",
+            "expected": [
+                33
+            ],
+            "retrieved": [
+                33,
+                20,
+                12,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 255,
+            "category": "definition",
+            "question": "Điều khiển xe vượt quá tải trọng cho phép của đường bộ trên 10% đến 20% bị phạt mức tiền bao nhiêu?",
+            "expected": [
+                34
+            ],
+            "retrieved": [
+                34,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 256,
+            "category": "paraphrase",
+            "question": "Hành vi chở hàng vượt khổ giới hạn của xe ghi trong giấy phép lưu hành bị phạt ra sao?",
+            "expected": [
+                34
+            ],
+            "retrieved": [
+                34
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 257,
+            "category": "yes-no",
+            "question": "Điều khiển xe vượt quá tải trọng đường bộ trên 50% có bị phạt từ 40.000.000 đến 50.000.000 đồng không?",
+            "expected": [
+                34
+            ],
+            "retrieved": [
+                34,
+                26,
+                21
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 258,
+            "category": "definition",
+            "question": "Tụ tập để cổ vũ, giúp sức hành vi đua xe trái phép bị phạt bao nhiêu?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                35,
+                12
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 259,
+            "category": "paraphrase",
+            "question": "Tổ chức đua xe trái phép thì cá nhân vi phạm sẽ phải chịu mức phạt tiền bao nhiêu?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                35,
+                3
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 260,
+            "category": "yes-no",
+            "question": "Người đua xe mô tô trái phép trên đường giao thông có bị tịch thu phương tiện không?",
+            "expected": [
+                35
+            ],
+            "retrieved": [
+                35,
+                32,
+                14
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 261,
+            "category": "definition",
+            "question": "Người đi xe máy chở hàng để rơi vãi hàng hóa xuống đường bị phạt bao nhiêu?",
+            "expected": [
+                36
+            ],
+            "retrieved": [
+                17,
+                36,
+                20,
+                12
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 262,
+            "category": "paraphrase",
+            "question": "Đi xe gắn máy chở hàng vượt quá khổ giới hạn cho phép bị phạt ra sao?",
+            "expected": [
+                36
+            ],
+            "retrieved": [
+                34,
+                36
+            ],
+            "hit": true,
+            "rank": 2,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 263,
+            "category": "yes-no",
+            "question": "Xe gắn biển số nước ngoài chở hành khách không có danh sách hành khách theo quy định có bị phạt 1-2 triệu đồng không?",
+            "expected": [
+                37
+            ],
+            "retrieved": [
+                37,
+                20,
+                26
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 264,
+            "category": "definition",
+            "question": "Lưu hành phương tiện gắn biển số nước ngoài trên lãnh thổ Việt Nam quá thời hạn quy định bị phạt thế nào?",
+            "expected": [
+                37
+            ],
+            "retrieved": [
+                37,
+                2
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 265,
+            "category": "paraphrase",
+            "question": "Lái xe mô tô trong Khu kinh tế cửa khẩu quốc tế không có tờ khai tạm nhập, tái xuất theo quy định bị phạt bao nhiêu?",
+            "expected": [
+                38
+            ],
+            "retrieved": [
+                38
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 266,
+            "category": "yes-no",
+            "question": "Giáo viên dạy lái xe thực hành không mang theo giấy phép xe tập lái có bị phạt từ 2-3 triệu đồng không?",
+            "expected": [
+                39
+            ],
+            "retrieved": [
+                39,
+                20
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 267,
+            "category": "definition",
+            "question": "Cơ sở đào tạo lái xe sử dụng xe tập lái không có mui che mưa, nắng bị phạt bao nhiêu?",
+            "expected": [
+                39
+            ],
+            "retrieved": [
+                39
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 268,
+            "category": "paraphrase",
+            "question": "Đăng kiểm viên đưa ra yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức sẽ bị phạt như thế nào?",
+            "expected": [
+                40
+            ],
+            "retrieved": [
+                40,
+                47,
+                3
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
+        },
+        {
+            "index": 269,
+            "category": "yes-no",
+            "question": "Cơ sở đăng kiểm từ chối cung cấp dịch vụ kiểm định không đúng quy định có bị phạt từ 16.000.000 đến 20.000.000 đồng không?",
+            "expected": [
+                40
+            ],
+            "retrieved": [
+                40
+            ],
+            "hit": true,
+            "rank": 1,
+            "recall": 1.0,
+            "precision": 0.2
         }
     ]
 }
