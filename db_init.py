@@ -9,9 +9,9 @@ from src.parsing.structure_parser import StructureParser
 from src.vectordb.chroma_store import ChromaStore
 
 
-def build_chunks():
+def build_chunks(doc_name: str = "lao_dong"):
 	loader = DocxLoader()
-	raw_doc = loader.load(Path("data/raw/lao_dong.docx"))
+	raw_doc = loader.load(Path(f"data/raw/{doc_name}.docx"))
 	cleaner = TextCleaner()
 	clean_doc = cleaner.clean(raw_doc)
 	structure_parser = StructureParser()
@@ -22,12 +22,14 @@ def build_chunks():
 	return chunker.chunk(legal_doc)
 
 
-def init_chromadb(chunks=None):
+def init_chromadb(doc_name: str = "lao_dong", chunks=None, embedding_model=None):
 	if chunks is None:
-		chunks = build_chunks()
+		chunks = build_chunks(doc_name)
 
-	embedding_model = EmbeddingModel()
-	store = ChromaStore(embedding_model)
+	if embedding_model is None:
+		embedding_model = EmbeddingModel()
+		
+	store = ChromaStore(embedding_model, collection_name=doc_name)
 
 	if store.collection.count() == 0:
 		store.add(chunks)
@@ -35,8 +37,8 @@ def init_chromadb(chunks=None):
 	return store, chunks
 
 
-def init_database():
-	return init_chromadb()
+def init_database(doc_name: str = "lao_dong", embedding_model=None):
+	return init_chromadb(doc_name=doc_name, embedding_model=embedding_model)
 
 
 if __name__ == "__main__":

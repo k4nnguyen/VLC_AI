@@ -55,11 +55,11 @@ class HybridRRFRetriever:
 
         def add_source(items, source_name):
             for item in items:
-                article = item["article"]
+                chunk_id = item["id"]
                 rrf_score = 1 / (self.rrf_k + item["rank"])
 
-                if article not in combined:
-                    combined[article] = {
+                if chunk_id not in combined:
+                    combined[chunk_id] = {
                         "document": item["document"],
                         "metadata": dict(item["metadata"]),
                         "id": item["id"],
@@ -69,12 +69,12 @@ class HybridRRFRetriever:
                         "bm25_rank": None,
                     }
 
-                combined[article]["score"] += rrf_score
-                combined[article]["best_rank"] = min(
-                    combined[article]["best_rank"],
+                combined[chunk_id]["score"] += rrf_score
+                combined[chunk_id]["best_rank"] = min(
+                    combined[chunk_id]["best_rank"],
                     item["rank"],
                 )
-                combined[article][f"{source_name}_rank"] = item["rank"]
+                combined[chunk_id][f"{source_name}_rank"] = item["rank"]
 
         add_source(self._collect_ranked_items(vector_results), "vector")
         add_source(self._collect_ranked_items(bm25_results), "bm25")

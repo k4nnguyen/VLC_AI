@@ -50,9 +50,10 @@ class ChromaStore(BaseVectorStore):
     
     def reset(self):
         """Delete and Re-create collection in chromadb"""
-        self.client.delete_collection("vlc_ai")
+        name = self.collection.name
+        self.client.delete_collection(name)
         self.collection = self.client.get_or_create_collection(
-            name="vlc_ai"
+            name=name
         )
         
     def _sanitize_metadata(self, metadata: dict) -> dict:

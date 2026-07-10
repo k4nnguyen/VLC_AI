@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import os
+import re
 
 API_URL = "http://127.0.0.1:8000/ask"
 
@@ -9,6 +10,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
 PDF_PATH = os.path.join(DATA_DIR, "lao_dong.pdf")
 DOCX_PATH = os.path.join(DATA_DIR, "lao_dong.docx")
+
+# Map internal doc_name to display name
+DOCS_MAP = {
+    "lao_dong": "Bộ luật Lao động 2019",
+    "giao_thong": "Nghị định 168/2024 (Xử phạt Giao thông)"
+}
 
 st.set_page_config(
     page_title="VLC AI - Legal Assistant",
@@ -57,40 +64,53 @@ st.markdown("""
 
 # Main Title
 st.markdown('<div class="main-header">⚖️ VLC AI - Trợ lý AI Pháp luật</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Hệ thống Hỏi Đáp thông minh dựa trên Bộ luật Lao động Việt Nam</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Hệ thống Hỏi Đáp thông minh dựa trên Pháp luật Việt Nam</div>', unsafe_allow_html=True)
 
 # Sidebar Design
 with st.sidebar:
-    st.markdown("### 📚 Tài liệu Pháp luật")
-    st.markdown("Hệ thống hiện tại đang sử dụng dữ liệu từ **Bộ luật Lao động** để trả lời các câu hỏi của bạn. Bạn có thể tải xuống tài liệu gốc bên dưới để tham khảo.")
+    st.markdown("### 📚 Chọn Bộ Luật")
+    selected_doc_name = st.selectbox(
+        "Vui lòng chọn bộ luật để tra cứu:",
+        options=list(DOCS_MAP.keys()),
+        format_func=lambda x: DOCS_MAP[x]
+    )
     
+    st.markdown(f"Hệ thống hiện tại đang sử dụng dữ liệu từ **{DOCS_MAP[selected_doc_name]}** để trả lời các câu hỏi của bạn.")
     st.markdown("---")
+    
+    st.markdown("### ⚙️ Cài đặt Phân tích")
+    enable_reasoning = st.toggle("Bật phân tích chuyên sâu (Reasoning)", value=True, help="Nếu bật, AI sẽ giải thích từng bước cách nó tìm ra và áp dụng luật (sẽ chậm hơn khoảng 3-5 giây).")
+    st.markdown("---")
+    
+    # Update paths dynamically based on selection
+    pdf_path = os.path.join(DATA_DIR, f"{selected_doc_name}.pdf")
+    docx_path = os.path.join(DATA_DIR, f"{selected_doc_name}.docx")
     
     with st.expander("📁 Tải xuống tài liệu tham khảo"):
         st.markdown("Bạn có thể tải bộ luật gốc về máy để tham khảo thêm khi cần thiết.")
         # PDF Download
-        if os.path.exists(PDF_PATH):
-            with open(PDF_PATH, "rb") as pdf_file:
+        if os.path.exists(pdf_path):
+            with open(pdf_path, "rb") as pdf_file:
                 st.download_button(
                     label="📄 Tải xuống PDF",
                     data=pdf_file,
-                    file_name="bo_luat_lao_dong.pdf",
+                    file_name=f"{selected_doc_name}.pdf",
                     mime="application/pdf",
                     use_container_width=True
                 )
                 
         # DOCX Download
-        if os.path.exists(DOCX_PATH):
-            with open(DOCX_PATH, "rb") as docx_file:
+        if os.path.exists(docx_path):
+            with open(docx_path, "rb") as docx_file:
                 st.download_button(
                     label="📝 Tải xuống Word (DOCX)",
                     data=docx_file,
-                    file_name="bo_luat_lao_dong.docx",
+                    file_name=f"{selected_doc_name}.docx",
                     mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
                     use_container_width=True
                 )
                 
-        if not os.path.exists(PDF_PATH) and not os.path.exists(DOCX_PATH):
+        if not os.path.exists(pdf_path) and not os.path.exists(docx_path):
             st.warning("⚠️ Không tìm thấy file tài liệu nào trong thư mục data/raw.")
 
     st.markdown("---")
@@ -101,26 +121,45 @@ with st.sidebar:
         "3. Xem các **Trích dẫn luật** để đối chiếu với tài liệu gốc."
     )
 
-# Session state initialization
-if "messages" not in st.session_state:
+# Clear chat history when switching docs
+if "current_doc" not in st.session_state or st.session_state.current_doc != selected_doc_name:
+    st.session_state.current_doc = selected_doc_name
     st.session_state.messages = []
-    # Add a welcome message
     st.session_state.messages.append({
         "role": "assistant",
-        "content": "Xin chào! Tôi là Trợ lý AI chuyên về Bộ luật Lao động. Bạn cần tôi giúp gì hôm nay?"
+        "content": f"Xin chào! Tôi là Trợ lý AI chuyên về **{DOCS_MAP[selected_doc_name]}**. Bạn cần tôi giúp gì hôm nay?"
     })
+
+# Helper to render assistant messages with reasoning
+def render_assistant_message(content, citations):
+    # Try to extract <reasoning> block
+    reasoning_match = re.search(r'<reasoning>(.*?)</reasoning>', content, re.DOTALL)
+    
+    if reasoning_match:
+        reasoning_text = reasoning_match.group(1).strip()
+        final_answer = re.sub(r'<reasoning>.*?</reasoning>', '', content, flags=re.DOTALL).strip()
+        
+        with st.expander("💭 Xem quá trình suy luận của AI (Reasoning)"):
+            st.markdown(reasoning_text)
+        st.markdown(final_answer)
+    else:
+        st.markdown(content)
+        
+    if citations:
+        with st.expander("📌 Trích dẫn luật chi tiết"):
+            for cite in citations:
+                st.info(cite)
 
 # Render chat history
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
-        st.markdown(message["content"])
-        if "citations" in message and message["citations"]:
-            with st.expander("📌 Trích dẫn luật chi tiết"):
-                for cite in message["citations"]:
-                    st.info(cite)
+        if message["role"] == "assistant":
+            render_assistant_message(message["content"], message.get("citations", []))
+        else:
+            st.markdown(message["content"])
 
 # Chat input
-if prompt := st.chat_input("Nhập câu hỏi của bạn (VD: Thời gian nghỉ thai sản?)...", max_chars=500):
+if prompt := st.chat_input("Nhập câu hỏi của bạn...", max_chars=500):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
@@ -129,17 +168,20 @@ if prompt := st.chat_input("Nhập câu hỏi của bạn (VD: Thời gian ngh�
         message_placeholder = st.empty()
         with st.spinner("Đang tra cứu luật..."):
             try:
-                response = requests.post(API_URL, json={"question": prompt, "k": 15})
+                response = requests.post(API_URL, json={
+                    "question": prompt, 
+                    "k": 15,
+                    "doc_name": selected_doc_name,
+                    "enable_reasoning": enable_reasoning
+                })
                 if response.status_code == 200:
                     data = response.json()
                     answer = data.get("answer", "Xin lỗi, tôi không thể tìm thấy câu trả lời.")
                     citations = data.get("verified_citations", [])
                     
-                    message_placeholder.markdown(answer)
-                    if citations:
-                        with st.expander("📌 Trích dẫn luật chi tiết"):
-                            for cite in citations:
-                                st.info(cite)
+                    # Temporarily clear placeholder since render_assistant_message handles markdown
+                    message_placeholder.empty()
+                    render_assistant_message(answer, citations)
                     
                     st.session_state.messages.append({
                         "role": "assistant", 

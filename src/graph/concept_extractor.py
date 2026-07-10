@@ -45,7 +45,7 @@ class ConceptExtractor:
             print(f"Đang gọi LLM trích xuất concept cho {article_id}...")
             response = self.llm.chat(messages).strip()
             import time
-            time.sleep(1) # Nghỉ 1 giây để tránh lỗi 429 Too Many Requests
+            time.sleep(1) 
             
             # Xử lý text LLM trả về để lấy chuẩn JSON (đề phòng có dấu ```json)
             if response.startswith("```"):

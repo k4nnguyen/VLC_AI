@@ -13,13 +13,7 @@ class LegalRAG:
         self.query_preprocessor = QueryPreprocessor()
 
     def rewrite_query(self, question: str) -> str:
-        import re
-        # TỐI ƯU 1: BỎ QUA REWRITE NẾU ĐÃ LÀ TIẾNG VIỆT CÓ DẤU (Tiết kiệm 2-3s)
-        # Kiểm tra xem câu hỏi có chứa các dấu tiếng Việt phổ biến không
-        has_accents = re.search(r'[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]', question, re.IGNORECASE)
-        
-        # Nếu đã có dấu hoặc câu hỏi quá ngắn, trả về luôn bản gốc
-        if has_accents or len(question) < 5:
+        if len(question) < 5:
             return question
 
         from src.llm.prompt_builder import REWRITE_SYSTEM_PROMPT
@@ -49,8 +43,8 @@ class LegalRAG:
     def build_context(self, results) -> str:
         return self.context_builder.build(results)
 
-    def build_messages(self, question: str, context: str) -> list[dict]:
-        return self.prompt_builder.build(context=context, question=question)
+    def build_messages(self, question: str, context: str, enable_reasoning: bool = True) -> list[dict]:
+        return self.prompt_builder.build(context=context, question=question, enable_reasoning=enable_reasoning)
         
     def ask(self, question: str, k: int = 5) -> str:
         _, results = self.retrieve(question, k=k)
@@ -58,10 +52,10 @@ class LegalRAG:
         messages = self.build_messages(question=question, context=context)
         return self.llm.chat(messages)
 
-    def ask_with_trace(self, question: str, k: int = 5) -> dict:
+    def ask_with_trace(self, question: str, k: int = 5, enable_reasoning: bool = True) -> dict:
         rewritten_question, results = self.retrieve(question, k=k)
         context = self.build_context(results)
-        messages = self.build_messages(question=question, context=context)
+        messages = self.build_messages(question=question, context=context, enable_reasoning=enable_reasoning)
         answer = self.llm.chat(messages)
 
         allowed_citations = {

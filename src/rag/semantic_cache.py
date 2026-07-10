@@ -5,15 +5,15 @@ from src.embeddings.embedding_model import EmbeddingModel
 
 class SemanticCache:
     """
-    TỐI ƯU 2: BỘ NHỚ ĐỆM NGỮ NGHĨA (SEMANTIC CACHING)
+    TỐI ƯU 2: SEMANTIC CACHING
     Sử dụng Embedding để so sánh câu hỏi hiện tại với các câu hỏi cũ trong lịch sử.
     Nếu độ giống nhau (Cosine Similarity) > threshold (vd: 95%), trả về ngay kết quả 
-    cũ mà không cần chạy GraphRAG hay gọi OpenAI (tốc độ xử lý còn ~0.1s).
+    cũ mà không cần chạy GraphRAG hay gọi OpenAI 
     """
-    def __init__(self, cache_file="data/processed/query_cache.json", threshold=0.95):
+    def __init__(self, cache_file="data/processed/query_cache.json", threshold=0.95, embedder=None):
         self.cache_file = Path(cache_file)
         self.threshold = threshold
-        self.embedder = EmbeddingModel()
+        self.embedder = embedder if embedder else EmbeddingModel()
         self.cache = self._load_cache()
 
     def _load_cache(self):
@@ -38,7 +38,7 @@ class SemanticCache:
             return 0.0
         return dot / (norm1 * norm2)
 
-    def get_cached_answer(self, question: str):
+    def get_cached_answer(self, question: str, enable_reasoning: bool = True):
         if not self.cache:
             return None
             
@@ -48,6 +48,10 @@ class SemanticCache:
         best_match = None
         
         for item in self.cache:
+            item_reasoning = item.get("enable_reasoning", True)
+            if item_reasoning != enable_reasoning:
+                continue
+                
             score = self._cosine_similarity(q_emb, item["embedding"])
             if score > best_score:
                 best_score = score
@@ -59,11 +63,12 @@ class SemanticCache:
             
         return None
 
-    def add_to_cache(self, question: str, answer_trace: dict):
+    def add_to_cache(self, question: str, answer_trace: dict, enable_reasoning: bool = True):
         q_emb = self.embedder.embed_query(question)
         self.cache.append({
             "question": question,
             "embedding": q_emb,
+            "enable_reasoning": enable_reasoning,
             "answer_trace": answer_trace
         })
         self._save_cache()
