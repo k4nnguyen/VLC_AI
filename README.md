@@ -20,15 +20,15 @@ Hệ thống ứng dụng các kỹ thuật tiên tiến nhất hiện nay như 
 4. **LLM Generation**: Sử dụng OpenAI LLM với Prompt Chain chặt chẽ, luôn có thẻ `<reasoning>` để suy luận và kết xuất trích dẫn minh bạch.
 
 ## 📊 Kết Quả Đánh Giá (Evaluation)
-Hệ thống được đánh giá tự động trên bộ 120 câu hỏi test (`evaluations/evaluate.py`), đo lường khả năng truy xuất chính xác điều luật ở **Top-5 (k=5)**.
+Hệ thống được đánh giá tự động trên bộ **270 câu hỏi test** đa tên miền (`evaluations/evaluate.py`), đo lường khả năng truy xuất chính xác điều luật ở **Top-5 (k=5)**.
 
 | Phương Pháp (Retriever) | Recall@5 | Hit Rate (Success) | MRR |
 |-------------------------|----------|---------------------|----------------|
-| **BM25 (Từ khóa)** | ~76.67% | 92 / 120 | - |
-| **Vector (Embeddings)** | 90.00% | 108 / 120 | 0.805 |
-| **Hybrid RRF (Kết hợp)** | **91.67%** | **110 / 120** | **0.786** |
+| **BM25 (Từ khóa)** | ~90.74% | 245 / 270 | 0.783 |
+| **Vector (Embeddings)** | 92.22% | 249 / 270 | 0.839 |
+| **Hybrid RRF (Kết hợp)** | **95.93%** | **259 / 270** | **0.818** |
 
-*Thuật toán Hybrid RRF kết hợp với Heuristic Scoring đã bắt được toàn bộ 110 câu mà ít nhất 1 trong 2 thuật toán tìm thấy.*
+*Thuật toán Hybrid RRF kết hợp với Heuristic Scoring đã bắt được tới 259 câu, đạt độ chính xác lên đến 95.93% trên nhiều tập luật khác nhau.*
 
 ## 🚀 Cài Đặt & Chạy Ứng Dụng
 
