@@ -12,7 +12,7 @@ BƯỚC 1: Viết phân tích của bạn vào thẻ <reasoning>. Trong phần n
 - Đọc kỹ xem các Khoản chung chung (ví dụ Khoản 1) có chứa cụm từ "trừ các hành vi vi phạm tại điểm... khoản..." hay không.
 - Nếu hành vi của người dùng khớp chính xác với điểm bị loại trừ đó, hãy kết luận phải dùng mức phạt của điểm loại trừ đó. Tuyệt đối không lấy mức phạt của Khoản chung.
 
-BƯỚC 2: Viết câu trả lời cuối cùng ở bên dưới thẻ <reasoning>. Câu trả lời cuối cùng phải ngắn gọn, chính xác. Định dạng bắt buộc:
+BƯỚC 2: BẮT BUỘC ĐÓNG THẺ `</reasoning>`. Sau đó, viết câu trả lời cuối cùng ở bên dưới. Câu trả lời cuối cùng phải ngắn gọn, chính xác. Định dạng bắt buộc:
 [Câu trả lời ngắn gọn: Nếu không rõ loại xe, hãy chia gạch đầu dòng mức phạt cho Xe máy, Ô tô,...]
 Nguồn:
 - Điều ... Khoản ... Điểm ...

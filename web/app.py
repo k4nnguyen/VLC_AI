@@ -133,17 +133,28 @@ if "current_doc" not in st.session_state or st.session_state.current_doc != sele
 # Helper to render assistant messages with reasoning
 def render_assistant_message(content, citations):
     # Try to extract <reasoning> block
-    reasoning_match = re.search(r'<reasoning>(.*?)</reasoning>', content, re.DOTALL)
+    reasoning_match = re.search(r'<reasoning>(.*?)</reasoning>', content, re.DOTALL | re.IGNORECASE)
     
     if reasoning_match:
         reasoning_text = reasoning_match.group(1).strip()
-        final_answer = re.sub(r'<reasoning>.*?</reasoning>', '', content, flags=re.DOTALL).strip()
+        final_answer = re.sub(r'<reasoning>.*?</reasoning>', '', content, flags=re.DOTALL | re.IGNORECASE).strip()
         
         with st.expander("💭 Xem quá trình suy luận của AI (Reasoning)"):
             st.markdown(reasoning_text)
-        st.markdown(final_answer)
+            
+        if final_answer:
+            st.markdown(final_answer)
+        else:
+            st.info("⚠️ AI đã vô tình gộp câu trả lời vào bên trong phần suy luận. Vui lòng đọc kết luận ở phần suy luận phía trên.")
     else:
-        st.markdown(content)
+        # Trong trường hợp AI mở thẻ mà không đóng thẻ
+        if "<reasoning>" in content.lower():
+            content = content.replace("<reasoning>", "").replace("<Reasoning>", "")
+            with st.expander("💭 Xem quá trình suy luận của AI (Reasoning)"):
+                st.markdown(content)
+            st.info("⚠️ AI đã vô tình gộp câu trả lời vào bên trong phần suy luận. Vui lòng đọc kết luận ở phần suy luận phía trên.")
+        else:
+            st.markdown(content)
         
     if citations:
         with st.expander("📌 Trích dẫn luật chi tiết"):
